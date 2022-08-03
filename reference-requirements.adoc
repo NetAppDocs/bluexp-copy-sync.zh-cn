@@ -217,6 +217,29 @@ link:task-managing-data-brokers.html#define-a-unified-configuration-for-a-data-b
 
 
 
+== Google Drive
+
+在设置包含Google Drive的同步关系时、您需要提供以下内容：
+
+* 有权访问要同步数据的Google Drive位置的用户的电子邮件地址
+* 有权访问Google Drive的Google Cloud服务帐户的电子邮件地址
+* 服务帐户的专用密钥
+
+
+要设置服务帐户、请按照Google文档中的说明进行操作：
+
+* https://developers.google.com/admin-sdk/directory/v1/guides/delegation#create_the_service_account_and_credentials["创建服务帐户和凭据"^]
+* https://developers.google.com/admin-sdk/directory/v1/guides/delegation#delegate_domain-wide_authority_to_your_service_account["将域范围的权限委派给您的服务帐户"^]
+
+
+编辑OAuth范围字段时、输入以下范围：
+
+* https://www.googleapis.com/auth/drive
+* https://www.googleapis.com/auth/drive.file
+
+
+
+
 == NFS 服务器要求
 
 * NFS 服务器可以是 NetApp 系统或非 NetApp 系统。

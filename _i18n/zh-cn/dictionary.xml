@@ -931,21 +931,16 @@
   <block id="56eeabb4a00fbcd2e27e55831df62209" category="list-text">数据代理软件会自动升级到最新版本。</block>
   <block id="da5fad1df140da3fbc300e41e0a200d4" category="list-text">数据代理使用 AWS SQS 作为可靠、安全的通信通道以及进行控制和监控。SQS 还提供持久性层。</block>
   <block id="836d2627946ada039a9486c82ce99884" category="list-text">您可以向组中添加其他数据代理，以提高传输速度并增加高可用性。如果一个数据代理出现故障，则具有服务弹性。</block>
-  <block id="01062fd55445881e9cab2a0f2002354e" category="summary">Cloud Sync 可以在源 SMB 共享和目标 SMB 共享之间复制访问控制列表（ ACL ），并将源 SMB 共享复制到对象存储（ ONTAP S3 除外）。</block>
   <block id="64d7746bed65d4dc86191fc514e7ebbf" category="doc">从 SMB 共享复制 ACL</block>
-  <block id="8ada841761f04a4721b34ecbe2c45238" category="paragraph">Cloud Sync 可以在源 SMB 共享和目标 SMB 共享之间复制访问控制列表（ ACL ），也可以从源 SMB 共享复制到对象存储（ ONTAP S3 除外）。如果需要，您还可以选择使用 Robocopy 在 SMB 共享之间手动保留 ACL 。</block>
-  <block id="9e5d195e748b7be2b67b65383520b9c8" category="admonition">Cloud Sync 不支持将 ACL 从对象存储复制回 SMB 共享。</block>
   <block id="6ef697f11922be2e4de0971f7d70997f" category="list-title">选项</block>
   <block id="83825bf2a8cf8a243b90ac22457061a7" category="inline-xref">设置 Cloud Sync 以自动复制 ACL</block>
   <block id="56c33c546473d2b20852f902e9a12937" category="list-text"><block ref="345ef5432df62d56e38ab4a8c30bb73d" category="inline-xref-macro-rx"></block></block>
   <block id="3ac19332a9012b7586dca2b8b7c57b58" category="inline-xref">在 SMB 共享之间手动复制 ACL</block>
   <block id="6690de55a41e5eebc0f748de2f508fb2" category="list-text"><block ref="677048ca203ed360a1f7fefc6961b7a3" category="inline-xref-macro-rx"></block></block>
-  <block id="6131cbbf5fb65087672aad644f23b2df" category="section-title">设置 Cloud Sync 以从 SMB 服务器复制 ACL</block>
   <block id="e9e23d944b5ba04f7bd10800f3536393" category="inline-link-macro">任何受支持的操作系统</block>
   <block id="b82aab2ce8ba96a1adcef93a4d0f2e7a" category="paragraph">此功能适用于 _any_ 类型的数据代理： AWS ， Azure ， Google Cloud Platform 或内部数据代理。内部数据代理可以运行 <block ref="21c422ddfc59d696be9e90956009904f" category="inline-link-macro-rx"></block>。</block>
   <block id="38ab7ff3062aba8e3cff5bda4cd76234" category="list-title">新关系的步骤</block>
   <block id="73d7a48e279dc464fce948513b87f375" category="list-text">在 Cloud Sync 中，单击 * 创建新同步 * 。</block>
-  <block id="709364c16b058a96212ef798fc1215f2" category="list-text">将 * SMB Server* 拖放到源，选择 SMB 服务器或对象存储作为目标，然后单击 * 继续 * 。</block>
   <block id="078c5213fa0cb4e4d041374224a30418" category="list-text">在 * SMB Server* 页面上：</block>
   <block id="cd6a06ca56665938800223e22f7a2e1a" category="list-text">输入新的 SMB 服务器或选择现有服务器，然后单击 * 继续 * 。</block>
   <block id="446dd08d6403fc4cd86bff2687c49fac" category="list-text">输入 SMB 服务器的凭据。</block>
@@ -960,7 +955,6 @@
   <block id="713b689d8504ac385f256ca9887e16b1" category="list-title">现有关系的步骤</block>
   <block id="0c31a291f95e633da467dc857cc5e520" category="list-text">将鼠标悬停在“同步关系”上，然后单击“操作”菜单。</block>
   <block id="c8976ecf7db6e203ae29ff9831475dab" category="list-text">选择 * 将访问控制列表复制到目标 * 。</block>
-  <block id="f59a821231d8b347630af9bcdbab60de" category="paragraph">同步数据时， Cloud Sync 会保留源和目标 SMB 共享之间的 ACL ，或者从源 SMB 共享保留到对象存储。</block>
   <block id="670e838489cdd7c7044571ff2bb8b3be" category="section-title">在 SMB 共享之间手动复制 ACL</block>
   <block id="d7acee2f148a20ab4d4e346ddcb75a00" category="paragraph">您可以使用 Windows robocopy 命令手动保留 SMB 共享之间的 ACL 。</block>
   <block id="41c1f5322f48eb3e6207394ffc0589d0" category="list-text">确定具有对 SMB 共享的完全访问权限的 Windows 主机。</block>
@@ -1480,7 +1474,6 @@
   <block id="969431a3ee7466b53b917ad1bc5d032a" category="paragraph">请注意、与数据代理关联的IAM角色需要以下权限才能使用此设置：</block>
   <block id="8817adc7e5de41abc6dded623fbb60a9" category="paragraph">这些权限会自动添加到您创建的任何新数据代理中。</block>
   <block id="f23841b65ba519d2dd6a63a2a3e4de83" category="inline-link-macro">了解有关持续同步设置的更多信息</block>
-  <block id="9bc62ddcbad4365043432f4afd539ab9" category="paragraph"><block ref="b78c060d9cafb1faa0c3c10254143905" category="inline-link-macro-rx"></block>。</block>
   <block id="3d7f78f24cbebe2c601558e90c9fe15f" category="section-title">显示所有ONTAP 卷</block>
   <block id="517d881d38e3ddd50495a5763ac986b4" category="paragraph">现在、在创建同步关系时、Cloud Sync 将显示源Cloud Volumes ONTAP 系统、内部ONTAP 集群或ONTAP 文件系统上的所有卷。</block>
   <block id="9de2181e94c0cd08ea8823917ee87c3f" category="paragraph">以前、Cloud Sync 只会显示与选定协议匹配的卷。此时将显示所有卷、但与选定协议不匹配或没有共享或导出的任何卷都将灰显且不可选。</block>
@@ -1526,4 +1519,41 @@
   <block id="e83655905b13c4a3bc8d7de2a55ecea8" category="inline-link-macro">了解有关持续同步选项的更多信息</block>
   <block id="3fb0e4028062069b21887e1408a76464" category="list-text">只有当您计划对从Google Cloud Storage到另一个云存储位置的同步关系启用持续同步设置时、才需要"pubsub.*"和"storage.bucests.update"权限。 <block ref="5354423db3737fe63814ca7ea57f2c4c" category="inline-link-macro-rx"></block>。</block>
   <block id="88ba83f191bd27de24492d3f347d8add" category="list-text">n2-standard-4</block>
+  <block id="e0daf39823ec1a1a7878c9718f063d5f" category="list-text">Google Drive</block>
+  <block id="9a3043611af3eb84ce4c6ff8d4490206" category="paragraph">在设置包含Google Drive的同步关系时、您需要提供以下内容：</block>
+  <block id="8a7baaab09d49454d57a6f75b25b5e47" category="list-text">有权访问要同步数据的Google Drive位置的用户的电子邮件地址</block>
+  <block id="0206d020cf0f0159935199c9bcf51786" category="list-text">有权访问Google Drive的Google Cloud服务帐户的电子邮件地址</block>
+  <block id="d2c97019fb67240c10de0516eb3d48f6" category="list-text">服务帐户的专用密钥</block>
+  <block id="6e426cda783a0bddab8ed33b6e37bf48" category="paragraph">要设置服务帐户、请按照Google文档中的说明进行操作：</block>
+  <block id="f3f6fcd814f57d78c95acf84c0b10f96" category="inline-link">创建服务帐户和凭据</block>
+  <block id="9a6f3b2bb9e17c678115dc77836701a5" category="list-text"><block ref="9a6f3b2bb9e17c678115dc77836701a5" category="inline-link-rx"></block></block>
+  <block id="cbcff80e39742e12498402b977c6cd81" category="inline-link">将域范围的权限委派给您的服务帐户</block>
+  <block id="9c3955b86190b104fb9717cbbf19c844" category="list-text"><block ref="9c3955b86190b104fb9717cbbf19c844" category="inline-link-rx"></block></block>
+  <block id="0c2629efd352468711f8dceb6b1bbb22" category="paragraph">编辑OAuth范围字段时、输入以下范围：</block>
+  <block id="fb11bebf83dcbce9727e98d284bdfd1b" category="list-text">https://www.googleapis.com/auth/drive</block>
+  <block id="46cab9554d574d5b87fe427f9d758717" category="list-text">https://www.googleapis.com/auth/drive.file</block>
+  <block id="276913e03b149106140bf66f8250febd" category="summary">Cloud Sync 可以在SMB共享之间以及SMB共享和对象存储之间复制访问控制列表(ACL)(ONTAP S3除外)。如果需要，您还可以选择使用 Robocopy 在 SMB 共享之间手动保留 ACL 。</block>
+  <block id="51935e4b118a0c032b454360f475c03a" category="section-title">设置Cloud Sync 以复制ACL</block>
+  <block id="c5c953c152db5adea8fcd2fc1ce5c904" category="paragraph">通过在创建关系时或创建关系后启用设置、在SMB共享之间以及SMB共享和对象存储之间复制ACL。</block>
+  <block id="4eb7f5a2c981906a3398b40af3279ff4" category="list-text">将SMB服务器或对象存储拖放为源、将SMB服务器或对象存储拖放为目标、然后单击*继续*。</block>
+  <block id="f1a22f36274bad2edbffcfa0462b9003" category="paragraph">同步数据时、Cloud Sync 会保留源和目标之间的ACL。</block>
+  <block id="3f10ba55f7b5ee2ce092504fcea72477" category="section-title">2022年7月31日</block>
+  <block id="173bb19c121e8b179d4baa317b637722" category="paragraph">现在、您可以将NFS服务器或SMB服务器中的数据同步到Google Drive。支持将"我的驱动器"和"共享驱动器"作为目标。</block>
+  <block id="edb5ab0783f7fd41d24fc8a5ae44aef6" category="inline-link">了解有关Google Drive要求的更多信息</block>
+  <block id="bcc0f3bd91fbadb8c521e47f25f76843" category="paragraph">在创建包含Google Drive的同步关系之前、您需要设置一个具有所需权限和私钥的服务帐户。<block ref="556946ce0efd88231506c545597e8d31" category="inline-link-rx"></block>。</block>
+  <block id="470d6fa86215393cc3b918331e6ca824" category="paragraph"><block ref="4191451a3c972228fe86dca53f50e67d" category="inline-link-rx"></block>。</block>
+  <block id="d6a24c2feaa9a899592c4cd5cf4a5011" category="section-title">其他Azure Data Lake支持</block>
+  <block id="ac7f6cb7e466c5bda81009406ce9c28c" category="paragraph">Cloud Sync 现在支持Azure数据湖存储第2代的其他同步关系：</block>
+  <block id="291356d9de6df3e4cba63e5478b2bc01" category="list-text">Amazon S3到Azure数据湖存储第2代</block>
+  <block id="427bae06dc18214df77602503b45e556" category="list-text">IBM Cloud Object Storage到Azure Data Lake Storage Gen2</block>
+  <block id="2ade6486b18196b7cbbcabc2c40d01ac" category="list-text">StorageGRID 到Azure数据湖存储第2代</block>
+  <block id="6d7ca7d8b2d372856465f7f7cee67c0c" category="section-title">设置同步关系的新方法</block>
+  <block id="2a8934d9990d0c3b34b537cb85b95cb3" category="paragraph">我们添加了其他方法、可以直接从Cloud Manager的Canvas设置同步关系。</block>
+  <block id="1bc09668b27b6867ae7fc05d1c02faa8" category="section-title">拖放</block>
+  <block id="bb444099cdb375196c5bb6444eabdc45" category="paragraph">现在、您可以通过将一个工作环境拖放到另一个工作环境之上、从Canvas设置同步关系。</block>
+  <block id="3c19e417c99aac7906cccf189792344f" category="paragraph"><block ref="3c19e417c99aac7906cccf189792344f" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="bf283dfa54b095b3eda8812752b158f9" category="section-title">右侧面板设置</block>
+  <block id="79074218529972fce8a6ccab7f00095d" category="paragraph">现在、您可以通过从"画布"中选择工作环境、然后从右侧面板中选择同步选项、为Azure Blob存储或Google Cloud存储设置同步关系。</block>
+  <block id="b0b9021c705a42adb2b41c27fd7502f5" category="paragraph"><block ref="b0b9021c705a42adb2b41c27fd7502f5" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="9fffb7017709a369d0e0ce563839fee2" category="paragraph"><block ref="74635618081bc819b4c328f5ee049800" category="inline-link-rx"></block>。</block>
 </blocks>

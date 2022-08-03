@@ -62,6 +62,7 @@ summary: 使用 Cloud Sync 可以将数据从源同步到目标。这称为同�
 * 适用于 ONTAP 的 Amazon FSX
 * Amazon S3
 * Azure Blob
+* Azure Data Lake存储第2代
 * Azure NetApp Files
 * 盒 ^1^
 * Cloud Volumes ONTAP
@@ -185,6 +186,7 @@ summary: 使用 Cloud Sync 可以将数据从源同步到目标。这称为同�
 * 适用于 ONTAP 的 Amazon FSX
 * Amazon S3
 * Azure Blob
+* Azure Data Lake存储第2代
 * Azure NetApp Files
 * 盒 ^1^
 * Cloud Volumes ONTAP
@@ -209,6 +211,7 @@ summary: 使用 Cloud Sync 可以将数据从源同步到目标。这称为同�
 * Cloud Volumes ONTAP
 * Cloud Volumes Service
 * Google Cloud 存储
+* Google Drive
 * IBM 云对象存储
 * NFS 服务器
 * 内部 ONTAP 集群
@@ -258,6 +261,7 @@ summary: 使用 Cloud Sync 可以将数据从源同步到目标。这称为同�
 * Cloud Volumes ONTAP
 * Cloud Volumes Service
 * Google Cloud 存储
+* Google Drive
 * IBM 云对象存储
 * NFS 服务器
 * 内部 ONTAP 集群
@@ -273,6 +277,7 @@ summary: 使用 Cloud Sync 可以将数据从源同步到目标。这称为同�
 * 适用于 ONTAP 的 Amazon FSX
 * Amazon S3
 * Azure Blob
+* Azure Data Lake存储第2代
 * Azure NetApp Files
 * 盒 ^1^
 * Cloud Volumes ONTAP

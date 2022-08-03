@@ -55,6 +55,7 @@ Cloud Sync 支持以下存储类型：
 * Cloud Volumes Service
 * Cloud Volumes ONTAP
 * Google Cloud 存储
+* Google Drive
 * IBM 云对象存储
 * 内部 ONTAP 集群
 * ONTAP S3 存储
