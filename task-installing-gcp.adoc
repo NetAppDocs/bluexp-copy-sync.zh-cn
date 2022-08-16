@@ -65,7 +65,13 @@ summary: 创建新数据代理时，请选择 Google Cloud Data Broker 选项，
 - resourcemanager.projects.get
 - storage.buckets.get
 - storage.buckets.list
-- storage.objects.*
+- storage.objects.create
+- storage.objects.delete
+- storage.objects.get
+- storage.objects.getIamPolicy
+- storage.objects.list
+- storage.objects.setIamPolicy
+- storage.objects.update
 - iam.serviceAccounts.signJwt
 - pubsub.subscriptions.consume
 - pubsub.subscriptions.create
