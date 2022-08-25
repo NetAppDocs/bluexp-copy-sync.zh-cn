@@ -1556,4 +1556,5 @@
   <block id="79074218529972fce8a6ccab7f00095d" category="paragraph">现在、您可以通过从"画布"中选择工作环境、然后从右侧面板中选择同步选项、为Azure Blob存储或Google Cloud存储设置同步关系。</block>
   <block id="b0b9021c705a42adb2b41c27fd7502f5" category="paragraph"><block ref="b0b9021c705a42adb2b41c27fd7502f5" category="inline-image-macro-rx" type="image"></block></block>
   <block id="9fffb7017709a369d0e0ce563839fee2" category="paragraph"><block ref="74635618081bc819b4c328f5ee049800" category="inline-link-rx"></block>。</block>
+  <block id="20ef58d225f15c6c7617c04b34bd0ff8" category="list-text">在*数据代理组*页面上、单击*创建数据代理*、然后选择* Google云平台*。</block>
 </blocks>

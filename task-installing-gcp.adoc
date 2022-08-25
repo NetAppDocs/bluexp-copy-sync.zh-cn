@@ -102,7 +102,7 @@ summary: 创建新数据代理时，请选择 Google Cloud Data Broker 选项，
 +
 完成这些步骤，直到显示 * 数据代理组 * 页面为止。
 
-. 在 * 数据代理组 * 页面上，单击 * 创建数据代理 * ，然后选择 * Microsoft Azure* 。
+. 在*数据代理组*页面上、单击*创建数据代理*、然后选择* Google云平台*。
 +
 image:screenshot-google.png["数据代理页面的屏幕截图，可用于在 AWS ， Azure ， Google Cloud 和内部数据代理之间进行选择。"]
 
