@@ -1183,7 +1183,6 @@
   <block id="438c134de8e5d04ae91ce2fc1f48f114" category="list-text">Red Hat Enterprise Linux 7.7 和 8.0</block>
   <block id="083265255bba92c059791cd3a9803274" category="list-text">Ubuntu Server 20.04 LTS</block>
   <block id="473733802c02f67f489689f787461e62" category="list-text">SUSE Linux Enterprise Server 15 SP1</block>
-  <block id="ba21a73e643ef93cb57c384740c98f3c" category="paragraph">安装数据代理之前，必须在主机上运行命令 `yum update all` 。</block>
   <block id="35ec85020897e56acfca830003a03e8c" category="paragraph">Red Hat Enterprise Linux 系统必须在 Red Hat 订购管理中注册。如果未注册、系统将无法在安装期间访问存储库以更新所需的第三方软件。</block>
   <block id="b4951d06315b1f9ffb6d04ceb4346101" category="list-text">* RAM * ： 16 GB</block>
   <block id="53a3e84f8dd7775216fa9eaac8d2ba6d" category="list-text">* CPU * ： 4 个核心</block>
@@ -1557,4 +1556,5 @@
   <block id="b0b9021c705a42adb2b41c27fd7502f5" category="paragraph"><block ref="b0b9021c705a42adb2b41c27fd7502f5" category="inline-image-macro-rx" type="image"></block></block>
   <block id="9fffb7017709a369d0e0ce563839fee2" category="paragraph"><block ref="74635618081bc819b4c328f5ee049800" category="inline-link-rx"></block>。</block>
   <block id="20ef58d225f15c6c7617c04b34bd0ff8" category="list-text">在*数据代理组*页面上、单击*创建数据代理*、然后选择* Google云平台*。</block>
+  <block id="a855786065eb842829e76727ee601d59" category="paragraph">安装数据代理之前、必须在主机上运行命令`yum update`。</block>
 </blocks>

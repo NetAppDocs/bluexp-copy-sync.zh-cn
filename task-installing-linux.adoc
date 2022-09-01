@@ -30,7 +30,7 @@ summary: 创建新的数据代理时，请选择 On-Prem Data Broker 选项以�
 ** Ubuntu Server 20.04 LTS
 ** SUSE Linux Enterprise Server 15 SP1
 +
-安装数据代理之前，必须在主机上运行命令 `yum update all` 。
+安装数据代理之前、必须在主机上运行命令`yum update`。
 
 +
 Red Hat Enterprise Linux 系统必须在 Red Hat 订购管理中注册。如果未注册、系统将无法在安装期间访问存储库以更新所需的第三方软件。
