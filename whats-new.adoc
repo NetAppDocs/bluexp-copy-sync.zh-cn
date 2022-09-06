@@ -18,6 +18,48 @@ summary: 了解 Cloud Sync 中的新增功能。
 
 
 
+== 2022年9月4日
+
+
+
+=== 其他Google Drive支持
+
+* Cloud Sync 现在支持Google Drive的其他同步关系：
++
+** Google Drive到NFS服务器
+** Google Drive到SMB服务器
+
+
+* 您还可以为包含Google Drive的同步关系生成报告。
++
+https://docs.netapp.com/us-en/cloud-manager-sync/task-managing-reports.html["了解有关报告的更多信息"]。
+
+
+
+
+
+=== 持续同步增强功能
+
+现在、您可以对以下类型的同步关系启用持续同步设置：
+
+* S3存储分段到NFS服务器
+* 将Google Cloud Storage迁移到NFS服务器
+
+
+https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.html#settings["了解有关持续同步设置的更多信息"]。
+
+
+
+=== 电子邮件通知
+
+现在、您可以通过电子邮件接收Cloud Sync 通知。
+
+要通过电子邮件接收通知、您需要在同步关系上启用*通知*设置、然后在Cloud Manager中配置警报和通知设置。
+
+https://docs.netapp.com/us-en/cloud-manager-sync/task-managing-relationships.html#setting-up-notifications["了解如何设置通知"]。
+
+
+
 == 2022年7月31日
 
 

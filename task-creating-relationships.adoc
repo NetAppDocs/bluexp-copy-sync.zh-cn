@@ -113,7 +113,7 @@ image:screenshot_bucket_setup.gif["此屏幕截图显示了 \" 存储分段设�
 持续同步:: 初始数据同步后、Cloud Sync 会侦听源S3存储分段或Google Cloud存储分段上的更改、并在发生更改时持续同步目标。无需按计划间隔重新扫描源。
 +
 --
-只有在创建同步关系以及从S3存储分段或Google云存储同步到S3、Google Cloud Storage、Azure Blob存储、StorageGRID 或IBM存储时、此设置才可用。
+只有在创建同步关系以及将数据从S3存储分段或Google云存储同步到以下任一目标时、此设置才可用：Azure Blob存储、CIFS、Google云存储、IBM云对象存储、NFS、S3和StorageGRID。
 
 如果启用此设置、则会影响以下其他功能：
 

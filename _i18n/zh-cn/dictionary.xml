@@ -663,7 +663,6 @@
   <block id="f3796c63e27caa7881ad0844ee9e9544" category="list-text">标准配置 20 GB HDD PD</block>
   <block id="b7313c752ca12081edfba2212c0cc2e4" category="summary">您可以通过立即同步数据、更改计划等随时管理同步关系。</block>
   <block id="d45779d5d4d94ce3569ba04a2f510bdc" category="doc">管理同步关系</block>
-  <block id="aa015c7ce7c37e507df5b27ca80bb605" category="section-title">执行即时数据同步</block>
   <block id="01db9e7829acc4899b2e0742925feea9" category="paragraph">您可以按按钮立即在源和目标之间同步数据，而不是等待下一个计划同步。</block>
   <block id="0f5f1ed19e5f92c9f1aad34019c5c065" category="inline-image-macro">用于对同步关系执行操作的按钮的屏幕截图</block>
   <block id="781a4e1aefac4f9409210de2df0f2992" category="list-text">在 * 信息板 * 中，导航到同步关系，然后单击 <block ref="1452da4272733702009675a0aac63ae1" category="inline-image-macro-rx" type="image"></block></block>
@@ -742,7 +741,6 @@
   <block id="650fcf6688b77acd2c46fd3270ff8134" category="cell">支持的目标位置</block>
   <block id="e83e5674ab295a6613b60f5e12d1bfe3" category="list-text">NFS 服务器</block>
   <block id="876d9b7b1c11a792f25a0e1e9dbf31dd" category="list-text">SMB 服务器</block>
-  <block id="f83bcb8e69c5f1d1eb29cddacb8374b0" category="list-text">SMB 服务器</block>
   <block id="c17ce6a7cdcb97581c6d5603ec7d447a" category="cell">内部 ONTAP 集群</block>
   <block id="e2ab7c65b21ed8cc1c3b642b5e36429e" category="cell">S3</block>
   <block id="2a01d572b1447155c310cabafac3fae9" category="paragraph">注释：</block>
@@ -1512,7 +1510,6 @@
   <block id="66c941bf286fd505b009d484ca94a594" category="section-title">新的Google Cloud计算机类型</block>
   <block id="32ddf7d830e3a5092074c4f9bb211736" category="paragraph">Google Cloud中数据代理的默认计算机类型现在为n2-standard-4。</block>
   <block id="80b8bec2e4ce95cb7a2f98a49ff8964c" category="list-text">初始数据同步后、Cloud Sync 会侦听源S3存储分段或Google Cloud存储分段上的更改、并在发生更改时持续同步目标。无需按计划间隔重新扫描源。</block>
-  <block id="f3705b49b8b44367d9a208662d64b1e0" category="paragraph">只有在创建同步关系以及从S3存储分段或Google云存储同步到S3、Google Cloud Storage、Azure Blob存储、StorageGRID 或IBM存储时、此设置才可用。</block>
   <block id="ae067a0352a2b892590442ce8932ed20" category="list-text">如果S3为源、则按大小筛选仅在复制事件(而不是删除事件)上处于活动状态。</block>
   <block id="218f5307b8ee8bb2d446b8572cd40e9f" category="list-text">Azure Data Lake存储第2代</block>
   <block id="e83655905b13c4a3bc8d7de2a55ecea8" category="inline-link-macro">了解有关持续同步选项的更多信息</block>
@@ -1557,4 +1554,32 @@
   <block id="9fffb7017709a369d0e0ce563839fee2" category="paragraph"><block ref="74635618081bc819b4c328f5ee049800" category="inline-link-rx"></block>。</block>
   <block id="20ef58d225f15c6c7617c04b34bd0ff8" category="list-text">在*数据代理组*页面上、单击*创建数据代理*、然后选择* Google云平台*。</block>
   <block id="a855786065eb842829e76727ee601d59" category="paragraph">安装数据代理之前、必须在主机上运行命令`yum update`。</block>
+  <block id="da8b75d7f83536bef455f4cfcb81982f" category="section-title">2022年9月4日</block>
+  <block id="a9b4886a93e658bc8692b215ae9412a0" category="section-title">其他Google Drive支持</block>
+  <block id="38e24a385d32651afeede647ae09290f" category="list-text">Cloud Sync 现在支持Google Drive的其他同步关系：</block>
+  <block id="989bccb142d89b75c8392bf5f5e1604c" category="list-text">Google Drive到NFS服务器</block>
+  <block id="44191e60b1503eaf657847a1915cafeb" category="list-text">Google Drive到SMB服务器</block>
+  <block id="1483ec65b58ea8f21aa486ac67f98497" category="list-text">您还可以为包含Google Drive的同步关系生成报告。</block>
+  <block id="6a8d3c04a6ef359c72722da014b3e2a0" category="section-title">持续同步增强功能</block>
+  <block id="700604b36a9bc9c763c84403ff4fc2a1" category="paragraph">现在、您可以对以下类型的同步关系启用持续同步设置：</block>
+  <block id="16a4f69cf5e478434d66f741eb65609e" category="list-text">S3存储分段到NFS服务器</block>
+  <block id="f1b9deb2828fa22b8254f1a8a51f5789" category="list-text">将Google Cloud Storage迁移到NFS服务器</block>
+  <block id="a67ce68ccac082ad54a552bdbcb6ecd7" category="section-title">电子邮件通知</block>
+  <block id="2a6aa0e8585b387718e871db90f1a32e" category="paragraph">现在、您可以通过电子邮件接收Cloud Sync 通知。</block>
+  <block id="20ef839c6c5f361341c0392939dbf3b2" category="paragraph">要通过电子邮件接收通知、您需要在同步关系上启用*通知*设置、然后在Cloud Manager中配置警报和通知设置。</block>
+  <block id="e6694f6134fb0186a17db662ced006d0" category="inline-link">了解如何设置通知</block>
+  <block id="f7ae9f1fb8f4b7044457ebf35058b088" category="paragraph"><block ref="8365080032c57ac637a7cb1d0af196ae" category="inline-link-rx"></block>。</block>
+  <block id="ead765630c1fd7e384e47d9fc387cf84" category="paragraph">只有在创建同步关系以及将数据从S3存储分段或Google云存储同步到以下任一目标时、此设置才可用：Azure Blob存储、CIFS、Google云存储、IBM云对象存储、NFS、S3和StorageGRID。</block>
+  <block id="3751024f8814dd0f9cc7022c63dd219d" category="section-title">立即执行数据同步</block>
+  <block id="0120982bf6587a582d7ad3aa6f491005" category="section-title">设置通知</block>
+  <block id="7cd2df821c4b3fee85371ef61119f0e3" category="paragraph">通过为每个同步关系设置*通知*、您可以选择是否在Cloud Manager的通知中心接收Cloud Sync 通知。您可以为成功的数据同步、失败的数据同步和已取消的数据同步启用通知。</block>
+  <block id="55d9f99a73d4f287de3573ba4a2c149b" category="paragraph">此外、您还可以通过电子邮件接收通知。</block>
+  <block id="50685346648f799f564787da3aeaa3df" category="list-text">修改同步关系的设置：</block>
+  <block id="e265f7dc29349c5c09e52af073ae2fdf" category="list-text">启用*通知*。</block>
+  <block id="f9d4f53357700da18c4c21765dd9a257" category="list-text">如果要通过电子邮件接收通知、请配置警报和通知设置：</block>
+  <block id="2c97c497a9405e946d3eb1dd6266fe96" category="list-text">单击*设置&gt;警报和通知设置*。</block>
+  <block id="0f3cd015c1ca0bfb4d2fbb852b3d6a5e" category="list-text">选择一个或多个用户、然后选择*信息*通知类型。</block>
+  <block id="400fae8e788b3721b9ac25fe01f04f50" category="list-text">单击 * 应用 * 。</block>
+  <block id="8096099be8d06d4be1f099db06d90dd5" category="paragraph">现在、如果您配置了Cloud Sync 、则Cloud Manager的通知中心会收到此通知、并会发送一些通过电子邮件发送的通知。</block>
+  <block id="7ca5aa2b579039b92d9aed9f84201f04" category="paragraph">接收通知的条件</block>
 </blocks>
