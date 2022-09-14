@@ -242,9 +242,9 @@ Cloud Sync 会显示每个数据代理的状态，以帮助您解决问题。
 .步骤
 . 确定状态为 " 未知 " 或 " 失败 " 的任何数据代理。
 +
-image:screenshot_sync_broker_status.gif[""]
+image:screenshot_sync_broker_status.gif["显示Cloud Sync 状态的屏幕截图、其中数据代理处于\"未知\"状态。"]
 
-. 将鼠标悬停在上 image:screenshot_sync_status_icon.gif[""] 图标以查看失败原因。
+. 将鼠标悬停在上 image:screenshot_sync_status_icon.gif["\"info\"图标。"] 图标以查看失败原因。
 . 更正问题描述。
 +
 例如，如果数据代理脱机，您可能只需重新启动它，或者如果初始部署失败，您可能需要删除数据代理。

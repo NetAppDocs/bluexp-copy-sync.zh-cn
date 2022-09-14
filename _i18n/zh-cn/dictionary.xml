@@ -98,8 +98,6 @@
   <block id="1fdbc560a67348af4e76fd59fe5ba957" category="paragraph">Cloud Sync 会显示每个数据代理的状态，以帮助您解决问题。</block>
   <block id="417555a2380aa45dc52608834062b293" category="list-text">确定状态为 " 未知 " 或 " 失败 " 的任何数据代理。</block>
   <block id="d41d8cd98f00b204e9800998ecf8427e" category="inline-image-macro"></block>
-  <block id="fb735d46258c860500df045bd72f563f" category="paragraph"><block ref="fb735d46258c860500df045bd72f563f" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="7bab02d802b38084f68f9bb810f1ca53" category="list-text">将鼠标悬停在上 <block ref="a74720392297d66ac1ab9a90296912c9" category="inline-image-macro-rx" type="image"></block> 图标以查看失败原因。</block>
   <block id="cb1293ddc33121613d8b44ddf7bddebc" category="list-text">更正问题描述。</block>
   <block id="4c23f2743e95cade04a6991678e7c813" category="paragraph">例如，如果数据代理脱机，您可能只需重新启动它，或者如果初始部署失败，您可能需要删除数据代理。</block>
   <block id="b913043c4767c72e8bbb3ed88c33dd15" category="paragraph">如果同步关系在同步过程中遇到错误，统一数据代理组的并发性有助于减少同步错误的数量。请注意，更改组的配置可能会降低传输速度，从而影响性能。</block>
@@ -1582,4 +1580,8 @@
   <block id="400fae8e788b3721b9ac25fe01f04f50" category="list-text">单击 * 应用 * 。</block>
   <block id="8096099be8d06d4be1f099db06d90dd5" category="paragraph">现在、如果您配置了Cloud Sync 、则Cloud Manager的通知中心会收到此通知、并会发送一些通过电子邮件发送的通知。</block>
   <block id="7ca5aa2b579039b92d9aed9f84201f04" category="paragraph">接收通知的条件</block>
+  <block id="e48d5ea54c85373b23a289d375bf989d" category="inline-image-macro">显示Cloud Sync 状态的屏幕截图、其中数据代理处于"未知"状态。</block>
+  <block id="63bb41e88e2d3501b4c30c3d982ddada" category="paragraph"><block ref="63bb41e88e2d3501b4c30c3d982ddada" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0d57e234a2b4332ebe0b7d721befcace" category="inline-image-macro">"info"图标。</block>
+  <block id="69f36491bce31dc81bbaeca0cbd9e9a7" category="list-text">将鼠标悬停在上 <block ref="a83fa8ab64292d507b50e25c113057be" category="inline-image-macro-rx" type="image"></block> 图标以查看失败原因。</block>
 </blocks>
