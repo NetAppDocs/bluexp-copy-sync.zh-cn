@@ -26,6 +26,12 @@ summary: 创建新数据代理时，请选择 Google Cloud Data Broker 选项，
 
 
 
+== root权限
+
+数据代理软件会自动在Linux主机上以root用户身份运行。数据代理操作需要以root用户身份运行。例如、挂载共享。
+
+
+
 == 网络要求
 
 * 数据代理需要出站 Internet 连接、因此可以通过端口 443 轮询 Cloud Sync 服务以了解任务。
@@ -143,7 +149,7 @@ image:screenshot_data_broker_gcp.png["屏幕截图显示了在 Google Cloud 中�
 . 单击 * 权限 * 。
 . 单击 * 添加 * 。
 . 输入数据代理的服务帐户的名称。
-. 选择提供的角色 <<Permissions required for the service account,与上述权限相同>>。
+. 选择提供的角色  required for the service account,与上述权限相同。
 . 单击 * 保存 * 。
 
 

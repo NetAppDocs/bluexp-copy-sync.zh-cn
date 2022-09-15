@@ -26,6 +26,12 @@ summary: 创建新数据代理时，请选择 Azure Data Broker 选项，以便�
 
 
 
+== root权限
+
+数据代理软件会自动在Linux主机上以root用户身份运行。数据代理操作需要以root用户身份运行。例如、挂载共享。
+
+
+
 == 网络要求
 
 * 数据代理需要出站 Internet 连接、因此可以通过端口 443 轮询 Cloud Sync 服务以了解任务。
