@@ -16,6 +16,25 @@ summary: Cloud Sync 服务入门包括几个步骤。
 Cloud Sync 服务入门包括几个步骤。
 
 [role="quick-margin-para"]
+您应该已经开始使用Cloud Manager、其中包括登录、设置帐户以及可能部署Connector和创建工作环境。
+
+[role="quick-margin-para"]
+如果要为以下任一项创建同步关系、则首先需要创建或发现工作环境：
+
+* 适用于 ONTAP 的 Amazon FSX
+* Azure NetApp Files
+* Cloud Volumes ONTAP
+* 内部 ONTAP 集群
+
+
+[role="quick-margin-para"]
+Cloud Volumes ONTAP 和内部ONTAP 集群需要使用连接器。
+
+* https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-overview.html["了解如何开始使用Cloud Manager"^]
+* https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html["了解有关连接器的更多信息"^]
+
+
+[role="quick-margin-para"]
 验证您的源和目标是否受支持和设置。最重要的要求是验证数据代理组与源位置和目标位置之间的连接。
 
 * link:reference-supported-relationships.html["查看支持的关系"]
