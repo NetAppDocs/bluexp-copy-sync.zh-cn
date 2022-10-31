@@ -138,6 +138,9 @@ SAS 必须允许访问 Blob 服务和所有资源类型（服务、容器和对�
 image:screenshot_connection_string_sas.gif["显示共享访问签名，可通过选择存储帐户并单击共享访问签名从 Azure 门户访问此签名。"]
 
 
+NOTE: 如果您选择实施包含Azure Blob容器的持续同步关系、则可以使用常规连接字符串或SAS连接字符串。如果使用的是SAS连接字符串、则不能将其设置为在不久的将来过期。
+
+
 
 == Azure Data Lake存储第2代
 

@@ -28,7 +28,7 @@ Cloud Sync 服务入门包括几个步骤。
 
 
 [role="quick-margin-para"]
-Cloud Volumes ONTAP 和内部ONTAP 集群需要使用连接器。
+Cloud Volumes ONTAP 、内部ONTAP 集群和适用于ONTAP 的Amazon FSX需要连接器。
 
 * https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-overview.html["了解如何开始使用Cloud Manager"^]
 * https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html["了解有关连接器的更多信息"^]

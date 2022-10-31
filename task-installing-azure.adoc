@@ -48,7 +48,7 @@ summary: 创建新数据代理时，请选择 Azure Data Broker 选项，以便�
 
 == 在Azure中部署数据代理所需的权限
 
-确保用于部署数据代理的Azure用户帐户具有以下权限。
+确保用于部署数据代理的Azure用户帐户具有以下权限：
 
 [source, json]
 ----
@@ -87,14 +87,51 @@ summary: 创建新数据代理时，请选择 Azure Data Broker 选项，以便�
                     "Microsoft.Network/publicIPAddresses/read",
                     "Microsoft.Network/virtualNetworks/subnets/join/action",
                     "Microsoft.Network/publicIPAddresses/join/action",
-                    "Microsoft.Network/networkInterfaces/join/action"
+                    "Microsoft.Network/networkInterfaces/join/action",
+                    "Microsoft.Storage/storageAccounts/read",
+                    "Microsoft.EventGrid/systemTopics/eventSubscriptions/write",
+                    "Microsoft.EventGrid/systemTopics/eventSubscriptions/read",
+                    "Microsoft.EventGrid/systemTopics/eventSubscriptions/delete",
+                    "Microsoft.EventGrid/systemTopics/eventSubscriptions/getFullUrl/action",
+                    "Microsoft.EventGrid/systemTopics/eventSubscriptions/getDeliveryAttributes/action",
+                    "Microsoft.EventGrid/systemTopics/read",
+                    "Microsoft.EventGrid/systemTopics/write",
+                    "Microsoft.EventGrid/systemTopics/delete",
+                    "Microsoft.EventGrid/eventSubscriptions/write",
+                    "Microsoft.Storage/storageAccounts/write"
+----
+....
     ],
     "NotActions": [],
     "AssignableScopes": [],
     "Description": "Azure Data Broker",
     "IsCustom": "true"
 }
-----
+....
+注意：
+
+. 只有当您计划对从Azure到另一个云存储位置的同步关系启用持续同步设置时、才需要以下权限：
++
+** "icrosoft存储/存储帐户/读取"、
+** "icrosoft EventGrid/systemTopics/eventSubscribes/write"、
+** "icrosoft EventGrid/systemTopics/eventSubscribes/Read"、
+** "icrosoft EventGrid/systemTopics/eventSubscribes/delete"、
+** "icrosoft EventGrid/systemTopics/eventSubscribes/getFullUrl/action"、
+** "icrosoft EventGrid/systemTopics/eventSubscribes/getDeliveryAttributes/action"、
+** "icrosoft EventGrid/systemTopics/Read"、
+** "icrosoft EventGrid/systemTopics/write"、
+** "icrosoft EventGrid/systemTopics/delete"、
+** "icrosoft EventGrid/eventSubscribes/write"、
+** "icrosoft存储/存储帐户/写入"
+
+
++
+此外、如果您计划在Azure中实施持续同步、则可分配范围必须设置为订阅范围和*不*资源组范围。
+
+
+
+https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.html#settings["了解有关持续同步设置的更多信息"]。
+
 
 
 == 身份验证方法
@@ -127,6 +164,10 @@ image:screenshot-azure.png["数据代理页面的屏幕截图，可用于在 AWS
 . 为数据代理选择一个位置，然后输入有关虚拟机的基本详细信息。
 +
 image:screenshot_azure_data_broker.gif["Azure 部署页面的屏幕截图，其中显示了以下字段：订阅， Azure 区域， vNet ，子网，虚拟机名称， 用户名，身份验证方法和资源组。"]
+
++
+
+NOTE: 如果您计划实施持续同步关系、则必须为数据代理分配自定义角色。也可以在创建代理后手动执行此操作。
 
 . 如果在 vNet 中需要代理才能访问 Internet ，请指定代理配置。
 . 单击 * 继续 * 并保持此页面打开，直到部署完成。
