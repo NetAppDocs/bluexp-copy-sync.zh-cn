@@ -27,7 +27,7 @@ video::oZNJtLvgNfQ[youtube,width=848,height=480]
 
 == Cloud Sync 的工作原理
 
-Cloud Sync 是一个软件即服务（ SaaS ）平台，由一个数据代理组，一个通过 Cloud Manager 提供的基于云的界面以及一个源和目标组成。
+Cloud Sync 是一个软件即服务(SaaS)平台、由一个数据代理组、一个通过BlueXP提供的基于云的接口以及一个源和目标组成。
 
 下图显示了 Cloud Sync 组件之间的关系：
 

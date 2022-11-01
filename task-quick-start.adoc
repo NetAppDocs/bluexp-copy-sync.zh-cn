@@ -16,7 +16,7 @@ summary: Cloud Sync 服务入门包括几个步骤。
 Cloud Sync 服务入门包括几个步骤。
 
 [role="quick-margin-para"]
-您应该已经开始使用Cloud Manager、其中包括登录、设置帐户以及可能部署Connector和创建工作环境。
+您应该已经开始使用BlueXP、其中包括登录、设置帐户、可能还包括部署Connector和创建工作环境。
 
 [role="quick-margin-para"]
 如果要为以下任一项创建同步关系、则首先需要创建或发现工作环境：
@@ -30,7 +30,7 @@ Cloud Sync 服务入门包括几个步骤。
 [role="quick-margin-para"]
 Cloud Volumes ONTAP 、内部ONTAP 集群和适用于ONTAP 的Amazon FSX需要连接器。
 
-* https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-overview.html["了解如何开始使用Cloud Manager"^]
+* https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-overview.html["了解如何开始使用BlueXP"^]
 * https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html["了解有关连接器的更多信息"^]
 
 
@@ -54,7 +54,7 @@ NetApp 数据代理软件会将数据从源同步到目标（称为 _sync relati
 
 
 [role="quick-margin-para"]
-登录到 https://cloudmanager.netapp.com/["云管理器"^]，单击 * 同步 * ，然后拖放您为源和目标选择的内容。按照提示完成设置。 link:task-creating-relationships.html["了解更多信息。"]。
+登录到 https://cloudmanager.netapp.com/["BlueXP"^]，单击 * 同步 * ，然后拖放您为源和目标选择的内容。按照提示完成设置。 link:task-creating-relationships.html["了解更多信息。"]。
 
 [role="quick-margin-para"]
 从 AWS 或 Azure 订阅以按需购买或每年支付。或直接从 NetApp 购买许可证。只需转到 Cloud Sync 中的“许可证设置”页面即可进行设置。 link:task-licensing.html["了解更多信息。"]。

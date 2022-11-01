@@ -86,9 +86,9 @@ Cloud Sync 将更新数据代理上的凭据。可能需要 10 分钟，直到�
 
 == 设置通知
 
-通过为每个同步关系设置*通知*、您可以选择是否在Cloud Manager的通知中心接收Cloud Sync 通知。您可以为成功的数据同步、失败的数据同步和已取消的数据同步启用通知。
+通过为每个同步关系设置*通知*、您可以选择是否在BlueXP的通知中心接收Cloud Sync 通知。您可以为成功的数据同步、失败的数据同步和已取消的数据同步启用通知。
 
-image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-sync/main/media/screenshot-notification-center.png["显示Cloud Manager中通知中心的屏幕截图。"]
+image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-sync/main/media/screenshot-notification-center.png["显示BlueXP中通知中心的屏幕截图。"]
 
 此外、您还可以通过电子邮件接收通知。
 
@@ -110,7 +110,7 @@ image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-sync/main/media
 
 
 
-现在、如果您配置了Cloud Sync 、则Cloud Manager的通知中心会收到此通知、并会发送一些通过电子邮件发送的通知。
+现在、如果您配置了Cloud Sync 、您将在BlueXP的通知中心收到该通知、并通过电子邮件收到一些通知。
 
 
 
@@ -130,7 +130,7 @@ image:screenshot_sync_settings.png["显示同步关系设置的屏幕快照。"]
 +
 计划:: 为将来的同步选择重复计划或关闭同步计划。您可以计划一个关系以每 1 分钟同步一次数据。
 同步超时:: 定义如果同步未在指定的小时数或天数内完成、Cloud Sync 是否应取消数据同步。
-通知:: 用于选择是否在Cloud Manager的通知中心接收Cloud Sync 通知。您可以为成功的数据同步、失败的数据同步和已取消的数据同步启用通知。
+通知:: 用于选择是否在BlueXP的通知中心中接收Cloud Sync 通知。您可以为成功的数据同步、失败的数据同步和已取消的数据同步启用通知。
 +
 --
 接收通知的条件

@@ -86,7 +86,7 @@ NOTE: Cloud Volumes Service 和 Azure NetApp Files 均可免费使用 Cloud Sync
 
 === 如何访问 Cloud Sync ？
 
-Cloud Sync 可从 Cloud Manager 的 * 同步 * 选项卡中访问。
+Cloud Sync 可从BlueXP网站的*同步*选项卡中获取。
 
 
 

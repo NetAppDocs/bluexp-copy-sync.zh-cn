@@ -85,13 +85,13 @@ video::video_cloud_sync_registering_azure.mp4[width=848,height=480]
 
 .步骤
 . 请发送邮件至： ng-cloudsync-contact@netapp.com ？ Subject=Cloud%20Sync%20Service%20-%20BYOL%20License%20Purches%20Request[ 联系 NetApp] 购买许可证。
-. 在 Cloud Manager 中，单击 * 同步 > 许可 * 。
+. 在BlueXP中、单击*同步>许可*。
 . 单击 * 添加许可证 * 并添加所需信息：
 +
 .. 输入序列号。
 .. 选择与要添加的许可证关联的 NetApp 支持站点帐户：
 +
-*** 如果您的帐户已添加到 Cloud Manager 中，请从下拉列表中选择它。
+*** 如果您的帐户已添加到BlueXP、请从下拉列表中选择它。
 *** 如果尚未添加您的帐户，请单击 * 添加 NSS 凭据 * ，输入用户名和密码，单击 * 注册 * ，然后从下拉列表中选择它。
 
 
@@ -107,7 +107,7 @@ video::video_cloud_sync_registering_azure.mp4[width=848,height=480]
 如果您延长了从 NetApp 购买的 Cloud Sync 许可证，则新的到期日期不会在 Cloud Sync 中自动更新。要刷新到期日期，您需要重新添加许可证。
 
 .步骤
-. 在 Cloud Manager 中，单击 * 同步 > 许可 * 。
+. 在BlueXP中、单击*同步>许可*。
 . 单击 * 添加许可证 * 并添加所需信息：
 +
 .. 输入序列号。
