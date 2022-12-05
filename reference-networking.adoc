@@ -100,7 +100,7 @@ NetApp 数据代理需要通过端口 443 进行出站 Internet 访问、以便�
 | https://sts.amazonaws.com | 在 AWS 中部署数据代理或在内部部署数据代理时验证 AWS 凭据，并提供 AWS 凭据。数据代理会在部署期间，更新时以及重新启动时联系此端点。 
 
 
-| https://cloudmanager.cloud.netapp.com \https://netapp-cloud-account.auth0.com | 在使用 Data sense 为新同步关系选择源文件时联系 Cloud Data sense 。 
+| https://console.bluexp.netapp.com/\https://netapp-cloud-account.auth0.com | 在使用 Data sense 为新同步关系选择源文件时联系 Cloud Data sense 。 
 |===
 
 

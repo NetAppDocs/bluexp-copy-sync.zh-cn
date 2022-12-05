@@ -54,7 +54,7 @@ NetApp 数据代理软件会将数据从源同步到目标（称为 _sync relati
 
 
 [role="quick-margin-para"]
-登录到 https://cloudmanager.netapp.com/["BlueXP"^]，单击 * 同步 * ，然后拖放您为源和目标选择的内容。按照提示完成设置。 link:task-creating-relationships.html["了解更多信息。"]。
+登录到 https://console.bluexp.netapp.com/["BlueXP"^]，单击 * 同步 * ，然后拖放您为源和目标选择的内容。按照提示完成设置。 link:task-creating-relationships.html["了解更多信息。"]。
 
 [role="quick-margin-para"]
 从 AWS 或 Azure 订阅以按需购买或每年支付。或直接从 NetApp 购买许可证。只需转到 Cloud Sync 中的“许可证设置”页面即可进行设置。 link:task-licensing.html["了解更多信息。"]。
