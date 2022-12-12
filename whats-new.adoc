@@ -24,13 +24,13 @@ summary: 了解 Cloud Sync 中的新增功能。
 
 === 按名称筛选目录
 
-现在、可以为同步关系使用一个新的*排除目录名称*设置。用户最多可以从其同步中筛选出15个目录名称。
+现在、可以为同步关系使用一个新的*排除目录名称*设置。用户最多可以从其同步中筛选出15个目录名称。默认情况下、不包括.copy-ofovert、.snapshot、~snapshot目录。
 
 https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.html#settings["了解有关排除目录名称设置的更多信息"]。
 
 
 
-== 其他Amazon S3和ONTAP S3存储支持
+=== 其他Amazon S3和ONTAP S3存储支持
 
 Cloud Sync 现在支持AWS S3和ONTAP S3存储的其他同步关系：
 
