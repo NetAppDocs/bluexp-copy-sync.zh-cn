@@ -17,8 +17,8 @@ summary: 'Cloud Sync 可以在SMB共享之间以及SMB共享和对象存储之�
 Cloud Sync 可以在SMB共享之间以及SMB共享和对象存储之间复制访问控制列表(ACL)(ONTAP S3除外)。如果需要，您还可以选择使用 Robocopy 在 SMB 共享之间手动保留 ACL 。
 
 .选项
-*  up Cloud Sync to copy ACLs from an SMB server,设置 Cloud Sync 以自动复制 ACL
-*  copying ACLs between SMB shares,在 SMB 共享之间手动复制 ACL
+* <<Setting up Cloud Sync to copy ACLs from an SMB server,设置 Cloud Sync 以自动复制 ACL>>
+* <<在 SMB 共享之间手动复制 ACL,在 SMB 共享之间手动复制 ACL>>
 
 
 
@@ -27,6 +27,7 @@ Cloud Sync 可以在SMB共享之间以及SMB共享和对象存储之间复制访
 
 通过在创建关系时或创建关系后启用设置、在SMB共享之间以及SMB共享和对象存储之间复制ACL。
 
+.您需要的内容
 此功能适用于 _any_ 类型的数据代理： AWS ， Azure ， Google Cloud Platform 或内部数据代理。内部数据代理可以运行 link:task-installing-linux.html["任何受支持的操作系统"]。
 
 .新关系的步骤
@@ -61,6 +62,7 @@ image:screenshot-sync-tags-metadata.png["复制到对象存储时同步关系向
 . 单击 * 保存设置 * 。
 
 
+.结果
 同步数据时、Cloud Sync 会保留源和目标之间的ACL。
 
 

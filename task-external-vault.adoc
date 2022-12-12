@@ -17,12 +17,15 @@ summary: 创建需要 Amazon S3 ， Azure 或 Google Cloud 凭据的同步关系
 
 此功能通过 Cloud Sync API 提供支持，并且同步关系需要 Amazon S3 ， Azure 或 Google Cloud 凭据。
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["一个"] 准备存储
 [role="quick-margin-para"]
 通过设置 URL 来准备存储以向数据代理组提供凭据。存储中的机密 URL 必须以 _Creds_结尾 。
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["两个"] 准备数据代理组
 [role="quick-margin-para"]
 通过修改组中每个数据代理的本地配置文件，使数据代理组做好准备，以便从外部存储提取凭据。
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["三个"] 使用 API 创建同步关系
 [role="quick-margin-para"]
 设置完所有内容后，您可以发送 API 调用来创建同步关系，以使用存储获取密码。
 

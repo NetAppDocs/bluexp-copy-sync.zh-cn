@@ -18,6 +18,30 @@ summary: 了解 Cloud Sync 中的新增功能。
 
 
 
+== 2022年12月11日
+
+
+
+=== 按名称筛选目录
+
+现在、可以为同步关系使用一个新的*排除目录名称*设置。用户最多可以从其同步中筛选出15个目录名称。
+
+https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.html#settings["了解有关排除目录名称设置的更多信息"]。
+
+
+
+== 其他Amazon S3和ONTAP S3存储支持
+
+Cloud Sync 现在支持AWS S3和ONTAP S3存储的其他同步关系：
+
+* AWS S3到ONTAP S3存储
+* ONTAP S3存储到AWS S3
+
+
+https://docs.netapp.com/us-en/cloud-manager-sync/reference-supported-relationships.html["了解有关支持的同步关系的更多信息"]。
+
+
+
 == 2022年10月30日
 
 

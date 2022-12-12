@@ -56,7 +56,7 @@ NOTE: 默认情况下，数据代理会忽略以下目录： .snapshot ， ~snap
 
 
 
-== Amazon S3 存储分段要求
+== 【S3】Amazon S3存储分段要求
 
 确保您的 Amazon S3 存储分段满足以下要求。
 
@@ -103,7 +103,7 @@ image:screenshot_iam_role_arn.gif["AWS IAM 控制台的屏幕快照，其中显�
 
 
 
-== Azure Blob 存储要求
+== 《Azure Blob存储要求》
 
 确保 Azure Blob 存储满足以下要求。
 
@@ -186,7 +186,7 @@ link:task-managing-data-brokers.html#define-a-unified-configuration-for-a-data-b
 
 
 
-== Google Cloud 存储桶要求
+== 【Google云存储分段要求】Google Cloud Storage bucket requirements.
 
 确保 Google Cloud 存储桶满足以下要求。
 

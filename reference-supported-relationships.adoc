@@ -71,6 +71,7 @@ summary: 使用 Cloud Sync 可以将数据从源同步到目标。这称为同�
 * IBM 云对象存储
 * NFS 服务器
 * 内部 ONTAP 集群
+* ONTAP S3 存储
 * SMB 服务器
 * StorageGRID
 
@@ -247,6 +248,7 @@ summary: 使用 Cloud Sync 可以将数据从源同步到目标。这称为同�
 
 
 | ONTAP S3 存储  a| 
+* Amazon S3
 * Google Cloud 存储
 * SMB 服务器
 * StorageGRID

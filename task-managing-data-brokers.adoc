@@ -132,6 +132,7 @@ image:screenshot_sync_group_edit.gif["组中每个数据代理都可以使用的
 . 输入新名称并单击 * 保存 * 。
 
 
+.结果
 Cloud Sync 将更新数据代理组的名称。
 
 
@@ -187,6 +188,7 @@ image:screenshot_sync_group_remove.png["可用于每个数据代理组的操作�
 . 单击 * 移动 * 。
 
 
+.结果
 Cloud Sync 会将数据代理移动到新的或现有的数据代理组。如果上一个组中没有其他数据代理，则 Cloud Sync 会将其删除。
 
 
@@ -203,6 +205,7 @@ Cloud Sync 会将数据代理移动到新的或现有的数据代理组。如果
 . 单击 * 更新 * 。
 
 
+.结果
 Cloud Sync 会更新数据代理，以使用代理配置进行 Internet 访问。
 
 
@@ -272,6 +275,7 @@ image:screenshot_sync_group_remove.gif["可用于每个数据代理组的操作�
 . 单击 * 删除数据代理 * 。
 
 
+.结果
 Cloud Sync 将从组中删除数据代理。
 
 
@@ -291,4 +295,5 @@ image:screenshot_sync_group_add.png["组中每个数据代理都可以使用的�
 . 要进行确认，请输入组名称，然后单击 * 删除组 * 。
 
 
+.结果
 Cloud Sync 将删除数据代理并删除组。

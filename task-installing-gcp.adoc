@@ -135,6 +135,7 @@ image:screenshot_data_broker_gcp.png["屏幕截图显示了在 Google Cloud 中�
 . 完成向导中的页面以创建新的同步关系。
 
 
+.结果
 您已在 Google Cloud 中部署数据代理并创建了新的同步关系。您可以将此数据代理与其他同步关系一起使用。
 
 
@@ -149,10 +150,11 @@ image:screenshot_data_broker_gcp.png["屏幕截图显示了在 Google Cloud 中�
 . 单击 * 权限 * 。
 . 单击 * 添加 * 。
 . 输入数据代理的服务帐户的名称。
-. 选择提供的角色  required for the service account,与上述权限相同。
+. 选择提供的角色 <<服务帐户所需的权限,与上述权限相同>>。
 . 单击 * 保存 * 。
 
 
+.结果
 设置同步关系时，您现在可以选择该存储分段作为同步关系中的源或目标。
 
 
