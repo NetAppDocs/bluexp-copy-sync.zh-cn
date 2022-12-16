@@ -39,6 +39,11 @@ Body:
               "password": "<user_password>"
 }
 ----
+
+
+
+NOTE: 如果您使用的个人电子邮件帐户没有客户端ID、则可以使用默认客户端ID "QC3AgHk6qdbmC7Yyr82ApBwaaJLwRrNO"。
+
 . 获取您的BlueXp帐户ID。
 +
 [source, http]
