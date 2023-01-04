@@ -642,7 +642,6 @@
   <block id="c233ea2db8aa00ac96e4e0317d97f7ed" category="paragraph">Cloud Sync 使用以下配置在 Google Cloud 中创建数据代理。</block>
   <block id="3ea4bf9da7622edeeae1bf80e9c5cded" category="list-text">计算机类型</block>
   <block id="9f101c0e6e5929a04c9e7663fdf91eda" category="list-text">15 GB</block>
-  <block id="935b9daeec310c8e2291d043d3e14f44" category="list-text">Red Hat Enterprise Linux 7.7</block>
   <block id="f3796c63e27caa7881ad0844ee9e9544" category="list-text">标准配置 20 GB HDD PD</block>
   <block id="b7313c752ca12081edfba2212c0cc2e4" category="summary">您可以通过立即同步数据、更改计划等随时管理同步关系。</block>
   <block id="d45779d5d4d94ce3569ba04a2f510bdc" category="doc">管理同步关系</block>
@@ -1022,7 +1021,6 @@
   <block id="de66cb8e421123abb772a3664a897531" category="list-text">标准 DS4 v2</block>
   <block id="c9f0f895fb98ab9159f51fd0297e236d" category="list-text">8.</block>
   <block id="472d573b9b96b332aa4fd565b8a78c68" category="list-text">28 GB</block>
-  <block id="b0a4a3d9e04daf57d04de7ad03004279" category="list-text">CentOS 7.7</block>
   <block id="d6856312a90199668ecb7d8f4a9f1322" category="list-text">64 GB 高级 SSD</block>
   <block id="f549fa5a7b8a70265d3f6f6fc5ae1943" category="summary">验证源和目标是否满足以下要求。</block>
   <block id="91271a9aaf4442f8d73b827c3ba05c53" category="doc">准备源和目标</block>
@@ -1710,4 +1708,16 @@
   <block id="baf659a0894b31eff8d9e87af59af9e5" category="list-text">通过键入目录名称并按*输入*、最多可指定15个要从同步中排除的目录。默认情况下、不包括.copy-ofovert、.snapshot、~snapshot目录。如果您希望在同步中包含这些内容、请联系我们。</block>
   <block id="43b44f78e255d05aac846a6181095cd6" category="paragraph">现在、可以为同步关系使用一个新的*排除目录名称*设置。用户最多可以从其同步中筛选出15个目录名称。默认情况下、不包括.copy-ofovert、.snapshot、~snapshot目录。</block>
   <block id="109c4a4872ddbe9910e974f2b3dd0211" category="admonition">如果您使用的个人电子邮件帐户没有客户端ID、则可以使用默认客户端ID "QC3AgHk6qdbmC7Yyr82ApBwaaJLwRrNO"。</block>
+  <block id="003d136e5089a4f9ae0f1df3f6fc37fa" category="list-text">多石Linux 9.0</block>
+  <block id="bfc6fe3f8d2577420634f29daac2cfe3" category="section-title">2023年1月3日</block>
+  <block id="2ce75b34222d130ea74078b75eb79cc0" category="section-title">在UI上显示数据代理本地配置</block>
+  <block id="88dcb8d0dd987f4f5606df5981050a8d" category="paragraph">现在有一个*显示配置*选项、可用于使用户在用户界面上查看每个数据代理的本地配置。</block>
+  <block id="44580ec91e2012543452f790258e1ccf" category="inline-link">了解有关管理数据代理组的更多信息</block>
+  <block id="1bc15ec9e137e3d7653e9f04a08b840b" category="paragraph"><block ref="cbafc7311a6970273ad5a1c3b2c0b656" category="inline-link-rx"></block>。</block>
+  <block id="02840b44154535342dd4cf6739d2c77d" category="section-title">升级到Azure和Google Cloud数据代理操作系统</block>
+  <block id="69e30db11dbff8b5efd6091166af232f" category="paragraph">Azure和Google Cloud中的数据代理操作系统已升级到Rocky Linux 9.0。</block>
+  <block id="1c01c907ca0a713df58ba8f4b21fd39c" category="inline-link">详细了解Azure中的数据代理实例</block>
+  <block id="696fb1a24aae70782cbc2deebfd01ec3" category="paragraph"><block ref="721924a927b7206a5d8775fe840ddbcd" category="inline-link-rx"></block>。</block>
+  <block id="648e059d69339d82d82738abf0bd4016" category="inline-link">详细了解Google Cloud中的数据代理实例</block>
+  <block id="6619068f4ac101fa3e8003ee6618d9da" category="paragraph"><block ref="fa611f614e55d9a2ca38028d5a5ab5b7" category="inline-link-rx"></block>。</block>
 </blocks>

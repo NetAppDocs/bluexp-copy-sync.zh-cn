@@ -166,6 +166,6 @@ Cloud Sync 使用以下配置在 Google Cloud 中创建数据代理。
 计算机类型:: n2-standard-4
 vCPU:: 4.
 RAM:: 15 GB
-操作系统:: Red Hat Enterprise Linux 7.7
+操作系统:: 多石Linux 9.0
 磁盘大小和类型:: 标准配置 20 GB HDD PD
 

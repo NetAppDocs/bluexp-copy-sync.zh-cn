@@ -208,6 +208,6 @@ Cloud Sync 使用以下配置在 Azure 中创建数据代理。
 VM 类型:: 标准 DS4 v2
 vCPU:: 8.
 RAM:: 28 GB
-操作系统:: CentOS 7.7
+操作系统:: 多石Linux 9.0
 磁盘大小和类型:: 64 GB 高级 SSD
 

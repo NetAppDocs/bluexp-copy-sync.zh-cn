@@ -18,6 +18,28 @@ summary: 了解 Cloud Sync 中的新增功能。
 
 
 
+== 2023年1月3日
+
+
+
+=== 在UI上显示数据代理本地配置
+
+现在有一个*显示配置*选项、可用于使用户在用户界面上查看每个数据代理的本地配置。
+
+https://docs.netapp.com/us-en/cloud-manager-sync/task-managing-data-brokers.html["了解有关管理数据代理组的更多信息"]。
+
+
+
+=== 升级到Azure和Google Cloud数据代理操作系统
+
+Azure和Google Cloud中的数据代理操作系统已升级到Rocky Linux 9.0。
+
+https://docs.netapp.com/us-en/cloud-manager-sync/task-installing-azure.html#details-about-the-data-broker-vm["详细了解Azure中的数据代理实例"]。
+
+https://docs.netapp.com/us-en/cloud-manager-sync/task-installing-gcp.html#details-about-the-data-broker-vm-instance["详细了解Google Cloud中的数据代理实例"]。
+
+
+
 == 2022年12月11日
 
 
