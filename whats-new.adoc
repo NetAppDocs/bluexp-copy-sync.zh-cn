@@ -18,6 +18,39 @@ summary: 了解 Cloud Sync 中的新增功能。
 
 
 
+== 2023年2月5日
+
+
+
+=== 对Azure数据湖存储第2代、ONTAP S3存储和NFS的其他支持
+
+Cloud Sync 现在支持为ONTAP S3存储和NFS建立其他同步关系：
+
+* ONTAP S3存储到NFS
+* NFS到ONTAP S3存储
+
+
+Cloud Sync 还支持将Azure数据湖存储第2代作为源和目标、以便：
+
+* NFS 服务器
+* SMB 服务器
+* ONTAP S3 存储
+* StorageGRID
+* IBM 云对象存储
+
+
+https://docs.netapp.com/us-en/cloud-manager-sync/reference-supported-relationships.html["了解有关支持的同步关系的更多信息"]。
+
+
+
+=== 升级到Amazon Web Services数据代理操作系统
+
+AWS数据代理的操作系统已升级到Amazon Linux 2022。
+
+https://docs.netapp.com/us-en/cloud-manager-sync/task-installing-aws.html#details-about-the-data-broker-instance["详细了解AWS中的数据代理实例"]。
+
+
+
 == 2023年1月3日
 
 

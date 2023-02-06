@@ -400,7 +400,6 @@
   <block id="e53619c1fe611a51eeeb8d148ba6e532" category="list-text">RAM</block>
   <block id="752a423b7896d2c8176434adcd527e26" category="list-text">16 GB</block>
   <block id="696c660ff8d9323e55146a6dbd4e4088" category="list-text">操作系统</block>
-  <block id="734bdc8fcba7f190d8a2571163d24971" category="list-text">Amazon Linux 2.</block>
   <block id="c03f3cc8275a0a87d7784cf12a264c0b" category="list-text">磁盘大小和类型</block>
   <block id="c5a333964ee323aaba5e5b42ff247d6b" category="list-text">10 GB GP2 SSD</block>
   <block id="71904eaffc2ec470e49ce1a710f5e878" category="summary">如果您的企业有严格的安全策略、请使用数据飞行加密在不同网络中的 NFS 服务器之间同步数据。</block>
@@ -1726,4 +1725,15 @@
   <block id="0e2bc9c853e0af52ead12823c025e58b" category="list-text"><block ref="0e2bc9c853e0af52ead12823c025e58b" category="inline-link-macro-rx"></block></block>
   <block id="b0cee72642f5457a71ddd0b49efb6d93" category="inline-link-macro">适用于 Google Cloud 的 Cloud Volumes Service</block>
   <block id="02efcbea18b9485a78a41871dce1e64d" category="list-text"><block ref="02efcbea18b9485a78a41871dce1e64d" category="inline-link-macro-rx"></block></block>
+  <block id="0129054e0108c57f3077a26c197cd09b" category="list-text">Amazon Linux 2022</block>
+  <block id="55157331e0485d25f0d603400a66335e" category="section-title">2023年2月5日</block>
+  <block id="761cba7c96f916f975634bfd465401cb" category="section-title">对Azure数据湖存储第2代、ONTAP S3存储和NFS的其他支持</block>
+  <block id="93cf60ec095fd8da10fc299cc367ba5f" category="paragraph">Cloud Sync 现在支持为ONTAP S3存储和NFS建立其他同步关系：</block>
+  <block id="852f9290d6e492b0c65094f3676c0c9b" category="list-text">ONTAP S3存储到NFS</block>
+  <block id="84b6c32a0e939d90280ebcdf036f7678" category="list-text">NFS到ONTAP S3存储</block>
+  <block id="444a944798699bf4690bdc286127a9f2" category="paragraph">Cloud Sync 还支持将Azure数据湖存储第2代作为源和目标、以便：</block>
+  <block id="b3c6595e164d585a18699d6b36cab08a" category="section-title">升级到Amazon Web Services数据代理操作系统</block>
+  <block id="56b81b60dec6a853cc4a71acf27e639b" category="paragraph">AWS数据代理的操作系统已升级到Amazon Linux 2022。</block>
+  <block id="0dd728efd36ee3f96597b07096922b08" category="inline-link">详细了解AWS中的数据代理实例</block>
+  <block id="ab1608bfe0e155c43b562df0832f62cb" category="paragraph"><block ref="f5f6281702689de644df10baf88bc982" category="inline-link-rx"></block>。</block>
 </blocks>

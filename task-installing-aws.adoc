@@ -123,6 +123,6 @@ Cloud Sync 使用以下配置在 AWS 中创建数据代理。
 Instance type:: m5n.xlarge （如果在区域中可用），否则为 m5.xlarge
 vCPU:: 4.
 RAM:: 16 GB
-操作系统:: Amazon Linux 2.
+操作系统:: Amazon Linux 2022
 磁盘大小和类型:: 10 GB GP2 SSD
 
