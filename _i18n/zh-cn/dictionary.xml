@@ -1224,8 +1224,6 @@
   <block id="55430fccd9c75a6ec1bc44bb1d637619" category="paragraph">您可以选择将 NetApp 的许可证与 Marketplace 订阅结合使用。例如，如果您有 25 个同步关系、则可以使用许可证支付前 20 个同步关系的费用、然后从 AWS 或 Azure 中按原样支付剩余的 5 个同步关系的费用。</block>
   <block id="eee2650e10b32734e3b3f1bc627337f5" category="inline-link-macro">了解有关许可证工作原理的更多信息。</block>
   <block id="f65ca7baf45cc92aec55770c0b36841f" category="paragraph"><block ref="7cfabb5964e9e36c902fe67d3082ea34" category="inline-link-macro-rx"></block>。</block>
-  <block id="d04dfaa744331ac37502cd7e1da7e4cb" category="sidebar-title">如果在免费试用结束后，我不能立即支付费用，该怎么办？</block>
-  <block id="06396044ae8f00acb30bd57de4d6bf59" category="paragraph">您将无法创建任何其他关系。现有关系不会被删除、但您必须订阅或输入许可证才能对其进行任何更改。</block>
   <block id="7f1e5fcf21192da891eea1c1f4f6e6f0" category="paragraph">AWS 使您可以按需付费或每年支付。</block>
   <block id="f06e94914580a228484d54783ffeb2bb" category="list-title">按需购买的步骤</block>
   <block id="f4e86f9d0f6800384c773bd03834297d" category="list-text">单击 * 同步 &gt; 许可 * 。</block>
@@ -1253,7 +1251,6 @@
   <block id="441eaafe617acae90fac942cbac1d2a0" category="list-text">选择与要添加的许可证关联的 NetApp 支持站点帐户：</block>
   <block id="93bad0f0398a452d035b9d52ba2724f5" category="list-text">如果尚未添加您的帐户，请单击 * 添加 NSS 凭据 * ，输入用户名和密码，单击 * 注册 * ，然后从下拉列表中选择它。</block>
   <block id="e0fd71ec05fc637037be9da3ff2103b0" category="section-title">更新许可证</block>
-  <block id="621d7bdf797506a6b1724c30c6f72e88" category="paragraph">如果您延长了从 NetApp 购买的 Cloud Sync 许可证，则新的到期日期不会在 Cloud Sync 中自动更新。要刷新到期日期，您需要重新添加许可证。</block>
   <block id="83893211fb004302e2b1216eda1eb1f8" category="list-text">选择与要添加的许可证关联的 NetApp 支持站点帐户：</block>
   <block id="172d12b0279cc8a60f5a9ab00242df4e" category="paragraph">Cloud Sync 会使用新的到期日期更新现有许可证。</block>
   <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="doc">注册以获得支持</block>
@@ -1736,4 +1733,7 @@
   <block id="56b81b60dec6a853cc4a71acf27e639b" category="paragraph">AWS数据代理的操作系统已升级到Amazon Linux 2022。</block>
   <block id="0dd728efd36ee3f96597b07096922b08" category="inline-link">详细了解AWS中的数据代理实例</block>
   <block id="ab1608bfe0e155c43b562df0832f62cb" category="paragraph"><block ref="f5f6281702689de644df10baf88bc982" category="inline-link-rx"></block>。</block>
+  <block id="eec85122fe4236e8000e41a3f717acba" category="paragraph">许可证应通过Cloud Sync 或适用的网站进行管理、而*不是*通过数字电子钱包进行管理。</block>
+  <block id="ea456f2c2f8433045e0abd1d56195f2d" category="paragraph">如果您在免费试用结束后未立即支付费用、您将无法创建任何其他关系。现有关系不会被删除、但您必须订阅或输入许可证才能对其进行任何更改。</block>
+  <block id="99fbad4150cbcaf5ed561c48046b6f75" category="paragraph">如果您延长了从 NetApp 购买的 Cloud Sync 许可证，则新的到期日期不会在 Cloud Sync 中自动更新。要刷新到期日期，您需要重新添加许可证。许可证应通过Cloud Sync 或适用的网站进行管理、而*不是*通过数字电子钱包进行管理。</block>
 </blocks>
