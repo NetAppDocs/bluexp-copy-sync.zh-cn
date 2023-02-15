@@ -85,7 +85,13 @@ NetApp 数据代理需要通过端口 443 进行出站 Internet 访问、以便�
 | https://s3._region_.amazonaws.com ，例如： s3.us-east-2.amazonaws.com:443https://docs.aws.amazon.com/general/latest/gr/rande.html#s3_region["有关 S3 端点的列表，请参见 AWS 文档"^] | 在同步关系包括 S3 存储区时联系 Amazon S3 。 
 
 
-| https://s3.us-east-1.amazonaws.com | 从 Cloud Sync 下载数据代理日志时，数据代理会将其日志目录置于 Z 形结构中，并将日志上传到 us-east-1 区域的预定义 S3 存储分段。 
+| https://s3.amazonaws.com/ | 从 Cloud Sync 下载数据代理日志时，数据代理会将其日志目录置于 Z 形结构中，并将日志上传到 us-east-1 区域的预定义 S3 存储分段。 
+
+
+| https://storage.googleapis.com/ | 在同步关系使用GCP存储分段时联系Google Cloud。 
+
+
+| https://_storage-account_.blob.core.windows.net[]如果使用Azure Data Lake Gen2：https://_storage-account_.dfs.core.windows.net[]其中_storage-account_是用户的源存储帐户。 | 打开代理以访问用户的Azure存储帐户地址。 
 
 
 | https://cf.cloudsync.netapp.com \https://repo.cloudsync.netapp.com | 可与 Cloud Sync 服务联系。 
@@ -101,6 +107,12 @@ NetApp 数据代理需要通过端口 443 进行出站 Internet 访问、以便�
 
 
 | https://console.bluexp.netapp.com/\https://netapp-cloud-account.auth0.com | 在使用 Data sense 为新同步关系选择源文件时联系 Cloud Data sense 。 
+
+
+| https://pubsub.googleapis.com | 从Google存储帐户创建持续同步关系时。 
+
+
+| https://_storage-account_.queue.core.windows.net[]https://management.azure.com/subscriptions/${_subscriptionId_}/resourcegroups/$｛_resourcegroup_｝/providers/microsoft.EventGrid/*、其中_storage-account_是用户的源存储帐户、_subscriptionid_是源订阅ID、_resourcegroup_是源资源组。 | 从Azure存储帐户创建持续同步关系时。 
 |===
 
 

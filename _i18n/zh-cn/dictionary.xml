@@ -972,7 +972,6 @@
   <block id="45edaabb1caa8cd386fc00e4913729ca" category="inline-link">有关 S3 端点的列表，请参见 AWS 文档</block>
   <block id="9f63373541da1493d909ee0e1ec22846" category="cell">https://s3._region_.amazonaws.com ，例如： s3.us-east-2.amazonaws.com:443<block ref="d8eaf9479c9110a7b925275e0e7c77be" category="inline-link-rx"></block></block>
   <block id="1331ac21e3550225dbf1a2a59e8e5854" category="cell">在同步关系包括 S3 存储区时联系 Amazon S3 。</block>
-  <block id="e539bdc84a7ad2c400eb37a683413da0" category="cell">https://s3.us-east-1.amazonaws.com</block>
   <block id="aa3f7e10351bf8715f83a7b981f0d036" category="cell">从 Cloud Sync 下载数据代理日志时，数据代理会将其日志目录置于 Z 形结构中，并将日志上传到 us-east-1 区域的预定义 S3 存储分段。</block>
   <block id="af9cee3d0b730812cc44778c77dac990" category="cell">https://cf.cloudsync.netapp.com \https://repo.cloudsync.netapp.com</block>
   <block id="0085c0d222fb9e00710dfd4737377552" category="cell">可与 Cloud Sync 服务联系。</block>
@@ -1736,4 +1735,13 @@
   <block id="eec85122fe4236e8000e41a3f717acba" category="paragraph">许可证应通过Cloud Sync 或适用的网站进行管理、而*不是*通过数字电子钱包进行管理。</block>
   <block id="ea456f2c2f8433045e0abd1d56195f2d" category="paragraph">如果您在免费试用结束后未立即支付费用、您将无法创建任何其他关系。现有关系不会被删除、但您必须订阅或输入许可证才能对其进行任何更改。</block>
   <block id="99fbad4150cbcaf5ed561c48046b6f75" category="paragraph">如果您延长了从 NetApp 购买的 Cloud Sync 许可证，则新的到期日期不会在 Cloud Sync 中自动更新。要刷新到期日期，您需要重新添加许可证。许可证应通过Cloud Sync 或适用的网站进行管理、而*不是*通过数字电子钱包进行管理。</block>
+  <block id="e46ce6b98b1f39550f722c298fdb33a7" category="cell">https://s3.amazonaws.com/</block>
+  <block id="410854d72f81ddbce62fd5e69e47d7ca" category="cell">https://storage.googleapis.com/</block>
+  <block id="9a0fd273aee1cf8a769c1b999cacf89a" category="cell">在同步关系使用GCP存储分段时联系Google Cloud。</block>
+  <block id="b551e27fff37843412867d9b83f93ece" category="cell"><block ref="7e48312ae0f59f2ef044bd982e8f7f9d" category="inline-link-rx"></block>如果使用Azure Data Lake Gen2：<block ref="88fc93a3f957963f811734b1373f239a" category="inline-link-rx"></block>其中_storage-account_是用户的源存储帐户。</block>
+  <block id="ab1f4fe880debf39d6d2c82a8b44dd19" category="cell">打开代理以访问用户的Azure存储帐户地址。</block>
+  <block id="8f606ab2764de8092de1ca0d967cfb8d" category="cell">https://pubsub.googleapis.com</block>
+  <block id="df94b5032f4c4edc418da1de5a985935" category="cell">从Google存储帐户创建持续同步关系时。</block>
+  <block id="cfcdd9e78004b91f8c395165fdb5e282" category="cell"><block ref="e36a49efb19686edd0dc8263877ab168" category="inline-link-rx"></block>https://management.azure.com/subscriptions/${_subscriptionId_}/resourcegroups/$｛_resourcegroup_｝/providers/microsoft.EventGrid/*、其中_storage-account_是用户的源存储帐户、_subscriptionid_是源订阅ID、_resourcegroup_是源资源组。</block>
+  <block id="86725349e0c402312a901a9555773dbd" category="cell">从Azure存储帐户创建持续同步关系时。</block>
 </blocks>
