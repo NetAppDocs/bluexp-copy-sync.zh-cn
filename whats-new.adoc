@@ -18,6 +18,18 @@ summary: 了解 Cloud Sync 中的新增功能。
 
 
 
+== 2023年3月7日
+
+
+
+=== 用于AWS数据代理的EBS加密
+
+现在、您可以使用帐户中的KMS密钥对AWS数据代理卷进行加密。
+
+https://docs.netapp.com/us-en/cloud-manager-sync/task-installing-aws.html#creating-the-data-broker["了解有关在AWS中创建数据代理的更多信息"]。
+
+
+
 == 2023年2月5日
 
 
