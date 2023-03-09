@@ -1145,9 +1145,7 @@
   <block id="e9b07c7994659b124430d0e4daaeabba" category="paragraph">创建新的数据代理组时，请选择 On-Prem Data Broker 选项，以便在内部 Linux 主机或云中的现有 Linux 主机上安装数据代理软件。Cloud Sync 可指导您完成安装过程、但本页中重复了这些要求和步骤以帮助您做好安装准备。</block>
   <block id="ace028fe1c5dc8fb39091440d89fd9fd" category="section-title">Linux 主机要求</block>
   <block id="17308c76959fcb971603b7274a57c128" category="list-text">* 操作系统 * ：</block>
-  <block id="1a2698aea8c50e468148bb22c28bf853" category="list-text">CentOS 7.0 ， 7.7 和 8.0</block>
   <block id="735736a0904d4dd4641f1c0b6e93ac7a" category="paragraph">不支持 CentOS 流。</block>
-  <block id="438c134de8e5d04ae91ce2fc1f48f114" category="list-text">Red Hat Enterprise Linux 7.7 和 8.0</block>
   <block id="083265255bba92c059791cd3a9803274" category="list-text">Ubuntu Server 20.04 LTS</block>
   <block id="473733802c02f67f489689f787461e62" category="list-text">SUSE Linux Enterprise Server 15 SP1</block>
   <block id="35ec85020897e56acfca830003a03e8c" category="paragraph">Red Hat Enterprise Linux 系统必须在 Red Hat 订购管理中注册。如果未注册、系统将无法在安装期间访问存储库以更新所需的第三方软件。</block>
@@ -1785,4 +1783,7 @@
   <block id="452cd4df7b0d5eb1156519a2f3b0206b" category="paragraph">这是系统生成的ID、映射到您的电子邮件。在* NSS Management*页面上、您可以从显示电子邮件 <block ref="0d0843f26c0819e5369f690fefbf68b7" category="inline-image-macro-rx" type="image"></block> 菜单。</block>
   <block id="fd02e84624a2fdfd58787131aa2820b5" category="list-text">如果您需要刷新登录凭据令牌、则中还会提供一个*更新凭据*选项 <block ref="0d0843f26c0819e5369f690fefbf68b7" category="inline-image-macro-rx" type="image"></block> 菜单。</block>
   <block id="b14d512a3c64fb5df16f6721b0603c63" category="paragraph">使用此选项将提示您重新登录。请注意、这些帐户的令牌将在90天后过期。系统将发布通知、提醒您注意这一点。</block>
+  <block id="deb96f2e04c20206372a663fc1e22a63" category="list-text">CentOS 8.0和8.5</block>
+  <block id="baefe41a5ed4db05fd518fa49dfbd17d" category="list-text">Red Hat Enterprise Linux 8.0和8.5</block>
+  <block id="cf76271f717860ca93c6825568b0690d" category="list-text">多石Linux 9</block>
 </blocks>
