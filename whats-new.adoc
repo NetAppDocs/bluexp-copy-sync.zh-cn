@@ -18,6 +18,32 @@ summary: 了解 Cloud Sync 中的新增功能。
 
 
 
+== 2023年4月2日
+
+
+
+=== 对Azure Data Lake Storage Gen2关系的其他支持
+
+现在、您可以使用Azure Data Lake Storage Gen2作为源和目标创建同步关系、其中包括以下内容：
+
+* Azure NetApp Files
+* 适用于 ONTAP 的 Amazon FSX
+* Cloud Volumes ONTAP
+* 内部ONTAP
+
+
+https://docs.netapp.com/us-en/cloud-manager-sync/reference-supported-relationships.html["了解有关支持的同步关系的更多信息"]。
+
+
+
+=== 按完整路径筛选目录
+
+除了按名称筛选目录之外、您现在还可以按目录的完整路径进行筛选。
+
+https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.html#settings["了解有关排除目录设置的更多信息"]。
+
+
+
 == 2023年3月7日
 
 
