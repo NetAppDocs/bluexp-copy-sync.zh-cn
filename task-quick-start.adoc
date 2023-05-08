@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: task-quick-start.html 
 keywords: quick start, overview, deploying, getting started, get started, signing up, free trial 
-summary: Cloud Sync 服务入门包括几个步骤。 
+summary: BlueXP复制和同步服务入门包括几个步骤。 
 ---
-= Cloud Sync 快速入门
+= BlueXP复制和同步快速入门
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -13,7 +13,7 @@ summary: Cloud Sync 服务入门包括几个步骤。
 :imagesdir: ./media/
 
 
-Cloud Sync 服务入门包括几个步骤。
+BlueXP复制和同步服务入门包括几个步骤。
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["一个"] 登录并设置BlueXP
 [role="quick-margin-para"]
@@ -48,10 +48,10 @@ Cloud Volumes ONTAP 、内部ONTAP 集群和适用于ONTAP 的Amazon FSX需要�
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["三个"] 为 NetApp 数据代理准备位置
 [role="quick-margin-para"]
-NetApp 数据代理软件会将数据从源同步到目标（称为 _sync relationship_ ）。您可以在 AWS 、 Azure 、 Google Cloud 平台或内部运行数据代理。一个由一个或多个数据代理组成的数据代理组需要通过端口 443 建立出站 Internet 连接，以便能够与 Cloud Sync 服务进行通信并联系其他一些服务和存储库。 link:reference-networking.html#networking-endpoints["查看端点列表。"]。
+NetApp 数据代理软件会将数据从源同步到目标（称为 _sync relationship_ ）。您可以在 AWS 、 Azure 、 Google Cloud 平台或内部运行数据代理。由一个或多个数据代理组成的数据代理组需要通过端口443建立出站Internet连接、以便与BlueXP副本和同步服务进行通信、并与其他一些服务和存储库联系。 link:reference-networking.html#networking-endpoints["查看端点列表。"]。
 
 [role="quick-margin-para"]
-在创建同步关系时， Cloud Sync 会指导您完成安装过程，此时您可以在云中部署数据代理或为自己的 Linux 主机下载安装脚本。
+在创建同步关系时、BlueXP复制和同步将指导您完成安装过程、此时、您可以在云中部署数据代理或为自己的Linux主机下载安装脚本。
 
 [role="quick-margin-list"]
 * link:task-installing-aws.html["查看 AWS 安装"]
@@ -66,4 +66,4 @@ NetApp 数据代理软件会将数据从源同步到目标（称为 _sync relati
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-5.png["五个"] 免费试用结束后支付同步关系费用
 [role="quick-margin-para"]
-从 AWS 或 Azure 订阅以按需购买或每年支付。或直接从 NetApp 购买许可证。只需转到 Cloud Sync 中的“许可证设置”页面即可进行设置。 link:task-licensing.html["了解更多信息。"]。
+从 AWS 或 Azure 订阅以按需购买或每年支付。或直接从 NetApp 购买许可证。只需转到BlueXP副本中的"许可证设置"页面并进行同步即可进行设置。 link:task-licensing.html["了解更多信息。"]。

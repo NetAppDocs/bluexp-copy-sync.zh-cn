@@ -1,6 +1,6 @@
 ---
 settings:
-  name: Cloud Sync
+  name: BlueXP copy and sync
   harmony_integration: maestro
   platform: cloud
   internal:
@@ -12,7 +12,7 @@ settings:
   langs: zh-cn,us-en,ja-jp,ko-kr,zh-tw,de-de,es-es,fr-fr
 sidebar:
   entries:
-  - title: 云同步文档
+  - title: BlueXP复制和同步文档
     url: "/index.html"
   - title: 发行说明
     entries:
@@ -22,7 +22,7 @@ sidebar:
       url: "/reference-limitations.html"
   - title: 入门
     entries:
-    - title: 了解云同步
+    - title: 了解BlueXP复制和同步
       url: "/concept-cloud-sync.html"
     - title: 快速入门
       url: "/task-quick-start.html"
@@ -42,7 +42,7 @@ sidebar:
         url: "/task-installing-gcp.html"
       - title: 在 Linux 主机上安装
         url: "/task-installing-linux.html"
-  - title: 使用 Cloud Sync
+  - title: 使用BlueXP复制和同步
     entries:
     - title: 在源和目标之间同步数据
       entries:
@@ -86,13 +86,13 @@ homepage:
   tiles:
   - title: 入门
     links:
-    - title: Cloud Sync 概述
+    - title: BlueXP复制和同步概述
       url: concept-cloud-sync.html
     - title: 快速入门
       url: task-quick-start.html
     - title: 常见问题解答
       url: faq.html
-  - title: 使用 Cloud Sync
+  - title: 使用BlueXP复制和同步
     links:
     - title: 创建同步关系
       url: task-creating-relationships.html

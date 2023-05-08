@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: whats-new.html 
 keywords: 'what"s new, features, new, release notes, enhancements, fixes' 
-summary: 了解 Cloud Sync 中的新增功能。 
+summary: 了解BlueXP副本和同步中的新增功能。 
 ---
-= Cloud Sync 的新增功能
+= BlueXP副本和同步新增功能
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,43 @@ summary: 了解 Cloud Sync 中的新增功能。
 
 
 [role="lead"]
-了解 Cloud Sync 中的新增功能。
+了解BlueXP副本和同步中的新增功能。
+
+
+
+== 2023年5月8日
+
+
+
+=== 硬链接功能
+
+现在、用户可以为涉及不安全的NFS到NFS关系的同步添加硬链接。
+
+https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.html#settings["了解有关文件类型设置的更多信息"]。
+
+
+
+=== 能够为安全NFS关系中的数据代理添加用户证书
+
+现在、用户可以在创建安全NFS关系时为目标数据代理设置自己的证书。他们需要设置服务器名称并提供专用密钥和证书ID。此功能可用于所有数据代理。
+
+
+
+=== 最近修改的文件的排除期限延长
+
+现在、用户可以排除在计划同步前最长365天修改过的文件。
+
+https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.html#settings["了解有关最近修改的文件设置的更多信息"]。
+
+
+
+=== 按关系ID筛选UI中的关系
+
+现在、使用RESTful API的用户可以使用关系ID筛选关系。
+
+https://docs.netapp.com/us-en/cloud-manager-sync/api-sync.html["详细了解如何将RESTful API与BlueXP副本和同步结合使用"]。
+
+https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.html#settings["了解有关排除目录设置的更多信息"]。
 
 
 

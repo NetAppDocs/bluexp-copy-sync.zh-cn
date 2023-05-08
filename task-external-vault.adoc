@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-external-vault.html 
 keywords: hashicorp, vault, credentials, secrets, API 
-summary: 创建需要 Amazon S3 ， Azure 或 Google Cloud 凭据的同步关系时，您需要通过 Cloud Sync 用户界面或 API 指定这些凭据。另一种方法是设置数据代理，以便直接从外部 HashiCorp Vault 访问凭据。 
+summary: 在创建需要Amazon S3、Azure或Google Cloud凭据的同步关系时、您需要通过BlueXP副本和同步用户界面或API指定这些凭据。另一种方法是设置数据代理，以便直接从外部 HashiCorp Vault 访问凭据。 
 ---
 = 设置数据代理组以使用外部 HashiCorp 存储
 :hardbreaks:
@@ -13,9 +13,9 @@ summary: 创建需要 Amazon S3 ， Azure 或 Google Cloud 凭据的同步关系
 :imagesdir: ./media/
 
 
-创建需要 Amazon S3 ， Azure 或 Google Cloud 凭据的同步关系时，您需要通过 Cloud Sync 用户界面或 API 指定这些凭据。另一种方法是设置数据代理组，以便直接从外部 HashiCorp 存储访问凭据（或 _sects_ ）。
+在创建需要Amazon S3、Azure或Google Cloud凭据的同步关系时、您需要通过BlueXP副本和同步用户界面或API指定这些凭据。另一种方法是设置数据代理组，以便直接从外部 HashiCorp 存储访问凭据（或 _sects_ ）。
 
-此功能通过 Cloud Sync API 提供支持，并且同步关系需要 Amazon S3 ， Azure 或 Google Cloud 凭据。
+此功能可通过具有需要Amazon S3、Azure或Google Cloud凭据的同步关系的BlueXP副本和同步API来支持。
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["一个"] 准备存储
 [role="quick-margin-para"]
@@ -33,7 +33,7 @@ summary: 创建需要 Amazon S3 ， Azure 或 Google Cloud 凭据的同步关系
 
 == 准备存储
 
-您需要为 Cloud Sync 提供存储中机密的 URL 。通过设置这些 URL 来准备存储。您需要为计划创建的同步关系中的每个源和目标的凭据设置 URL 。
+您需要提供BlueXP副本、并使用URL同步存储中的机密信息。通过设置这些 URL 来准备存储。您需要为计划创建的同步关系中的每个源和目标的凭据设置 URL 。
 
 必须按如下所示设置 URL ：
 
@@ -217,7 +217,7 @@ link:task-installing-gcp.html#permissions-required-for-the-service-account["详�
 
 设置完所有内容后，您可以发送 API 调用来创建同步关系，以使用存储获取密码。
 
-使用 Cloud Sync REST API 发布关系。
+使用BlueXP副本发布关系并同步REST API。
 
 ....
 Headers:

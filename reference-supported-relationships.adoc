@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: reference-supported-relationships.html 
 keywords: supported sync relationships, support, supported target, supported source 
-summary: 使用 Cloud Sync 可以将数据从源同步到目标。这称为同步关系。您应该先了解支持的关系，然后再开始。 
+summary: 通过BlueXP复制和同步、您可以将数据从源同步到目标。这称为同步关系。您应该先了解支持的关系，然后再开始。 
 ---
 = 支持的同步关系
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: 使用 Cloud Sync 可以将数据从源同步到目标。这称为同�
 
 
 [role="lead"]
-使用 Cloud Sync 可以将数据从源同步到目标。这称为同步关系。您应该先了解支持的关系，然后再开始。
+通过BlueXP复制和同步、您可以将数据从源同步到目标。这称为同步关系。您应该先了解支持的关系，然后再开始。
 
 [cols="20,25"]
 |===
@@ -325,7 +325,7 @@ summary: 使用 Cloud Sync 可以将数据从源同步到目标。这称为同�
 注释：
 
 . 预览版可提供盒式支持。
-. 仅使用 Cloud Sync API 支持与此源 / 目标的同步关系。
+. 仅使用BlueXP副本和同步API支持与此源/目标的同步关系。
 . 当 BLOB 容器是目标容器时，可以选择特定的 Azure Blob 存储层：
 +
 ** 热存储

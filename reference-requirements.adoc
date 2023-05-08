@@ -31,13 +31,13 @@ summary: 验证源和目标是否满足以下要求。
 
 == 目标目录
 
-创建同步关系时，您可以使用 Cloud Sync 选择现有目标目录，然后选择在该目录中创建一个新文件夹。因此，请确保您的首选目标目录已存在。
+创建同步关系时、BlueXP复制和同步功能可用于选择现有目标目录、然后可选择在该目录中创建新文件夹。因此，请确保您的首选目标目录已存在。
 
 
 
 == 读取目录的权限
 
-为了显示源或目标中的每个目录或文件夹， Cloud Sync 需要对目录或文件夹具有读取权限。
+为了显示源或目标中的每个目录或文件夹、BlueXP复制和同步需要对目录或文件夹具有读取权限。
 
 NFS:: 必须使用文件和目录上的 uid/GID 在源 / 目标上定义权限。
 对象存储::
@@ -64,7 +64,7 @@ NOTE: 默认情况下，数据代理会忽略以下目录： .snapshot ， ~snap
 
 === Amazon S3 支持的数据代理位置
 
-包含 S3 存储的同步关系需要在 AWS 或您的内部部署数据代理。在这两种情况下、 Cloud Sync 都会提示您在安装期间将数据代理与 AWS 帐户关联。
+包含 S3 存储的同步关系需要在 AWS 或您的内部部署数据代理。无论哪种情况、BlueXP复制和同步都会提示您在安装期间将数据代理与AWS帐户关联。
 
 * link:task-installing-aws.html["了解如何部署 AWS 数据代理"]
 * link:task-installing-linux.html["了解如何在 Linux 主机上安装数据代理"]
@@ -123,7 +123,7 @@ image:screenshot_iam_role_arn.gif["AWS IAM 控制台的屏幕快照，其中显�
 
 === 包含 Azure Blob 和 NFS/SMB 的关系的连接字符串
 
-在 Azure Blob 容器和 NFS 或 SMB 服务器之间创建同步关系时，需要使用存储帐户连接字符串提供 Cloud Sync ：
+在Azure Blb容器与NFS或SMB服务器之间创建同步关系时、您需要提供BlueXP副本并与存储帐户连接字符串同步：
 
 image:screenshot_connection_string.gif["显示了一个连接字符串，可通过选择存储帐户并单击访问密钥从 Azure 门户访问此字符串。"]
 
@@ -144,7 +144,7 @@ NOTE: 如果您选择实施包含Azure Blob容器的持续同步关系、则可�
 
 == Azure Data Lake存储第2代
 
-在创建包含Azure数据湖的同步关系时、您需要为Cloud Sync 提供存储帐户连接字符串。它必须是常规连接字符串、而不是共享访问签名(SAS)。
+在创建包含Azure Data Lake的同步关系时、您需要提供BlueXP副本并与存储帐户连接字符串同步。它必须是常规连接字符串、而不是共享访问签名(SAS)。
 
 
 
@@ -194,7 +194,7 @@ link:task-managing-data-brokers.html#define-a-unified-configuration-for-a-data-b
 
 === Google Cloud 存储支持的数据代理位置
 
-包含 Google Cloud Storage 的同步关系要求在 Google Cloud 或内部部署一个数据代理。在创建同步关系时， Cloud Sync 将指导您完成数据代理安装过程。
+包含 Google Cloud Storage 的同步关系要求在 Google Cloud 或内部部署一个数据代理。在创建同步关系时、BlueXP复制和同步将指导您完成数据代理安装过程。
 
 * link:task-installing-gcp.html["了解如何部署 Google Cloud 数据代理"]
 * link:task-installing-linux.html["了解如何在 Linux 主机上安装数据代理"]
@@ -285,7 +285,7 @@ NOTE: 从 ONTAP 9.2 开始， showmount 的默认设置为 _enabled" 。
 == SMB 服务器要求
 
 * SMB 服务器可以是 NetApp 系统或非 NetApp 系统。
-* 您需要为 Cloud Sync 提供对 SMB 服务器具有权限的凭据。
+* 您需要提供BlueXP副本、并使用对SMB服务器具有权限的凭据进行同步。
 +
 ** 对于源 SMB 服务器，需要以下权限： list 和 read 。
 +
@@ -320,8 +320,8 @@ NOTE: 从 ONTAP 9.2 开始， showmount 的默认设置为 _enabled" 。
 
 SMB 协议不区分大小写，这意味着大小写字母将被视为相同。如果同步关系包含 SMB 服务器且目标上已存在数据，则此行为可能会导致文件被覆盖和目录复制错误。
 
-例如，假设源上有一个名为 "A" 的文件，目标上有一个名为 "A" 的文件。当 Cloud Sync 将名为 "A" 的文件复制到目标时，文件 "A" 将被源中的文件 "A" 覆盖。
+例如，假设源上有一个名为 "A" 的文件，目标上有一个名为 "A" 的文件。当BlueXP复制并同步将名为"A"的文件复制到目标时、文件"A"将被源文件"A"覆盖。
 
-对于目录，假设源上有一个名为 "b" 的目录，目标上有一个名为 "B" 的目录。当 Cloud Sync 尝试将名为 "b" 的目录复制到目标时， Cloud Sync 会收到一条错误，指出此目录已存在。因此， Cloud Sync 始终无法复制名为 "b" 的目录。
+对于目录，假设源上有一个名为 "b" 的目录，目标上有一个名为 "B" 的目录。当BlueXP复制和同步尝试将名为"b"的目录复制到目标时、BlueXP复制和同步收到错误、指出该目录已存在。因此、BlueXP复制和同步始终无法复制名为"b"的目录。
 
 避免此限制的最佳方法是确保将数据同步到空目录。

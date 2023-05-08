@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task-managing-reports.html 
-keywords: reports, sync reports, cloud sync reports, report errors, path reports 
+keywords: reports, sync reports, BlueXP copy and sync reports, report errors, path reports 
 summary: 创建和查看报告以获取信息，您可以在 NetApp 人员的帮助下使用这些信息来调整数据代理的配置并提高性能。 
 ---
 = 创建和查看报告以调整配置
@@ -25,7 +25,7 @@ summary: 创建和查看报告以获取信息，您可以在 NetApp 人员的帮
 
 == 创建报告
 
-每次创建报告时， Cloud Sync 都会扫描路径，然后将详细信息编译为报告。
+每次创建报告时、BlueXP复制和同步都会扫描路径、然后将详细信息编译到报告中。
 
 .步骤
 . 单击 * 同步 > 报告 * 。
@@ -67,9 +67,9 @@ image:screenshot-sync-download-report.png["单击报告中的操作菜单后显�
 
 == 查看报告错误
 
-路径表可确定最新报告中是否存在任何错误。错误标识了 Cloud Sync 在扫描路径时面临的问题描述。
+路径表可确定最新报告中是否存在任何错误。错误用于确定BlueXP在扫描路径时复制和同步所面临的问题描述。
 
-例如，报告可能包含权限被拒绝错误。此类错误可能会影响 Cloud Sync 扫描整个文件和目录集的能力。
+例如，报告可能包含权限被拒绝错误。此类错误可能会影响BlueXP复制和同步扫描整个文件和目录集的能力。
 
 查看错误列表后，您可以解决问题并再次运行报告。
 

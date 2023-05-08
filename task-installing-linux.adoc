@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-installing-linux.html 
 keywords: data broker, install, linux, on-prem data broker, on-prem, on prem, on premises, networking, permissions, os, operating system, rhel, red hat, ram, cpu, disk space, install data broker, installing data broker, install a data broker, data broker installation, linux installation, linux operating system, aws access, aws keys, keys, gcp access, aws permissions, gcp permissions, google permissions 
-summary: 创建新的数据代理时，请选择 On-Prem Data Broker 选项以在内部 Linux 主机或云中的现有 Linux 主机上安装数据代理软件。Cloud Sync 可指导您完成安装过程、但本页中重复了这些要求和步骤以帮助您做好安装准备。 
+summary: 创建新的数据代理时，请选择 On-Prem Data Broker 选项以在内部 Linux 主机或云中的现有 Linux 主机上安装数据代理软件。BlueXP复制和同步可指导您完成安装过程、但此页面会重复执行相关要求和步骤、以帮助您做好安装准备。 
 ---
 = 在 Linux 主机上安装数据代理
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: 创建新的数据代理时，请选择 On-Prem Data Broker 选项以�
 
 
 [role="lead"]
-创建新的数据代理组时，请选择 On-Prem Data Broker 选项，以便在内部 Linux 主机或云中的现有 Linux 主机上安装数据代理软件。Cloud Sync 可指导您完成安装过程、但本页中重复了这些要求和步骤以帮助您做好安装准备。
+创建新的数据代理组时，请选择 On-Prem Data Broker 选项，以便在内部 Linux 主机或云中的现有 Linux 主机上安装数据代理软件。BlueXP复制和同步可指导您完成安装过程、但此页面会重复执行相关要求和步骤、以帮助您做好安装准备。
 
 
 
@@ -158,7 +158,7 @@ NOTE: 即使此选项标记为 * ； on-Prem_ Data Broker* ，它也会对内部
 `cURL <URI> -o data_broker_installer.sh -x <proxy_username> ： <proxy_password>@ <proxy_host> ： <proxy_port>`
 
 +
-URI:: Cloud Sync 会在说明页面上显示安装文件的 URI ，在按照提示部署内部数据代理时会加载此 URI 。此 URI 不会在此重复，因为此链接是动态生成的，只能使用一次。 <<安装数据代理,按照以下步骤从 Cloud Sync 获取 URI 。>>。
+URI:: BlueXP复制和同步会在说明页面上显示安装文件的URI、当您按照提示部署本地数据代理时、该URI将加载。此 URI 不会在此重复，因为此链接是动态生成的，只能使用一次。 <<安装数据代理,按照以下步骤从BlueXP副本获取URI并进行同步>>。
 
 
 
@@ -190,6 +190,6 @@ JSON 文件:: 此 JSON 文件包含您应已准备好的服务帐户密钥 <<启
 
 
 
-. 数据代理可用后，单击 Cloud Sync 中的 * 继续 * 。
+. 数据代理可用后，单击BlueXP副本中的*继续*并同步。
 . 完成向导中的页面以创建新的同步关系。
 

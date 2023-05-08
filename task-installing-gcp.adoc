@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-installing-gcp.html 
 keywords: data broker, install, gcp, google, networking, permissions, regions, install data broker in gcp, install in gcp, deploy in gcp, deploy data broker in gcp, install data broker in google, install in google, deploy in google, deploy data broker in google, networking requirements, port, ports, 443, port 443, ntp, network time protocol, gcp data broker, service account 
-summary: 创建新数据代理时，请选择 Google Cloud Data Broker 选项，以便在 VPC 中的新虚拟机实例上部署数据代理软件。Cloud Sync 可指导您完成安装过程、但本页中重复了这些要求和步骤以帮助您做好安装准备。 
+summary: 创建新数据代理时，请选择 Google Cloud Data Broker 选项，以便在 VPC 中的新虚拟机实例上部署数据代理软件。BlueXP复制和同步可指导您完成安装过程、但此页面会重复执行相关要求和步骤、以帮助您做好安装准备。 
 ---
 = 在 Google Cloud 中创建新的数据代理
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: 创建新数据代理时，请选择 Google Cloud Data Broker 选项，
 
 
 [role="lead"]
-创建新的数据代理组时，请选择 Google Cloud Platform 在 Google Cloud VPC 中的新虚拟机实例上部署数据代理软件。Cloud Sync 可指导您完成安装过程、但本页中重复了这些要求和步骤以帮助您做好安装准备。
+创建新的数据代理组时，请选择 Google Cloud Platform 在 Google Cloud VPC 中的新虚拟机实例上部署数据代理软件。BlueXP复制和同步可指导您完成安装过程、但此页面会重复执行相关要求和步骤、以帮助您做好安装准备。
 
 您还可以选择在云中的现有 Linux 主机或您的企业中安装数据代理。 link:task-installing-linux.html["了解更多信息。"]。
 
@@ -34,9 +34,9 @@ summary: 创建新数据代理时，请选择 Google Cloud Data Broker 选项，
 
 == 网络要求
 
-* 数据代理需要出站 Internet 连接、因此可以通过端口 443 轮询 Cloud Sync 服务以了解任务。
+* 数据代理需要出站Internet连接、以便可以通过端口443轮询BlueXP副本和同步服务以查找任务。
 +
-当 Cloud Sync 在 Google Cloud 中部署数据代理时，它会创建一个安全组，以启用所需的出站通信。
+当BlueXP复制和同步在Google Cloud中部署数据代理时、它会创建一个安全组来启用所需的出站通信。
 
 +
 如果需要限制出站连接，请参见 link:reference-networking.html["数据代理所联系的端点的列表"]。
@@ -128,9 +128,9 @@ image:screenshot_data_broker_gcp.png["屏幕截图显示了在 Google Cloud 中�
 +
 如果需要代理才能访问 Internet ，则该代理必须位于 Google Cloud 中，并使用与数据代理相同的服务帐户。
 
-. 数据代理可用后，单击 Cloud Sync 中的 * 继续 * 。
+. 数据代理可用后，单击BlueXP副本中的*继续*并同步。
 +
-部署该实例大约需要 5 到 10 分钟。您可以从 Cloud Sync 服务监控进度、该服务在实例可用时自动刷新。
+部署该实例大约需要 5 到 10 分钟。您可以通过BlueXP复制和同步服务监控进度、该服务会在实例可用时自动刷新。
 
 . 完成向导中的页面以创建新的同步关系。
 
@@ -142,7 +142,7 @@ image:screenshot_data_broker_gcp.png["屏幕截图显示了在 Google Cloud 中�
 
 == 提供在其他 Google Cloud 项目中使用存储分段的权限
 
-在创建同步关系并选择 Google Cloud Storage 作为源或目标时，您可以通过 Cloud Sync 从数据代理的服务帐户有权使用的分段中进行选择。默认情况下，此值包括与数据代理服务帐户位于 _same 项目中的分段。但是，如果您提供了所需的权限，则可以从 _other_ 项目中选择分段。
+在创建同步关系并选择Google Cloud Storage作为源或目标时、BlueXP复制和同步使您可以从数据代理的服务帐户有权使用的分段中进行选择。默认情况下，此值包括与数据代理服务帐户位于 _same 项目中的分段。但是，如果您提供了所需的权限，则可以从 _other_ 项目中选择分段。
 
 .步骤
 . 打开 Google Cloud Platform 控制台并加载云存储服务。
@@ -161,7 +161,7 @@ image:screenshot_data_broker_gcp.png["屏幕截图显示了在 Google Cloud 中�
 
 == 有关数据代理 VM 实例的详细信息
 
-Cloud Sync 使用以下配置在 Google Cloud 中创建数据代理。
+BlueXP复制和同步使用以下配置在Google Cloud中创建数据代理。
 
 计算机类型:: n2-standard-4
 vCPU:: 4.

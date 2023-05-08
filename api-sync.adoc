@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: api-sync.html 
 keywords: api, apis, rest, restful, authorization, getting started, body, header, token, reference, expired token, expires, expired, token expired, list apis, 202, https status code 202, status code 202, id, id field, box 
-summary: 通过 Web UI 提供的云同步功能也可通过 REST 风格的 API 获得。 
+summary: 通过Web UI提供的BlueXP复制和同步功能也可通过REST API提供。 
 ---
-= 云同步 API
+= BlueXP复制和同步API
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,13 +14,13 @@ summary: 通过 Web UI 提供的云同步功能也可通过 REST 风格的 API �
 
 
 [role="lead"]
-通过 Web UI 提供的 Cloud Sync 功能也可通过 RESTful API 获得。
+通过Web UI提供的BlueXP复制和同步功能也可通过RESTful API提供。
 
 
 
 == 入门
 
-要开始使用Cloud Sync API、您需要获取用户令牌和您的BlueXP帐户ID。在进行 API 调用时，您需要将令牌和帐户 ID 添加到授权标题中。
+要开始使用BlueXP副本和同步API、您需要获取用户令牌和BlueXP帐户ID。在进行 API 调用时，您需要将令牌和帐户 ID 添加到授权标题中。
 
 .步骤
 . 从NetApp BlueXP获取用户令牌。
@@ -94,7 +94,7 @@ API 响应包括一个 "expires_in" 字段、该字段指出令牌何时过期�
 
 == API 参考
 
-有关每个 Cloud Sync API 的文档，请参见 https://api.cloudsync.netapp.com/docs[]。
+有关每个BlueXP副本和同步API的文档、请参见 https://api.cloudsync.netapp.com/docs[]。
 
 
 

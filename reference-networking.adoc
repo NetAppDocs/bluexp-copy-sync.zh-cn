@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: reference-networking.html 
 keywords: networking, 443, port, ports, port 443, connections, connectivity, path, paths, vpn 
-summary: Cloud Sync 网络包括数据代理组与源位置和目标位置之间的连接，以及数据代理通过端口 443 的出站 Internet 连接。 
+summary: BlueXP复制和同步的网络连接包括数据代理组与源和目标位置之间的连接、以及数据代理通过端口443的出站Internet连接。 
 ---
-= Cloud Sync 网络概述
+= BlueXP复制和同步的网络连接概述
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: Cloud Sync 网络包括数据代理组与源位置和目标位置之间
 
 
 [role="lead"]
-Cloud Sync 网络包括数据代理组与源位置和目标位置之间的连接，以及数据代理通过端口 443 的出站 Internet 连接。
+BlueXP复制和同步的网络连接包括数据代理组与源和目标位置之间的连接、以及数据代理通过端口443的出站Internet连接。
 
 
 
@@ -29,9 +29,9 @@ Cloud Sync 网络包括数据代理组与源位置和目标位置之间的连接
 下图显示了在云中运行的数据代理，该代理可以在 AWS ， Google Cloud 或 Azure 中运行。只要与数据代理建立连接，源和目标就可以位于任何位置。例如，您可能会从数据中心连接到云提供商。
 
 
-NOTE: 当 Cloud Sync 在 AWS ， Azure 或 Google Cloud 中部署数据代理时，它会创建一个安全组来实现所需的出站通信。
+NOTE: 当BlueXP复制和同步在AWS、Azure或Google Cloud中部署数据代理时、它会创建一个安全组来启用所需的出站通信。
 
-image:diagram_networking_cloud.png["显示 Cloud Sync 服务，云中运行的数据代理以及与源和目标的连接的图表。"]
+image:diagram_networking_cloud.png["一个图、其中显示了BlueXP复制和同步服务、在云中运行的数据代理以及与源和目标的连接。"]
 
 
 
@@ -39,7 +39,7 @@ image:diagram_networking_cloud.png["显示 Cloud Sync 服务，云中运行的�
 
 下图显示了在数据中心内运行在 Prem 上的数据代理。同样，只要与数据代理建立连接，源和目标就可以位于任何位置。
 
-image:diagram_networking_onprem.png["此图显示了 Cloud Sync 服务，内部运行的数据代理以及与源和目标的连接。"]
+image:diagram_networking_onprem.png["一个图、其中显示了BlueXP复制和同步服务、内部运行的数据代理以及与源和目标的连接。"]
 
 
 
@@ -49,7 +49,7 @@ image:diagram_networking_onprem.png["此图显示了 Cloud Sync 服务，内部�
 +
 例如，如果数据中心中有 NFS 服务器，而 AWS 中有数据代理，则需要从网络到 VPC 的网络连接（ VPN 或 Direct Connect ）。
 
-* 数据代理需要出站 Internet 连接，以便可以通过端口 443 轮询 Cloud Sync 服务以查找任务。
+* 数据代理需要出站Internet连接、以便可以通过端口443轮询BlueXP副本和同步服务以查找任务。
 * NetApp 建议配置源，目标和数据代理以使用网络时间协议（ NTP ）服务。三个组件之间的时间差不应超过 5 分钟。
 
 
@@ -57,7 +57,7 @@ image:diagram_networking_onprem.png["此图显示了 Cloud Sync 服务，内部�
 
 == 网络端点
 
-NetApp 数据代理需要通过端口 443 进行出站 Internet 访问、以便与 Cloud Sync 服务进行通信、并与其他一些服务和存储库联系。您的本地 Web 浏览器还需要访问端点才能执行某些操作。如果需要限制出站连接、请在为出站通信配置防火墙时参考以下端点列表。
+NetApp数据代理需要通过端口443进行出站Internet访问、才能与BlueXP副本和同步服务进行通信、并联系其他一些服务和存储库。您的本地 Web 浏览器还需要访问端点才能执行某些操作。如果需要限制出站连接、请在为出站通信配置防火墙时参考以下端点列表。
 
 
 
@@ -76,16 +76,16 @@ NetApp 数据代理需要通过端口 443 进行出站 Internet 访问、以便�
 | https://rpm.nodesource.com \https://registry.npmjs.org \https://nodejs.org: | 与存储库联系以更新节点 .js 、 NPM 和开发中使用的其他第三方软件包。 
 
 
-| https://tgz.pm2.io | 访问用于更新 PM2 的存储库、该存储库是用于监控云同步的第三方软件包。 
+| https://tgz.pm2.io | 访问用于更新PM2的存储库、PM2是用于监控BlueXP副本和同步的第三方软件包。 
 
 
-| https://sqs.us-east-1.amazonaws.com \https://kinesis.us-east-1.amazonaws.com | 联系 Cloud Sync 用于操作的 AWS 服务（对文件进行排队、注册操作以及向数据代理提供更新）。 
+| https://sqs.us-east-1.amazonaws.com \https://kinesis.us-east-1.amazonaws.com | 联系BlueXP复制和同步用于操作(对文件进行排队、注册操作以及向数据代理提供更新)的AWS服务。 
 
 
 | https://s3._region_.amazonaws.com ，例如： s3.us-east-2.amazonaws.com:443https://docs.aws.amazon.com/general/latest/gr/rande.html#s3_region["有关 S3 端点的列表，请参见 AWS 文档"^] | 在同步关系包括 S3 存储区时联系 Amazon S3 。 
 
 
-| https://s3.amazonaws.com/ | 从 Cloud Sync 下载数据代理日志时，数据代理会将其日志目录置于 Z 形结构中，并将日志上传到 us-east-1 区域的预定义 S3 存储分段。 
+| https://s3.amazonaws.com/ | 从BlueXP副本和同步下载数据代理日志时、数据代理会剪切其日志目录、并将日志上传到us-east-1区域中的预定义S3分段。 
 
 
 | https://storage.googleapis.com/ | 在同步关系使用GCP存储分段时联系Google Cloud。 
@@ -94,7 +94,7 @@ NetApp 数据代理需要通过端口 443 进行出站 Internet 访问、以便�
 | https://_storage-account_.blob.core.windows.net[]如果使用Azure Data Lake Gen2：https://_storage-account_.dfs.core.windows.net[]其中_storage-account_是用户的源存储帐户。 | 打开代理以访问用户的Azure存储帐户地址。 
 
 
-| https://cf.cloudsync.netapp.com \https://repo.cloudsync.netapp.com | 可与 Cloud Sync 服务联系。 
+| https://cf.cloudsync.netapp.com \https://repo.cloudsync.netapp.com | 以联系BlueXP复制和同步服务。 
 
 
 | https://support.netapp.com | 在使用 BYOL 许可证进行同步关系时联系 NetApp 支持。 

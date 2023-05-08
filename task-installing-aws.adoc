@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-installing-aws.html 
 keywords: data broker, install, aws, networking, permissions, regions, install data broker in aws, install in aws, deploy in aws, deploy data broker in aws, cft, template, iam role, use your own iam role, regions, supported regions, networking requirements, port, ports, 443, port 443, ntp, network time protocol, permissions, iam role, iam permissions, aws data broker 
-summary: 创建新的数据代理时，请选择 AWS Data Broker 选项，以便在 VPC 中的新 EC2 实例上部署数据代理软件。Cloud Sync 可指导您完成安装过程、但本页中重复了这些要求和步骤以帮助您做好安装准备。 
+summary: 创建新的数据代理时，请选择 AWS Data Broker 选项，以便在 VPC 中的新 EC2 实例上部署数据代理软件。BlueXP复制和同步可指导您完成安装过程、但此页面会重复执行相关要求和步骤、以帮助您做好安装准备。 
 ---
 = 在 AWS 中创建新的数据代理
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: 创建新的数据代理时，请选择 AWS Data Broker 选项，以便
 
 
 [role="lead"]
-创建新的数据代理组时，请选择 Amazon Web Services 在 VPC 中的新 EC2 实例上部署数据代理软件。Cloud Sync 可指导您完成安装过程、但本页中重复了这些要求和步骤以帮助您做好安装准备。
+创建新的数据代理组时，请选择 Amazon Web Services 在 VPC 中的新 EC2 实例上部署数据代理软件。BlueXP复制和同步可指导您完成安装过程、但此页面会重复执行相关要求和步骤、以帮助您做好安装准备。
 
 您还可以选择在云中的现有 Linux 主机或您的企业中安装数据代理。 link:task-installing-linux.html["了解更多信息。"]。
 
@@ -34,9 +34,9 @@ summary: 创建新的数据代理时，请选择 AWS Data Broker 选项，以便
 
 == 网络要求
 
-* 数据代理需要出站 Internet 连接、因此可以通过端口 443 轮询 Cloud Sync 服务以了解任务。
+* 数据代理需要出站Internet连接、以便可以通过端口443轮询BlueXP副本和同步服务以查找任务。
 +
-当 Cloud Sync 在 AWS 中部署数据代理时，它会创建一个安全组来启用所需的出站通信。请注意，您可以在安装过程中将数据代理配置为使用代理服务器。
+当BlueXP复制和同步在AWS中部署数据代理时、它会创建一个安全组来启用所需的出站通信。请注意，您可以在安装过程中将数据代理配置为使用代理服务器。
 
 +
 如果需要限制出站连接，请参见 link:reference-networking.html["数据代理所联系的端点的列表"]。
@@ -54,7 +54,7 @@ summary: 创建新的数据代理时，请选择 AWS Data Broker 选项，以便
 
 == 要求您在AWS数据代理中使用自己的IAM角色
 
-当 Cloud Sync 部署数据代理时、它会为数据代理实例创建 IAM 角色。如果您愿意，可以使用自己的 IAM 角色部署数据代理。如果您的组织具有严格的安全策略，则可以使用此选项。
+在BlueXP复制和同步部署数据代理时、它会为数据代理实例创建一个IAM角色。如果您愿意，可以使用自己的 IAM 角色部署数据代理。如果您的组织具有严格的安全策略，则可以使用此选项。
 
 IAM 角色必须满足以下要求：
 
@@ -81,7 +81,7 @@ IAM 角色必须满足以下要求：
 image:screenshot-aws.png["数据代理页面的屏幕截图，可用于在 AWS ， Azure ， Google Cloud 和内部数据代理之间进行选择。"]
 
 . 输入数据代理的名称，然后单击 * 继续 * 。
-. 输入 AWS 访问密钥，以便 Cloud Sync 可以代表您在 AWS 中创建数据代理。
+. 输入AWS访问密钥、以便BlueXP副本和同步可以代表您在AWS中创建数据代理。
 +
 这些密钥不会保存或用于任何其他目的。
 
@@ -93,7 +93,7 @@ image:screenshot-aws.png["数据代理页面的屏幕截图，可用于在 AWS �
 
 +
 video::video_cloud_sync.mp4[width=848,height=480]
-. 如果您输入了AWS访问密钥、请为实例选择一个位置、选择一个密钥对、选择是否启用公共IP地址并选择现有IAM角色、或者将此字段留空、以便Cloud Sync 为您创建角色。您还可以选择使用KMS密钥对数据代理进行加密。
+. 如果输入了AWS访问密钥、请选择实例的位置、选择密钥对、选择是否启用公共IP地址并选择现有IAM角色、或者将此字段留空、以便BlueXP复制和同步为您创建角色。您还可以选择使用KMS密钥对数据代理进行加密。
 +
 如果您选择自己的 IAM 角色， <<iam,您需要提供所需的权限>>。
 
@@ -101,7 +101,7 @@ video::video_cloud_sync.mp4[width=848,height=480]
 image:screenshot_aws_data_broker.png["在 AWS 中部署数据代理时需要提供的信息的屏幕截图。"]
 
 . 如果 VPC 中的 Internet 访问需要代理，请指定代理配置。
-. 数据代理可用后，单击 Cloud Sync 中的 * 继续 * 。
+. 数据代理可用后，在BlueXP副本和同步中单击*继续*。
 +
 下图显示了 AWS 中已成功部署的实例：
 
@@ -118,7 +118,7 @@ image:screenshot-data-broker-group-selected.png["此屏幕快照显示已成功�
 
 == 有关数据代理实例的详细信息
 
-Cloud Sync 使用以下配置在 AWS 中创建数据代理。
+BlueXP复制和同步使用以下配置在AWS中创建数据代理。
 
 Instance type:: m5n.xlarge （如果在区域中可用），否则为 m5.xlarge
 vCPU:: 4.
