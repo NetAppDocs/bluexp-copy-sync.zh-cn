@@ -26,7 +26,7 @@ summary: 了解BlueXP副本和同步中的新增功能。
 
 现在、用户可以为涉及不安全的NFS到NFS关系的同步添加硬链接。
 
-https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.html#settings["了解有关文件类型设置的更多信息"]。
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings["了解有关文件类型设置的更多信息"]。
 
 
 
@@ -40,7 +40,7 @@ https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.htm
 
 现在、用户可以排除在计划同步前最长365天修改过的文件。
 
-https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.html#settings["了解有关最近修改的文件设置的更多信息"]。
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings["了解有关最近修改的文件设置的更多信息"]。
 
 
 
@@ -48,9 +48,9 @@ https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.htm
 
 现在、使用RESTful API的用户可以使用关系ID筛选关系。
 
-https://docs.netapp.com/us-en/cloud-manager-sync/api-sync.html["详细了解如何将RESTful API与BlueXP副本和同步结合使用"]。
+https://docs.netapp.com/us-en/bluexp-copy-sync/api-sync.html["详细了解如何将RESTful API与BlueXP副本和同步结合使用"]。
 
-https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.html#settings["了解有关排除目录设置的更多信息"]。
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings["了解有关排除目录设置的更多信息"]。
 
 
 
@@ -68,7 +68,7 @@ https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.htm
 * 内部ONTAP
 
 
-https://docs.netapp.com/us-en/cloud-manager-sync/reference-supported-relationships.html["了解有关支持的同步关系的更多信息"]。
+https://docs.netapp.com/us-en/bluexp-copy-sync/reference-supported-relationships.html["了解有关支持的同步关系的更多信息"]。
 
 
 
@@ -76,7 +76,7 @@ https://docs.netapp.com/us-en/cloud-manager-sync/reference-supported-relationshi
 
 除了按名称筛选目录之外、您现在还可以按目录的完整路径进行筛选。
 
-https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.html#settings["了解有关排除目录设置的更多信息"]。
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings["了解有关排除目录设置的更多信息"]。
 
 
 
@@ -88,7 +88,7 @@ https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.htm
 
 现在、您可以使用帐户中的KMS密钥对AWS数据代理卷进行加密。
 
-https://docs.netapp.com/us-en/cloud-manager-sync/task-installing-aws.html#creating-the-data-broker["了解有关在AWS中创建数据代理的更多信息"]。
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-aws.html#creating-the-data-broker["了解有关在AWS中创建数据代理的更多信息"]。
 
 
 
@@ -113,7 +113,7 @@ Cloud Sync 还支持将Azure数据湖存储第2代作为源和目标、以便：
 * IBM 云对象存储
 
 
-https://docs.netapp.com/us-en/cloud-manager-sync/reference-supported-relationships.html["了解有关支持的同步关系的更多信息"]。
+https://docs.netapp.com/us-en/bluexp-copy-sync/reference-supported-relationships.html["了解有关支持的同步关系的更多信息"]。
 
 
 
@@ -121,7 +121,7 @@ https://docs.netapp.com/us-en/cloud-manager-sync/reference-supported-relationshi
 
 AWS数据代理的操作系统已升级到Amazon Linux 2022。
 
-https://docs.netapp.com/us-en/cloud-manager-sync/task-installing-aws.html#details-about-the-data-broker-instance["详细了解AWS中的数据代理实例"]。
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-aws.html#details-about-the-data-broker-instance["详细了解AWS中的数据代理实例"]。
 
 
 
@@ -133,7 +133,7 @@ https://docs.netapp.com/us-en/cloud-manager-sync/task-installing-aws.html#detail
 
 现在有一个*显示配置*选项、可用于使用户在用户界面上查看每个数据代理的本地配置。
 
-https://docs.netapp.com/us-en/cloud-manager-sync/task-managing-data-brokers.html["了解有关管理数据代理组的更多信息"]。
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-managing-data-brokers.html["了解有关管理数据代理组的更多信息"]。
 
 
 
@@ -141,9 +141,9 @@ https://docs.netapp.com/us-en/cloud-manager-sync/task-managing-data-brokers.html
 
 Azure和Google Cloud中的数据代理操作系统已升级到Rocky Linux 9.0。
 
-https://docs.netapp.com/us-en/cloud-manager-sync/task-installing-azure.html#details-about-the-data-broker-vm["详细了解Azure中的数据代理实例"]。
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-azure.html#details-about-the-data-broker-vm["详细了解Azure中的数据代理实例"]。
 
-https://docs.netapp.com/us-en/cloud-manager-sync/task-installing-gcp.html#details-about-the-data-broker-vm-instance["详细了解Google Cloud中的数据代理实例"]。
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-gcp.html#details-about-the-data-broker-vm-instance["详细了解Google Cloud中的数据代理实例"]。
 
 
 
@@ -155,7 +155,7 @@ https://docs.netapp.com/us-en/cloud-manager-sync/task-installing-gcp.html#detail
 
 现在、可以为同步关系使用一个新的*排除目录名称*设置。用户最多可以从其同步中筛选出15个目录名称。默认情况下、不包括.copy-ofovert、.snapshot、~snapshot目录。
 
-https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.html#settings["了解有关排除目录名称设置的更多信息"]。
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings["了解有关排除目录名称设置的更多信息"]。
 
 
 
@@ -167,7 +167,7 @@ Cloud Sync 现在支持AWS S3和ONTAP S3存储的其他同步关系：
 * ONTAP S3存储到AWS S3
 
 
-https://docs.netapp.com/us-en/cloud-manager-sync/reference-supported-relationships.html["了解有关支持的同步关系的更多信息"]。
+https://docs.netapp.com/us-en/bluexp-copy-sync/reference-supported-relationships.html["了解有关支持的同步关系的更多信息"]。
 
 
 
@@ -197,7 +197,7 @@ https://docs.netapp.com/us-en/cloud-manager-sync/reference-supported-relationshi
 'Microsoft.EventGrid/eventSubscriptions/write',
 'Microsoft.Storage/storageAccounts/write'
 ----
-https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.html#settings["了解有关持续同步设置的更多信息"]。
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings["了解有关持续同步设置的更多信息"]。
 
 
 
@@ -215,7 +215,7 @@ https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.htm
 
 * 您还可以为包含Google Drive的同步关系生成报告。
 +
-https://docs.netapp.com/us-en/cloud-manager-sync/task-managing-reports.html["了解有关报告的更多信息"]。
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-managing-reports.html["了解有关报告的更多信息"]。
 
 
 
@@ -229,7 +229,7 @@ https://docs.netapp.com/us-en/cloud-manager-sync/task-managing-reports.html["了
 * 将Google Cloud Storage迁移到NFS服务器
 
 
-https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.html#settings["了解有关持续同步设置的更多信息"]。
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings["了解有关持续同步设置的更多信息"]。
 
 
 
@@ -239,7 +239,7 @@ https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.htm
 
 要通过电子邮件接收通知、您需要在同步关系上启用*通知*设置、然后在BlueXP中配置警报和通知设置。
 
-https://docs.netapp.com/us-en/cloud-manager-sync/task-managing-relationships.html#setting-up-notifications["了解如何设置通知"]。
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-managing-relationships.html#setting-up-notifications["了解如何设置通知"]。
 
 
 
@@ -251,9 +251,9 @@ https://docs.netapp.com/us-en/cloud-manager-sync/task-managing-relationships.htm
 
 现在、您可以将NFS服务器或SMB服务器中的数据同步到Google Drive。支持将"我的驱动器"和"共享驱动器"作为目标。
 
-在创建包含Google Drive的同步关系之前、您需要设置一个具有所需权限和私钥的服务帐户。 https://docs.netapp.com/us-en/cloud-manager-sync/reference-requirements.html#google-drive["了解有关Google Drive要求的更多信息"]。
+在创建包含Google Drive的同步关系之前、您需要设置一个具有所需权限和私钥的服务帐户。 https://docs.netapp.com/us-en/bluexp-copy-sync/reference-requirements.html#google-drive["了解有关Google Drive要求的更多信息"]。
 
-https://docs.netapp.com/us-en/cloud-manager-sync/reference-supported-relationships.html["查看支持的同步关系列表"]。
+https://docs.netapp.com/us-en/bluexp-copy-sync/reference-supported-relationships.html["查看支持的同步关系列表"]。
 
 
 
@@ -266,7 +266,7 @@ Cloud Sync 现在支持Azure数据湖存储第2代的其他同步关系：
 * StorageGRID 到Azure数据湖存储第2代
 
 
-https://docs.netapp.com/us-en/cloud-manager-sync/reference-supported-relationships.html["查看支持的同步关系列表"]。
+https://docs.netapp.com/us-en/bluexp-copy-sync/reference-supported-relationships.html["查看支持的同步关系列表"]。
 
 
 
@@ -280,7 +280,7 @@ https://docs.netapp.com/us-en/cloud-manager-sync/reference-supported-relationshi
 
 现在、您可以通过将一个工作环境拖放到另一个工作环境之上、从Canvas设置同步关系。
 
-image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-sync/main/media/screenshot-enable-drag-and-drop.png["显示BlueXP中通知中心的屏幕截图。"]
+image:https://raw.githubusercontent.com/NetAppDocs/bluexp-copy-sync/main/media/screenshot-enable-drag-and-drop.png["显示BlueXP中通知中心的屏幕截图。"]
 
 
 
@@ -288,7 +288,7 @@ image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-sync/main/media
 
 现在、您可以通过从"画布"中选择工作环境、然后从右侧面板中选择同步选项、为Azure Blob存储或Google Cloud存储设置同步关系。
 
-image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-sync/main/media/screenshot-enable-panel.png["显示BlueXP中通知中心的屏幕截图。"]
+image:https://raw.githubusercontent.com/NetAppDocs/bluexp-copy-sync/main/media/screenshot-enable-panel.png["显示BlueXP中通知中心的屏幕截图。"]
 
 
 
@@ -302,7 +302,7 @@ image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-sync/main/media
 
 在创建包含Azure数据湖的同步关系时、您需要为Cloud Sync 提供存储帐户连接字符串。它必须是常规连接字符串、而不是共享访问签名(SAS)。
 
-https://docs.netapp.com/us-en/cloud-manager-sync/reference-supported-relationships.html["查看支持的同步关系列表"]。
+https://docs.netapp.com/us-en/bluexp-copy-sync/reference-supported-relationships.html["查看支持的同步关系列表"]。
 
 
 
@@ -327,7 +327,7 @@ https://docs.netapp.com/us-en/cloud-manager-sync/reference-supported-relationshi
 - pubsub.topics.setIamPolicy
 - storage.buckets.update
 ----
-https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.html#settings["了解有关持续同步设置的更多信息"]。
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings["了解有关持续同步设置的更多信息"]。
 
 
 
@@ -369,7 +369,7 @@ Google Cloud中数据代理的默认计算机类型现在为n2-standard-4。
 ----
 这些权限会自动添加到您创建的任何新数据代理中。
 
-https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.html#settings["了解有关持续同步设置的更多信息"]。
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings["了解有关持续同步设置的更多信息"]。
 
 
 
@@ -401,7 +401,7 @@ https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.htm
 
 现在、可以为同步关系使用新的*同步超时*设置。通过此设置、您可以定义在指定的小时数或天数内未完成数据同步时、Cloud Sync 是否应取消数据同步。
 
-https://docs.netapp.com/us-en/cloud-manager-sync/task-managing-relationships.html#changing-the-settings-for-a-sync-relationship["了解有关更改同步关系设置的更多信息"]。
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-managing-relationships.html#changing-the-settings-for-a-sync-relationship["了解有关更改同步关系设置的更多信息"]。
 
 
 
@@ -409,9 +409,9 @@ https://docs.netapp.com/us-en/cloud-manager-sync/task-managing-relationships.htm
 
 现在、可以为同步关系使用新的*通知*设置。通过此设置、您可以选择是否在BlueXP的通知中心中接收Cloud Sync 通知。您可以为成功的数据同步、失败的数据同步和已取消的数据同步启用通知。
 
-image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-sync/main/media/screenshot-notification-center.png["显示BlueXP中通知中心的屏幕截图。"]
+image:https://raw.githubusercontent.com/NetAppDocs/bluexp-copy-sync/main/media/screenshot-notification-center.png["显示BlueXP中通知中心的屏幕截图。"]
 
-https://docs.netapp.com/us-en/cloud-manager-sync/task-managing-relationships.html#changing-the-settings-for-a-sync-relationship["了解有关更改同步关系设置的更多信息"]。
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-managing-relationships.html#changing-the-settings-for-a-sync-relationship["了解有关更改同步关系设置的更多信息"]。
 
 
 
@@ -428,7 +428,7 @@ https://docs.netapp.com/us-en/cloud-manager-sync/task-managing-relationships.htm
 * 最后，您还可以删除数据代理组。
 
 
-https://docs.netapp.com/us-en/cloud-manager-sync/task-managing-data-brokers.html["了解如何管理数据代理组"]。
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-managing-data-brokers.html["了解如何管理数据代理组"]。
 
 
 
@@ -436,7 +436,7 @@ https://docs.netapp.com/us-en/cloud-manager-sync/task-managing-data-brokers.html
 
 现在，您可以筛选 " 同步信息板 " 的内容，以便更轻松地查找与特定状态匹配的同步关系。例如，您可以筛选状态为失败的同步关系
 
-image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-sync/main/media/screenshot-sync-filter.png["显示信息板顶部按同步筛选状态选项的屏幕截图。"]
+image:https://raw.githubusercontent.com/NetAppDocs/bluexp-copy-sync/main/media/screenshot-sync-filter.png["显示信息板顶部按同步筛选状态选项的屏幕截图。"]
 
 
 
@@ -448,7 +448,7 @@ image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-sync/main/media
 
 现在，您可以按同步关系名称对信息板进行排序。
 
-image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-sync/main/media/screenshot-sync-sort.png["显示信息板中提供的按名称排序选项的屏幕截图。"]
+image:https://raw.githubusercontent.com/NetAppDocs/bluexp-copy-sync/main/media/screenshot-sync-sort.png["显示信息板中提供的按名称排序选项的屏幕截图。"]
 
 
 
@@ -456,7 +456,7 @@ image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-sync/main/media
 
 在上一版本中，我们引入了 Cloud Sync 与 Cloud Data sense 的集成。在此更新中，我们简化了创建同步关系的过程，从而增强了集成能力。从 Cloud Data sense 启动数据同步后，所有源信息都包含在一个步骤中，只需输入几个关键详细信息即可。
 
-image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-sync/main/media/screenshot-sync-data-sense.png["一个屏幕截图，显示直接从 Cloud Data sense 启动新同步后显示的 \"Data sense Integration\" 页面。"]
+image:https://raw.githubusercontent.com/NetAppDocs/bluexp-copy-sync/main/media/screenshot-sync-data-sense.png["一个屏幕截图，显示直接从 Cloud Data sense 启动新同步后显示的 \"Data sense Integration\" 页面。"]
 
 
 
@@ -470,11 +470,11 @@ image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-sync/main/media
 
 例如，在创建新的同步关系时，您可以选择要用于该关系的数据代理 _group_ ，而不是特定的数据代理。
 
-image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-sync/main/media/screenshot-sync-select-data-broker-group.png["Sync Relationship 向导的屏幕截图，其中显示了数据代理组选择。"]
+image:https://raw.githubusercontent.com/NetAppDocs/bluexp-copy-sync/main/media/screenshot-sync-select-data-broker-group.png["Sync Relationship 向导的屏幕截图，其中显示了数据代理组选择。"]
 
 在 * 管理数据代理 * 选项卡中，我们还会显示数据代理组正在管理的同步关系的数量。
 
-image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-sync/main/media/screenshot-sync-group-relationships.png["\" 管理数据代理 \" 页面的屏幕截图，其中显示了数据代理组以及有关该组的详细信息，包括其管理的关系数。"]
+image:https://raw.githubusercontent.com/NetAppDocs/bluexp-copy-sync/main/media/screenshot-sync-group-relationships.png["\" 管理数据代理 \" 页面的屏幕截图，其中显示了数据代理组以及有关该组的详细信息，包括其管理的关系数。"]
 
 
 
@@ -482,7 +482,7 @@ image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-sync/main/media
 
 现在，您可以下载报告的 PDF 。
 
-https://docs.netapp.com/us-en/cloud-manager-sync/task-managing-reports.html["了解有关报告的更多信息"]。
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-managing-reports.html["了解有关报告的更多信息"]。
 
 
 
@@ -641,7 +641,7 @@ link:api-sync.html["了解如何使用 API 设置同步关系"]。
 
 现在，您可以将数据同步到 Amazon FSX for ONTAP 文件系统或从 Amazon FSX 文件系统同步数据。
 
-* https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/start/concept-fsx-aws.html["了解适用于 ONTAP 的 Amazon FSX"^]
+* https://docs.netapp.com/us-en/bluexp-fsx-ontap/start/concept-fsx-aws.html["了解适用于 ONTAP 的 Amazon FSX"^]
 * link:reference-requirements.html["查看支持的同步关系"]
 * link:task-creating-relationships.html["了解如何为适用于 ONTAP 的 Amazon FSX 创建同步关系"]
 

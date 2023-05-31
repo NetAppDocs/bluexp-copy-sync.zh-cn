@@ -92,7 +92,7 @@ BlueXP复制和同步更新数据代理上的凭据。可能需要 10 分钟，�
 
 通过每个同步关系的*通知*设置、您可以选择是否在BlueXP的通知中心接收BlueXP副本和同步通知。您可以为成功的数据同步、失败的数据同步和已取消的数据同步启用通知。
 
-image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-sync/main/media/screenshot-notification-center.png["显示BlueXP中通知中心的屏幕截图。"]
+image:https://raw.githubusercontent.com/NetAppDocs/bluexp-copy-sync/main/media/screenshot-notification-center.png["显示BlueXP中通知中心的屏幕截图。"]
 
 此外、您还可以通过电子邮件接收通知。
 

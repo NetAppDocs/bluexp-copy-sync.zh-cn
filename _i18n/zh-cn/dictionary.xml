@@ -127,15 +127,10 @@
   <block id="64c9a9d3cd7c3ca76cf19b78a96c9b79" category="inline-link">创建适用于 ONTAP 的 Amazon FSX 工作环境</block>
   <block id="173d8ca39ff0874de6e21496394efa69" category="inline-link">设置和发现 Azure NetApp Files</block>
   <block id="6602afb860a6cca23c3b75bf601365eb" category="inline-link">在 AWS 中启动 Cloud Volumes ONTAP</block>
-  <block id="3e33b81f05bb640dee79c5aa4e351c91" category="list-text"><block ref="3e33b81f05bb640dee79c5aa4e351c91" category="inline-link-rx"></block></block>
   <block id="7ca1af679f0ba86814f2ad58a578cb7c" category="inline-link">在 Azure 中启动 Cloud Volumes ONTAP</block>
-  <block id="0be0836bc69799b792b188dfc8c7fe7e" category="list-text"><block ref="0be0836bc69799b792b188dfc8c7fe7e" category="inline-link-rx"></block></block>
   <block id="254d5c87d5ab437395f866390ea49cd0" category="inline-link">在 Google Cloud 中启动 Cloud Volumes ONTAP</block>
-  <block id="22113986c035dbadc96db01d006caa97" category="list-text"><block ref="22113986c035dbadc96db01d006caa97" category="inline-link-rx"></block></block>
   <block id="366f7e58814bef5e88fbb6881239ff46" category="inline-link">添加现有 Cloud Volumes ONTAP 系统</block>
-  <block id="706ad6686a3515c8f86d104e92c0f00b" category="list-text"><block ref="706ad6686a3515c8f86d104e92c0f00b" category="inline-link-rx"></block></block>
   <block id="e845620e391b62ad3163cdb0e100a862" category="inline-link">发现 ONTAP 集群</block>
-  <block id="46816df637a2079d76bf65c2b90e42d2" category="list-text"><block ref="46816df637a2079d76bf65c2b90e42d2" category="inline-link-rx"></block></block>
   <block id="e17d9d52c8208dfce3fde1af20447264" category="list-text">单击 * 画布 * 。</block>
   <block id="b5f4d0a91c515f4bd54cae36d52f1af7" category="list-text">选择与上述任何类型匹配的工作环境。</block>
   <block id="1cffa027f06c83c15096bfe069d63282" category="list-text">选择 Sync 旁边的操作菜单。</block>
@@ -208,7 +203,6 @@
   <block id="f3b62c43bc969f6b5b30d96b8171a06d" category="inline-image-macro">一个屏幕截图，显示直接从 Cloud Data sense 启动新同步后显示的 "Data sense Integration" 页面。</block>
   <block id="c52509e09917e0e29ac603ef598d3f69" category="paragraph"><block ref="c52509e09917e0e29ac603ef598d3f69" category="inline-image-macro-rx" type="image"></block></block>
   <block id="20718255a13eb2f29be8b068228e69bc" category="inline-link">了解如何从 Cloud Data sense 启动同步关系</block>
-  <block id="0f091e70c984324fefd750bc86f06c98" category="paragraph"><block ref="92384a764db045ca9031e6f4bfce712d" category="inline-link-rx"></block>。</block>
   <block id="34a36f0a41c390743b7c28311304c570" category="doc">设置数据代理组以使用外部 HashiCorp 存储</block>
   <block id="2428fdd39f5ab3cbda5b5bac12ab8f84" category="paragraph">通过设置 URL 来准备存储以向数据代理组提供凭据。存储中的机密 URL 必须以 _Creds_结尾 。</block>
   <block id="e0e88dfcd253d5d5ea89a9985f2101cf" category="paragraph">通过修改组中每个数据代理的本地配置文件，使数据代理组做好准备，以便从外部存储提取凭据。</block>
@@ -1138,7 +1132,6 @@
   <block id="c81f80b5e3a2c8dfe8c2f908cbbfc2fa" category="list-text">现在，您可以筛选 " 同步信息板 " 的内容，以便更轻松地查找与特定状态匹配的同步关系。例如，您可以筛选状态为失败的同步关系</block>
   <block id="ab31e38babe6f59fc89d1a7f8d3ea2c9" category="inline-image-macro">显示信息板顶部按同步筛选状态选项的屏幕截图。</block>
   <block id="b8573b8d6cb0195fa946927c3aa36397" category="inline-link">了解有关报告的更多信息</block>
-  <block id="913d3279d6ca39c6bd290fac85314961" category="paragraph"><block ref="9ba5aa88e2b271505b32ed12efb1883e" category="inline-link-rx"></block>。</block>
   <block id="a274f268e46a9fcc5130af66046ef57b" category="list-text">文件服务器必须允许数据代理主机通过所需端口访问导出。</block>
   <block id="9ea2f732b81b5cda8d4d5edea63e6877" category="list-text">111 TCP/UDP</block>
   <block id="1b1cd21da8907e21f7b884f90e6cbed4" category="list-text">2049 TCP/UDP</block>
@@ -1148,13 +1141,8 @@
   <block id="e52eaa6f5efc038192dc18339c053ab3" category="list-text">137-138 UDP</block>
   <block id="5e16db4c47abe8cb1c5bd746df2fd94a" category="section-title">2022 年 4 月 3 日</block>
   <block id="16f353b4ac76ea7e1a66509c3863e0f9" category="section-title">信息板筛选器</block>
-  <block id="9a086a6121a0ffa4e8986b7ce540eece" category="paragraph"><block ref="9a086a6121a0ffa4e8986b7ce540eece" category="inline-image-macro-rx" type="image"></block></block>
   <block id="983a4e7f5913304ec713a249baf7be47" category="section-title">2022 年 3 月 3 日</block>
-  <block id="ce7541e1d7efdf7278fdc4d1fc9736b1" category="paragraph"><block ref="ce7541e1d7efdf7278fdc4d1fc9736b1" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="b7415479c879eb3f5804ebd25ea733e7" category="paragraph"><block ref="b7415479c879eb3f5804ebd25ea733e7" category="inline-image-macro-rx" type="image"></block></block>
   <block id="5c46bd67ae4b5c23f9c243b5f396c088" category="section-title">2022 年 2 月 6 日</block>
-  <block id="1010f6ebb8a63e17d664e622c2299691" category="paragraph"><block ref="1010f6ebb8a63e17d664e622c2299691" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="b5012dcabc22fc10384141ed3b715897" category="paragraph"><block ref="b5012dcabc22fc10384141ed3b715897" category="inline-image-macro-rx" type="image"></block></block>
   <block id="f61163b681442ac500a8018c87241770" category="section-title">2021 年 11 月 28 日</block>
   <block id="784044bd2af30d58bbb0dbcea3adbad6" category="section-title">2021 年 10 月 31 日</block>
   <block id="d1c47d8bf748c203ff983262e6c108cb" category="section-title">2021 年 10 月 4 日</block>
@@ -1167,13 +1155,9 @@
   <block id="36362f6308040767241de0a9acf9350a" category="inline-link-macro">查看支持的关系</block>
   <block id="415a88dd0bb9358dd0869346d7b40e5d" category="list-text"><block ref="415a88dd0bb9358dd0869346d7b40e5d" category="inline-link-macro-rx"></block></block>
   <block id="d91b9aa1c8fa0782d005d76cce939796" category="list-text"><block ref="d91b9aa1c8fa0782d005d76cce939796" category="inline-link-macro-rx"></block></block>
-  <block id="0b837906043da8fb03cf0aac3c6c00fc" category="list-text"><block ref="0b837906043da8fb03cf0aac3c6c00fc" category="inline-link-rx"></block></block>
   <block id="60c52bea153a81519d33048970ec1005" category="list-text">选择 S3 存储类。 <block ref="b6b337d654785cb938f2cf9fb35baf0c" category="inline-link-macro-rx"></block>。</block>
-  <block id="ced18d468e2bb63d56f45d8b16575d02" category="paragraph"><block ref="f6641f935ea9b46efe2ca72364b0bc1e" category="inline-link-rx"></block>。</block>
   <block id="586301717819197e24001cac47efdaaa" category="section-title">2022 年 1 月 2 日</block>
-  <block id="554cf5ea441207629c5c302e09e591e4" category="list-text"><block ref="554cf5ea441207629c5c302e09e591e4" category="inline-link-rx"></block></block>
   <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">帮助菜单的屏幕截图，其中列出的第一个选项为支持</block>
-  <block id="868d9aa88f16ea923af1d15eac5d2647" category="paragraph"><block ref="868d9aa88f16ea923af1d15eac5d2647" category="inline-image-macro-rx" type="image"></block></block>
   <block id="d17d6b5dafebab6b7659da8850737e70" category="list-text">单击 * NSS 管理 &gt; 添加 NSS 帐户 * 。</block>
   <block id="8aaf101e623c543c7eef3c65f6233366" category="list-text">出现提示时，单击 * 继续 * 以重定向到 Microsoft 登录页面。</block>
   <block id="19d089db572ee6a1e154a0c9c9e57bfd" category="paragraph">NetApp 使用 Microsoft Azure Active Directory 作为身份提供程序来提供特定于支持和许可的身份验证服务。</block>
@@ -1199,11 +1183,9 @@
   <block id="80b1b0d2b1ebf2b3cba2d25759801afd" category="list-text">mailto ： ng-cloudmanager-feedback@netapp.com （反馈电子邮件）</block>
   <block id="c07503bbdaf42732886b6b9f136d9eb0" category="list-text">盒 ^1^</block>
   <block id="c01bb6a5867adae467a31539eda72b37" category="cell">SFTP ^2^</block>
-  <block id="6cd346b36825d1f1cef046571571fce0" category="list-text"><block ref="6cd346b36825d1f1cef046571571fce0" category="inline-link-rx"></block></block>
   <block id="81fb4d1570abd75a1e2945d1f1c9f8cc" category="section-title">2022年5月1日</block>
   <block id="5cccebf55aa4da23124f776528630bf3" category="section-title">同步超时</block>
   <block id="5e4a50a7111ce8bba22cd01d07f86a3b" category="paragraph">现在、可以为同步关系使用新的*同步超时*设置。通过此设置、您可以定义在指定的小时数或天数内未完成数据同步时、Cloud Sync 是否应取消数据同步。</block>
-  <block id="5f03ed55634cfe3f169d94549e45f06c" category="paragraph"><block ref="050cf03a98debb532006e420507b54cf" category="inline-link-rx"></block>。</block>
   <block id="a274f4d4670213a9045ce258c6c56b80" category="section-title">通知</block>
   <block id="64b10e9eb890594a5a1756353aca634b" category="list-text">同步超时</block>
   <block id="c658fd4f091c10877f154fbf84fbee89" category="section-title">在Azure中部署数据代理所需的权限</block>
@@ -1275,8 +1257,6 @@
   <block id="3f10ba55f7b5ee2ce092504fcea72477" category="section-title">2022年7月31日</block>
   <block id="173bb19c121e8b179d4baa317b637722" category="paragraph">现在、您可以将NFS服务器或SMB服务器中的数据同步到Google Drive。支持将"我的驱动器"和"共享驱动器"作为目标。</block>
   <block id="edb5ab0783f7fd41d24fc8a5ae44aef6" category="inline-link">了解有关Google Drive要求的更多信息</block>
-  <block id="bcc0f3bd91fbadb8c521e47f25f76843" category="paragraph">在创建包含Google Drive的同步关系之前、您需要设置一个具有所需权限和私钥的服务帐户。<block ref="556946ce0efd88231506c545597e8d31" category="inline-link-rx"></block>。</block>
-  <block id="470d6fa86215393cc3b918331e6ca824" category="paragraph"><block ref="4191451a3c972228fe86dca53f50e67d" category="inline-link-rx"></block>。</block>
   <block id="d6a24c2feaa9a899592c4cd5cf4a5011" category="section-title">其他Azure Data Lake支持</block>
   <block id="ac7f6cb7e466c5bda81009406ce9c28c" category="paragraph">Cloud Sync 现在支持Azure数据湖存储第2代的其他同步关系：</block>
   <block id="291356d9de6df3e4cba63e5478b2bc01" category="list-text">Amazon S3到Azure数据湖存储第2代</block>
@@ -1287,7 +1267,6 @@
   <block id="bb444099cdb375196c5bb6444eabdc45" category="paragraph">现在、您可以通过将一个工作环境拖放到另一个工作环境之上、从Canvas设置同步关系。</block>
   <block id="bf283dfa54b095b3eda8812752b158f9" category="section-title">右侧面板设置</block>
   <block id="79074218529972fce8a6ccab7f00095d" category="paragraph">现在、您可以通过从"画布"中选择工作环境、然后从右侧面板中选择同步选项、为Azure Blob存储或Google Cloud存储设置同步关系。</block>
-  <block id="9fffb7017709a369d0e0ce563839fee2" category="paragraph"><block ref="74635618081bc819b4c328f5ee049800" category="inline-link-rx"></block>。</block>
   <block id="20ef58d225f15c6c7617c04b34bd0ff8" category="list-text">在*数据代理组*页面上、单击*创建数据代理*、然后选择* Google云平台*。</block>
   <block id="a855786065eb842829e76727ee601d59" category="paragraph">安装数据代理之前、必须在主机上运行命令`yum update`。</block>
   <block id="da8b75d7f83536bef455f4cfcb81982f" category="section-title">2022年9月4日</block>
@@ -1303,7 +1282,6 @@
   <block id="a67ce68ccac082ad54a552bdbcb6ecd7" category="section-title">电子邮件通知</block>
   <block id="2a6aa0e8585b387718e871db90f1a32e" category="paragraph">现在、您可以通过电子邮件接收Cloud Sync 通知。</block>
   <block id="e6694f6134fb0186a17db662ced006d0" category="inline-link">了解如何设置通知</block>
-  <block id="f7ae9f1fb8f4b7044457ebf35058b088" category="paragraph"><block ref="8365080032c57ac637a7cb1d0af196ae" category="inline-link-rx"></block>。</block>
   <block id="3751024f8814dd0f9cc7022c63dd219d" category="section-title">立即执行数据同步</block>
   <block id="0120982bf6587a582d7ad3aa6f491005" category="section-title">设置通知</block>
   <block id="55d9f99a73d4f287de3573ba4a2c149b" category="paragraph">此外、您还可以通过电子邮件接收通知。</block>
@@ -1320,7 +1298,6 @@
   <block id="04baae6f2bb9072d7883e5f28e54a6c3" category="paragraph">数据代理软件会自动在Linux主机上以root用户身份运行。数据代理操作需要以root用户身份运行。例如、挂载共享。</block>
   <block id="8867d44df7bbafbfb314d97a7c0cfb4c" category="paragraph">如果要为以下任一项创建同步关系、则首先需要创建或发现工作环境：</block>
   <block id="649d75c6283da2a4b802839db32a41af" category="inline-link">了解有关连接器的更多信息</block>
-  <block id="e5813d2f22fb6e846a6024e6cb8a0b9b" category="list-text"><block ref="e5813d2f22fb6e846a6024e6cb8a0b9b" category="inline-link-rx"></block></block>
   <block id="82812db645b6ff5e9c2a24ddfb66c8d6" category="paragraph">除了上述自助支持选项之外、您还可以在激活支持后与NetApp支持专家合作解决任何问题。</block>
   <block id="e2a733504c4088b809813bbb35a3ddfd" category="inline-link-macro">了解如何注册获取支持</block>
   <block id="383133cb6f7207b1c65c3ace94aa5e95" category="list-text">如果您要通过电话与某人通话、请单击*致电我们*。系统会将您定向到netapp.com上的一个页面、其中列出了您可以拨打的电话号码。</block>
@@ -1331,7 +1308,6 @@
   <block id="0f7d9319c95a8be1492e74601c4b3259" category="list-text">*问题描述 *：提供问题的详细问题描述 、包括任何适用的错误消息或您执行的故障排除步骤。</block>
   <block id="002c6f26fb01affb37b8cf3cef7a1fb0" category="list-text">*其他电子邮件地址*：如果您希望其他人了解此问题描述 、请输入其他电子邮件地址。</block>
   <block id="baaf0e61add7d12cf8d12e023d5aef18" category="inline-image-macro">创建案例表的屏幕截图、可用于向NetApp支持部门创建案例。</block>
-  <block id="a2ff30886e1baf1e7d5045b5fc24f5b9" category="paragraph"><block ref="a2ff30886e1baf1e7d5045b5fc24f5b9" category="inline-image-macro-rx" type="image"></block></block>
   <block id="18f487556417bb6d9721a7005ae097c9" category="paragraph">此时将显示一个弹出窗口、其中包含您的支持案例编号。NetApp支持专家将审核您的案例、并尽快与您联系。</block>
   <block id="04e15da1deae9568b4dcda64fbb0c8d5" category="paragraph">有关支持案例的历史记录、您可以单击*设置&gt;时间线*并查找名为"创建支持案例"的操作。 最右侧的按钮可用于展开操作以查看详细信息。</block>
   <block id="5c56753585e89a84941bb3a78bc681af" category="paragraph">尝试创建案例时、您可能会遇到以下错误消息：</block>
@@ -1356,7 +1332,6 @@
   <block id="bf4c731c0ee7f60c8018ad8f96828dda" category="section-title">具有NSS帐户的现有客户</block>
   <block id="819aff12752b7e6a1828e755c7664de7" category="list-text">在*资源*页面上、单击*注册支持*。</block>
   <block id="e8a3d9970b8fc1d92caaf33d9e116bd4" category="inline-image-macro">显示帐户序列号和注册支持选项的屏幕截图</block>
-  <block id="113f9cd7bac6f4faa6b8d58e3e099a8e" category="paragraph"><block ref="113f9cd7bac6f4faa6b8d58e3e099a8e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="1ff5aefce774ec72a211f2b3bb10b950" category="section-title">现有客户、但无NSS帐户</block>
   <block id="cc1d3c161bcf25e6445c2fc771647849" category="paragraph">如果您是现有的NetApp客户、拥有现有许可证和序列号、但拥有_no_ NSS帐户、则只需创建一个NSS帐户即可。</block>
   <block id="5b2b7f628f804bcb786a097c7e45aa41" category="inline-link">NetApp 支持站点 用户注册表</block>
@@ -1364,7 +1339,6 @@
   <block id="d61c9f72493817776f392db42ac446a2" category="list-text">请务必选择适当的用户级别、通常为* NetApp客户/最终用户*。</block>
   <block id="e9b1f53d6cabb3394833a4e102eb6a69" category="section-title">NetApp的新品牌</block>
   <block id="c20c107d0d4eef6351660f3590324232" category="paragraph">如果您是NetApp的新客户、并且没有NSS帐户、请按照以下每个步骤进行操作。</block>
-  <block id="ef5e63bb6b6827440a13cc2ec7e9cf56" category="paragraph"><block ref="ef5e63bb6b6827440a13cc2ec7e9cf56" category="inline-image-macro-rx" type="image"></block></block>
   <block id="dd50e314c18933734174c1156dd9237f" category="inline-link">NetApp的支持注册站点</block>
   <block id="78f94e749b89d69dcbf3baff21ccb958" category="list-text">导航到<block ref="e1c4be66250fd76d5c52bfe2cb7daee2" category="inline-link-rx"></block> 并选择*我不是NetApp注册客户*。</block>
   <block id="d4f633ef130727b2776fa7f45024ca7d" category="list-text">填写必填字段(带有红色星号的字段)。</block>
@@ -1399,7 +1373,6 @@
   <block id="f08beb9a11a66834f5e08f2bd7436fb0" category="list-text">在BlueXP中、单击*同步*。</block>
   <block id="881a6a2a0c1e8d7bd1c4b11d9498ff12" category="paragraph">您应该已经开始使用BlueXP、其中包括登录、设置帐户、可能还包括部署Connector和创建工作环境。</block>
   <block id="89e019c15bf54627a2a1e4918e66bab6" category="inline-link">了解如何开始使用BlueXP</block>
-  <block id="69c4d579a506c05e94d3e4986ec536a3" category="list-text"><block ref="69c4d579a506c05e94d3e4986ec536a3" category="inline-link-rx"></block></block>
   <block id="9b9477e579c3b44dd623d5a6e1ea8d78" category="inline-link">BlueXP</block>
   <block id="243263104c829e77835d632f591230d5" category="summary">在向NetApp技术支持部门创建支持案例之前、您需要向BlueXP添加一个NetApp 支持站点 帐户、然后注册获取支持。</block>
   <block id="8bf30fadf784022b073adb9233678a71" category="paragraph">在向NetApp技术支持部门创建支持案例之前、您需要向BlueXP添加NetApp 支持站点 (NSS)帐户、然后注册获取支持。</block>
@@ -1436,11 +1409,8 @@
   <block id="415019870d0741b8c872f4ef1a528769" category="list-text">获取您的BlueXp帐户ID。</block>
   <block id="79eae7ffaa22e2815a503a0776cb13d0" category="paragraph">NetApp BlueXp中的用户令牌具有到期日期。要刷新令牌、您需要再次调用步骤 1 中的 API 。</block>
   <block id="f3347c5f92241e385b544f1b53daa14d" category="inline-image-macro">显示BlueXP中通知中心的屏幕截图。</block>
-  <block id="ccb8fdc540464dfa9a7726927f2c33c6" category="paragraph"><block ref="ccb8fdc540464dfa9a7726927f2c33c6" category="inline-image-macro-rx" type="image"></block></block>
   <block id="beee0e2c828d5d7a17dcb84704a1dd82" category="paragraph">要通过电子邮件接收通知、您需要在同步关系上启用*通知*设置、然后在BlueXP中配置警报和通知设置。</block>
   <block id="75a84cecb34ecabf76f44935f66b67eb" category="paragraph">我们添加了更多直接从BlueXP的Canvas设置同步关系的方法。</block>
-  <block id="05d87278ff5c6195179e1954eecb9a4f" category="paragraph"><block ref="05d87278ff5c6195179e1954eecb9a4f" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="779ddd312a3a36e145a7bb3229e99a4a" category="paragraph"><block ref="779ddd312a3a36e145a7bb3229e99a4a" category="inline-image-macro-rx" type="image"></block></block>
   <block id="c2c0cee3ff43b2b22931517d0aff1423" category="paragraph">现在、可以为同步关系使用新的*通知*设置。通过此设置、您可以选择是否在BlueXP的通知中心中接收Cloud Sync 通知。您可以为成功的数据同步、失败的数据同步和已取消的数据同步启用通知。</block>
   <block id="e0c9c98f02dabde677a2634ba4ffa251" category="paragraph">独立的 Cloud Sync 服务已停用。现在、您应直接从BlueXP访问Cloud Sync 、在该位置、所有相同的特性和功能均可用。</block>
   <block id="2120ca0a41cdfe67b77a3af2e3123d51" category="paragraph">登录到BlueXP后、您可以切换到顶部的"同步"选项卡并查看您的关系、就像以前一样。</block>
@@ -1475,13 +1445,11 @@
   <block id="5912630061434e78e733b8d5e5e3dc88" category="section-title">2022年12月11日</block>
   <block id="9709c6ba9ff4b10cb5ec3f4f956d3226" category="section-title">按名称筛选目录</block>
   <block id="84a8ea117dd9c6b8ddbbe8f47665f923" category="inline-link">了解有关排除目录名称设置的更多信息</block>
-  <block id="8391e3aac2d2f8dd1b8e38350d072463" category="paragraph"><block ref="018123db357961d73398ef3066f74a1b" category="inline-link-rx"></block>。</block>
   <block id="211e17aac7e6f53a17024d84713e8c34" category="section-title">其他Amazon S3和ONTAP S3存储支持</block>
   <block id="9c0b9eb5c4fc9353fd2021e992f68e22" category="paragraph">Cloud Sync 现在支持AWS S3和ONTAP S3存储的其他同步关系：</block>
   <block id="9952f86a1aa7c6f33a76413df4560b41" category="list-text">AWS S3到ONTAP S3存储</block>
   <block id="dfe6b806f7dd136ec5c5baaaae335c21" category="list-text">ONTAP S3存储到AWS S3</block>
   <block id="c7360b05ac6a5646b2770ea0c162d4fb" category="inline-link">了解有关支持的同步关系的更多信息</block>
-  <block id="623dda645e4d20988b8c1d61423da14e" category="paragraph"><block ref="f9c4f71cab183e7ba62e68df19c3dfe9" category="inline-link-rx"></block>。</block>
   <block id="5e096b7a2c33e654f884053c567f3013" category="paragraph-title">工作原理</block>
   <block id="bd965e38a0c9cf27aa1bde099308e23f" category="paragraph-title">完成后</block>
   <block id="21cc794803c81d0a3e2d1759b572da7d" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block> 登录并设置BlueXP</block>
@@ -1498,19 +1466,13 @@
   <block id="2ce75b34222d130ea74078b75eb79cc0" category="section-title">在UI上显示数据代理本地配置</block>
   <block id="88dcb8d0dd987f4f5606df5981050a8d" category="paragraph">现在有一个*显示配置*选项、可用于使用户在用户界面上查看每个数据代理的本地配置。</block>
   <block id="44580ec91e2012543452f790258e1ccf" category="inline-link">了解有关管理数据代理组的更多信息</block>
-  <block id="1bc15ec9e137e3d7653e9f04a08b840b" category="paragraph"><block ref="cbafc7311a6970273ad5a1c3b2c0b656" category="inline-link-rx"></block>。</block>
   <block id="02840b44154535342dd4cf6739d2c77d" category="section-title">升级到Azure和Google Cloud数据代理操作系统</block>
   <block id="69e30db11dbff8b5efd6091166af232f" category="paragraph">Azure和Google Cloud中的数据代理操作系统已升级到Rocky Linux 9.0。</block>
   <block id="1c01c907ca0a713df58ba8f4b21fd39c" category="inline-link">详细了解Azure中的数据代理实例</block>
-  <block id="696fb1a24aae70782cbc2deebfd01ec3" category="paragraph"><block ref="721924a927b7206a5d8775fe840ddbcd" category="inline-link-rx"></block>。</block>
   <block id="648e059d69339d82d82738abf0bd4016" category="inline-link">详细了解Google Cloud中的数据代理实例</block>
-  <block id="6619068f4ac101fa3e8003ee6618d9da" category="paragraph"><block ref="fa611f614e55d9a2ca38028d5a5ab5b7" category="inline-link-rx"></block>。</block>
   <block id="0375f4855be072c7d856a0233cc21de9" category="section-title">支持云提供商解决方案</block>
   <block id="be845c219bb74b14349ffa6e27e7aef3" category="paragraph">有关已集成到BlueXP中的以下云提供商解决方案的技术支持、请参阅该产品的BlueXP文档中的"获得帮助"。</block>
-  <block id="5bf5309465f91318228a7f956b826348" category="list-text"><block ref="5bf5309465f91318228a7f956b826348" category="inline-link-macro-rx"></block></block>
-  <block id="0e2bc9c853e0af52ead12823c025e58b" category="list-text"><block ref="0e2bc9c853e0af52ead12823c025e58b" category="inline-link-macro-rx"></block></block>
   <block id="b0cee72642f5457a71ddd0b49efb6d93" category="inline-link-macro">适用于 Google Cloud 的 Cloud Volumes Service</block>
-  <block id="02efcbea18b9485a78a41871dce1e64d" category="list-text"><block ref="02efcbea18b9485a78a41871dce1e64d" category="inline-link-macro-rx"></block></block>
   <block id="55157331e0485d25f0d603400a66335e" category="section-title">2023年2月5日</block>
   <block id="761cba7c96f916f975634bfd465401cb" category="section-title">对Azure数据湖存储第2代、ONTAP S3存储和NFS的其他支持</block>
   <block id="93cf60ec095fd8da10fc299cc367ba5f" category="paragraph">Cloud Sync 现在支持为ONTAP S3存储和NFS建立其他同步关系：</block>
@@ -1520,7 +1482,6 @@
   <block id="b3c6595e164d585a18699d6b36cab08a" category="section-title">升级到Amazon Web Services数据代理操作系统</block>
   <block id="56b81b60dec6a853cc4a71acf27e639b" category="paragraph">AWS数据代理的操作系统已升级到Amazon Linux 2022。</block>
   <block id="0dd728efd36ee3f96597b07096922b08" category="inline-link">详细了解AWS中的数据代理实例</block>
-  <block id="ab1608bfe0e155c43b562df0832f62cb" category="paragraph"><block ref="f5f6281702689de644df10baf88bc982" category="inline-link-rx"></block>。</block>
   <block id="ea456f2c2f8433045e0abd1d56195f2d" category="paragraph">如果您在免费试用结束后未立即支付费用、您将无法创建任何其他关系。现有关系不会被删除、但您必须订阅或输入许可证才能对其进行任何更改。</block>
   <block id="e46ce6b98b1f39550f722c298fdb33a7" category="cell">https://s3.amazonaws.com/</block>
   <block id="410854d72f81ddbce62fd5e69e47d7ca" category="cell">https://storage.googleapis.com/</block>
@@ -1551,33 +1512,24 @@
   <block id="27635a52fe4c34c39ffc6430f4244ec6" category="list-text">在*组织的案例*下、单击*查看*以查看与您的公司关联的所有案例。</block>
   <block id="059e856250b59be3069246887b74a23c" category="list-text">通过选择确切的日期范围或选择其他时间范围来修改日期范围。</block>
   <block id="dfb3764bce2548df4e06357403f9c7d0" category="inline-image-macro">案例管理页面上表上方选项的屏幕截图、可用于选择确切的日期范围或过去7天、30天或3个月。</block>
-  <block id="7fcba8aeefa9960d3fc3fa08b360ba2e" category="paragraph"><block ref="7fcba8aeefa9960d3fc3fa08b360ba2e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="a1bb576be9e5a356290f231efb51b3f5" category="list-text">筛选列的内容。</block>
   <block id="3753f10a59e21f58b30e3e67d416453e" category="inline-image-macro">"状态"列中筛选选项的屏幕截图、可用于筛选与特定状态(如"活动"或"已关闭")匹配的案例。</block>
-  <block id="37709be3a43df07d5975287545d0ba12" category="paragraph"><block ref="37709be3a43df07d5975287545d0ba12" category="inline-image-macro-rx" type="image"></block></block>
   <block id="1c6ea5ef583389e18e7d7bda70beaa71" category="inline-image-macro">表中显示的加号图标</block>
-  <block id="1614dc8e47c0492434152c990d6c1040" category="list-text">通过单击更改表中显示的列 <block ref="effeab06130cddc8360822b2b706805b" category="inline-image-macro-rx" type="image"></block> 然后选择要显示的列。</block>
   <block id="370b44009f1b82d0b6b178bb80cc62fa" category="inline-image-macro">显示可在表中显示的列的屏幕截图。</block>
-  <block id="5de408d7cbad49634fb25f9047498132" category="paragraph"><block ref="5de408d7cbad49634fb25f9047498132" category="inline-image-macro-rx" type="image"></block></block>
   <block id="ad0ae9ea1f2e8d973a9a0f6bb169f494" category="inline-image-macro">包含三个点的图标、显示在表的最后一列中</block>
-  <block id="98efef1c8a47ed5791b41944e8ff4ec2" category="list-text">单击以管理现有案例 <block ref="a0b152b50a56901a75affebabc26ed61" category="inline-image-macro-rx" type="image"></block> 并选择一个可用选项：</block>
   <block id="6d9dd74e7709ef802d299966f7898f6b" category="list-text">*查看案例*：查看有关特定案例的完整详细信息。</block>
   <block id="f791bc685c526af8296381acff10f6a0" category="list-text">*关闭案例*：提供关闭案例的详细信息、然后单击*关闭案例*。</block>
   <block id="e93217b2f709a398ce3c0fb753beb05f" category="inline-image-macro">屏幕截图、显示在表的最后一列中选择菜单后可以执行的操作。</block>
-  <block id="e9a5c374fb47ed2ae5cc6108fb36d829" category="paragraph"><block ref="e9a5c374fb47ed2ae5cc6108fb36d829" category="inline-image-macro-rx" type="image"></block></block>
   <block id="c8420e741e74236d475d7e500b73f774" category="paragraph"><block ref="c8420e741e74236d475d7e500b73f774" category="inline-image-macro-rx" type="image"></block></block>
   <block id="4b10c384bd11c38afbbe24f979f5519d" category="section-title">2023年3月7日</block>
   <block id="a19f14c281dd654ce355a7e0b63146b5" category="section-title">用于AWS数据代理的EBS加密</block>
   <block id="8663378959352a24f27c3d250a37cf3d" category="paragraph">现在、您可以使用帐户中的KMS密钥对AWS数据代理卷进行加密。</block>
   <block id="f296e44bbf15ea94dfcce2d2a4649e6d" category="inline-link">了解有关在AWS中创建数据代理的更多信息</block>
-  <block id="d44d7e95c5eca613daa8fef0c12530ae" category="paragraph"><block ref="0c0a23f9985774f63451c32bdf4cbdeb" category="inline-link-rx"></block>。</block>
   <block id="ec084bb25ed5b934c09b361069c246b2" category="list-text">NSS帐户必须是客户级别的帐户(而不是来宾或临时帐户)。您可以拥有多个客户级别的NSS帐户。</block>
   <block id="27387009488fe78dcc7cb7e3e432792f" category="list-text">如果此帐户是合作伙伴级别的帐户、则只能有一个NSS帐户。如果您尝试添加客户级别的NSS帐户、并且存在合作伙伴级别的帐户、则会收到以下错误消息：</block>
   <block id="d926847e4634e19a1aa7358becc0fa27" category="paragraph">"此帐户不允许使用NSS客户类型、因为已存在不同类型的NSS用户。"</block>
   <block id="a04a3a5322782e8c18d0d64be7e1ccbc" category="paragraph">如果您已有客户级别的NSS帐户、并尝试添加合作伙伴级别的帐户、则也是如此。</block>
   <block id="1afe8a81cfddc9fa9559e272bb6b9496" category="list-text">成功登录后、NetApp将存储NSS用户名。</block>
-  <block id="452cd4df7b0d5eb1156519a2f3b0206b" category="paragraph">这是系统生成的ID、映射到您的电子邮件。在* NSS Management*页面上、您可以从显示电子邮件 <block ref="0d0843f26c0819e5369f690fefbf68b7" category="inline-image-macro-rx" type="image"></block> 菜单。</block>
-  <block id="fd02e84624a2fdfd58787131aa2820b5" category="list-text">如果您需要刷新登录凭据令牌、则中还会提供一个*更新凭据*选项 <block ref="0d0843f26c0819e5369f690fefbf68b7" category="inline-image-macro-rx" type="image"></block> 菜单。</block>
   <block id="b14d512a3c64fb5df16f6721b0603c63" category="paragraph">使用此选项将提示您重新登录。请注意、这些帐户的令牌将在90天后过期。系统将发布通知、提醒您注意这一点。</block>
   <block id="deb96f2e04c20206372a663fc1e22a63" category="list-text">CentOS 8.0和8.5</block>
   <block id="baefe41a5ed4db05fd518fa49dfbd17d" category="list-text">Red Hat Enterprise Linux 8.0和8.5</block>
@@ -1593,7 +1545,6 @@
   <block id="ad5a82acd30f0d971a29fdb4632bd7d4" category="section-title">按完整路径筛选目录</block>
   <block id="b7395f4da221ab7779cce11224436fb3" category="paragraph">除了按名称筛选目录之外、您现在还可以按目录的完整路径进行筛选。</block>
   <block id="d1624b8f3b686e981a178c03616a370b" category="inline-link">了解有关排除目录设置的更多信息</block>
-  <block id="c73e2e476b1a94d1d032f8e0828dcd20" category="paragraph"><block ref="f4b5f7467e10befa1f2855925c118fa5" category="inline-link-rx"></block>。</block>
   <block id="c7f5c1a75acc58c6f004efc0ce1eba09" category="list-text">*附件(可选)*：一次最多上传五个附件。</block>
   <block id="bfa80e7aaad6da353b431bff3a0e12d6" category="paragraph">每个文件的附件数限制为25 MB。支持以下文件扩展名：txt、log、pdf、jp6/jpeu、rtf、 doc/docx、xls/xlsx和csv。</block>
   <block id="8e6b52a532a4fbbfc98dca3ebfa5f1e6" category="list-text">*更新案例注释*：提供有关您的问题的更多详细信息、或者选择*上传文件*最多附加五个文件。</block>
@@ -1658,17 +1609,14 @@
   <block id="2652537da62e22a06b22374119e6c40f" category="section-title">硬链接功能</block>
   <block id="74b59acd161d1704c8c78879dc8fba01" category="paragraph">现在、用户可以为涉及不安全的NFS到NFS关系的同步添加硬链接。</block>
   <block id="689dbd8363b6599ce07ff94a27510e99" category="inline-link">了解有关文件类型设置的更多信息</block>
-  <block id="c2c4f3224fc131a75284695269fdeb1e" category="paragraph"><block ref="b8337b36588af87bdf82aa24c2fb92dc" category="inline-link-rx"></block>。</block>
   <block id="b37e1d04fbc8f3ac1aa4b71252cc4d4b" category="section-title">能够为安全NFS关系中的数据代理添加用户证书</block>
   <block id="fad605010f8f29a3a10f7062fe2cd4e9" category="paragraph">现在、用户可以在创建安全NFS关系时为目标数据代理设置自己的证书。他们需要设置服务器名称并提供专用密钥和证书ID。此功能可用于所有数据代理。</block>
   <block id="3bf0932004501be46156880cfe858e8f" category="section-title">最近修改的文件的排除期限延长</block>
   <block id="72293cd7eff96e1e45510dc52f4ef25e" category="paragraph">现在、用户可以排除在计划同步前最长365天修改过的文件。</block>
   <block id="87ca8046e9c8a782bd5c06267e7f93f7" category="inline-link">了解有关最近修改的文件设置的更多信息</block>
-  <block id="deca82fda63a32d6ff9637b293af8d58" category="paragraph"><block ref="721635a0a6bd58b504914b6d4beb3e0e" category="inline-link-rx"></block>。</block>
   <block id="e03b4aafcead6edb397ccbf7e180255f" category="section-title">按关系ID筛选UI中的关系</block>
   <block id="aca73b993cefdbe81afe166bf8692c50" category="paragraph">现在、使用RESTful API的用户可以使用关系ID筛选关系。</block>
   <block id="37a616e16a0f4d18ac25d57ddb913bf8" category="inline-link">详细了解如何将RESTful API与BlueXP副本和同步结合使用</block>
-  <block id="30033019c9002410c1dee9e19900cb24" category="paragraph"><block ref="e9b17dee7c6de8c1de2830a91fd1865f" category="inline-link-rx"></block>。</block>
   <block id="e34ab50cbd0b1822634102ed78ca99d6" category="summary">通过BlueXP复制和同步、您可以将数据从源同步到目标。这称为同步关系。您应该先了解支持的关系，然后再开始。</block>
   <block id="fafec3da88dda2aaace57da0275aa418" category="list-text">仅使用BlueXP副本和同步API支持与此源/目标的同步关系。</block>
   <block id="9884de3e76b128738e9b044e854c59b2" category="summary">创建同步关系时、BlueXP复制和同步服务会将文件从源复制到目标。初始副本完成后、服务将每 24 小时同步所有更改的数据。</block>
@@ -1815,4 +1763,56 @@
   <block id="04bde9824fe76c12bc97fc0154e2017a" category="sidebar">BlueXP复制和同步文档</block>
   <block id="165b6b1b3c4b5d4ec47cae74f2de4deb" category="sidebar">了解BlueXP复制和同步</block>
   <block id="106c2bd3e07db354c45924d6acfb06d3" category="sidebar">使用BlueXP复制和同步</block>
+  <block id="9d06990508d25d367d9158c6558eb9c8" category="list-text"><block ref="9d06990508d25d367d9158c6558eb9c8" category="inline-link-macro-rx"></block></block>
+  <block id="2e0c742f4616eb27b5b7646aa790edfe" category="list-text"><block ref="2e0c742f4616eb27b5b7646aa790edfe" category="inline-link-macro-rx"></block></block>
+  <block id="cf14bff66a8b72d3675db8ffe0f02ee3" category="list-text"><block ref="cf14bff66a8b72d3675db8ffe0f02ee3" category="inline-link-macro-rx"></block></block>
+  <block id="e8d4092baef6680c6a35d5228ae31de2" category="paragraph"><block ref="e8d4092baef6680c6a35d5228ae31de2" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0dfcbbbe02d3e96f8ad78782e8772587" category="paragraph">这是系统生成的ID、映射到您的电子邮件。在* NSS Management*页面上、您可以从显示电子邮件 <block ref="5151db0ded96d46f40ae09b5e5b167a1" category="inline-image-macro-rx" type="image"></block> 菜单。</block>
+  <block id="fc79de85a483938f72fbcb9822ec0ae3" category="list-text">如果您需要刷新登录凭据令牌、则中还会提供一个*更新凭据*选项 <block ref="5151db0ded96d46f40ae09b5e5b167a1" category="inline-image-macro-rx" type="image"></block> 菜单。</block>
+  <block id="1bb5620ed3998fd776980cad36e22c9a" category="paragraph"><block ref="1bb5620ed3998fd776980cad36e22c9a" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="379f9cd57d97013f3f7fdd24f692a0b1" category="paragraph"><block ref="379f9cd57d97013f3f7fdd24f692a0b1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0377f2dd7cfc90832cf86e4cdea18b27" category="list-text"><block ref="0377f2dd7cfc90832cf86e4cdea18b27" category="inline-link-rx"></block></block>
+  <block id="dfe0add539943e53dd2a136d10c9015c" category="list-text"><block ref="dfe0add539943e53dd2a136d10c9015c" category="inline-link-rx"></block></block>
+  <block id="291432ab9bec0a4d90809cc1c0dc6ae8" category="paragraph"><block ref="e08f2c77270cb4c5f93a805de7e3f4f9" category="inline-link-rx"></block>。</block>
+  <block id="1a7214a3217999e62943b6eb9a186e66" category="paragraph"><block ref="9bf8313a7db211679a844402f240b32a" category="inline-link-rx"></block>。</block>
+  <block id="5b1faa5c627185bd8774ba759dbbcf1d" category="paragraph"><block ref="528a28b28e8f5d9df665a229e7a7fa63" category="inline-link-rx"></block>。</block>
+  <block id="ce907128271b3f13161731af69efdb83" category="paragraph"><block ref="7d45213b584f83e1010772ef58d497ad" category="inline-link-rx"></block>。</block>
+  <block id="791d072486b9f4524702996962f5cb1d" category="paragraph"><block ref="525fcee9e0cdf0ea236cb2377cb58f7b" category="inline-link-rx"></block>。</block>
+  <block id="4e0e0be812e0732ff08c371803f4157c" category="paragraph"><block ref="aabef2d7a8f8ee536d1fe9fe0f22b561" category="inline-link-rx"></block>。</block>
+  <block id="48938ec2ae208dc89827f9e55c8f1c41" category="paragraph"><block ref="42f00e873b388cac01d84d3ba1605497" category="inline-link-rx"></block>。</block>
+  <block id="d786e3b5ab2a71e9b31bb3c75bcb0452" category="paragraph"><block ref="1376c929ae27c36845bc62cdb2b6b62a" category="inline-link-rx"></block>。</block>
+  <block id="d807456e8468d752fb5361947436e3bd" category="paragraph"><block ref="723b00e575aff83ac7e0778c753fed66" category="inline-link-rx"></block>。</block>
+  <block id="4d84ad5ddcd264a388fd3480b2b4a17e" category="paragraph"><block ref="07d42fc5dd04c400562bade15003675b" category="inline-link-rx"></block>。</block>
+  <block id="dfadf2e7b0d2a2847ef49e99054e0be5" category="paragraph"><block ref="d6f79fef3005c7a4f730cae0fe26b406" category="inline-link-rx"></block>。</block>
+  <block id="45b389095d33e2a92c84384a49acfdc1" category="paragraph"><block ref="93f91291d1ddc2977d3002c648b0d96f" category="inline-link-rx"></block>。</block>
+  <block id="f1d7d04c211126ab6988362528a55683" category="paragraph"><block ref="eaec3ca4454704b4654f3f02ffb524a7" category="inline-link-rx"></block>。</block>
+  <block id="a1acc74baa1e9877287951908082ffa4" category="paragraph"><block ref="bfc8c00ba2697817e49164164bcf6590" category="inline-link-rx"></block>。</block>
+  <block id="cb15cc9f58b868baf5d6fde1acf150c9" category="paragraph">在创建包含Google Drive的同步关系之前、您需要设置一个具有所需权限和私钥的服务帐户。<block ref="145332dcba67127d0037c659951fe4ed" category="inline-link-rx"></block>。</block>
+  <block id="01523e5fc16052f503921585b0698ab3" category="paragraph"><block ref="ee9222b07587eb2c3ffe563d1a2c6106" category="inline-link-rx"></block>。</block>
+  <block id="5272ee17dd9d75e3474f45c3e2ce72c0" category="paragraph"><block ref="5272ee17dd9d75e3474f45c3e2ce72c0" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="404965498641a1a56cc0fa3373515d7a" category="paragraph"><block ref="404965498641a1a56cc0fa3373515d7a" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="246b0e9609672cddcf038daaa946671b" category="paragraph"><block ref="bbd18c81f756c2aa65d18a49f39abc0e" category="inline-link-rx"></block>。</block>
+  <block id="b4e33a0f7ed5ccdaa3ecce4c47daf31f" category="paragraph"><block ref="b4e33a0f7ed5ccdaa3ecce4c47daf31f" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="858b6b26381ac0e28fd0ab2919dbe947" category="paragraph"><block ref="0e57eb14c04befe90ef141b40df96648" category="inline-link-rx"></block>。</block>
+  <block id="607c524b181fcf51f1c3bf2bd8544f62" category="paragraph"><block ref="607c524b181fcf51f1c3bf2bd8544f62" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="b5ef56ad55e434fdc2e601398d2944d1" category="paragraph"><block ref="b5ef56ad55e434fdc2e601398d2944d1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="a69f17c43aef6869d3c198c9e9ea2e32" category="paragraph"><block ref="a69f17c43aef6869d3c198c9e9ea2e32" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="448a2d91b78bc791fe1001a6af9e8290" category="paragraph"><block ref="448a2d91b78bc791fe1001a6af9e8290" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="43681663bc0450a9a5879dd236d40b3e" category="paragraph"><block ref="43681663bc0450a9a5879dd236d40b3e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="33f0129a1bbda48d580d8b7e1e727bd5" category="list-text"><block ref="33f0129a1bbda48d580d8b7e1e727bd5" category="inline-link-rx"></block></block>
+  <block id="509259be6d5e15d8959f705cbe0cbcc1" category="paragraph"><block ref="509259be6d5e15d8959f705cbe0cbcc1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0972db30d942fdb65d1732e6e84bde99" category="paragraph"><block ref="0972db30d942fdb65d1732e6e84bde99" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="cb6a777dd3c6e43b0dc441d38519d219" category="paragraph"><block ref="cb6a777dd3c6e43b0dc441d38519d219" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0f6cac2f77150840994f84044fc1b12b" category="list-text">通过单击更改表中显示的列 <block ref="b574dd55d604ddb721d869a0fc302007" category="inline-image-macro-rx" type="image"></block> 然后选择要显示的列。</block>
+  <block id="e65065c4fd326b9f3a1eeb9453c30d73" category="paragraph"><block ref="e65065c4fd326b9f3a1eeb9453c30d73" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="6ba7d68d8b3ef0f3398afb9d3ea96172" category="list-text">单击以管理现有案例 <block ref="566c029d89e7d5421080767a37bf443e" category="inline-image-macro-rx" type="image"></block> 并选择一个可用选项：</block>
+  <block id="2ea260929e27ffcb623c8aa35689bd18" category="paragraph"><block ref="2ea260929e27ffcb623c8aa35689bd18" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="334141378cc136fbeac9f49b8712a21c" category="list-text"><block ref="334141378cc136fbeac9f49b8712a21c" category="inline-link-rx"></block></block>
+  <block id="e6e1607e58cd001b7c781a8f8bfa813a" category="list-text"><block ref="e6e1607e58cd001b7c781a8f8bfa813a" category="inline-link-rx"></block></block>
+  <block id="6cfeb8c907e4b67e454993b95d8b4c8b" category="list-text"><block ref="6cfeb8c907e4b67e454993b95d8b4c8b" category="inline-link-rx"></block></block>
+  <block id="27a3e4e8b80492209761738784b770d5" category="list-text"><block ref="27a3e4e8b80492209761738784b770d5" category="inline-link-rx"></block></block>
+  <block id="f8c7ce78aaf937671ef25c9c931e368e" category="list-text"><block ref="f8c7ce78aaf937671ef25c9c931e368e" category="inline-link-rx"></block></block>
+  <block id="5bef0b78e6ec321bf21d727ac503470d" category="list-text"><block ref="5bef0b78e6ec321bf21d727ac503470d" category="inline-link-rx"></block></block>
+  <block id="85cd31980dc6fca292186015e6569783" category="list-text"><block ref="85cd31980dc6fca292186015e6569783" category="inline-link-rx"></block></block>
+  <block id="8e430579de892a93405f336e319e0650" category="paragraph"><block ref="40f48ef5ea0de0b0c1e5b47df6f8470c" category="inline-link-rx"></block>。</block>
 </blocks>
