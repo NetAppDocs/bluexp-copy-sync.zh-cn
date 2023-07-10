@@ -18,7 +18,7 @@ BlueXP复制和同步可以在SMB共享之间以及SMB共享和对象存储之�
 
 .选项
 * <<Setting up BlueXP copy and sync to copy ACLs from an SMB server,设置BlueXP复制和同步以自动复制ACL>>
-* <<在 SMB 共享之间手动复制 ACL,在 SMB 共享之间手动复制 ACL>>
+* <<Manually copying ACLs between SMB shares,在 SMB 共享之间手动复制 ACL>>
 
 
 
@@ -27,19 +27,19 @@ BlueXP复制和同步可以在SMB共享之间以及SMB共享和对象存储之�
 
 通过在创建关系时或创建关系后启用设置、在SMB共享之间以及SMB共享和对象存储之间复制ACL。
 
-.您需要的内容
+.开始之前
 此功能适用于 _any_ 类型的数据代理： AWS ， Azure ， Google Cloud Platform 或内部数据代理。内部数据代理可以运行 link:task-installing-linux.html["任何受支持的操作系统"]。
 
 .新关系的步骤
-. 从BlueXP复制和同步中，单击*Create New Sync*。
+. 从BlueXP复制和同步中，选择*Create New Sync*。
 . 将SMB服务器或对象存储拖放为源、将SMB服务器或对象存储拖放为目标、然后单击*继续*。
 . 在 * SMB Server* 页面上：
 +
-.. 输入新的 SMB 服务器或选择现有服务器，然后单击 * 继续 * 。
+.. 输入新的SMB服务器或选择现有服务器并选择*CONTINU*。
 .. 输入 SMB 服务器的凭据。
-.. 选择 * 将访问控制列表复制到目标 * ，然后单击 * 继续 * 。
+.. 选择*仅复制文件*、*仅复制ACL*或*复制文件和ACL*，然后选择*继续*。
 +
-image:screenshot_acl_support.gif["屏幕截图显示了为目标启用复制访问控制列表的选项。"]
+image:screenshot_acl_support.png["屏幕截图显示了为目标启用复制访问控制列表的选项。"]
 
 
 
@@ -56,10 +56,10 @@ image:screenshot-sync-tags-metadata.png["复制到对象存储时同步关系向
 
 
 .现有关系的步骤
-. 将鼠标悬停在“同步关系”上，然后单击“操作”菜单。
-. 单击 * 设置 * 。
-. 选择 * 将访问控制列表复制到目标 * 。
-. 单击 * 保存设置 * 。
+. 将鼠标悬停在同步关系上、然后选择操作菜单。
+. 选择*Settings*。
+. 选择*仅复制文件*、*仅复制ACL*或*复制文件和ACL*，然后选择*继续*。
+. 选择*保存设置*。
 
 
 .结果
@@ -67,7 +67,7 @@ image:screenshot-sync-tags-metadata.png["复制到对象存储时同步关系向
 
 
 
-== 在 SMB 共享之间手动复制 ACL
+== 在SMB共享之间手动复制ACL
 
 您可以使用 Windows robocopy 命令手动保留 SMB 共享之间的 ACL 。
 

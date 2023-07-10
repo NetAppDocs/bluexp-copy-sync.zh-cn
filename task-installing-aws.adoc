@@ -120,6 +120,7 @@ image:screenshot-data-broker-group-selected.png["此屏幕快照显示已成功�
 
 BlueXP复制和同步使用以下配置在AWS中创建数据代理。
 
+节点.js兼容性:: V20
 Instance type:: m5n.xlarge （如果在区域中可用），否则为 m5.xlarge
 vCPU:: 4.
 RAM:: 16 GB

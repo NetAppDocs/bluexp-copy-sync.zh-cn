@@ -20,6 +20,7 @@ summary: 创建新的数据代理时，请选择 On-Prem Data Broker 选项以�
 
 == Linux 主机要求
 
+* *节点.js兼容性*：v20
 * * 操作系统 * ：
 +
 ** CentOS 8.0和8.5

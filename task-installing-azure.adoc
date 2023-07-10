@@ -207,6 +207,7 @@ https://login.microsoftonline.com/{FILL 此处为您的租户 ID ｝ /v2.0/admin
 
 BlueXP复制和同步使用以下配置在Azure中创建数据代理。
 
+节点.js兼容性:: V20
 VM 类型:: 标准 DS4 v2
 vCPU:: 8.
 RAM:: 28 GB

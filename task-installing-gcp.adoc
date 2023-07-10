@@ -163,6 +163,7 @@ image:screenshot_data_broker_gcp.png["屏幕截图显示了在 Google Cloud 中�
 
 BlueXP复制和同步使用以下配置在Google Cloud中创建数据代理。
 
+节点.js兼容性:: V20
 计算机类型:: n2-standard-4
 vCPU:: 4.
 RAM:: 15 GB
