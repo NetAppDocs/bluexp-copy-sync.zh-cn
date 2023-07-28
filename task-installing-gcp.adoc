@@ -103,16 +103,16 @@ summary: 创建新数据代理时，请选择 Google Cloud Data Broker 选项，
 可以通过几种方法创建新的数据代理。以下步骤介绍如何在创建同步关系时在 Google Cloud 中安装数据代理。
 
 .步骤
-. 单击 * 创建新同步 * 。
-. 在 * 定义同步关系 * 页面上，选择一个源和目标，然后单击 * 继续 * 。
+. 选择*Create New Sync*。
+. 在“*定义同步关系*”页上，选择源和目标，然后选择*CONTINUOD*。
 +
 完成这些步骤，直到显示 * 数据代理组 * 页面为止。
 
-. 在*数据代理组*页面上、单击*创建数据代理*、然后选择* Google云平台*。
+. 在*Data Broker Group*页面上，选择*Create Data Broker*，然后选择*Google Cloud Platform*。
 +
 image:screenshot-google.png["数据代理页面的屏幕截图，可用于在 AWS ， Azure ， Google Cloud 和内部数据代理之间进行选择。"]
 
-. 输入数据代理的名称，然后单击 * 继续 * 。
+. 输入数据代理的名称，然后选择*CONTINUD*。
 . 如果出现提示，请使用 Google 帐户登录。
 +
 此表由 Google 拥有和托管。您的凭据不会提供给 NetApp 。
@@ -128,7 +128,7 @@ image:screenshot_data_broker_gcp.png["屏幕截图显示了在 Google Cloud 中�
 +
 如果需要代理才能访问 Internet ，则该代理必须位于 Google Cloud 中，并使用与数据代理相同的服务帐户。
 
-. 数据代理可用后，单击BlueXP副本中的*继续*并同步。
+. 数据代理可用后、在BlueXP副本中选择*继续*并同步。
 +
 部署该实例大约需要 5 到 10 分钟。您可以通过BlueXP复制和同步服务监控进度、该服务会在实例可用时自动刷新。
 
@@ -146,12 +146,12 @@ image:screenshot_data_broker_gcp.png["屏幕截图显示了在 Google Cloud 中�
 
 .步骤
 . 打开 Google Cloud Platform 控制台并加载云存储服务。
-. 单击要在同步关系中用作源或目标的存储分段的名称。
-. 单击 * 权限 * 。
-. 单击 * 添加 * 。
+. 选择要用作同步关系中的源或目标的存储分段的名称。
+. 选择*权限*。
+. 选择 * 添加 * 。
 . 输入数据代理的服务帐户的名称。
 . 选择提供的角色 <<服务帐户所需的权限,与上述权限相同>>。
-. 单击 * 保存 * 。
+. 选择 * 保存 * 。
 
 
 .结果

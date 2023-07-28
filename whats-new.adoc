@@ -590,7 +590,7 @@ image:screenshot-sync-relationship-edit-name.png["同步关系的屏幕截图，
 
 === 表视图增强功能
 
-我们重新设计了信息板上的表视图，以便于使用。如果单击 * 更多信息 * ， Cloud Sync 将筛选信息板，以显示有关该特定关系的更多信息。
+我们重新设计了信息板上的表视图，以便于使用。如果您选择*更多信息*，Cloud Sync将筛选信息板以显示有关该特定关系的更多信息。
 
 image:screenshot-sync-table.png["信息板中表视图的屏幕截图。"]
 

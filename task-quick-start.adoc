@@ -62,7 +62,7 @@ NetApp 数据代理软件会将数据从源同步到目标（称为 _sync relati
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["四个"] 创建您的第一个同步关系
 [role="quick-margin-para"]
-登录到 https://console.bluexp.netapp.com/["BlueXP"^]，单击 * 同步 * ，然后拖放您为源和目标选择的内容。按照提示完成设置。 link:task-creating-relationships.html["了解更多信息。"]。
+登录到 https://console.bluexp.netapp.com/["BlueXP"^]下，选择*Sync*，然后拖放选择的源和目标。按照提示完成设置。 link:task-creating-relationships.html["了解更多信息。"]。
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-5.png["五个"] 免费试用结束后支付同步关系费用
 [role="quick-margin-para"]

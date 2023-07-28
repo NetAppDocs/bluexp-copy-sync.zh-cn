@@ -71,22 +71,22 @@ IAM 角色必须满足以下要求：
 可以通过几种方法创建新的数据代理。以下步骤介绍如何在创建同步关系时在 AWS 中安装数据代理。
 
 .步骤
-. 单击 * 创建新同步 * 。
-. 在 * 定义同步关系 * 页面上，选择一个源和目标，然后单击 * 继续 * 。
+. 选择*Create New Sync*。
+. 在“*定义同步关系*”页上，选择源和目标，然后选择*CONTINUOD*。
 +
 完成这些步骤，直到显示 * 数据代理组 * 页面为止。
 
-. 在 * 数据代理组 * 页面上，单击 * 创建数据代理 * ，然后选择 * Amazon Web Services* 。
+. 在*Data Broker Group*页面上，选择*Create Data Broker*，然后选择*Amazon Web Services*。
 +
 image:screenshot-aws.png["数据代理页面的屏幕截图，可用于在 AWS ， Azure ， Google Cloud 和内部数据代理之间进行选择。"]
 
-. 输入数据代理的名称，然后单击 * 继续 * 。
+. 输入数据代理的名称，然后选择*CONTINUD*。
 . 输入AWS访问密钥、以便BlueXP副本和同步可以代表您在AWS中创建数据代理。
 +
 这些密钥不会保存或用于任何其他目的。
 
 +
-如果您不想提供访问密钥，请单击页面底部的链接以改用 CloudFormation 模板。使用此选项时，您无需提供凭据，因为您直接登录到 AWS 。
+如果您不想提供访问密钥、请选择页面底部的链接以改用CloudFormation模板。使用此选项时，您无需提供凭据，因为您直接登录到 AWS 。
 
 +
 以下视频显示了如何使用 CloudFormation 模板启动数据代理实例：
@@ -101,7 +101,7 @@ video::video_cloud_sync.mp4[width=848,height=480]
 image:screenshot_aws_data_broker.png["在 AWS 中部署数据代理时需要提供的信息的屏幕截图。"]
 
 . 如果 VPC 中的 Internet 访问需要代理，请指定代理配置。
-. 数据代理可用后，在BlueXP副本和同步中单击*继续*。
+. 数据代理可用后，在BlueXP副本和同步中选择*继续*。
 +
 下图显示了 AWS 中已成功部署的实例：
 

@@ -26,15 +26,12 @@
   <block id="3a3d1b7e5044442dcfbd5cd464cc3e74" category="list-text">创建新同步关系时</block>
   <block id="d55c5ae4dbd0da4961b63d579f9712fd" category="inline-link-macro">了解如何在创建同步关系时创建新的数据代理</block>
   <block id="c7b4e71c7182550e433faac117c2ecfb" category="paragraph"><block ref="331eae664c6d6049ca8cf9db41aef0e1" category="inline-link-macro-rx"></block>。</block>
-  <block id="6dac2c23bc94d633506738bd36101caa" category="list-text">在 * 管理数据代理 * 页面中，单击 * 添加新数据代理 * ，以在新组中创建数据代理</block>
   <block id="33356a7534e9c58e7ebf9c0a2a815a6a" category="list-text">通过在现有组中创建新的数据代理，从 * 管理数据代理 * 页面访问此信息</block>
   <block id="3eabf8e614efa513058a3d3dbb1a59e1" category="list-title">您应了解的事项</block>
   <block id="035ddc07f088acce2ce7b9f5f3adbf75" category="list-text">您不能将数据代理添加到管理加密同步关系的组中。</block>
   <block id="bd7c77e0797aa0ace4fe53476f5bd1eb" category="list-text">如果要在现有组中创建数据代理，数据代理必须是内部数据代理或相同类型的数据代理。</block>
   <block id="cdb42fff9480ae666d8bc83254c6669c" category="paragraph">例如，如果某个组包含 AWS 数据代理，则可以在该组中创建 AWS 数据代理或内部数据代理。您不能创建 Azure 数据代理或 Google Cloud 数据代理，因为它们不是相同的数据代理类型。</block>
   <block id="df41669b003a060e8aaf939d172dabdc" category="list-title">在新组中创建数据代理的步骤</block>
-  <block id="01139d234037ac0c0218e33f45274355" category="list-text">单击 * 同步 &gt; 管理数据代理 * 。</block>
-  <block id="ce4433b25c45524977fc8fe7cbdf459c" category="list-text">单击 * 添加新数据代理 * 。</block>
   <block id="802f803fcc1e47690eb3743e68b82a33" category="list-text">按照提示创建数据代理。</block>
   <block id="8eb912b10c5a70a32cb5864415b764bb" category="paragraph">要获得帮助，请参见以下页面：</block>
   <block id="0b217f05323b361308650155f01a7091" category="inline-link-macro">在 AWS 中创建数据代理</block>
@@ -46,7 +43,6 @@
   <block id="85e5ddcb30088cd6cfefc0e824599627" category="inline-link-macro">在 Linux 主机上安装数据代理</block>
   <block id="5fc5be02ef143289af0e6a031decff5d" category="list-text"><block ref="5fc5be02ef143289af0e6a031decff5d" category="inline-link-macro-rx"></block></block>
   <block id="b20c8730a010d433fedb7241d0a0335a" category="list-title">在现有组中创建数据代理的步骤</block>
-  <block id="9c129f9a970d427b507541a4c3a7e53a" category="list-text">单击操作菜单并选择 * 添加数据代理 * 。</block>
   <block id="b65b4c1a581a43f257ad99ae84281816" category="inline-image-macro">组中每个数据代理都可以使用的操作菜单的屏幕截图。</block>
   <block id="b86abc18838bbcc96f4aba5f9e7400b2" category="list-text">按照提示在组中创建数据代理。</block>
   <block id="301ebdf8067a213d5a55c65fbb488290" category="section-title">安全建议</block>
@@ -65,21 +61,15 @@
   <block id="11a83e6b96c9efdc97f63abd9c00ad55" category="admonition">扫描程序将扫描源和目标，并确定应复制的内容。传输器将执行实际复制。NetApp 人员可能会使用这些配置详细信息来建议可优化性能的操作。</block>
   <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">步骤</block>
   <block id="40c73a255636bb999d6831cf4ac7e7a1" category="inline-image-macro">用于展开组中数据代理列表的按钮的屏幕截图。</block>
-  <block id="447de7a1cac78a70d6df20a5b1ee66aa" category="list-text">单击 <block ref="787db84ec9404328cdc4a6264b9959c1" category="inline-image-macro-rx" type="image"></block> 展开组中的数据代理列表。</block>
   <block id="4e2a058312f76a6733fa5f04b09d0b12" category="inline-image-macro">按钮的屏幕截图，可用于展开有关数据代理的详细信息。</block>
-  <block id="d9428db3891df0c6837599d9004dc84b" category="list-text">单击 <block ref="470bfce73839324984be8a7b9dbc97eb" category="inline-image-macro-rx" type="image"></block> 查看有关数据代理的详细信息。</block>
   <block id="b3f5b024c925d18f1fad38e34f6adeb7" category="inline-image-macro">有关数据代理的信息的屏幕截图。</block>
   <block id="2aca713208ede5e338187d8acfc59e45" category="paragraph"><block ref="2aca713208ede5e338187d8acfc59e45" category="inline-image-macro-rx" type="image"></block></block>
   <block id="cd001e84be2b1eb58fae93119764a424" category="section-title">从组中删除数据代理</block>
   <block id="86809a552db6628d8c5fdff212824259" category="list-text">如果某个关系正在使用某个组，则不能从该组中删除最后一个数据代理。</block>
-  <block id="9b1ed3beff3574463addd20120a54d9d" category="list-text">单击数据代理的操作菜单，然后选择 * 删除数据代理 * 。</block>
   <block id="fa09436a4bdfebc03ee36943e6a1b450" category="inline-image-macro">可用于每个数据代理组的操作菜单的屏幕截图。</block>
   <block id="72d8c1c0fb68d009ccb1cae8adc51597" category="paragraph"><block ref="72d8c1c0fb68d009ccb1cae8adc51597" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="c3bab48341baf2f6368e3f474352dfef" category="list-text">单击 * 删除数据代理 * 。</block>
   <block id="d673b528f864db55fcb67876966355b2" category="paragraph">随时更改数据代理组的名称。</block>
-  <block id="6101d898adb1b689572ae10844666fb9" category="list-text">单击操作菜单并选择 * 编辑组名称 * 。</block>
   <block id="81a916358892fc8fbd08a770c2e50715" category="paragraph"><block ref="81a916358892fc8fbd08a770c2e50715" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="155ba6c2c0d0fdfa0760ba73549d665c" category="list-text">输入新名称并单击 * 保存 * 。</block>
   <block id="d84b9ff2a26165aea44e08c53ac24735" category="section-title">解决数据代理的问题</block>
   <block id="417555a2380aa45dc52608834062b293" category="list-text">确定状态为 " 未知 " 或 " 失败 " 的任何数据代理。</block>
   <block id="d41d8cd98f00b204e9800998ecf8427e" category="inline-image-macro"></block>
@@ -87,11 +77,8 @@
   <block id="4c23f2743e95cade04a6991678e7c813" category="paragraph">例如，如果数据代理脱机，您可能只需重新启动它，或者如果初始部署失败，您可能需要删除数据代理。</block>
   <block id="b913043c4767c72e8bbb3ed88c33dd15" category="paragraph">如果同步关系在同步过程中遇到错误，统一数据代理组的并发性有助于减少同步错误的数量。请注意，更改组的配置可能会降低传输速度，从而影响性能。</block>
   <block id="e0341128a5853714165581951816b70b" category="paragraph">建议不要自行更改配置。您应咨询 NetApp ，了解何时更改配置以及如何更改配置。</block>
-  <block id="6fea4f8d81c041ddb786f1edf604f6b0" category="list-text">单击 * 管理数据代理 * 。</block>
-  <block id="947dda123a9676ba06895d96ee598405" category="list-text">单击数据代理组的设置图标。</block>
   <block id="270f82e457e8fa76d7c5a3cc51be200a" category="inline-image-macro">显示数据代理组的设置图标的屏幕截图。</block>
   <block id="e7670e4280933a11f42bb2080cc42f84" category="paragraph"><block ref="e7670e4280933a11f42bb2080cc42f84" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="28d40eeab8fd28bbdf5b092f4784b274" category="list-text">根据需要更改设置，然后单击 * 统一配置 * 。</block>
   <block id="cf3a2d2c139bf5c9cc87fe714bfff3b1" category="paragraph">请注意以下事项：</block>
   <block id="63c7b65895eb2fbd662e3ab0e4de3d12" category="list-text">您可以选择要更改的设置—不需要一次性更改全部四个设置。</block>
   <block id="ee04adf201931e953bab143cd61c5e34" category="list-text">将新配置发送到数据代理后，数据代理将自动重新启动并使用新配置。</block>
@@ -131,7 +118,6 @@
   <block id="254d5c87d5ab437395f866390ea49cd0" category="inline-link">在 Google Cloud 中启动 Cloud Volumes ONTAP</block>
   <block id="366f7e58814bef5e88fbb6881239ff46" category="inline-link">添加现有 Cloud Volumes ONTAP 系统</block>
   <block id="e845620e391b62ad3163cdb0e100a862" category="inline-link">发现 ONTAP 集群</block>
-  <block id="e17d9d52c8208dfce3fde1af20447264" category="list-text">单击 * 画布 * 。</block>
   <block id="b5f4d0a91c515f4bd54cae36d52f1af7" category="list-text">选择与上述任何类型匹配的工作环境。</block>
   <block id="1cffa027f06c83c15096bfe069d63282" category="list-text">选择 Sync 旁边的操作菜单。</block>
   <block id="ab116a076c96e5657e8e3c778ee684b2" category="inline-image-macro">屏幕截图显示了在选择工作环境后通过 Sync 菜单可执行的操作。</block>
@@ -146,7 +132,6 @@
   <block id="f40f1d9dc0b9fe761c1fae85c5642f2b" category="list-text">在 * NFS Server* 页面上，输入要同步到 AWS 的 NFS 服务器的 IP 地址或完全限定域名。</block>
   <block id="a31f37dcd17877cea841776e751a5c03" category="list-text">在 * 数据代理组 * 页面上，按照提示在 AWS ， Azure 或 Google Cloud Platform 中创建数据代理虚拟机，或者在现有 Linux 主机上安装数据代理软件。</block>
   <block id="598b1711dd67bf120b85d858cb7087c3" category="paragraph">有关详细信息，请参阅以下页面：</block>
-  <block id="8ee76d81cd3bca0a06766cada54e9900" category="list-text">安装数据代理后，单击 * 继续 * 。</block>
   <block id="78f8e06b33ffb5e1a53c6685b329afd5" category="inline-image-macro">此屏幕快照显示已成功部署的实例。该界面显示有关实例的详细信息、包括 AWS 联网。</block>
   <block id="460dd7003c9711e5459ed0a96f7c8281" category="paragraph"><block ref="460dd7003c9711e5459ed0a96f7c8281" category="inline-image-macro-rx" type="image"></block></block>
   <block id="a271de5321e2a04796460ebc14e59eb4" category="list-text">在 * 目录 * 页面上，选择顶级目录或子目录。</block>
@@ -154,7 +139,6 @@
   <block id="daae3c3e845ae4c3697e01616f4f7b93" category="list-text">在 * AWS S3 Bucket* 页面上，选择一个存储分段：</block>
   <block id="8e32410b962702f10a4b3b0600f973c1" category="list-text">向下钻取以选择存储桶中的现有文件夹或选择在存储桶内创建的新文件夹。</block>
   <block id="c0e557736b1b4c22df8edfd8d06214ca" category="inline-link-macro">必须将特定权限应用于 S3 存储区。</block>
-  <block id="2ad4a0a772b07953e8d882b7fe21cf11" category="list-text">单击 * 添加到列表 * 以选择与您的 AWS 帐户无关的 S3 存储分段。 <block ref="772fe08f8ccc4de2babce33261957aed" category="inline-link-macro-rx"></block>。</block>
   <block id="c04f4488434ced226bcb0be4d5ecf0e6" category="list-text">在 * 分段设置 * 页面上，设置分段：</block>
   <block id="d0108dd861797c657c5b430a731cd0d9" category="list-text">选择是否启用 S3 存储分段加密，然后选择 AWS KMS 密钥，输入 KMS 密钥的 ARN 或选择 AES-256 加密。</block>
   <block id="90970afda72d4e681afa2bb416cbd684" category="inline-link-macro">查看支持的存储类。</block>
@@ -195,13 +179,8 @@
   <block id="96eb50fa77567b33546d85a4d6adc2f4" category="inline-image-macro">创建与 Amazon S3 的同步关系时显示 " 标记 / 元数据 " 页面的屏幕截图。</block>
   <block id="72786dbf28b6222cb6b90ef1853e64d5" category="paragraph"><block ref="72786dbf28b6222cb6b90ef1853e64d5" category="inline-image-macro-rx" type="image"></block></block>
   <block id="3b2c91269ae0c67c26fe59bbb10eb6a2" category="admonition">将数据同步到 StorageGRID 和 IBM 云对象存储时，也可以使用此功能。对于 Azure 和 Google Cloud Storage ，只有元数据选项可用。</block>
-  <block id="abf843ce80b23a0209755d1e397c8333" category="list-text">查看同步关系的详细信息，然后单击 * 创建关系 * 。</block>
   <block id="600901e70afccc50e18676048766ba78" category="paragraph">* 结果 *</block>
-  <block id="991900a0204b24a05efe45e0b0b3bb96" category="section-title">从 Cloud Data sense 创建同步关系</block>
-  <block id="0a3762f065e87e761291235c3f42e8d4" category="paragraph">从 Cloud Data sense 启动数据同步后，所有源信息都包含在一个步骤中，只需输入几个关键详细信息即可。然后，选择新同步关系的目标位置。</block>
   <block id="f3b62c43bc969f6b5b30d96b8171a06d" category="inline-image-macro">一个屏幕截图，显示直接从 Cloud Data sense 启动新同步后显示的 "Data sense Integration" 页面。</block>
-  <block id="c52509e09917e0e29ac603ef598d3f69" category="paragraph"><block ref="c52509e09917e0e29ac603ef598d3f69" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="20718255a13eb2f29be8b068228e69bc" category="inline-link">了解如何从 Cloud Data sense 启动同步关系</block>
   <block id="34a36f0a41c390743b7c28311304c570" category="doc">设置数据代理组以使用外部 HashiCorp 存储</block>
   <block id="2428fdd39f5ab3cbda5b5bac12ab8f84" category="paragraph">通过设置 URL 来准备存储以向数据代理组提供凭据。存储中的机密 URL 必须以 _Creds_结尾 。</block>
   <block id="e0e88dfcd253d5d5ea89a9985f2101cf" category="paragraph">通过修改组中每个数据代理的本地配置文件，使数据代理组做好准备，以便从外部存储提取凭据。</block>
@@ -313,15 +292,10 @@
   <block id="63430717bb1e3b33a858e3661c1627a0" category="paragraph">在部署数据代理时，请按照以下步骤指定 IAM 角色。</block>
   <block id="9727c41167b4d3a89168d9e2a6bf1fbe" category="section-title">创建数据代理</block>
   <block id="c371ecc54445590f3e356493638d02db" category="paragraph">可以通过几种方法创建新的数据代理。以下步骤介绍如何在创建同步关系时在 AWS 中安装数据代理。</block>
-  <block id="05b03110970a5e69bee8654fc24ccf0b" category="list-text">单击 * 创建新同步 * 。</block>
-  <block id="699986c3a8b1dd3a3143973b450c229d" category="list-text">在 * 定义同步关系 * 页面上，选择一个源和目标，然后单击 * 继续 * 。</block>
   <block id="f0fff4676c779987735fc7ee633da03c" category="paragraph">完成这些步骤，直到显示 * 数据代理组 * 页面为止。</block>
-  <block id="c26c6fab489734aee5276f7e590f8b18" category="list-text">在 * 数据代理组 * 页面上，单击 * 创建数据代理 * ，然后选择 * Amazon Web Services* 。</block>
   <block id="0fc6ea2f37f8948c8630ffb60d5e0265" category="inline-image-macro">数据代理页面的屏幕截图，可用于在 AWS ， Azure ， Google Cloud 和内部数据代理之间进行选择。</block>
   <block id="7af53fb4b55f3887a3b7d59e2a119aa2" category="paragraph"><block ref="7af53fb4b55f3887a3b7d59e2a119aa2" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="8d5f3c11505e061fa1ae30de2766106b" category="list-text">输入数据代理的名称，然后单击 * 继续 * 。</block>
   <block id="5c06da7ffcfe27fbe1ca6a288b6d46c8" category="paragraph">这些密钥不会保存或用于任何其他目的。</block>
-  <block id="ea274abab109d43436d6d4dd8e13bab8" category="paragraph">如果您不想提供访问密钥，请单击页面底部的链接以改用 CloudFormation 模板。使用此选项时，您无需提供凭据，因为您直接登录到 AWS 。</block>
   <block id="fac489f42d32a183751d7250d0d6ddf8" category="paragraph">以下视频显示了如何使用 CloudFormation 模板启动数据代理实例：</block>
   <block id="17cc78aee78be2a54a8cc1a5a2172559" category="inline-xref">您需要提供所需的权限</block>
   <block id="115b5af8cfd138d39f5b56bb5b1b53d7" category="paragraph">如果您选择自己的 IAM 角色， <block ref="1faadad7a4ef01b0a8464fdda070fd6f" category="inline-xref-macro-rx"></block>。</block>
@@ -381,7 +355,6 @@
   <block id="2470150bd9a4e04a2e189d3ae6e56fe0" category="list-text">* 数据代理 * ：按照提示添加新的源数据代理或选择现有数据代理。</block>
   <block id="39a513eb21ebe3c708dcaa6942b6d31d" category="list-text">如果源数据代理充当侦听程序、则它必须是新的数据代理。</block>
   <block id="cdba25c9167c61c57652be77cd6bc4e2" category="list-text">* 目录 * ：选择要同步的目录，方法是选择所有目录，或者向下钻取并选择子目录。</block>
-  <block id="de6d5031bb824b97bc739136ed0ca12f" category="paragraph">单击 * 筛选源对象 * 可修改用于定义源文件和文件夹在目标位置的同步和维护方式的设置。</block>
   <block id="17cc825827711a2fbb35f034caf806fc" category="inline-image-macro">屏幕截图显示了选择顶级目录，展开并选择筛选源对象选项的选项。</block>
   <block id="ec512e2862c8dda2563d8ba47436b65b" category="paragraph"><block ref="ec512e2862c8dda2563d8ba47436b65b" category="inline-image-macro-rx" type="image"></block></block>
   <block id="60af823ef7e6a707f1ea0d358c745e23" category="list-text">* 目标 NFS 服务器 */* 目标 NFS* ：选择 Azure NetApp Files 版本，然后输入新的 目标或选择现有服务器。</block>
@@ -392,7 +365,6 @@
   <block id="d7d921b770410daba11fa5b08364a9b2" category="paragraph"><block ref="d7d921b770410daba11fa5b08364a9b2" category="inline-image-macro-rx" type="image"></block></block>
   <block id="d745b7ea2fe3a1dffe9d30c5f25e422b" category="list-text">* 目标目录 * ：选择顶级目录，或者向下钻取以选择现有子目录或在导出中创建新文件夹。</block>
   <block id="b1574b82988204b1ea2b4391bc2b62cc" category="list-text">* 设置 * ：定义如何在目标位置同步和维护源文件和文件夹。</block>
-  <block id="376588358d7683b8caa450f37e1678c1" category="list-text">* 审阅 * ：查看同步关系的详细信息，然后单击 * 创建关系 * 。</block>
   <block id="31b876010e591a7e8b00068dcabd80b7" category="inline-image-macro">屏幕截图显示了“回顾”屏幕。其中显示了 NFS 服务器，数据代理以及每个代理的网络信息。</block>
   <block id="39cd9e3fa50eeb2b66a750a04c154460" category="paragraph"><block ref="39cd9e3fa50eeb2b66a750a04c154460" category="inline-image-macro-rx" type="image"></block></block>
   <block id="d8247e494d1e03bac9b29cc7ea4c0eca" category="section-title">在信息板中排序</block>
@@ -429,7 +401,6 @@
   <block id="b0ca823b10873e7a925ef5adac883c88" category="section-title">SFTP 到 S3</block>
   <block id="cc7323173039fb96b345cbcfd28877b6" category="paragraph">现在，可以在用户界面中创建从 SFTP 到 Amazon S3 的同步关系。此同步关系以前仅支持 API 。</block>
   <block id="5eafde1d0f1c17904e2751e719da1538" category="section-title">表视图增强功能</block>
-  <block id="dae101521243289c0a713ed367646615" category="paragraph">我们重新设计了信息板上的表视图，以便于使用。如果单击 * 更多信息 * ， Cloud Sync 将筛选信息板，以显示有关该特定关系的更多信息。</block>
   <block id="90395f713f122ec567368986af441ba7" category="inline-image-macro">信息板中表视图的屏幕截图。</block>
   <block id="464bce8418108e11fbc67663fc64376a" category="paragraph"><block ref="464bce8418108e11fbc67663fc64376a" category="inline-image-macro-rx" type="image"></block></block>
   <block id="55692a3e08e518d1aa7c38db6b703907" category="section-title">支持 Jarkarta 地区</block>
@@ -546,7 +517,6 @@
   <block id="b979ccf0a630de029ca4f0949d2a4da5" category="paragraph">部署数据代理时，您需要选择具有以下权限的服务帐户：</block>
   <block id="10c5ef3d81c591aadadb7817f4e79de0" category="admonition">只有在计划设置数据代理以使用外部 HashiCorp 存储时，才需要 iam.serviceAccounts.signJwt" 权限。</block>
   <block id="0fbb3a69ab0abf1cabee38002a3846f3" category="paragraph">可以通过几种方法创建新的数据代理。以下步骤介绍如何在创建同步关系时在 Google Cloud 中安装数据代理。</block>
-  <block id="01341420bc02ccee78de02f8a53bc10d" category="list-text">在 * 数据代理组 * 页面上，单击 * 创建数据代理 * ，然后选择 * Microsoft Azure* 。</block>
   <block id="3a22f44ed11b974b3666e987fe41b909" category="paragraph"><block ref="3a22f44ed11b974b3666e987fe41b909" category="inline-image-macro-rx" type="image"></block></block>
   <block id="dc35ce1752664930f658f7059d7b8f9c" category="list-text">如果出现提示，请使用 Google 帐户登录。</block>
   <block id="29b28ad1793cec26548948fbe79ebfd5" category="paragraph">此表由 Google 拥有和托管。您的凭据不会提供给 NetApp 。</block>
@@ -558,13 +528,9 @@
   <block id="ed7160396fcfefca3c1997b02ccbe37c" category="paragraph">您已在 Google Cloud 中部署数据代理并创建了新的同步关系。您可以将此数据代理与其他同步关系一起使用。</block>
   <block id="8743cf4fd5bd75723f626be1d4af6bb5" category="section-title">提供在其他 Google Cloud 项目中使用存储分段的权限</block>
   <block id="6ab8649cc222312c90daa98ef292a592" category="list-text">打开 Google Cloud Platform 控制台并加载云存储服务。</block>
-  <block id="a0f456d59c57c1111f650c11ad24fa5d" category="list-text">单击要在同步关系中用作源或目标的存储分段的名称。</block>
-  <block id="715460ccdde6385d4b2f9b34475e2704" category="list-text">单击 * 权限 * 。</block>
-  <block id="7dee7e783d13b6d5d415926ce0bfc306" category="list-text">单击 * 添加 * 。</block>
   <block id="75d2935b39ceeb13d10ba4ced792a75b" category="list-text">输入数据代理的服务帐户的名称。</block>
   <block id="bee41d170929fb7fc4e79dde87e71a86" category="inline-xref">与上述权限相同</block>
   <block id="babe42abe7decc70b98a517bfcc466aa" category="list-text">选择提供的角色 <block ref="bcb4c6e7b3e58289927e5f4cf9be10af" category="inline-xref-macro-rx"></block>。</block>
-  <block id="4cc186df234138a57b2e8c5d8e5f7f8d" category="list-text">单击 * 保存 * 。</block>
   <block id="18e32f4b46f7365779a3d1fe9eb08721" category="paragraph">设置同步关系时，您现在可以选择该存储分段作为同步关系中的源或目标。</block>
   <block id="9177317d32a41a0982be70109425240b" category="section-title">有关数据代理 VM 实例的详细信息</block>
   <block id="3ea4bf9da7622edeeae1bf80e9c5cded" category="list-text">计算机类型</block>
@@ -574,36 +540,25 @@
   <block id="d45779d5d4d94ce3569ba04a2f510bdc" category="doc">管理同步关系</block>
   <block id="01db9e7829acc4899b2e0742925feea9" category="paragraph">您可以按按钮立即在源和目标之间同步数据，而不是等待下一个计划同步。</block>
   <block id="0f5f1ed19e5f92c9f1aad34019c5c065" category="inline-image-macro">用于对同步关系执行操作的按钮的屏幕截图</block>
-  <block id="781a4e1aefac4f9409210de2df0f2992" category="list-text">在 * 信息板 * 中，导航到同步关系，然后单击 <block ref="1452da4272733702009675a0aac63ae1" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="90881819e96a317a0b9cbd8a17bea734" category="list-text">单击 * 立即同步 * ，然后单击 * 同步 * 进行确认。</block>
   <block id="9011e4e296b23e35e2729606b1923581" category="paragraph">通过向管理同步关系的组添加额外的数据代理来提高同步关系的性能。其他数据代理必须是 _new_ 数据代理。</block>
   <block id="30da1c6cc964eebe723aacff25362055" category="paragraph">如果数据代理组管理其他同步关系，则添加到组中的新数据代理也会提高这些同步关系的性能。</block>
   <block id="77835e3bdea4c9060a1ddb296840c2f2" category="list-text">确保关系中至少有一个现有数据代理处于联机状态。</block>
-  <block id="f0f405cf23a3551636665b7b031e8fac" category="list-text">单击 * 加速 * 。</block>
   <block id="bef7c0526a136d74698b8d535b65bafd" category="list-text">按照提示创建新的数据代理。</block>
   <block id="b9d30d436a8a56d3713a2ec699c1b4b4" category="paragraph">您可以使用现有同步关系中源或目标的最新凭据更新数据代理。如果安全策略要求您定期更新凭据，则更新凭据会很有帮助。</block>
-  <block id="bd815be6d32df77592fb5fe811a33258" category="list-text">从 * 同步信息板 * 中，转到需要凭据的同步关系，然后单击 * 更新凭据 * 。</block>
-  <block id="78529df6bbf68e1bc56a7c5921101ba9" category="list-text">输入凭据并单击 * 更新 * 。</block>
   <block id="023dd20b31e9240e9be755e28a211310" category="paragraph">有关 SMB 服务器的注意事项：如果此域是新域，则在更新凭据时需要指定它。如果域未更改，则无需重新输入。</block>
   <block id="374e9d4e51accd7075f4287b4b793c1b" category="paragraph">修改定义源文件和文件夹在目标位置的同步和维护方式的设置。</block>
-  <block id="bdcd619e6df173b859ed2a1a86e17328" category="list-text">单击 * 设置 * 。</block>
   <block id="822ae51936517f095a62c2446cee4c00" category="list-text">修改任何设置。</block>
   <block id="81619d38a88bd76ccf0c4ffa8f70f298" category="inline-image-macro">显示同步关系设置的屏幕快照。</block>
   <block id="ebc3c303231e5e786f0078a52c4d81c7" category="paragraph"><block ref="ebc3c303231e5e786f0078a52c4d81c7" category="inline-image-macro-rx" type="image"></block></block>
   <block id="b849337d97139a6f11fd0de2bdfe63ed" category="paragraph">【【 ｛ deleteonsource ｝ 】下面是每个设置的简短问题描述：</block>
   <block id="358b02ae4c5737f45e3823c255aeb87e" category="list-text">如果文件已从源文件中删除，请选择从目标位置删除这些文件。默认情况下，从不从目标位置删除文件。</block>
-  <block id="14242c99845a0bf338d45c648e061643" category="list-text">单击 * 保存设置 * 。</block>
   <block id="f493e490805f4eb86f124bae3d9da833" category="paragraph">如果不再需要在源和目标之间同步数据，则可以删除同步关系。此操作不会删除数据代理组（或单个数据代理实例），也不会删除目标中的数据。</block>
-  <block id="68771d6d7b1536e9127a6d046d30c825" category="list-text">单击 * 删除 * ，然后再次单击 * 删除 * 进行确认。</block>
   <block id="f68b92ee815675ae3018eca060b553b7" category="summary">创建和查看报告以获取信息，您可以在 NetApp 人员的帮助下使用这些信息来调整数据代理的配置并提高性能。</block>
   <block id="66a57cf55e06ad77b01c27e38766b83a" category="doc">创建和查看报告以调整配置</block>
   <block id="428c9ca45dc8f0b8e1eda231aef5b08f" category="paragraph">创建和查看报告以获取信息，您可以在 NetApp 人员的帮助下使用这些信息来调整数据代理的配置并提高性能。</block>
   <block id="d065612e0b27393ca9ed8b8e18bc869f" category="paragraph">每个报告都提供有关同步关系中某个路径的详细信息。例如，文件系统的报告显示了目录和文件的数量，文件大小的分布，目录的深度和宽度等。</block>
   <block id="0389649d1c6e65625a57cd6c84149999" category="section-title">创建报告</block>
-  <block id="f538684aa236fdad4b93e1b71f94526f" category="list-text">单击 * 同步 &gt; 报告 * 。</block>
   <block id="26126443d44ba2723fb7a7ede8dda75c" category="paragraph">每个同步关系中的路径（源或目标）显示在一个表中。</block>
-  <block id="1c64df2a4dcd75c3fa3f6d99a5843437" category="list-text">在 * 报告操作 * 列中，转到特定路径并单击 * 创建 * ，或者单击操作菜单并选择 * 新建 * 。</block>
-  <block id="575833de1768effbb8d15904d2822d68" category="list-text">报告准备就绪后，单击操作菜单并选择 * 查看 * 。</block>
   <block id="94954fba60bab7206fb4f66c4a7750cb" category="paragraph">下面是文件系统路径的示例报告。</block>
   <block id="3cd71212de067629b841a10ceaf4f32f" category="inline-image-macro">显示同步项目数量，文件大小，最大值，访问时间，更改时间的报告 并修改时间。</block>
   <block id="a95d57514b72e95aeaca84b9f5d7e43a" category="paragraph"><block ref="a95d57514b72e95aeaca84b9f5d7e43a" category="inline-image-macro-rx" type="image"></block></block>
@@ -612,21 +567,15 @@
   <block id="a9c50da4c27210dd95cbf6916b6c3b34" category="paragraph"><block ref="a9c50da4c27210dd95cbf6916b6c3b34" category="inline-image-macro-rx" type="image"></block></block>
   <block id="03901baec19e5e2a784f13acaa06127a" category="section-title">下载报告</block>
   <block id="f0d2e62b1c7572c743aab0d7c9b969c5" category="paragraph">您可以下载 PDF 格式的报告，以便脱机查看或共享它。</block>
-  <block id="4f1a7b585eef080503c8e5f586b7673e" category="list-text">在 * 报告操作 * 列中，单击操作菜单并选择 * 查看 * 。</block>
-  <block id="17b8d7c4db9e21e8c01f1b793f8bf325" category="list-text">在报告右上角，单击操作菜单并选择 * 下载 pdf* 。</block>
-  <block id="e45fcd91afd8b29019f92fa0f919f6d2" category="inline-image-macro">单击报告中的操作菜单后显示的 Download pdf 选项的屏幕截图。</block>
-  <block id="ef3e79a56ff208de546ac0714ccae4eb" category="paragraph"><block ref="ef3e79a56ff208de546ac0714ccae4eb" category="inline-image-macro-rx" type="image"></block></block>
   <block id="90e1319509db72baceccb5d8f4c2c472" category="section-title">查看报告错误</block>
   <block id="d86cb2fe66402168c1c894043151d228" category="paragraph">查看错误列表后，您可以解决问题并再次运行报告。</block>
   <block id="57ba4added426d6aea423b1e70f1b94c" category="list-text">在 * 错误 * 列中，确定报告中是否存在任何错误。</block>
-  <block id="10a0d9a4ad96880fef72d02fd9dcd2c5" category="list-text">如果存在错误，请单击错误数旁边的箭头。</block>
   <block id="d029ebc8f7b2e2aa789dc0e27797846f" category="inline-image-macro">路径表的屏幕截图，显示错误数量，并在错误列中显示一个可单击的小箭头。</block>
   <block id="e01f862fe61f1c44179e61c69a18938d" category="paragraph"><block ref="e01f862fe61f1c44179e61c69a18938d" category="inline-image-macro-rx" type="image"></block></block>
   <block id="591d860278697b4e6dbce26639961630" category="list-text">使用错误中的信息更正问题描述。</block>
   <block id="aa8765cc437da97ac36fcf5b9e8bd67c" category="paragraph">解决问题描述后，下次运行报告时不应显示此错误。</block>
   <block id="1b3463b3026822e4c8d6ad54c16a507a" category="section-title">删除报告</block>
   <block id="37100a26242d4deb28feac7db8d366de" category="paragraph">您可以删除报告中包含您修复的错误，或者如果报告与您删除的同步关系相关。</block>
-  <block id="6d084eaa09a94fecc5582a104b0053da" category="list-text">在 * 报告操作 * 列中，单击某个路径的操作菜单，然后选择 * 删除最后一个报告 * 或 * 删除所有报告 * 。</block>
   <block id="4051a60e091a5882a67c28985f8c22c7" category="list-text">确认要删除一个或多个报告。</block>
   <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">获取帮助</block>
   <block id="ac317451221f9a760b0fb4d93a8bec9c" category="doc">支持的同步关系</block>
@@ -817,7 +766,6 @@
   <block id="ebd974875888e4cb1567f55e3466cda1" category="cell">在安装和更新期间在数据代理虚拟机上安装 7z 。需要 7z 才能向 NetApp 技术支持发送 AutoSupport 消息。</block>
   <block id="6af6c652626660023ec712f6c15bbc0a" category="cell">https://sts.amazonaws.com</block>
   <block id="89100474e7faee0c34727c4b2b471007" category="cell">在 AWS 中部署数据代理或在内部部署数据代理时验证 AWS 凭据，并提供 AWS 凭据。数据代理会在部署期间，更新时以及重新启动时联系此端点。</block>
-  <block id="7f13eefefc02d429e3f594cb6d48d10e" category="cell">在使用 Data sense 为新同步关系选择源文件时联系 Cloud Data sense 。</block>
   <block id="6a3cdc9a7bccf7b319d4cd575bb3b01f" category="section-title">Web 浏览器端点</block>
   <block id="fd0cb271f0ac093ecb033a2bfea34fbd" category="paragraph">您的 Web 浏览器需要访问以下端点才能下载日志以进行故障排除：</block>
   <block id="c964e3aec545a38db906e6bb0b6a705f" category="paragraph">logs.cloudsync.netapp.com:443</block>
@@ -829,13 +777,11 @@
   <block id="4e2153a19cb9d86adf7b5ba332e78a45" category="paragraph">有关创建密钥对的帮助，请参见<block ref="3bfff4aa3d3a3eae965cce9b3b615a4a" category="inline-link-rx"></block>。</block>
   <block id="896293b91a375c72889dc16e1c816e72" category="paragraph">可以通过几种方法创建新的数据代理。以下步骤介绍如何在创建同步关系时在 Azure 中安装数据代理。</block>
   <block id="ff7156dc72b8081c2a9c6e0150647ace" category="paragraph"><block ref="ff7156dc72b8081c2a9c6e0150647ace" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="75dce0fc68d0351230bf9f9d8de2431c" category="list-text">如果出现提示，请登录到您的 Microsoft 帐户。如果未出现提示，请单击 * 登录到 Azure* 。</block>
   <block id="e0f74d06e87b3ad6fc9f3b3cfc573c38" category="paragraph">此表由 Microsoft 拥有和托管。您的凭据不会提供给 NetApp 。</block>
   <block id="eb326e1f884a5d84e7b70887f7874b42" category="list-text">为数据代理选择一个位置，然后输入有关虚拟机的基本详细信息。</block>
   <block id="4e150fdd87e97e0d1398184219062d41" category="inline-image-macro">Azure 部署页面的屏幕截图，其中显示了以下字段：订阅， Azure 区域， vNet ，子网，虚拟机名称， 用户名，身份验证方法和资源组。</block>
   <block id="f38f2fdb5d5d38ec31dd9074ee28e224" category="paragraph"><block ref="f38f2fdb5d5d38ec31dd9074ee28e224" category="inline-image-macro-rx" type="image"></block></block>
   <block id="2eabf7b67b6c5e6d78b08dd754db7951" category="list-text">如果在 vNet 中需要代理才能访问 Internet ，请指定代理配置。</block>
-  <block id="9a7c0eeeaa34923c384afd6768155386" category="list-text">单击 * 继续 * 并保持此页面打开，直到部署完成。</block>
   <block id="d053334dcf5dac4968bf6d994e4ed7ec" category="paragraph">此过程可能需要长达 7 分钟。</block>
   <block id="affdd8fc6be1e86de36efaee713f54e2" category="paragraph">您已在 Azure 中部署了数据代理并创建了新的同步关系。您可以将此数据代理与其他同步关系一起使用。</block>
   <block id="3ce174ce4b84d9bb24dbad7ede08fc56" category="sidebar-title">是否收到有关需要管理员同意的消息？</block>
@@ -878,22 +824,17 @@
   <block id="2feeb126323f3368d5b67555099e8c26" category="list-text">应将 _&lt;RoleARN&gt;_ 替换为以下项之一：</block>
   <block id="64382286854eaefaa762d894a81fc3ff" category="list-text">如果在 Linux 主机上手动安装了数据代理，则 _RoleARN_ 应是部署数据代理时为其提供 AWS 凭据的 AWS 用户的 ARN 。</block>
   <block id="e2fd71d5e0089aec445e3585846600a5" category="list-text">如果使用 CloudFormation 模板在 AWS 中部署了数据代理，则 _RoleARN_ 应是此模板创建的 IAM 角色的 ARN 。</block>
-  <block id="e12f2cb93ea8b0df53b39ccf052346cd" category="paragraph">您可以通过转至 EC2 控制台、选择数据代理实例并从“描述”选项卡中单击 IAM 角色来查找角色 ARN 。然后，应在 IAM 控制台中查看包含角色 ARN 的“摘要”页面。</block>
   <block id="27b29b1148f0a8d10712b93a6b2f07c0" category="inline-image-macro">AWS IAM 控制台的屏幕快照，其中显示了角色 ARN 。</block>
   <block id="5413d4eaee8e3ec886af67b45688f61a" category="paragraph"><block ref="5413d4eaee8e3ec886af67b45688f61a" category="inline-image-macro-rx" type="image"></block></block>
   <block id="7e2fc8b47c3caa089d5e9782e7d982d2" category="paragraph">确保 Azure Blob 存储满足以下要求。</block>
   <block id="47a68bd0994db3020f105c7c17c88fc6" category="section-title">Azure Blob 支持的数据代理位置</block>
   <block id="8ae4a8919ff640cac901c5170789725b" category="paragraph">如果同步关系包括 Azure Blob 存储，则数据代理可以驻留在任何位置。</block>
   <block id="cd0559cbb36e8ae61712a5e3085023f0" category="section-title">包含 Azure Blob 和 NFS/SMB 的关系的连接字符串</block>
-  <block id="1e9af9bf420c920c526a831d6d40e038" category="inline-image-macro">显示了一个连接字符串，可通过选择存储帐户并单击访问密钥从 Azure 门户访问此字符串。</block>
-  <block id="0898c993025b0ff5f0e5ec87ebf5842d" category="paragraph"><block ref="0898c993025b0ff5f0e5ec87ebf5842d" category="inline-image-macro-rx" type="image"></block></block>
   <block id="4b353a92f9cd802272f6be2754b692e1" category="inline-link">共享访问签名</block>
   <block id="4910e65af2eedc6fa7ed53c1aebddd87" category="paragraph">如果要在两个 Azure Blob 容器之间同步数据，则连接字符串必须包含<block ref="1b83926908223c09ad8189ca7e78f06a" category="inline-link-rx"></block> （ SAS ）。在 blob 容器和 NFS 或 SMB 服务器之间同步时，您还可以选择使用 SAS 。</block>
   <block id="f59a16e82b8115f2b51037c416a69a67" category="paragraph">SAS 必须允许访问 Blob 服务和所有资源类型（服务、容器和对象）。SAS 还必须包括以下权限：</block>
   <block id="eca1274468926e041a10a4b1a84c2e53" category="list-text">对于源 blob 容器：读取并列出</block>
   <block id="4f3d02d4ca2c2acd501754f1c7f092b8" category="list-text">对于目标 BLOB 容器：读取、写入、列出、添加和创建</block>
-  <block id="6d984d40359970bc3ca298e54c9c10ee" category="inline-image-macro">显示共享访问签名，可通过选择存储帐户并单击共享访问签名从 Azure 门户访问此签名。</block>
-  <block id="9e1406ab3768b6fdb53c46936555e01f" category="paragraph"><block ref="9e1406ab3768b6fdb53c46936555e01f" category="inline-image-macro-rx" type="image"></block></block>
   <block id="93751358816dca5a6ae146bcd1bed8e1" category="section-title">Azure NetApp Files 要求</block>
   <block id="ad9729abd442965a4f73f30b0b517cf1" category="paragraph">在与 Azure NetApp Files 同步数据时，请使用高级或超高级服务级别。如果磁盘服务级别为标准，则可能会出现故障和性能问题。</block>
   <block id="e9b40df30266f5af9c5798c022c86f33" category="admonition">如果您需要帮助确定合适的服务级别，请咨询解决方案架构师。卷大小和卷层决定了您可以获得的吞吐量。</block>
@@ -997,7 +938,6 @@
   <block id="7af7eb8440af6bb7f9ffd64569367b5b" category="paragraph">通过在 " 同步关系 " 向导中提供存储帐户和连接字符串，可以按关系定义对 Azure 的访问。</block>
   <block id="b6e5e048443785c8f424048cf1b9e40e" category="section-title">安装数据代理</block>
   <block id="1944006c73d02c718c69408861e1307c" category="paragraph">您可以在创建同步关系时在 Linux 主机上安装数据代理。</block>
-  <block id="20bdbeece7707eb8c81d92234512a38d" category="list-text">在 * 数据代理组 * 页面上，单击 * 创建数据代理 * ，然后选择 * 本地数据代理 * 。</block>
   <block id="df89dda1d1c7ea3cd71a127402ea04d7" category="paragraph"><block ref="df89dda1d1c7ea3cd71a127402ea04d7" category="inline-image-macro-rx" type="image"></block></block>
   <block id="8020038698547625e7abf1eda36c8877" category="admonition">即使此选项标记为 * ； on-Prem_ Data Broker* ，它也会对内部或云中的 Linux 主机进行适用场景。</block>
   <block id="023c2e07bedf559d5fb81f1e623f1b6f" category="paragraph">此时将很快加载说明页面。您需要按照这些说明进行操作，其中包括一个用于下载安装程序的唯一链接。</block>
@@ -1035,27 +975,19 @@
   <block id="f65ca7baf45cc92aec55770c0b36841f" category="paragraph"><block ref="7cfabb5964e9e36c902fe67d3082ea34" category="inline-link-macro-rx"></block>。</block>
   <block id="7f1e5fcf21192da891eea1c1f4f6e6f0" category="paragraph">AWS 使您可以按需付费或每年支付。</block>
   <block id="f06e94914580a228484d54783ffeb2bb" category="list-title">按需购买的步骤</block>
-  <block id="f4e86f9d0f6800384c773bd03834297d" category="list-text">单击 * 同步 &gt; 许可 * 。</block>
   <block id="af3298973678fbb2b80974a8030f07ac" category="list-text">选择 * AWS *</block>
-  <block id="01849158eeeec12ef2f893c8efd6c0e3" category="list-text">单击 * 订阅 * ，然后单击 * 继续 * 。</block>
   <block id="03909f0465e674709c33e446a2657166" category="paragraph">以下视频显示了该过程：</block>
   <block id="d95d2545b9702aaa44811f90fd798b70" category="list-title">每年支付的步骤</block>
   <block id="b857da0ad28712a25e73c0907a2b3740" category="inline-link">转至 AWS Marketplace 页面。</block>
   <block id="b84483eacee20411f642e9b32a1532d3" category="list-text"><block ref="9a55e6c904391172078e71a0186ef751" category="inline-link-rx"></block>。</block>
-  <block id="6ce481dcdc8134b6b4c81db0911f0267" category="list-text">单击 * 继续订阅 * 。</block>
-  <block id="1ee9033888539de2e81ddb29d255c405" category="list-text">选择您的合同选项，然后单击 * 创建合同 * 。</block>
   <block id="5b708f827f75588e652438e8d2977fb4" category="paragraph">Azure 使您可以按需付费或每年支付。</block>
   <block id="251910634a1b47d0359b6171382f3f9a" category="paragraph">在相关订阅中具有“贡献者”或“所有者”权限的 Azure 用户帐户。</block>
   <block id="2164db8f01d0c0a0dc250abc3b9556f5" category="list-text">选择 * Azure * 。</block>
-  <block id="e70ccb5a825dd2a0a3daf679b5f23567" category="list-text">在 Azure 门户中，单击 * 创建 * ，选择您的选项，然后单击 * 订阅 * 。</block>
   <block id="981e7253aa8df6872dfd3d544c12ef23" category="paragraph">选择 * 按月 * 按小时付费，或者选择 * 按年 * 按前一年付费。</block>
-  <block id="23a902dd0c4b97b70f0c79f7c46ed483" category="list-text">部署完成后，在通知弹出窗口中单击 SaaS 资源的名称。</block>
   <block id="97e3031ee8bcd0a19765ddc808e71590" category="paragraph">您需要提供许可证的序列号以及与许可证关联的 NetApp 支持站点帐户的用户名和密码。</block>
   <block id="0f5161c9e18f97b653442fef34de1024" category="list-text">请发送邮件至： ng-cloudsync-contact@netapp.com ？ Subject=Cloud%20Sync%20Service%20-%20BYOL%20License%20Purches%20Request[ 联系 NetApp] 购买许可证。</block>
-  <block id="c705d1b4b3b9a5ab7a62cfb882e27612" category="list-text">单击 * 添加许可证 * 并添加所需信息：</block>
   <block id="a7a65c558a31a52f3a2570581f5170c2" category="list-text">输入序列号。</block>
   <block id="441eaafe617acae90fac942cbac1d2a0" category="list-text">选择与要添加的许可证关联的 NetApp 支持站点帐户：</block>
-  <block id="93bad0f0398a452d035b9d52ba2724f5" category="list-text">如果尚未添加您的帐户，请单击 * 添加 NSS 凭据 * ，输入用户名和密码，单击 * 注册 * ，然后从下拉列表中选择它。</block>
   <block id="e0fd71ec05fc637037be9da3ff2103b0" category="section-title">更新许可证</block>
   <block id="83893211fb004302e2b1216eda1eb1f8" category="list-text">选择与要添加的许可证关联的 NetApp 支持站点帐户：</block>
   <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="doc">注册以获得支持</block>
@@ -1100,18 +1032,12 @@
   <block id="41b2fa65bd2051073cfc172ed6d944a7" category="list-text">如果某个数据代理组正在管理同步关系，并且该组中只有一个数据代理，则无法将该数据代理移动到另一个组。</block>
   <block id="3e0e9fccf9e35eb1a06e1c36bf885a2f" category="list-text">您不能将数据代理移入或移出管理加密同步关系的组。</block>
   <block id="db90b652da494a61a1c01e5e5aef4315" category="list-text">您无法移动当前正在部署的数据代理。</block>
-  <block id="dda0c1f183c1fccf92fffcd171b23e21" category="list-text">单击数据代理的操作菜单，然后选择 * 移动数据代理 * 。</block>
   <block id="89c00533408de9d6ad1e44640394b315" category="paragraph"><block ref="89c00533408de9d6ad1e44640394b315" category="inline-image-macro-rx" type="image"></block></block>
   <block id="cfd516ad37b4df608c16efb09914e1fc" category="list-text">创建新的数据代理组或选择现有数据代理组。</block>
-  <block id="55d7c27d3127f4494c358b638f4fc6ff" category="list-text">单击 * 移动 * 。</block>
   <block id="dbe6fde8cda66c70d52ac330a93b530e" category="section-title">更新代理配置</block>
   <block id="f646f203e1dead2c4f220dc5943aa058" category="paragraph">通过添加有关新代理配置的详细信息或编辑现有代理配置来更新数据代理的代理配置。</block>
-  <block id="550a2db189a4eb50771eeb91357d19cd" category="list-text">单击数据代理的操作菜单，然后选择 * 编辑代理配置 * 。</block>
   <block id="85a4803f127edd3390d65e41d8aaad98" category="list-text">指定有关代理的详细信息：主机名，端口号，用户名和密码。</block>
-  <block id="04252e4e5460971d7f33943bd841f366" category="list-text">单击 * 更新 * 。</block>
   <block id="2bbd7c4d9d525b0e8675bf3663179545" category="section-title">删除数据代理组</block>
-  <block id="4caa7a774039d94c9779b6e68946536b" category="list-text">单击操作菜单并选择 * 删除组 * 。</block>
-  <block id="a6f5a3bf619c49f582460d312e4f123a" category="list-text">要进行确认，请输入组名称，然后单击 * 删除组 * 。</block>
   <block id="33c34b75ae4154295ed3cdeeccb3fd6a" category="section-title">数据代理组增强功能</block>
   <block id="9e85c5ace2120c3600ae07824bd6d1a9" category="paragraph">我们对数据代理组进行了多项增强：</block>
   <block id="d1dcf627a81e370076956675cf99d2b9" category="list-text">现在，您可以将数据代理移动到新的或现有的组。</block>
@@ -1147,8 +1073,6 @@
   <block id="60c52bea153a81519d33048970ec1005" category="list-text">选择 S3 存储类。 <block ref="b6b337d654785cb938f2cf9fb35baf0c" category="inline-link-macro-rx"></block>。</block>
   <block id="586301717819197e24001cac47efdaaa" category="section-title">2022 年 1 月 2 日</block>
   <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">帮助菜单的屏幕截图，其中列出的第一个选项为支持</block>
-  <block id="d17d6b5dafebab6b7659da8850737e70" category="list-text">单击 * NSS 管理 &gt; 添加 NSS 帐户 * 。</block>
-  <block id="8aaf101e623c543c7eef3c65f6233366" category="list-text">出现提示时，单击 * 继续 * 以重定向到 Microsoft 登录页面。</block>
   <block id="19d089db572ee6a1e154a0c9c9e57bfd" category="paragraph">NetApp 使用 Microsoft Azure Active Directory 作为身份提供程序来提供特定于支持和许可的身份验证服务。</block>
   <block id="465ec6d5eafa3524c948c99d8bfcd306" category="list-text">在登录页面上，提供 NetApp 支持站点注册的电子邮件地址和密码以执行身份验证过程。</block>
   <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">法律声明提供对版权声明、商标、专利等的访问。</block>
@@ -1242,7 +1166,6 @@
   <block id="fb11bebf83dcbce9727e98d284bdfd1b" category="list-text">https://www.googleapis.com/auth/drive</block>
   <block id="46cab9554d574d5b87fe427f9d758717" category="list-text">https://www.googleapis.com/auth/drive.file</block>
   <block id="c5c953c152db5adea8fcd2fc1ce5c904" category="paragraph">通过在创建关系时或创建关系后启用设置、在SMB共享之间以及SMB共享和对象存储之间复制ACL。</block>
-  <block id="4eb7f5a2c981906a3398b40af3279ff4" category="list-text">将SMB服务器或对象存储拖放为源、将SMB服务器或对象存储拖放为目标、然后单击*继续*。</block>
   <block id="3f10ba55f7b5ee2ce092504fcea72477" category="section-title">2022年7月31日</block>
   <block id="173bb19c121e8b179d4baa317b637722" category="paragraph">现在、您可以将NFS服务器或SMB服务器中的数据同步到Google Drive。支持将"我的驱动器"和"共享驱动器"作为目标。</block>
   <block id="edb5ab0783f7fd41d24fc8a5ae44aef6" category="inline-link">了解有关Google Drive要求的更多信息</block>
@@ -1256,7 +1179,6 @@
   <block id="bb444099cdb375196c5bb6444eabdc45" category="paragraph">现在、您可以通过将一个工作环境拖放到另一个工作环境之上、从Canvas设置同步关系。</block>
   <block id="bf283dfa54b095b3eda8812752b158f9" category="section-title">右侧面板设置</block>
   <block id="79074218529972fce8a6ccab7f00095d" category="paragraph">现在、您可以通过从"画布"中选择工作环境、然后从右侧面板中选择同步选项、为Azure Blob存储或Google Cloud存储设置同步关系。</block>
-  <block id="20ef58d225f15c6c7617c04b34bd0ff8" category="list-text">在*数据代理组*页面上、单击*创建数据代理*、然后选择* Google云平台*。</block>
   <block id="a855786065eb842829e76727ee601d59" category="paragraph">安装数据代理之前、必须在主机上运行命令`yum update`。</block>
   <block id="da8b75d7f83536bef455f4cfcb81982f" category="section-title">2022年9月4日</block>
   <block id="a9b4886a93e658bc8692b215ae9412a0" category="section-title">其他Google Drive支持</block>
@@ -1276,9 +1198,7 @@
   <block id="50685346648f799f564787da3aeaa3df" category="list-text">修改同步关系的设置：</block>
   <block id="e265f7dc29349c5c09e52af073ae2fdf" category="list-text">启用*通知*。</block>
   <block id="f9d4f53357700da18c4c21765dd9a257" category="list-text">如果要通过电子邮件接收通知、请配置警报和通知设置：</block>
-  <block id="2c97c497a9405e946d3eb1dd6266fe96" category="list-text">单击*设置&gt;警报和通知设置*。</block>
   <block id="0f3cd015c1ca0bfb4d2fbb852b3d6a5e" category="list-text">选择一个或多个用户、然后选择*信息*通知类型。</block>
-  <block id="400fae8e788b3721b9ac25fe01f04f50" category="list-text">单击 * 应用 * 。</block>
   <block id="7ca5aa2b579039b92d9aed9f84201f04" category="paragraph">接收通知的条件</block>
   <block id="0d57e234a2b4332ebe0b7d721befcace" category="inline-image-macro">"info"图标。</block>
   <block id="69f36491bce31dc81bbaeca0cbd9e9a7" category="list-text">将鼠标悬停在上 <block ref="a83fa8ab64292d507b50e25c113057be" category="inline-image-macro-rx" type="image"></block> 图标以查看失败原因。</block>
@@ -1287,7 +1207,6 @@
   <block id="8867d44df7bbafbfb314d97a7c0cfb4c" category="paragraph">如果要为以下任一项创建同步关系、则首先需要创建或发现工作环境：</block>
   <block id="649d75c6283da2a4b802839db32a41af" category="inline-link">了解有关连接器的更多信息</block>
   <block id="82812db645b6ff5e9c2a24ddfb66c8d6" category="paragraph">除了上述自助支持选项之外、您还可以在激活支持后与NetApp支持专家合作解决任何问题。</block>
-  <block id="383133cb6f7207b1c65c3ace94aa5e95" category="list-text">如果您要通过电话与某人通话、请单击*致电我们*。系统会将您定向到netapp.com上的一个页面、其中列出了您可以拨打的电话号码。</block>
   <block id="2e50c5f85523f0aba9ff2db10f18279c" category="list-text">*工作环境*：如果适用于存储、请选择* Cloud Volumes ONTAP *或* on-Prem*、然后选择关联的工作环境。</block>
   <block id="e6f29fb3c7636dc0040600dd0e84bb79" category="list-text">*案例优先级*：选择案例的优先级、可以是"低"、"中"、"高"或"严重"。</block>
   <block id="835eb4008e97c2a7f69bbb2725285e34" category="paragraph">要了解有关这些优先级的更多详细信息、请将鼠标悬停在字段名称旁边的信息图标上。</block>
@@ -1295,7 +1214,6 @@
   <block id="002c6f26fb01affb37b8cf3cef7a1fb0" category="list-text">*其他电子邮件地址*：如果您希望其他人了解此问题描述 、请输入其他电子邮件地址。</block>
   <block id="baaf0e61add7d12cf8d12e023d5aef18" category="inline-image-macro">创建案例表的屏幕截图、可用于向NetApp支持部门创建案例。</block>
   <block id="18f487556417bb6d9721a7005ae097c9" category="paragraph">此时将显示一个弹出窗口、其中包含您的支持案例编号。NetApp支持专家将审核您的案例、并尽快与您联系。</block>
-  <block id="04e15da1deae9568b4dcda64fbb0c8d5" category="paragraph">有关支持案例的历史记录、您可以单击*设置&gt;时间线*并查找名为"创建支持案例"的操作。 最右侧的按钮可用于展开操作以查看详细信息。</block>
   <block id="5c56753585e89a84941bb3a78bc681af" category="paragraph">尝试创建案例时、您可能会遇到以下错误消息：</block>
   <block id="a30f69ab0ec85d427a3e8835713525bd" category="paragraph">"您无权针对选定服务创建案例"</block>
   <block id="e01df0b4dfd95eba2c59333419e4fac6" category="list-text">使用产品内聊天功能</block>
@@ -1345,7 +1263,6 @@
   <block id="3cf98067a279c5afe27919c8acd25ea4" category="paragraph">初始数据同步后、Cloud Sync 将侦听源Azure存储分段上的更改、并在发生更改时持续同步目标。从Azure存储分段同步到Azure Blob存储、CIFS、Google云存储、IBM云对象存储、NFS和StorageGRID 时、可以使用此设置。</block>
   <block id="91cba4a0b0d46011e31e848c61739e1e" category="paragraph">要使用此设置、Azure数据代理需要一个自定义角色和以下权限：</block>
   <block id="ddbbf48cd438f6c3a5d773f3c8249074" category="paragraph">在创建某些类型的同步关系之前、您需要先在BlueXP中创建一个工作环境。</block>
-  <block id="f08beb9a11a66834f5e08f2bd7436fb0" category="list-text">在BlueXP中、单击*同步*。</block>
   <block id="881a6a2a0c1e8d7bd1c4b11d9498ff12" category="paragraph">您应该已经开始使用BlueXP、其中包括登录、设置帐户、可能还包括部署Connector和创建工作环境。</block>
   <block id="89e019c15bf54627a2a1e4918e66bab6" category="inline-link">了解如何开始使用BlueXP</block>
   <block id="9b9477e579c3b44dd623d5a6e1ea8d78" category="inline-link">BlueXP</block>
@@ -1353,7 +1270,6 @@
   <block id="2322ca552c2b0ebe090c8485519246a8" category="list-text">注册您的BlueXP帐户ID支持订阅(您的20位960xxxxxxxxx序列号、位于BlueXP的支持资源页面上)。</block>
   <block id="23fdcbefa6d9cd877be7ceb7a18bb936" category="paragraph">这是您在BlueXP中使用的任何服务的单一支持订阅ID。必须注册每个BlueXP帐户级别的支持订阅。</block>
   <block id="67dbdeb11e22ea7def810bade59ce818" category="paragraph">这些序列号通常称为_PAYGO序列号、并由BlueXP在部署Cloud Volumes ONTAP 时生成。</block>
-  <block id="1afe19576f77bb0073c93359ed2cbb18" category="list-text">在BlueXP控制台的右上角、单击帮助图标、然后选择*支持*。</block>
   <block id="cbc6cc3bb022583403171b447b2a962c" category="paragraph">通过这些操作、BlueXP可以使用您的NSS帐户执行许可证下载、软件升级验证和未来支持注册等操作。</block>
   <block id="7e177185e7eddff33dd8f3aeb7551132" category="paragraph">如果您是拥有NSS帐户的NetApp客户、则只需通过BlueXP注册支持即可。</block>
   <block id="5226d4ec1f4f81b740cbbd27635b441f" category="list-text">请务必复制上面用于序列号字段的BlueXP帐户序列号(960xxxx)。这样可以加快帐户处理速度。</block>
@@ -1363,11 +1279,9 @@
   <block id="00c5fef3bb9d593ae96bf5d2ee60354a" category="paragraph">加入BlueXP社区、关注正在进行的讨论或创建新的讨论。</block>
   <block id="a4a6c2ea0078252eac2d74ef3e6c917c" category="paragraph">您当前正在查看的BlueXP文档。</block>
   <block id="6702efec14563f45f1ee2f8c613b8ad8" category="paragraph">我们非常重视您的反馈意见。提交反馈以帮助我们改进BlueXP。</block>
-  <block id="6254a4afeeb76765a127fe74d31c1b3d" category="list-text">在BlueXP中、单击*帮助&gt;支持*。</block>
   <block id="d63bf50426f4c712554faec55b30c548" category="list-text">*服务*：选择与问题描述 关联的服务。例如、当特定于技术支持问题描述 时、如果服务中包含工作流或功能、则为BlueXP。</block>
   <block id="aa996e20900197b0ea41485ada083d8c" category="paragraph">工作环境列表属于您在服务顶部横幅中选择的BlueXP帐户、工作空间和Connector的范围。</block>
   <block id="255fe345cf98c4cc1d97da3902877f73" category="list-text">要获取用户令牌和您的BlueXP帐户ID、 <block ref="270dc47ac77b7bdcd0ca5fb87f7199b0" category="inline-link-macro-rx"></block>。</block>
-  <block id="e8b441efabe30a472bc01ae49f99e1c5" category="list-text">在BlueXP中、单击*同步&gt;许可*。</block>
   <block id="8d91fda63040409e75bebd4d14b9a825" category="list-text">如果您的帐户已添加到BlueXP、请从下拉列表中选择它。</block>
   <block id="b53e2cff9f1417fcc84365e2d567011e" category="list-text">从NetApp BlueXP获取用户令牌。</block>
   <block id="415019870d0741b8c872f4ef1a528769" category="list-text">获取您的BlueXp帐户ID。</block>
@@ -1381,7 +1295,6 @@
   <block id="bd5465eb0e8cf8f303aee7ea9420c8b1" category="sidebar">BlueXP博客</block>
   <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">所有BlueXP文档</block>
   <block id="e7972d5601badb4c5fcefad96c59c2fc" category="cell">https://console.bluexp.netapp.com/\https://netapp-cloud-account.auth0.com</block>
-  <block id="5a6f95f0d3a768c4ec5fabda878a438c" category="paragraph">登录到<block ref="a52ee1b87e73428b189d0907dc7fe59b" category="inline-link-rx"></block>，单击 * 同步 * ，然后拖放您为源和目标选择的内容。按照提示完成设置。 <block ref="484d4f19cf4f8d33cb3a1a91aa23f363" category="inline-link-macro-rx"></block>。</block>
   <block id="e3cd99e4aa330ae6bdfb3754d83ae962" category="list-text">如果您拥有合作伙伴或经销商帐户、则可以添加一个或多个NSS帐户、但不能将其与客户级别的帐户同时添加。</block>
   <block id="2974170a8b1b5b4a2ac69aacd4c1c9c3" category="list-text">从支持注册页面找到您的帐户ID序列号。</block>
   <block id="50a1dc01b7312307c34a888071586955" category="list-text">复制上述第2步中的帐户序列号、完成安全检查、然后确认您已阅读NetApp的全球数据隐私政策。</block>
@@ -1457,7 +1370,6 @@
   <block id="edd15fbeb7b2dffa163336ecd4f3e80c" category="section-title">使用自助支持选项</block>
   <block id="d88bacf2a9fdcbbc844edcba97c34e30" category="section-title">向NetApp支持部门创建案例</block>
   <block id="08d96fdd1a845d80db99e6e1dffb8bc7" category="list-text">在*资源*页面上、在技术支持下选择一个可用选项：</block>
-  <block id="5be2e1dfe4bf215289731df45ec8157b" category="list-text">单击*创建案例*、向NetApp支持专家开一个服务单：</block>
   <block id="898e35e1a4bf4b025c3edec879439b08" category="section-title">管理支持案例(预览)</block>
   <block id="8b74b053fbeeff5c3b6f4991cb1d028d" category="paragraph">您可以直接从BlueXP查看和管理活动的和已解决的支持案例。您可以管理与您的NSS帐户和公司关联的案例。</block>
   <block id="394ef093ad3259b9ff0fe7406f015b83" category="paragraph">案例管理以预览形式提供。我们计划改进此体验、并在即将发布的版本中添加增强功能。请通过产品内聊天向我们发送反馈。</block>
@@ -1468,10 +1380,8 @@
   <block id="56dcadeee6b0e5c47a52673f9b5a0bb3" category="list-text">您可以添加或删除感兴趣的列、也可以筛选优先级和状态等列的内容。其他列仅提供排序功能。</block>
   <block id="6f936762e1223311f031685422fcd3a4" category="paragraph">有关更多详细信息、请查看以下步骤。</block>
   <block id="b14929795a61440e9b4ec9f8a4885ae3" category="list-text">在每个案例级别、我们可以更新案例备注或关闭尚未处于"已关闭"或"待关闭"状态的案例。</block>
-  <block id="34b1296d31cefa72dae9b3a364b1f444" category="list-text">单击*案例管理*、如果出现提示、请将您的NSS帐户添加到BlueXP。</block>
   <block id="d8ce1865cf1fe3cffd60300b4b86ad63" category="paragraph">"*案例管理*"页面显示了与您的BlueXP用户帐户关联的NSS帐户相关的已打开案例。此NSS帐户与* NSS管理*页面顶部显示的NSS帐户相同。</block>
   <block id="2ae5ae78bdb2d222f15fd8e89248709c" category="list-text">也可以修改表中显示的信息：</block>
-  <block id="27635a52fe4c34c39ffc6430f4244ec6" category="list-text">在*组织的案例*下、单击*查看*以查看与您的公司关联的所有案例。</block>
   <block id="059e856250b59be3069246887b74a23c" category="list-text">通过选择确切的日期范围或选择其他时间范围来修改日期范围。</block>
   <block id="dfb3764bce2548df4e06357403f9c7d0" category="inline-image-macro">案例管理页面上表上方选项的屏幕截图、可用于选择确切的日期范围或过去7天、30天或3个月。</block>
   <block id="a1bb576be9e5a356290f231efb51b3f5" category="list-text">筛选列的内容。</block>
@@ -1480,7 +1390,6 @@
   <block id="370b44009f1b82d0b6b178bb80cc62fa" category="inline-image-macro">显示可在表中显示的列的屏幕截图。</block>
   <block id="ad0ae9ea1f2e8d973a9a0f6bb169f494" category="inline-image-macro">包含三个点的图标、显示在表的最后一列中</block>
   <block id="6d9dd74e7709ef802d299966f7898f6b" category="list-text">*查看案例*：查看有关特定案例的完整详细信息。</block>
-  <block id="f791bc685c526af8296381acff10f6a0" category="list-text">*关闭案例*：提供关闭案例的详细信息、然后单击*关闭案例*。</block>
   <block id="e93217b2f709a398ce3c0fb753beb05f" category="inline-image-macro">屏幕截图、显示在表的最后一列中选择菜单后可以执行的操作。</block>
   <block id="c8420e741e74236d475d7e500b73f774" category="paragraph"><block ref="c8420e741e74236d475d7e500b73f774" category="inline-image-macro-rx" type="image"></block></block>
   <block id="4b10c384bd11c38afbbe24f979f5519d" category="section-title">2023年3月7日</block>
@@ -1582,7 +1491,6 @@
   <block id="e34ab50cbd0b1822634102ed78ca99d6" category="summary">通过BlueXP复制和同步、您可以将数据从源同步到目标。这称为同步关系。您应该先了解支持的关系，然后再开始。</block>
   <block id="fafec3da88dda2aaace57da0275aa418" category="list-text">仅使用BlueXP副本和同步API支持与此源/目标的同步关系。</block>
   <block id="9884de3e76b128738e9b044e854c59b2" category="summary">创建同步关系时、BlueXP复制和同步服务会将文件从源复制到目标。初始副本完成后、服务将每 24 小时同步所有更改的数据。</block>
-  <block id="17a22599667444c8ead2e620d24daa16" category="paragraph">如果BlueXP复制和同步无法检索导出、请单击*手动添加导出*并输入NFS导出的名称。</block>
   <block id="bd171db960b7fb2897e98bf00be4815f" category="list-text">用于选择是否在BlueXP的通知中心接收BlueXP副本和同步通知。您可以为成功的数据同步、失败的数据同步和已取消的数据同步启用通知。</block>
   <block id="667141ecdc736f3d7ccf9a5f6e74cc7b" category="list-text">定义BlueXP复制和同步在跳过文件之前应重试同步文件的次数。</block>
   <block id="c7153d054eed1ef19444b255974772ee" category="list-text">初始数据同步完成后、BlueXP复制和同步将侦听源S3存储分段或Google Cloud Storage分段上的更改、并在发生任何更改时持续同步到目标。无需按计划间隔重新扫描源。</block>
@@ -1594,14 +1502,12 @@
   <block id="d00f5267d50bd8fc291109206d3ad858" category="list-text">定义要包括在每次同步中的文件类型：文件、目录、符号链接和硬链接。</block>
   <block id="e6bb715f6ce6607fa13566339effdb48" category="admonition">硬链接仅适用于不安全的NFS到NFS关系。用户只能使用一个扫描程序进程和一个扫描程序并发性、扫描必须从根目录运行。</block>
   <block id="c81b15466cc89faa99024d734f63d070" category="paragraph">BlueXP复制和同步开始在源和目标之间同步数据。</block>
-  <block id="ff3ea06fc0c8f759394b8942315d071f" category="paragraph">BlueXP复制和同步与Cloud Data Sense集成。在Data Sense中、您可以使用BlueXP副本和同步选择要同步到目标位置的源文件。</block>
   <block id="4a8110d7baed5bb188d9ea48ab78e0e6" category="summary">NetApp无权访问您在使用BlueXP复制和同步服务时提供的任何凭据。凭据直接存储在驻留在网络中的数据代理计算机上。</block>
   <block id="bad5b485fd3620e21ec885f8037708e8" category="paragraph">根据您选择的配置、BlueXP复制和同步可能会在您创建新关系时提示您输入凭据。例如，在设置包含 SMB 服务器的关系时，或者在 AWS 中部署数据代理时。</block>
   <block id="48fdd045e3712fe8b8bf348baef2a5e3" category="summary">创建新数据代理时，请选择 Google Cloud Data Broker 选项，以便在 VPC 中的新虚拟机实例上部署数据代理软件。BlueXP复制和同步可指导您完成安装过程、但此页面会重复执行相关要求和步骤、以帮助您做好安装准备。</block>
   <block id="ff0ab6e5cc918d0f34784d6b8fd73746" category="paragraph">创建新的数据代理组时，请选择 Google Cloud Platform 在 Google Cloud VPC 中的新虚拟机实例上部署数据代理软件。BlueXP复制和同步可指导您完成安装过程、但此页面会重复执行相关要求和步骤、以帮助您做好安装准备。</block>
   <block id="760e513e4804bf2cda72ba5b6d5b7a6a" category="list-text">数据代理需要出站Internet连接、以便可以通过端口443轮询BlueXP副本和同步服务以查找任务。</block>
   <block id="617fa6ca8941919927e9677f8acb97f8" category="paragraph">当BlueXP复制和同步在Google Cloud中部署数据代理时、它会创建一个安全组来启用所需的出站通信。</block>
-  <block id="7ba9b4e54874f0450b8869bc6d72ee86" category="list-text">数据代理可用后，单击BlueXP副本中的*继续*并同步。</block>
   <block id="d18db3d9c5f8587fa64b4e04218dc914" category="paragraph">部署该实例大约需要 5 到 10 分钟。您可以通过BlueXP复制和同步服务监控进度、该服务会在实例可用时自动刷新。</block>
   <block id="33969e378e95c52b40733d56432c09ea" category="paragraph">在创建同步关系并选择Google Cloud Storage作为源或目标时、BlueXP复制和同步使您可以从数据代理的服务帐户有权使用的分段中进行选择。默认情况下，此值包括与数据代理服务帐户位于 _same 项目中的分段。但是，如果您提供了所需的权限，则可以从 _other_ 项目中选择分段。</block>
   <block id="6ea6212f5be2cc7885ac1f6d832f818a" category="paragraph">BlueXP复制和同步使用以下配置在Google Cloud中创建数据代理。</block>
@@ -1616,7 +1522,6 @@
   <block id="eeec209b7367b324b78b8504507cca43" category="paragraph">在BlueXP复制和同步部署数据代理时、它会为数据代理实例创建一个IAM角色。如果您愿意，可以使用自己的 IAM 角色部署数据代理。如果您的组织具有严格的安全策略，则可以使用此选项。</block>
   <block id="4aeed94a6e997eb99e2ee56acf52c9d9" category="list-text">输入AWS访问密钥、以便BlueXP副本和同步可以代表您在AWS中创建数据代理。</block>
   <block id="9b9c7cf2519d51f6dbe3acb1138a5125" category="list-text">如果输入了AWS访问密钥、请选择实例的位置、选择密钥对、选择是否启用公共IP地址并选择现有IAM角色、或者将此字段留空、以便BlueXP复制和同步为您创建角色。您还可以选择使用KMS密钥对数据代理进行加密。</block>
-  <block id="cf01363cb3b3aefee32677428a86d1df" category="list-text">数据代理可用后，在BlueXP副本和同步中单击*继续*。</block>
   <block id="6f6b78ed59ff96087b1c87e91e648bc4" category="paragraph">BlueXP复制和同步使用以下配置在AWS中创建数据代理。</block>
   <block id="52c793499d4fd02f2f2330b970f6162b" category="summary">创建新的数据代理时，请选择 On-Prem Data Broker 选项以在内部 Linux 主机或云中的现有 Linux 主机上安装数据代理软件。BlueXP复制和同步可指导您完成安装过程、但此页面会重复执行相关要求和步骤、以帮助您做好安装准备。</block>
   <block id="890130d57677e99876dfa01749264d4d" category="paragraph">创建新的数据代理组时，请选择 On-Prem Data Broker 选项，以便在内部 Linux 主机或云中的现有 Linux 主机上安装数据代理软件。BlueXP复制和同步可指导您完成安装过程、但此页面会重复执行相关要求和步骤、以帮助您做好安装准备。</block>
@@ -1637,7 +1542,6 @@
   <block id="2f30d04a17f7f45ef1c41f6e15ccc628" category="paragraph">BlueXP复制和同步使用新设置修改同步关系。</block>
   <block id="d62aff038a63962fec73b4d2639d3ad3" category="paragraph">BlueXP复制和同步将删除同步关系。</block>
   <block id="8da3b5473f99b37e0a7e71a701f5a400" category="list-text">如果您需要新的数据代理、BlueXP复制和同步会提示您安装说明。您可以在云中部署数据代理或为自己的 Linux 主机下载安装脚本。</block>
-  <block id="2eda214e743322a19face3c28269f0fc" category="paragraph">BlueXP复制和同步将开始创建新的同步关系。完成后，单击 * 在信息板中查看 * 以查看有关新关系的详细信息。</block>
   <block id="942c9249796cf6b78c981ebf15195809" category="list-text"><block ref="942c9249796cf6b78c981ebf15195809" category="inline-link-rx"></block></block>
   <block id="b5db50639891fb34043604a5e3173a5e" category="summary">BlueXP复制和同步服务入门包括几个步骤。</block>
   <block id="6228befad91ffaa829b465dfedb27a74" category="doc">BlueXP复制和同步快速入门</block>
@@ -1652,7 +1556,6 @@
   <block id="957b35928b8a0bf847c922e00243690d" category="summary">创建新数据代理时，请选择 Azure Data Broker 选项，以便在 vNet 中的新虚拟机上部署数据代理软件。BlueXP复制和同步可指导您完成安装过程、但此页面会重复执行相关要求和步骤、以帮助您做好安装准备。</block>
   <block id="a151aef665e52178b0d84244ecf2215e" category="paragraph">创建新的数据代理组时，请选择 Microsoft Azure 以在 vNet 中的新虚拟机上部署数据代理软件。BlueXP复制和同步可指导您完成安装过程、但此页面会重复执行相关要求和步骤、以帮助您做好安装准备。</block>
   <block id="07eb137be0de3d4ec4faeb42baa5f82c" category="paragraph">当BlueXP复制和同步在Azure中部署数据代理时、它会创建一个安全组来启用所需的出站通信。</block>
-  <block id="77be4f1e4f287772c97ec1d404c65d79" category="list-text">在BlueXP复制和同步中、数据代理可用后、单击*继续*。</block>
   <block id="709a77b53428394651e5702dc1d6cb78" category="paragraph">如果Microsoft通知您需要管理员批准、因为BlueXP复制和同步需要代表您访问组织中的资源的权限、则您有两种选择：</block>
   <block id="7979374874e6c5c531b205d7a738fac7" category="paragraph">BlueXP复制和同步使用以下配置在Azure中创建数据代理。</block>
   <block id="c8f499f4661300d7b6cc58f37d33cdfe" category="summary">NetApp BlueXP复制和同步服务提供了一种简单、安全且自动化的方式、可将数据迁移到云端或内部环境中的任何目标。</block>
@@ -1668,7 +1571,6 @@
   <block id="f34b6d76110ab7661039d45200f420f5" category="paragraph">BlueXP复制和同步支持以下存储类型：</block>
   <block id="a9645f9fd5c738babcb0a0b7564fafa8" category="paragraph">与使用BlueXP复制和同步相关的成本有两种：资源费用和服务费用。</block>
   <block id="6169c8d461dd7f9996b17fcf210180a3" category="list-text">从AWS Marketplace订阅、然后重新登录到BlueXP副本和同步服务以完成注册。</block>
-  <block id="d6555e6f7172ab3b02bb7b9388844450" category="list-text">单击*配置帐户*以返回到BlueXP副本并进行同步。</block>
   <block id="b5ee50058b36eec1b9d5e452251d8123" category="section-title">[[licenses]]从NetApp购买许可证并将其添加到BlueXP副本并同步</block>
   <block id="a1c678174ddff43ed8cf229a96c7a003" category="paragraph">要预先支付同步关系的费用、您必须购买一个或多个许可证、并将其添加到BlueXP副本和同步服务中。</block>
   <block id="b69b60c6eae94cb020b628bd40e1db2a" category="paragraph">如果您扩展了从NetApp购买的BlueXP副本和同步许可证、则新的到期日期不会在BlueXP副本和同步中自动更新。要刷新到期日期，您需要重新添加许可证。许可证应通过BlueXP副本和同步或适用的网站进行管理、而*不是*通过电子钱包进行管理。</block>
@@ -1761,9 +1663,7 @@
   <block id="509259be6d5e15d8959f705cbe0cbcc1" category="paragraph"><block ref="509259be6d5e15d8959f705cbe0cbcc1" category="inline-image-macro-rx" type="image"></block></block>
   <block id="0972db30d942fdb65d1732e6e84bde99" category="paragraph"><block ref="0972db30d942fdb65d1732e6e84bde99" category="inline-image-macro-rx" type="image"></block></block>
   <block id="cb6a777dd3c6e43b0dc441d38519d219" category="paragraph"><block ref="cb6a777dd3c6e43b0dc441d38519d219" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="0f6cac2f77150840994f84044fc1b12b" category="list-text">通过单击更改表中显示的列 <block ref="b574dd55d604ddb721d869a0fc302007" category="inline-image-macro-rx" type="image"></block> 然后选择要显示的列。</block>
   <block id="e65065c4fd326b9f3a1eeb9453c30d73" category="paragraph"><block ref="e65065c4fd326b9f3a1eeb9453c30d73" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="6ba7d68d8b3ef0f3398afb9d3ea96172" category="list-text">单击以管理现有案例 <block ref="566c029d89e7d5421080767a37bf443e" category="inline-image-macro-rx" type="image"></block> 并选择一个可用选项：</block>
   <block id="2ea260929e27ffcb623c8aa35689bd18" category="paragraph"><block ref="2ea260929e27ffcb623c8aa35689bd18" category="inline-image-macro-rx" type="image"></block></block>
   <block id="334141378cc136fbeac9f49b8712a21c" category="list-text"><block ref="334141378cc136fbeac9f49b8712a21c" category="inline-link-rx"></block></block>
   <block id="e6e1607e58cd001b7c781a8f8bfa813a" category="list-text"><block ref="e6e1607e58cd001b7c781a8f8bfa813a" category="inline-link-rx"></block></block>
@@ -1772,7 +1672,6 @@
   <block id="f8c7ce78aaf937671ef25c9c931e368e" category="list-text"><block ref="f8c7ce78aaf937671ef25c9c931e368e" category="inline-link-rx"></block></block>
   <block id="5bef0b78e6ec321bf21d727ac503470d" category="list-text"><block ref="5bef0b78e6ec321bf21d727ac503470d" category="inline-link-rx"></block></block>
   <block id="85cd31980dc6fca292186015e6569783" category="list-text"><block ref="85cd31980dc6fca292186015e6569783" category="inline-link-rx"></block></block>
-  <block id="8e430579de892a93405f336e319e0650" category="paragraph"><block ref="40f48ef5ea0de0b0c1e5b47df6f8470c" category="inline-link-rx"></block>。</block>
   <block id="920fe1428c19533eda6222fe7e58efbe" category="inline-link">了解如何管理与BlueXP登录关联的凭据</block>
   <block id="e1d2e1a634647fd631081bc4f6f8e523" category="list-text">要使用*创建案例*功能、您必须先将NetApp 支持站点 凭据与BlueXP登录名关联起来。<block ref="2a0d8b66ca9e99d023b48cf25f40fb12" category="inline-link-rx"></block>。</block>
   <block id="e49aa971c20ec071f1b5bbc3c7266769" category="list-text">如果您为具有序列号的ONTAP系统创建案例、则您的NSS帐户必须与该系统的序列号相关联。</block>
@@ -1782,10 +1681,7 @@
   <block id="e922b9aa0836a1d93e11cac0fe4c9004" category="paragraph">有关以下云提供商解决方案的技术支持、请参阅该产品的BlueXP文档中的"获得帮助"。</block>
   <block id="5a19febf1dcb23c10e8dcfde64ba764c" category="section-title">注册BlueXP帐户以获得NetApp支持</block>
   <block id="6bbc2ba432f59ab65ee3d8ac5a58336e" category="paragraph">要注册支持并激活支持授权、BlueXP帐户中的一个用户必须将NetApp 支持站点 帐户与其BlueXP登录名关联。如何注册NetApp支持取决于您是否已拥有NetApp 支持站点 (NSS)帐户。</block>
-  <block id="b019ab068deba8494415cbd226ca0c4e" category="list-text">在BlueXP控制台的右上角、单击设置图标、然后选择*凭据*。</block>
-  <block id="41e1e3cff4a07ce2ecc08e6c09f11092" category="list-text">单击*用户凭据*。</block>
   <block id="0c788a722f31f8f0cf36539ee04615cf" category="list-text">选择*添加NSS凭证*，然后按照NetApp 支持站点(NSS)鉴定提示进行操作。</block>
-  <block id="8c916e828e9e5a3592c8cac4e25928be" category="list-text">要确认注册过程是否成功，请单击帮助图标，然后选择*Support*。</block>
   <block id="8add4eb0d3f6ce61d374f3df3ee4eadf" category="paragraph">“资源”页面应显示您的帐户已注册支持。</block>
   <block id="10c56875db7a47f791d653e5d5bff0e9" category="inline-image-macro">屏幕截图、显示帐户序列号、绿色复选框以及注册支持的文本。</block>
   <block id="3d183819a15163ef2e2e7d9d764254a9" category="paragraph"><block ref="3d183819a15163ef2e2e7d9d764254a9" category="inline-image-macro-rx" type="image"></block></block>
@@ -1837,7 +1733,6 @@
   <block id="fe59670d5deda9cb753645f774a47c00" category="list-text">在*"Donchard*(信息板*)"中，导航到同步关系并选择 <block ref="1452da4272733702009675a0aac63ae1" category="inline-image-macro-rx" type="image"></block></block>
   <block id="b838fb1a6e3a063ff847ead6c680b63b" category="section-title">选项2：删除多个同步关系</block>
   <block id="e228b5490db647150a658ff97a26549c" category="list-text">从*"Dardin"(信息板)中，导航至"Create New Sync"(创建新同步)按钮并选择 <block ref="1452da4272733702009675a0aac63ae1" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="17ae36fbbd79b2ff16d4f9f68caeb794" category="list-text">选择要删除的同步关系，选中*Delete*，然后再次单击*Delete*进行确认。</block>
   <block id="8c2d829bea49e9a2588d62f78f366000" category="paragraph">BlueXP复制和同步将删除同步关系。</block>
   <block id="744c3e2d9eefd2af0d741a4bdf013531" category="section-title">2023年7月9日</block>
   <block id="0d31f76acc0f0585c0ce6603aae95bf9" category="section-title">一次删除多个同步关系</block>
@@ -1850,4 +1745,107 @@
   <block id="f14be32be1b0e46b478529e782afc130" category="paragraph"><block ref="f14be32be1b0e46b478529e782afc130" category="inline-link-rx"></block></block>
   <block id="c3605c10e6753f736b31bbe56975b312" category="section-title">已更新为Node.js 20</block>
   <block id="62ace2991e0846010d9d30c14cb37645" category="paragraph">复制和同步已更新为Node.js 20。所有可用的数据代理都将更新。无法安装与此更新不兼容的操作系统、不兼容的现有系统可能会出现性能问题。</block>
+  <block id="9c493a2645deede7e1d634171451c869" category="paragraph">要查找角色ARN、请转到EC2控制台、选择数据代理实例、然后从问题描述选项卡中选择IAM角色。然后，应在 IAM 控制台中查看包含角色 ARN 的“摘要”页面。</block>
+  <block id="d7c075ca906ce69195757260c375322d" category="inline-image-macro">显示了一个连接字符串、可通过选择存储帐户、然后选择Access keys从Azure门户访问该字符串。</block>
+  <block id="f73a08b9d40527fb034e3b8e5aea291e" category="paragraph"><block ref="f73a08b9d40527fb034e3b8e5aea291e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="974e187af76d9bdb79160a1747a99efd" category="inline-image-macro">显示了共享访问签名、可通过选择存储帐户然后选择共享访问签名从Azure门户访问此签名。</block>
+  <block id="440e14da8980c937115a1654cb964bce" category="paragraph"><block ref="440e14da8980c937115a1654cb964bce" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0307a12e5749f8dd930472ee78f69d2c" category="list-text">在BlueXP控制台的右上角、选择设置图标、然后选择*凭据*。</block>
+  <block id="f19ab635e6d5f884a22ee4ce067fdbfd" category="list-text">选择*用户凭据*。</block>
+  <block id="cfc5506589d5a4d055e721267d5f0732" category="list-text">要确认注册过程是否成功，请选择帮助图标，然后选择*Support*。</block>
+  <block id="d889e6e7cc4c5509ab5b37f8fc894e46" category="list-text">在BlueXP控制台的右上角、选择帮助图标、然后选择*支持*。</block>
+  <block id="c0e0b7ff0de9558404e9b77ece42948a" category="list-text">选择* NSS管理&gt;添加NSS帐户*。</block>
+  <block id="85b9386ed443776127e099931d73448a" category="list-text">出现提示时、选择*继续*以重定向到Microsoft登录页面。</block>
+  <block id="a7cf68034bb0427f14ac8f27b6befc6e" category="list-text">拖放SMB服务器或对象存储作为源、并拖放SMB服务器或对象存储作为目标、然后选择*继续*。</block>
+  <block id="07fd1a9bba5ed1d65155cb7196d9fff7" category="cell">在使用分类为新同步关系选择源文件时联系BlueXP分类。</block>
+  <block id="b23f7626598790c5bc3f3411ca8bc647" category="list-text">选择*Create New Sync*。</block>
+  <block id="a98b7b8c1513bf265104275f8483ba4d" category="list-text">在“*定义同步关系*”页上，选择源和目标，然后选择*CONTINUOD*。</block>
+  <block id="bb85773e2c6a87875a9bb0f89efa1fab" category="list-text">在*Data Broker Group*页面上，选择*Create Data Broker*，然后选择*Google Cloud Platform*。</block>
+  <block id="768a76795adb85fe8b2001a0f399abf2" category="list-text">输入数据代理的名称，然后选择*CONTINUD*。</block>
+  <block id="5cb5a4f4fe6d4cbbe707e63a954ad57b" category="list-text">数据代理可用后、在BlueXP副本中选择*继续*并同步。</block>
+  <block id="2367a082ae2ae448b941e4f4c2dabed4" category="list-text">选择要用作同步关系中的源或目标的存储分段的名称。</block>
+  <block id="70d2a1a4dce0d4601d9d7ccb4730c171" category="list-text">选择*权限*。</block>
+  <block id="fa12509cfb8e8ccded16e2a254e988c4" category="list-text">选择 * 添加 * 。</block>
+  <block id="10492389e94efdebbb66f7b0cd8a1324" category="list-text">选择 * 保存 * 。</block>
+  <block id="b3475f82bce5cbf95b975ed65e3d258e" category="paragraph">我们重新设计了信息板上的表视图，以便于使用。如果您选择*更多信息*，Cloud Sync将筛选信息板以显示有关该特定关系的更多信息。</block>
+  <block id="5850da1fc8b844460820f41143c14a5d" category="list-text">从“*管理数据代理*”页面中，选择“*添加新数据代理*”，在新组中创建数据代理</block>
+  <block id="3f2a5c8d39fecd79e3a2a67e27c89975" category="list-text">选择*同步&gt;管理数据代理*。</block>
+  <block id="052d8bf5e14a8c511479470d76567896" category="list-text">选择*添加新数据代理*。</block>
+  <block id="5062224ebe3fee3febcb171546faa6fb" category="list-text">选择操作菜单，然后选择*添加数据代理*。</block>
+  <block id="d7b7562790ff23b3cf69ff2d8e2c9135" category="list-text">选择操作菜单，然后选择*编辑组名称*。</block>
+  <block id="981a53d41f58197b983935d8515a8a1b" category="list-text">输入新名称并选择*保存*。</block>
+  <block id="67633f6453e939bb031824371e27e55f" category="list-text">选择*管理数据代理*。</block>
+  <block id="b61fc711bd2997eb8dddcfe1c68f52d8" category="list-text">选择数据代理组的设置图标。</block>
+  <block id="9c5b22f4eb3a2a84d6f78993d40e5e11" category="list-text">根据需要更改设置，然后选择*Unify Configuration*。</block>
+  <block id="0fa553ef384c02c0ed69820824979c65" category="list-text">选择 ... <block ref="787db84ec9404328cdc4a6264b9959c1" category="inline-image-macro-rx" type="image"></block> 展开组中的数据代理列表。</block>
+  <block id="68a0287ebcc4f6e28023462e570b7b3e" category="list-text">选择数据代理的操作菜单，然后选择*移动数据代理*。</block>
+  <block id="c3eb9435da3ee7c0ac02ef30983ba9d2" category="list-text">选择*移动*。</block>
+  <block id="84efe326528fa8de6894af686c9ad4a6" category="list-text">选择数据代理的操作菜单，然后选择*编辑代理配置*。</block>
+  <block id="35165f9b14f6cde03fa7f6f9b03732ba" category="list-text">选择 * 更新 * 。</block>
+  <block id="0b84899995529839327fe3051a5f13b0" category="list-text">选择 ... <block ref="470bfce73839324984be8a7b9dbc97eb" category="inline-image-macro-rx" type="image"></block> 查看有关数据代理的详细信息。</block>
+  <block id="0500ac872687a21fa42b7c0274a1b4b2" category="list-text">选择数据代理的操作菜单，然后选择*Remove Data Broker*。</block>
+  <block id="af625aac66960e71c291115cae745a4e" category="list-text">选择*删除数据代理*。</block>
+  <block id="ada3f05f232feeed1dfb7c4afcdffe6a" category="list-text">选择操作菜单，然后选择*Delete Group*。</block>
+  <block id="826f8292d9dd1df0d5e3440a37c5015b" category="list-text">要进行确认，请输入通话组的名称，然后选择*Delete Group*。</block>
+  <block id="563b9ebf5f1676e7c73351df0df68d70" category="paragraph">登录到<block ref="a52ee1b87e73428b189d0907dc7fe59b" category="inline-link-rx"></block>下，选择*Sync*，然后拖放选择的源和目标。按照提示完成设置。 <block ref="484d4f19cf4f8d33cb3a1a91aa23f363" category="inline-link-macro-rx"></block>。</block>
+  <block id="46ea05c6ec616f5482a6ae7265cb289a" category="list-text">选择*Canves*。</block>
+  <block id="846c0cd63135bcbdaa57f314f9667667" category="list-text">在BlueXP中，选择*Sync*。</block>
+  <block id="0389f118b4a12f879dace09873bfe8d5" category="list-text">安装数据代理后，选择*CONTINUD*。</block>
+  <block id="2940f879485a90e38c70bad277e952bc" category="paragraph">如果BlueXP复制和同步无法检索导出、请选择*手动添加导出*并输入NFS导出的名称。</block>
+  <block id="d3b515ad997487682cabad8cc3037528" category="list-text">选择*添加到列表*以选择与您的AWS帐户无关的S3存储分段。 <block ref="772fe08f8ccc4de2babce33261957aed" category="inline-link-macro-rx"></block>。</block>
+  <block id="d4882dc545d7780382888fbbe7a423de" category="list-text">查看同步关系的详细信息，然后选择*创建关系*。</block>
+  <block id="ccb8e8d162cd0852214f94317fe9ff12" category="section-title">根据BlueXP分类创建同步关系</block>
+  <block id="80bf5b29f498d053d7445284d3d93ca5" category="paragraph">BlueXP复制和同步与BlueXP分类集成在一起。在BlueXP分类中、您可以使用BlueXP副本和同步选择要同步到目标位置的源文件。</block>
+  <block id="539e8564a4ed161824dff3b7104b2470" category="paragraph">从BlueXP分类启动数据同步后、所有源信息都包含在一个步骤中、只需输入一些关键详细信息即可。然后，选择新同步关系的目标位置。</block>
+  <block id="42d50bbcb3b366a20657a24b7644e345" category="inline-image-macro">直接从BlueXP分类启动新同步后显示的BlueXP分类集成页面的屏幕截图。</block>
+  <block id="d849d90980b2ab0f9613bf772807378f" category="paragraph"><block ref="d849d90980b2ab0f9613bf772807378f" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="cf2270b456b1dc7f69b6efb8903adb83" category="inline-link">了解如何从BlueXP分类启动同步关系</block>
+  <block id="1139a253d171a7969c094e38ba8066d8" category="paragraph"><block ref="c65a8202f1a26826d29063b255b385d3" category="inline-link-rx"></block>。</block>
+  <block id="0479f6fe1008f761c6bd228300072a66" category="list-text">在*Data Broker Group*页面上，选择*Create Data Broker*，然后选择*Microsoft Azure"。</block>
+  <block id="f8149e5272474293b308b5387c6e0eab" category="list-text">如果出现提示，请登录到您的 Microsoft 帐户。如果系统没有提示，请选择*登录到Azure"。</block>
+  <block id="62aca030fc0ae0886728293f4df155b2" category="list-text">选择*继续*并保持页面打开状态，直到部署完成。</block>
+  <block id="ad16396812bea804a1980d079b968f53" category="list-text">在BlueXP复制和同步中、一旦数据代理可用、请选择*继续*。</block>
+  <block id="b9c67bb0bae9993217d3413e493a9d52" category="list-text">选择*Sync &gt; Licensing*。</block>
+  <block id="a5fb6f9fbd972c02e5329e1ff986d9d5" category="list-text">选择*订阅*，然后选择*继续*。</block>
+  <block id="9afef6b2e6bfae3c1516f6a5615e147a" category="list-text">选择*继续订阅*。</block>
+  <block id="7d5dc2ab8bafad8f8a587f44b30dc6f0" category="list-text">选择您的合同选项，然后选择*创建合同*。</block>
+  <block id="8bf624ad0ff2e9fd580f8cf2ccbfb01b" category="list-text">在Azure门户中、选择*创建*、选择您的选项、然后选择*订阅*。</block>
+  <block id="50663aa7afb45a9a800941c0bc89dcf1" category="list-text">部署完成后、在通知弹出窗口中选择SaaS资源的名称。</block>
+  <block id="610e8ce14d61f13ee15be5f296487890" category="list-text">选择*配置帐户*以返回BlueXP副本并同步。</block>
+  <block id="8a16f41efcb781e6645783df6cb0e97b" category="list-text">在BlueXP中、选择*同步&gt;许可*。</block>
+  <block id="0be0367eff89e989e3751d45bd6caf93" category="list-text">选择*添加许可证*并添加所需信息：</block>
+  <block id="46d344ee2c7e916b914b2b031a79a880" category="list-text">如果尚未添加您的帐户，请选择*添加NSS凭证*，输入用户名和密码，选择*注册*，然后从下拉列表中选择。</block>
+  <block id="6a44822bf57bcae55604cb610b227f67" category="paragraph">选择*过滤源对象*以修改定义源文件和文件夹在目标位置的同步和维护方式的设置。</block>
+  <block id="1aca046f97c331e986d5fab61366a4e6" category="list-text">*查看*：查看同步关系的详细信息，然后选择*创建关系*。</block>
+  <block id="579c21a9a30c92f081aafc35f6788b43" category="paragraph">BlueXP复制和同步将开始创建新的同步关系。完成后，选择*在信息板中查看*以查看有关新关系的详细信息。</block>
+  <block id="5eab603ec483095f3786c2e47537d800" category="list-text">选择*立即同步*，然后选择*同步*进行确认。</block>
+  <block id="3d18303a8bc1b24ad7263bcc9797e5b5" category="list-text">选择*加速*。</block>
+  <block id="89fd3d02840a539075c4235f4b211573" category="list-text">从*同步信息板*中，转到需要凭据的同步关系，然后选择*更新凭据*。</block>
+  <block id="206f666b19f13f25bad53b2109edacb4" category="list-text">输入凭据并选择*更新*。</block>
+  <block id="448fe9f410fc86c359b1bf31ac68cd9f" category="list-text">选择*设置&gt;警报和通知设置*。</block>
+  <block id="24347b3ddf5a25cc9c27e54ae285ade1" category="list-text">选择 * 应用 * 。</block>
+  <block id="774b7bb8cc1adb7cb5b5605c3d53249f" category="list-text">选择*Delete*，然后再次选择*Delete*进行确认。</block>
+  <block id="a06cbdd471532709a20804cd9a60cf7b" category="list-text">选择要删除的同步关系，选择*Delete*，然后再次选择*Delete*进行确认。</block>
+  <block id="6ffcf259f9af8546dcdf4daad239e89b" category="list-text">选择*同步&gt;报告*。</block>
+  <block id="7caff74e8ad612143e6505e42c480693" category="list-text">在*报告操作*列中，转到特定路径并选择*Cree*，或选择操作菜单并选择*Create New*。</block>
+  <block id="034ebe64c95d6881f42b9860db62257a" category="list-text">报告就绪后，选择操作菜单，然后选择*View*。</block>
+  <block id="c3e2319c8f33283f02e4d18078c3e026" category="list-text">在*报告操作*列中，选择操作菜单，然后选择*查看*。</block>
+  <block id="b6b1c484e920a4cebbc7cdf2ac43d7ef" category="list-text">在报告右上角，选择操作菜单，然后选择*Download pdf*。</block>
+  <block id="8bd64cd944e930439dfc9b8d32597010" category="inline-image-macro">在报告中选择操作菜单后显示的Download pdf选项的屏幕截图。</block>
+  <block id="1a9d7b3b25da6533268f3139437f4d3d" category="paragraph"><block ref="1a9d7b3b25da6533268f3139437f4d3d" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="bf6097b869b6cd694d1a22235d83341d" category="list-text">如果存在错误、请选择错误数旁边的箭头。</block>
+  <block id="8f678ca452a56dc17c7c9fc13e2e5f36" category="list-text">在*报告操作*列中，选择路径的操作菜单，然后选择*删除上次报告*或*删除所有报告*。</block>
+  <block id="7fe6981833e8fe7fd89e0a99a55573da" category="list-text">在BlueXP中、选择*帮助&gt;支持*。</block>
+  <block id="6a1b74969231967ed071d465206b15c7" category="list-text">如果您想通过电话与某人通话，请选择*呼叫我们*。系统会将您定向到netapp.com上的一个页面、其中列出了您可以拨打的电话号码。</block>
+  <block id="d65a2a6fc9caad1867728d4382eeb989" category="list-text">选择*创建案例*向NetApp支持专家开立TT：</block>
+  <block id="0ff9b4b8684b9e03c9c1e1320935eae3" category="paragraph">要查看支持案例的历史记录，您可以选择*设置&gt;时间线*并查找名为“创建支持案例”的操作。 最右侧的按钮可用于展开操作以查看详细信息。</block>
+  <block id="0a4050ac39772e9281a9aba225254bf8" category="list-text">选择*案例管理*，如果出现提示，请将您的NSS帐户添加到BlueXP。</block>
+  <block id="1d39d3ab518e1e3f16cbafb2a56e1fd9" category="list-text">在“*组织案例*”下，选择“*查看*”以查看与贵公司关联的所有案例。</block>
+  <block id="cdf14d2156528231a5dbd12ad5c95d3f" category="list-text">通过选择更改表中显示的列 <block ref="b574dd55d604ddb721d869a0fc302007" category="inline-image-macro-rx" type="image"></block> 然后选择要显示的列。</block>
+  <block id="348552521b849746260fe8d296d34c15" category="list-text">通过选择管理现有案例 <block ref="566c029d89e7d5421080767a37bf443e" category="inline-image-macro-rx" type="image"></block> 并选择一个可用选项：</block>
+  <block id="bb6d5d351525342dd6b3cf4d15b6f298" category="list-text">*关闭案例*：提供关闭案例的详细原因，然后选择*关闭案例*。</block>
+  <block id="4efee990fd4b83dc06a00811bfa7e55d" category="list-text">在*Data Broker Group*页面上，选择*Create Data Broker*，然后选择*Amazon Web Services*。</block>
+  <block id="4f63dcacb975691fb706f866f5467707" category="paragraph">如果您不想提供访问密钥、请选择页面底部的链接以改用CloudFormation模板。使用此选项时，您无需提供凭据，因为您直接登录到 AWS 。</block>
+  <block id="417a67ddf3f7a9afe391dcd0968ded03" category="list-text">数据代理可用后，在BlueXP副本和同步中选择*继续*。</block>
+  <block id="8f1cf53c93c91532c10f4779cc067c94" category="list-text">在*Data Broker Group*页上，选择*Create Data Broker*，然后选择*On－Prem Data Broker*。</block>
 </blocks>

@@ -42,7 +42,7 @@ summary: 创建同步关系时、BlueXP复制和同步服务会将文件从源�
 ** https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-discovering-ontap.html["发现 ONTAP 集群"^]
 
 
-. 单击 * 画布 * 。
+. 选择*Canves*。
 . 选择与上述任何类型匹配的工作环境。
 . 选择 Sync 旁边的操作菜单。
 +
@@ -57,7 +57,7 @@ image:screenshot_sync_we.gif["屏幕截图显示了在选择工作环境后通�
 
 使用以下步骤将数据同步到或不同步适用于 ONTAP ， Azure NetApp Files ， Cloud Volumes ONTAP 或内部 ONTAP 集群的 Amazon FSX 以外的受支持存储类型。以下步骤提供了一个示例，说明如何设置从 NFS 服务器到 S3 存储分段的同步关系。
 
-. 在BlueXP中、单击*同步*。
+. 在BlueXP中，选择*Sync*。
 . 在 * 定义同步关系 * 页面上，选择源和目标。
 +
 以下步骤提供了如何创建从 NFS 服务器到 S3 存储区的同步关系的示例。
@@ -77,13 +77,13 @@ image:screenshot_nfs_to_s3.png["一个屏幕截图，显示 NFS 为源、 S3 为
 ** link:task-installing-linux.html["在 Linux 主机上安装数据代理"]
 
 
-. 安装数据代理后，单击 * 继续 * 。
+. 安装数据代理后，选择*CONTINUD*。
 +
 image:screenshot-data-broker-group.png["此屏幕快照显示已成功部署的实例。该界面显示有关实例的详细信息、包括 AWS 联网。"]
 
 . 在 * 目录 * 页面上，选择顶级目录或子目录。
 +
-如果BlueXP复制和同步无法检索导出、请单击*手动添加导出*并输入NFS导出的名称。
+如果BlueXP复制和同步无法检索导出、请选择*手动添加导出*并输入NFS导出的名称。
 
 +
 
@@ -92,7 +92,7 @@ NOTE: 如果要同步 NFS 服务器上的多个目录、则必须在完成后创
 . 在 * AWS S3 Bucket* 页面上，选择一个存储分段：
 +
 ** 向下钻取以选择存储桶中的现有文件夹或选择在存储桶内创建的新文件夹。
-** 单击 * 添加到列表 * 以选择与您的 AWS 帐户无关的 S3 存储分段。 link:reference-requirements.html#s3["必须将特定权限应用于 S3 存储区。"]。
+** 选择*添加到列表*以选择与您的AWS帐户无关的S3存储分段。 link:reference-requirements.html#s3["必须将特定权限应用于 S3 存储区。"]。
 
 
 . 在 * 分段设置 * 页面上，设置分段：
@@ -198,7 +198,7 @@ image:screenshot_relationship_tags.png["创建与 Amazon S3 的同步关系时�
 
 TIP: 将数据同步到 StorageGRID 和 IBM 云对象存储时，也可以使用此功能。对于 Azure 和 Google Cloud Storage ，只有元数据选项可用。
 
-. 查看同步关系的详细信息，然后单击 * 创建关系 * 。
+. 查看同步关系的详细信息，然后选择*创建关系*。
 
 
 * 结果 *
@@ -207,12 +207,12 @@ BlueXP复制和同步开始在源和目标之间同步数据。
 
 
 
-== 从 Cloud Data sense 创建同步关系
+== 根据BlueXP分类创建同步关系
 
-BlueXP复制和同步与Cloud Data Sense集成。在Data Sense中、您可以使用BlueXP副本和同步选择要同步到目标位置的源文件。
+BlueXP复制和同步与BlueXP分类集成在一起。在BlueXP分类中、您可以使用BlueXP副本和同步选择要同步到目标位置的源文件。
 
-从 Cloud Data sense 启动数据同步后，所有源信息都包含在一个步骤中，只需输入几个关键详细信息即可。然后，选择新同步关系的目标位置。
+从BlueXP分类启动数据同步后、所有源信息都包含在一个步骤中、只需输入一些关键详细信息即可。然后，选择新同步关系的目标位置。
 
-image:screenshot-sync-data-sense.png["一个屏幕截图，显示直接从 Cloud Data sense 启动新同步后显示的 \"Data sense Integration\" 页面。"]
+image:screenshot-sync-data-sense.png["直接从BlueXP分类启动新同步后显示的BlueXP分类集成页面的屏幕截图。"]
 
-https://docs.netapp.com/us-en/bluexp-classification/task-managing-highlights.html#copying-and-synchronizing-source-files-to-a-target-system["了解如何从 Cloud Data sense 启动同步关系"^]。
+https://docs.netapp.com/us-en/bluexp-classification/task-managing-highlights.html#copying-and-synchronizing-source-files-to-a-target-system["了解如何从BlueXP分类启动同步关系"^]。

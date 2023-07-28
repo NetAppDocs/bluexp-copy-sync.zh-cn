@@ -149,17 +149,17 @@ https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#
 可以通过几种方法创建新的数据代理。以下步骤介绍如何在创建同步关系时在 Azure 中安装数据代理。
 
 .步骤
-. 单击 * 创建新同步 * 。
-. 在 * 定义同步关系 * 页面上，选择一个源和目标，然后单击 * 继续 * 。
+. 选择*Create New Sync*。
+. 在“*定义同步关系*”页上，选择源和目标，然后选择*CONTINUOD*。
 +
 完成这些步骤，直到显示 * 数据代理组 * 页面为止。
 
-. 在 * 数据代理组 * 页面上，单击 * 创建数据代理 * ，然后选择 * Microsoft Azure* 。
+. 在*Data Broker Group*页面上，选择*Create Data Broker*，然后选择*Microsoft Azure"。
 +
 image:screenshot-azure.png["数据代理页面的屏幕截图，可用于在 AWS ， Azure ， Google Cloud 和内部数据代理之间进行选择。"]
 
-. 输入数据代理的名称，然后单击 * 继续 * 。
-. 如果出现提示，请登录到您的 Microsoft 帐户。如果未出现提示，请单击 * 登录到 Azure* 。
+. 输入数据代理的名称，然后选择*CONTINUD*。
+. 如果出现提示，请登录到您的 Microsoft 帐户。如果系统没有提示，请选择*登录到Azure"。
 +
 此表由 Microsoft 拥有和托管。您的凭据不会提供给 NetApp 。
 
@@ -172,11 +172,11 @@ image:screenshot_azure_data_broker.gif["Azure 部署页面的屏幕截图，其�
 NOTE: 如果您计划实施持续同步关系、则必须为数据代理分配自定义角色。也可以在创建代理后手动执行此操作。
 
 . 如果在 vNet 中需要代理才能访问 Internet ，请指定代理配置。
-. 单击 * 继续 * 并保持此页面打开，直到部署完成。
+. 选择*继续*并保持页面打开状态，直到部署完成。
 +
 此过程可能需要长达 7 分钟。
 
-. 在BlueXP复制和同步中、数据代理可用后、单击*继续*。
+. 在BlueXP复制和同步中、一旦数据代理可用、请选择*继续*。
 . 完成向导中的页面以创建新的同步关系。
 
 

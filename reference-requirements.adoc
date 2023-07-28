@@ -92,7 +92,7 @@ link:media/aws_iam_policy_s3_bucket.json["此 JSON 文件中包含的权限"^] �
 ** 如果在 Linux 主机上手动安装了数据代理，则 _RoleARN_ 应是部署数据代理时为其提供 AWS 凭据的 AWS 用户的 ARN 。
 ** 如果使用 CloudFormation 模板在 AWS 中部署了数据代理，则 _RoleARN_ 应是此模板创建的 IAM 角色的 ARN 。
 +
-您可以通过转至 EC2 控制台、选择数据代理实例并从“描述”选项卡中单击 IAM 角色来查找角色 ARN 。然后，应在 IAM 控制台中查看包含角色 ARN 的“摘要”页面。
+要查找角色ARN、请转到EC2控制台、选择数据代理实例、然后从问题描述选项卡中选择IAM角色。然后，应在 IAM 控制台中查看包含角色 ARN 的“摘要”页面。
 
 +
 image:screenshot_iam_role_arn.gif["AWS IAM 控制台的屏幕快照，其中显示了角色 ARN 。"]
@@ -125,7 +125,7 @@ image:screenshot_iam_role_arn.gif["AWS IAM 控制台的屏幕快照，其中显�
 
 在Azure Blb容器与NFS或SMB服务器之间创建同步关系时、您需要提供BlueXP副本并与存储帐户连接字符串同步：
 
-image:screenshot_connection_string.gif["显示了一个连接字符串，可通过选择存储帐户并单击访问密钥从 Azure 门户访问此字符串。"]
+image:screenshot_connection_string.gif["显示了一个连接字符串、可通过选择存储帐户、然后选择Access keys从Azure门户访问该字符串。"]
 
 如果要在两个 Azure Blob 容器之间同步数据，则连接字符串必须包含 https://docs.microsoft.com/en-us/azure/storage/common/storage-dotnet-shared-access-signature-part-1["共享访问签名"^] （ SAS ）。在 blob 容器和 NFS 或 SMB 服务器之间同步时，您还可以选择使用 SAS 。
 
@@ -135,7 +135,7 @@ SAS 必须允许访问 Blob 服务和所有资源类型（服务、容器和对�
 * 对于目标 BLOB 容器：读取、写入、列出、添加和创建
 
 
-image:screenshot_connection_string_sas.gif["显示共享访问签名，可通过选择存储帐户并单击共享访问签名从 Azure 门户访问此签名。"]
+image:screenshot_connection_string_sas.gif["显示了共享访问签名、可通过选择存储帐户然后选择共享访问签名从Azure门户访问此签名。"]
 
 
 NOTE: 如果您选择实施包含Azure Blob容器的持续同步关系、则可以使用常规连接字符串或SAS连接字符串。如果使用的是SAS连接字符串、则不能将其设置为在不久的将来过期。
