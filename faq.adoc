@@ -249,6 +249,7 @@ link:task-managing-relationships.html#changing-the-settings-for-a-sync-relations
 BlueXP复制和同步无法对SMB数据本身进行加密。
 
 * 如果 Amazon S3 存储分段是同步关系中的目标，您可以选择是使用 AWS KMS 加密还是 AES-256 加密启用数据加密。
+* 当Google存储分段成为同步关系中的目标时、您可以选择是使用默认的Google管理的加密密钥、还是使用您自己的KMS密钥。
 
 
 

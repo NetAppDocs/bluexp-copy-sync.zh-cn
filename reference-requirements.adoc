@@ -220,6 +220,14 @@ link:task-managing-data-brokers.html#define-a-unified-configuration-for-a-data-b
 
 
 
+=== 加密Google Cloud存储分段
+
+您可以使用客户管理的KMS密钥或默认的Google管理密钥对目标Google Cloud分段进行加密。如果此存储分段已添加KMS加密、则它将覆盖默认的Google托管加密。
+
+要添加客户管理的KMS密钥、您需要将数据代理与结合使用 https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-gcp.html#permissions-required-for-the-service-account["正确的权限"]，并且密钥必须与存储分段位于同一个区域。
+
+
+
 == Google Drive
 
 在设置包含Google Drive的同步关系时、您需要提供以下内容：

@@ -89,11 +89,14 @@ summary: 创建新数据代理时，请选择 Google Cloud Data Broker 选项，
 - pubsub.topics.list
 - pubsub.topics.setIamPolicy
 - storage.buckets.update
+- cloudkms.cryptoKeys.list
+- cloudkms.keyRings.list
 ----
 注释：
 
 . 只有在计划设置数据代理以使用外部 HashiCorp 存储时，才需要 iam.serviceAccounts.signJwt" 权限。
 . 只有当您计划对从Google Cloud Storage到另一个云存储位置的同步关系启用持续同步设置时、才需要"pubsub.*"和"storage.bucests.update"权限。 link:task-creating-relationships.html#settings["了解有关持续同步选项的更多信息"]。
+. 只有当您计划在目标Google Cloud Storage存储分段上使用客户管理的KMS密钥时、才需要"Cloud kms.cryptoKeys.list"和"Cloud kms.keyrings.list"权限。
 
 
 

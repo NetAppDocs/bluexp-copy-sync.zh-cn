@@ -101,6 +101,8 @@ summary: 创建新数据代理时，请选择 Azure Data Broker 选项，以便�
                     "Microsoft.Storage/storageAccounts/write"
                     "Microsoft.MarketplaceOrdering/offertypes/publishers/offers/plans/agreements/read"
                     "Microsoft.MarketplaceOrdering/offertypes/publishers/offers/plans/agreements/write"
+                    "Microsoft.Network/networkSecurityGroups/securityRules/read",
+        	        "Microsoft.Network/networkSecurityGroups/read",
 ----
 ....
     ],
@@ -112,7 +114,7 @@ summary: 创建新数据代理时，请选择 Azure Data Broker 选项，以便�
 ....
 注意：
 
-. 只有当您计划对从Azure到另一个云存储位置的同步关系启用持续同步设置时、才需要以下权限：
+. 只有在计划启用时、才需要以下权限 https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings["持续同步设置"] 在从Azure到另一个云存储位置的同步关系中：
 +
 ** "icrosoft存储/存储帐户/读取"、
 ** "icrosoft EventGrid/systemTopics/eventSubscribes/write"、
@@ -130,9 +132,13 @@ summary: 创建新数据代理时，请选择 Azure Data Broker 选项，以便�
 +
 此外、如果您计划在Azure中实施持续同步、则可分配范围必须设置为订阅范围和*不*资源组范围。
 
+. 只有当您计划为创建数据代理选择自己的安全性时、才需要以下权限：
++
+** " Microsoft.Network/networkSecurityGroups/securityRules/read"
+** " Microsoft.Network/networkSecurityGroups/read"
 
 
-https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings["了解有关持续同步设置的更多信息"]。
+
 
 
 
@@ -165,7 +171,7 @@ image:screenshot-azure.png["数据代理页面的屏幕截图，可用于在 AWS
 
 . 为数据代理选择一个位置，然后输入有关虚拟机的基本详细信息。
 +
-image:screenshot_azure_data_broker.gif["Azure 部署页面的屏幕截图，其中显示了以下字段：订阅， Azure 区域， vNet ，子网，虚拟机名称， 用户名，身份验证方法和资源组。"]
+image:screenshot_azure_data_broker.png["Azure 部署页面的屏幕截图，其中显示了以下字段：订阅， Azure 区域， vNet ，子网，虚拟机名称， 用户名，身份验证方法和资源组。"]
 
 +
 
