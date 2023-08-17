@@ -1875,4 +1875,13 @@
   <block id="67c2b48a02a1206b0cf882e5b8d15ad2" category="list-text">云公里.keyrings.list</block>
   <block id="2f582d8c48ea99c7b932fa712f18e592" category="inline-link">详细了解Google Cloud Storage存储分段要求。</block>
   <block id="32a658d78cdd354c1492f2b54191e16d" category="paragraph"><block ref="32a658d78cdd354c1492f2b54191e16d" category="inline-link-rx"></block></block>
+  <block id="ca29791b461d3792595bd07c2a2aaf99" category="paragraph">可以使用外部存储分段创建持续同步关系。为此、请执行以下步骤：</block>
+  <block id="37da0328d7bfffe91735b0c80674c7e2" category="list-text">转到外部存储分段项目的Google Cloud控制台。</block>
+  <block id="435c065391a8e91d84117987235d5201" category="list-text">转到*云存储&gt;设置&gt;云存储服务帐户*。</block>
+  <block id="c3edc331b7460e31ef4333eafbe519a5" category="list-text">更新local.json文件：</block>
+  <block id="6e1595f2b99c7615da8d46593d8591bf" category="list-text">重新启动数据代理：</block>
+  <block id="b62cd7b32b6a7bfd3ad56b12d697713e" category="list-text">sudo PM2 stop all</block>
+  <block id="04a9fd8958892dd025a4cc8dbf674cd3" category="list-text">sudo PM2 start all</block>
+  <block id="536e5d919b8f1f2a0ce12ecc4d2a34c7" category="list-text">创建与相关外部存储分段的持续同步关系。</block>
+  <block id="e08fb6f08b7850e04ea43026fc6e9def" category="admonition">用于创建与外部存储分段的持续同步关系的数据代理将无法与其项目中的存储分段创建另一个持续同步关系。</block>
 </blocks>

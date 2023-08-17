@@ -121,6 +121,37 @@ image:screenshot_bucket_setup.gif["此屏幕截图显示了 \" 存储分段设�
 ** 以下设置将还原为其默认值：Sync Timeout、Recently Modified Files和Date Modified。
 ** 如果S3为源、则按大小筛选仅在复制事件(而不是删除事件)上处于活动状态。
 ** 创建此关系后、您只能加快或删除此关系。您不能中止同步、修改设置或查看报告。
++
+可以使用外部存储分段创建持续同步关系。为此、请执行以下步骤：
+
++
+... 转到外部存储分段项目的Google Cloud控制台。
+... 转到*云存储>设置>云存储服务帐户*。
+... 更新local.json文件：
++
+[source, json]
+----
+{
+"protocols": {
+    "gcp": {
+        "storage-account-email": <storage account email>
+}
+}
+}
+----
+... 重新启动数据代理：
++
+.... sudo PM2 stop all
+.... sudo PM2 start all
+
+
+... 创建与相关外部存储分段的持续同步关系。
++
+
+NOTE: 用于创建与外部存储分段的持续同步关系的数据代理将无法与其项目中的存储分段创建另一个持续同步关系。
+
+
+
 
 
 --
