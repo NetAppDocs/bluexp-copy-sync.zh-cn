@@ -103,7 +103,8 @@ NetApp数据代理需要通过端口443进行出站Internet访问、才能与Blu
 | https://fedoraproject.org | 在安装和更新期间在数据代理虚拟机上安装 7z 。需要 7z 才能向 NetApp 技术支持发送 AutoSupport 消息。 
 
 
-| https://sts.amazonaws.com | 在 AWS 中部署数据代理或在内部部署数据代理时验证 AWS 凭据，并提供 AWS 凭据。数据代理会在部署期间，更新时以及重新启动时联系此端点。 
+| \https://sts.amazonaws.com
+\https://sts.us-east-1.amazonaws.com | 在 AWS 中部署数据代理或在内部部署数据代理时验证 AWS 凭据，并提供 AWS 凭据。数据代理会在部署期间，更新时以及重新启动时联系此端点。 
 
 
 | https://console.bluexp.netapp.com/\https://netapp-cloud-account.auth0.com | 在使用分类为新同步关系选择源文件时联系BlueXP分类。 

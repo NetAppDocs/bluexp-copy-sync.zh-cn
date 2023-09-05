@@ -167,7 +167,6 @@
   <block id="1c3e0d66ceb2ba1955fa5d6c931788cd" category="list-text">如果文件已从源文件中删除，请选择从目标位置删除这些文件。默认情况下，从不从目标位置删除文件。</block>
   <block id="f12b42eece54a56ffab836a42eb37488" category="list-text">文件类型</block>
   <block id="ab02bb0c1a43b674af1de544e1af3831" category="list-text">排除文件扩展名</block>
-  <block id="3ac7c94d925c145faa4e821d6da327ac" category="list-text">通过键入文件扩展名并按 * 输入 * 来指定要从同步中排除的文件扩展名。例如，键入 _log_ 或 _.log_ 排除 * 。 log 文件。多个扩展不需要分隔符。以下视频提供了简短演示：</block>
   <block id="a00fe904aecabd4bff74d8776e6da2c5" category="list-text">文件大小</block>
   <block id="9c8cecb2075d9547b74e5e71bf16ab79" category="list-text">选择同步所有文件、无论文件大小如何、还是仅同步特定大小范围内的文件。</block>
   <block id="80ccccd39ce6134340fccbf76eb379ae" category="list-text">修改日期</block>
@@ -764,7 +763,6 @@
   <block id="c825d05ceebe5978107395d2dffdbcff" category="cell">在使用 BYOL 许可证进行同步关系时联系 NetApp 支持。</block>
   <block id="cabe1b04cc3c96ae849f8fd810dfecdb" category="cell">https://fedoraproject.org</block>
   <block id="ebd974875888e4cb1567f55e3466cda1" category="cell">在安装和更新期间在数据代理虚拟机上安装 7z 。需要 7z 才能向 NetApp 技术支持发送 AutoSupport 消息。</block>
-  <block id="6af6c652626660023ec712f6c15bbc0a" category="cell">https://sts.amazonaws.com</block>
   <block id="89100474e7faee0c34727c4b2b471007" category="cell">在 AWS 中部署数据代理或在内部部署数据代理时验证 AWS 凭据，并提供 AWS 凭据。数据代理会在部署期间，更新时以及重新启动时联系此端点。</block>
   <block id="6a3cdc9a7bccf7b319d4cd575bb3b01f" category="section-title">Web 浏览器端点</block>
   <block id="fd0cb271f0ac093ecb033a2bfea34fbd" category="paragraph">您的 Web 浏览器需要访问以下端点才能下载日志以进行故障排除：</block>
@@ -1884,4 +1882,17 @@
   <block id="04a9fd8958892dd025a4cc8dbf674cd3" category="list-text">sudo PM2 start all</block>
   <block id="536e5d919b8f1f2a0ce12ecc4d2a34c7" category="list-text">创建与相关外部存储分段的持续同步关系。</block>
   <block id="e08fb6f08b7850e04ea43026fc6e9def" category="admonition">用于创建与外部存储分段的持续同步关系的数据代理将无法与其项目中的存储分段创建另一个持续同步关系。</block>
+  <block id="feb32d3372b2c412782aaf89f4c3468c" category="list-text">通过键入文件扩展名并按*Enter*，指定要从同步中排除的正则表达式或文件扩展名。例如，键入 _log_ 或 _.log_ 排除 * 。 log 文件。多个扩展不需要分隔符。以下视频提供了简短演示：</block>
+  <block id="e8896d6ca3648d230a610f352be679de" category="admonition">正则表达式或正则表达式与通配符或glob表达式不同。此功能*仅*适用于正则表达式。</block>
+  <block id="2869c1b7d6055fd39cb65435bce896fd" category="cell">\https://sts.amazonaws.com
+\https://sts.us-east-1.amazonaws.com</block>
+  <block id="3034670f33afeb69347c1f076680bc54" category="list-text">选择 * 继续 * 。如果要向数据代理添加S3权限、请输入AWS访问密钥和机密密钥。</block>
+  <block id="18cf4605db6670514e116119da7de0a0" category="section-title">2023年9月3日</block>
+  <block id="84a4e9be01e1e0b2123f0992743bb3be" category="section-title">按正则表达式排除文件</block>
+  <block id="8a2aa0d6caae0bb9fe34491d59f66a36" category="paragraph">用户现在可以选择使用正则表达式排除文件。</block>
+  <block id="1f3154fef8201e2bc88bd5111528535c" category="inline-link">了解有关*排除文件扩展名*功能的更多信息。</block>
+  <block id="8ca7330f80b3c6b405f94cdadf97a80c" category="paragraph"><block ref="8ca7330f80b3c6b405f94cdadf97a80c" category="inline-link-rx"></block></block>
+  <block id="f32e3be81b145c34740db00a44c46e93" category="section-title">创建Azure数据代理时添加S3密钥</block>
+  <block id="7631c04fd88511e09fd26f0ce9f65ce1" category="paragraph">现在、用户可以在创建Azure数据代理时添加AWS S3访问密钥和机密密钥。</block>
+  <block id="0aa08047034186671d34875b5617b057" category="paragraph"><block ref="0aa08047034186671d34875b5617b057" category="inline-link-rx"></block></block>
 </blocks>
