@@ -18,6 +18,32 @@ summary: 了解BlueXP副本和同步中的新增功能。
 
 
 
+== 2023年11月26日
+
+
+
+=== Azure Blb的冷存储类支持
+
+现在、在创建同步关系时、可以使用冷存储Azure Blb层。
+
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html["了解有关创建同步关系的更多信息。"]
+
+
+
+=== 在AWS数据代理中支持特拉维夫地区
+
+现在、在AWS中创建数据代理时、特拉维夫已成为受支持的区域。
+
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-aws.html#creating-the-data-broker["了解有关在AWS中创建数据代理的更多信息"]。
+
+
+
+=== 更新到数据代理的节点版本
+
+现在、所有新数据代理都将使用节点版本21.2.0。与此更新不兼容的数据代理(例如CentOS 7.0和Ubuntu Server 18.0)将不再使用BlueXP副本和同步。
+
+
+
 == 2023年9月3日
 
 

@@ -1698,7 +1698,6 @@
   <block id="bac04a3b125486e43e5adcb9275b0cb7" category="inline-link">了解有关复制对象设置的更多信息</block>
   <block id="b9101f79b22863de2373d338b3f2fd49" category="paragraph"><block ref="61cd45fc857d1053eae8b58e970eda27" category="inline-link-rx"></block>。</block>
   <block id="b9a11b90960ff803269429887ab4cff3" category="admonition">用户必须是本地用户。不支持域用户。</block>
-  <block id="c6d95123ce00e1d2940e9547ed9e800e" category="list-text">*节点.js兼容性*：v20</block>
   <block id="029bf19b5ab4e2409feefba3e8d94200" category="section-title">设置BlueXP副本并同步以复制ACL</block>
   <block id="135b308ed83c53f1516b7c754566d1c4" category="paragraph-title">开始之前</block>
   <block id="31bea9e85b096361bd5e056000e559fa" category="list-text">从BlueXP复制和同步中，选择*Create New Sync*。</block>
@@ -1711,7 +1710,6 @@
   <block id="7c2e6ea8a3aea68b51b8b85907eabea5" category="section-title">在SMB共享之间手动复制ACL</block>
   <block id="59e767a49496d7be5777e4cf48d4105c" category="list-text">通过在创建关系时或创建关系后启用设置、从SMB服务器复制ACL Only、文件only或ACL and files。</block>
   <block id="e0c7c4832f74beb01a9b0b7f4ceb62b9" category="list-text">节点.js兼容性</block>
-  <block id="8286e09aa759584d6fd8292ccdc241cc" category="list-text">V20</block>
   <block id="e0536b4ae9bb49a9633b77ce78d68e0a" category="section-title">提高同步性能</block>
   <block id="baf8ddab0e1f4d03b84d74129178e3e2" category="section-title">更新框架</block>
   <block id="11d4a32f12cfcb43ae53ae70017809c1" category="section-title">设置通知</block>
@@ -1897,4 +1895,15 @@
   <block id="f6185bb12f5e53c800be8cda7fbca65b" category="paragraph">有关与云提供商文件服务、其基础架构或使用该服务的任何解决方案相关的技术支持、请参阅该产品的BlueXP文档中的"获得帮助"。</block>
   <block id="3880ae5df9fdc4d0fc4a6d00a2239530" category="paragraph">要获得针对BlueXP及其存储解决方案和服务的技术支持、请使用下面所述的支持选项。</block>
   <block id="78e61c832f461b7daf55a1dcd92749e0" category="list-text">Red Hat Enterprise Linux 8.0、8.5和8.8</block>
+  <block id="a76b69f0eac891a6dad210c8c894f70c" category="section-title">2023年11月26日</block>
+  <block id="5dbbe39e8d4eedbcb5aafdf7e0e66a80" category="section-title">Azure Blb的冷存储类支持</block>
+  <block id="2be7473e47d2102f9d51ff1a3cd36305" category="paragraph">现在、在创建同步关系时、可以使用冷存储Azure Blb层。</block>
+  <block id="6e90305f3ad22c32d20c662a0bb06726" category="inline-link">了解有关创建同步关系的更多信息。</block>
+  <block id="2bfe6803528ed3d1b4758e7bc6eb4cb6" category="paragraph"><block ref="2bfe6803528ed3d1b4758e7bc6eb4cb6" category="inline-link-rx"></block></block>
+  <block id="e35f035cdd0e53d6ac8e57e89c9a3994" category="section-title">在AWS数据代理中支持特拉维夫地区</block>
+  <block id="bc601240bd77a257f82ad29245da02ee" category="paragraph">现在、在AWS中创建数据代理时、特拉维夫已成为受支持的区域。</block>
+  <block id="e24f754057dce2d0f9791240fec7d494" category="section-title">更新到数据代理的节点版本</block>
+  <block id="a020a6afcaa5c0d333b5cfb93c8d4d79" category="paragraph">现在、所有新数据代理都将使用节点版本21.2.0。与此更新不兼容的数据代理(例如CentOS 7.0和Ubuntu Server 18.0)将不再使用BlueXP副本和同步。</block>
+  <block id="067302a61f4ac3cb10bab96cf4753092" category="list-text">v21.2.0</block>
+  <block id="3677e4449a81dc7f1c8db056eade76dd" category="list-text">*节点.js兼容性*：v21.2.0</block>
 </blocks>
