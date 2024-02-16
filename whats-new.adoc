@@ -18,6 +18,18 @@ summary: 了解BlueXP副本和同步中的新增功能。
 
 
 
+== 2024年2月11日
+
+
+
+=== 按正则表达式筛选目录
+
+现在、用户可以选择使用正则表达式筛选目录。
+
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#create-other-types-of-sync-relationships["了解有关*排除目录*功能的更多信息。"]
+
+
+
 == 2023年11月26日
 
 
