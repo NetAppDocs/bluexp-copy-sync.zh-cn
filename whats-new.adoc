@@ -18,6 +18,18 @@ summary: 了解BlueXP副本和同步中的新增功能。
 
 
 
+== 2024年4月8日
+
+
+
+=== 支持RHEL 8.9
+
+现在、运行Red Hat Enterprise Linux 8.9的主机支持数据代理。
+
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-linux.html#linux-host-requirements["查看Linux主机要求"]。
+
+
+
 == 2024年2月11日
 
 

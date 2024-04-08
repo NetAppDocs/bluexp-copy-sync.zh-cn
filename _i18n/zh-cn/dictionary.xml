@@ -1886,7 +1886,6 @@
   <block id="522cbb900314aeb84eb5a961c5f94672" category="section-title">获得云提供商文件服务支持</block>
   <block id="f6185bb12f5e53c800be8cda7fbca65b" category="paragraph">有关与云提供商文件服务、其基础架构或使用该服务的任何解决方案相关的技术支持、请参阅该产品的BlueXP文档中的"获得帮助"。</block>
   <block id="3880ae5df9fdc4d0fc4a6d00a2239530" category="paragraph">要获得针对BlueXP及其存储解决方案和服务的技术支持、请使用下面所述的支持选项。</block>
-  <block id="78e61c832f461b7daf55a1dcd92749e0" category="list-text">Red Hat Enterprise Linux 8.0、8.5和8.8</block>
   <block id="a76b69f0eac891a6dad210c8c894f70c" category="section-title">2023年11月26日</block>
   <block id="5dbbe39e8d4eedbcb5aafdf7e0e66a80" category="section-title">Azure Blb的冷存储类支持</block>
   <block id="2be7473e47d2102f9d51ff1a3cd36305" category="paragraph">现在、在创建同步关系时、可以使用冷存储Azure Blb层。</block>
@@ -1905,4 +1904,10 @@
   <block id="32d736bf69b032967c9ca2f284cd6218" category="inline-link">了解有关*排除目录*功能的更多信息。</block>
   <block id="9afa1c757f9d9c1d7a951ff852629645" category="paragraph"><block ref="9afa1c757f9d9c1d7a951ff852629645" category="inline-link-rx"></block></block>
   <block id="65f2edc14f4a65d07600885b4ca1a56f" category="list-text">通过键入名称或目录完整路径并按*Enter*，最多指定要从同步中排除的15个正则表达式或目录。默认情况下、不包括.copy-ofovert、.snapshot、~snapshot目录。</block>
+  <block id="8580342935824bb5edc626fa6371115e" category="section-title">2024年4月8日</block>
+  <block id="cd5e0880386a1f1f9deebd1fe0422847" category="section-title">支持RHEL 8.9</block>
+  <block id="b2eb229bee01785cca939d890a06b37c" category="paragraph">现在、运行Red Hat Enterprise Linux 8.9的主机支持数据代理。</block>
+  <block id="403a870c3777a3434883cf3338197e1e" category="inline-link">查看Linux主机要求</block>
+  <block id="33437394afeba112bc78a89e1164345e" category="paragraph"><block ref="bddca2b75222059ea164cace70f493c0" category="inline-link-rx"></block>。</block>
+  <block id="62839d4e5d5a9de91b6f7d896439934b" category="list-text">Red Hat Enterprise Linux 8.5、8.8和8.9</block>
 </blocks>

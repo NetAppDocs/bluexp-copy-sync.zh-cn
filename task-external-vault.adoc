@@ -13,6 +13,7 @@ summary: 在创建需要Amazon S3、Azure或Google Cloud凭据的同步关系时
 :imagesdir: ./media/
 
 
+[role="lead"]
 在创建需要Amazon S3、Azure或Google Cloud凭据的同步关系时、您需要通过BlueXP副本和同步用户界面或API指定这些凭据。另一种方法是设置数据代理组，以便直接从外部 HashiCorp 存储访问凭据（或 _sects_ ）。
 
 此功能可通过具有需要Amazon S3、Azure或Google Cloud凭据的同步关系的BlueXP副本和同步API来支持。

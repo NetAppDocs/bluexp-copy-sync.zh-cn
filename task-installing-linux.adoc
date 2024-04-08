@@ -27,7 +27,7 @@ summary: 创建新的数据代理时，请选择 On-Prem Data Broker 选项以�
 +
 不支持 CentOS 流。
 
-** Red Hat Enterprise Linux 8.0、8.5和8.8
+** Red Hat Enterprise Linux 8.5、8.8和8.9
 ** 多石Linux 9
 ** Ubuntu Server 20.04 LTS
 ** SUSE Linux Enterprise Server 15 SP1
