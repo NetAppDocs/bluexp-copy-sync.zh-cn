@@ -5,15 +5,12 @@ keywords: sync, immediate, now, schedule, minutes, hours, on, off, delete, group
 summary: 您可以通过立即同步数据、更改计划等随时管理同步关系。 
 ---
 = 管理同步关系
-:toc: macro
 :hardbreaks:
 :allow-uri-read: 
-:toc: 
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

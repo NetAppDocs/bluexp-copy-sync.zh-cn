@@ -5,15 +5,12 @@ keywords: manage data brokers, manage data broker groups, data broker performanc
 summary: 数据代理将数据从源位置同步到目标位置。您创建的每个同步关系都需要一个数据代理。通过向组添加新数据代理，查看有关数据代理的信息等来管理数据代理。 
 ---
 = 管理数据代理组
-:toc: macro
 :hardbreaks:
 :allow-uri-read: 
-:toc: 
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

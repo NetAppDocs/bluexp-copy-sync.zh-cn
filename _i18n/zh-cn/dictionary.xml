@@ -555,7 +555,6 @@
   <block id="f68b92ee815675ae3018eca060b553b7" category="summary">创建和查看报告以获取信息，您可以在 NetApp 人员的帮助下使用这些信息来调整数据代理的配置并提高性能。</block>
   <block id="66a57cf55e06ad77b01c27e38766b83a" category="doc">创建和查看报告以调整配置</block>
   <block id="428c9ca45dc8f0b8e1eda231aef5b08f" category="paragraph">创建和查看报告以获取信息，您可以在 NetApp 人员的帮助下使用这些信息来调整数据代理的配置并提高性能。</block>
-  <block id="d065612e0b27393ca9ed8b8e18bc869f" category="paragraph">每个报告都提供有关同步关系中某个路径的详细信息。例如，文件系统的报告显示了目录和文件的数量，文件大小的分布，目录的深度和宽度等。</block>
   <block id="0389649d1c6e65625a57cd6c84149999" category="section-title">创建报告</block>
   <block id="26126443d44ba2723fb7a7ede8dda75c" category="paragraph">每个同步关系中的路径（源或目标）显示在一个表中。</block>
   <block id="94954fba60bab7206fb4f66c4a7750cb" category="paragraph">下面是文件系统路径的示例报告。</block>
@@ -1278,7 +1277,6 @@
   <block id="c2c0cee3ff43b2b22931517d0aff1423" category="paragraph">现在、可以为同步关系使用新的*通知*设置。通过此设置、您可以选择是否在BlueXP的通知中心中接收Cloud Sync 通知。您可以为成功的数据同步、失败的数据同步和已取消的数据同步启用通知。</block>
   <block id="e0c9c98f02dabde677a2634ba4ffa251" category="paragraph">独立的 Cloud Sync 服务已停用。现在、您应直接从BlueXP访问Cloud Sync 、在该位置、所有相同的特性和功能均可用。</block>
   <block id="2120ca0a41cdfe67b77a3af2e3123d51" category="paragraph">登录到BlueXP后、您可以切换到顶部的"同步"选项卡并查看您的关系、就像以前一样。</block>
-  <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">所有BlueXP文档</block>
   <block id="e7972d5601badb4c5fcefad96c59c2fc" category="cell">https://console.bluexp.netapp.com/\https://netapp-cloud-account.auth0.com</block>
   <block id="e3cd99e4aa330ae6bdfb3754d83ae962" category="list-text">如果您拥有合作伙伴或经销商帐户、则可以添加一个或多个NSS帐户、但不能将其与客户级别的帐户同时添加。</block>
   <block id="2974170a8b1b5b4a2ac69aacd4c1c9c3" category="list-text">从支持注册页面找到您的帐户ID序列号。</block>
@@ -1483,7 +1481,6 @@
   <block id="ba1c1b5e23e3b5a8fddd3f7c246ef506" category="list-text">选择在BlueXP复制后从源位置删除文件、然后同步将文件复制到目标位置。此选项包括数据丢失的风险，因为源文件会在复制后被删除。</block>
   <block id="d00f5267d50bd8fc291109206d3ad858" category="list-text">定义要包括在每次同步中的文件类型：文件、目录、符号链接和硬链接。</block>
   <block id="e6bb715f6ce6607fa13566339effdb48" category="admonition">硬链接仅适用于不安全的NFS到NFS关系。用户只能使用一个扫描程序进程和一个扫描程序并发性、扫描必须从根目录运行。</block>
-  <block id="c81b15466cc89faa99024d734f63d070" category="paragraph">BlueXP复制和同步开始在源和目标之间同步数据。</block>
   <block id="4a8110d7baed5bb188d9ea48ab78e0e6" category="summary">NetApp无权访问您在使用BlueXP复制和同步服务时提供的任何凭据。凭据直接存储在驻留在网络中的数据代理计算机上。</block>
   <block id="bad5b485fd3620e21ec885f8037708e8" category="paragraph">根据您选择的配置、BlueXP复制和同步可能会在您创建新关系时提示您输入凭据。例如，在设置包含 SMB 服务器的关系时，或者在 AWS 中部署数据代理时。</block>
   <block id="48fdd045e3712fe8b8bf348baef2a5e3" category="summary">创建新数据代理时，请选择 Google Cloud Data Broker 选项，以便在 VPC 中的新虚拟机实例上部署数据代理软件。BlueXP复制和同步可指导您完成安装过程、但此页面会重复执行相关要求和步骤、以帮助您做好安装准备。</block>
@@ -1910,4 +1907,13 @@
   <block id="403a870c3777a3434883cf3338197e1e" category="inline-link">查看Linux主机要求</block>
   <block id="33437394afeba112bc78a89e1164345e" category="paragraph"><block ref="bddca2b75222059ea164cace70f493c0" category="inline-link-rx"></block>。</block>
   <block id="62839d4e5d5a9de91b6f7d896439934b" category="list-text">Red Hat Enterprise Linux 8.5、8.8和8.9</block>
+  <block id="0d76b6f5f7ef4feb4ba34ba4dc8a3356" category="section-title">哪些类型的同步关系会保留对象存储元数据？</block>
+  <block id="b0f6c5b9e24f06b742cf40691ecda0a1" category="section-title">在以NFS或SMB为源的同步期间会复制哪些类型的元数据？</block>
+  <block id="fca3645c4b9c57a087d67f345e46b21a" category="paragraph">默认情况下、会复制用户ID、修改时间、访问时间和GID等元数据。用户可以选择从CIFS复制ACL、方法是在创建同步关系时将其标记为需要。</block>
+  <block id="7051698c4825bdf5a52d58a440b9a6da" category="inline-link">同步关系</block>
+  <block id="5c4c20a350a01bcba51403b5971c1e55" category="inline-link">管理数据代理</block>
+  <block id="81671387dfc9496bbb584683131ed0ba" category="inline-link">创建报告以优化性能和配置</block>
+  <block id="67eba5ff5953726e26983c2f64f794dc" category="paragraph">BlueXP复制和同步开始在源和目标之间同步数据。同步所用时间、是否暂停以及复制、扫描或删除的文件数的同步统计信息可用。然后、您可以管理<block ref="036850536ef01bc8377a10d87d2c60f6" category="inline-link-rx"></block>，<block ref="afaf0e8700f6eb5774590916b99650a2" category="inline-link-rx"></block>或<block ref="04f03004f9e0603b9348762faa7e67f2" category="inline-link-rx"></block>。</block>
+  <block id="b9f1a0da291ab3c6b115c407d28d1ab9" category="inline-link">已成功创建并完成同步</block>
+  <block id="62ef189d2125efd4e054bda2fe60e56f" category="paragraph">每个报告都提供有关同步关系中某个路径的详细信息。其中包括目录、文件和符号链接的数量、文件大小的分布、目录的深度和宽度、修改时间和访问时间。这一点与同步统计信息不同、后者可在之后从信息板获得<block ref="633d339dd1720ad54a63284823a9045d" category="inline-link-rx"></block>。</block>
 </blocks>

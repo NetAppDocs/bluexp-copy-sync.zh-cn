@@ -5,21 +5,18 @@ keywords: reports, sync reports, BlueXP copy and sync reports, report errors, pa
 summary: 创建和查看报告以获取信息，您可以在 NetApp 人员的帮助下使用这些信息来调整数据代理的配置并提高性能。 
 ---
 = 创建和查看报告以调整配置
-:toc: macro
 :hardbreaks:
 :allow-uri-read: 
-:toc: 
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]
 创建和查看报告以获取信息，您可以在 NetApp 人员的帮助下使用这些信息来调整数据代理的配置并提高性能。
 
-每个报告都提供有关同步关系中某个路径的详细信息。例如，文件系统的报告显示了目录和文件的数量，文件大小的分布，目录的深度和宽度等。
+每个报告都提供有关同步关系中某个路径的详细信息。其中包括目录、文件和符号链接的数量、文件大小的分布、目录的深度和宽度、修改时间和访问时间。这一点与同步统计信息不同、后者可在之后从信息板获得 https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html["已成功创建并完成同步"]。
 
 
 

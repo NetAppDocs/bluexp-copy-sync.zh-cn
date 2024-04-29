@@ -245,7 +245,7 @@ TIP: 将数据同步到 StorageGRID 和 IBM 云对象存储时，也可以使用
 
 * 结果 *
 
-BlueXP复制和同步开始在源和目标之间同步数据。
+BlueXP复制和同步开始在源和目标之间同步数据。同步所用时间、是否暂停以及复制、扫描或删除的文件数的同步统计信息可用。然后、您可以管理 https://docs.netapp.com/us-en/bluexp-copy-sync/task-managing-relationships.html["同步关系"]， https://docs.netapp.com/us-en/bluexp-copy-sync/task-managing-data-brokers.html["管理数据代理"]或 https://docs.netapp.com/us-en/bluexp-copy-sync/task-managing-reports.html#creating-reports["创建报告以优化性能和配置"]。
 
 
 
