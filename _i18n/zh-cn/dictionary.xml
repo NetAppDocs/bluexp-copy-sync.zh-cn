@@ -1916,4 +1916,8 @@
   <block id="67eba5ff5953726e26983c2f64f794dc" category="paragraph">BlueXP复制和同步开始在源和目标之间同步数据。同步所用时间、是否暂停以及复制、扫描或删除的文件数的同步统计信息可用。然后、您可以管理<block ref="036850536ef01bc8377a10d87d2c60f6" category="inline-link-rx"></block>，<block ref="afaf0e8700f6eb5774590916b99650a2" category="inline-link-rx"></block>或<block ref="04f03004f9e0603b9348762faa7e67f2" category="inline-link-rx"></block>。</block>
   <block id="b9f1a0da291ab3c6b115c407d28d1ab9" category="inline-link">已成功创建并完成同步</block>
   <block id="62ef189d2125efd4e054bda2fe60e56f" category="paragraph">每个报告都提供有关同步关系中某个路径的详细信息。其中包括目录、文件和符号链接的数量、文件大小的分布、目录的深度和宽度、修改时间和访问时间。这一点与同步统计信息不同、后者可在之后从信息板获得<block ref="633d339dd1720ad54a63284823a9045d" category="inline-link-rx"></block>。</block>
+  <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">博客和社区</block>
+  <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetApp 社区</block>
+  <block id="bd5465eb0e8cf8f303aee7ea9420c8b1" category="sidebar">BlueXP博客</block>
+  <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">云网络研讨会</block>
 </blocks>
