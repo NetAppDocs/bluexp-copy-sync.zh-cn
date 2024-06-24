@@ -32,7 +32,7 @@ summary: 通过BlueXP复制和同步、您可以将数据从源同步到目标�
 * Google Cloud 存储
 * IBM 云对象存储
 * NFS 服务器
-* 内部 ONTAP 集群
+* 内部ONTAP集群(NFS或SMB)
 * SMB 服务器
 * StorageGRID
 
@@ -51,7 +51,7 @@ summary: 通过BlueXP复制和同步、您可以将数据从源同步到目标�
 * Google Cloud 存储
 * IBM 云对象存储
 * NFS 服务器
-* 内部 ONTAP 集群
+* 内部ONTAP集群(NFS或SMB)
 * SMB 服务器
 * StorageGRID
 
@@ -71,7 +71,7 @@ summary: 通过BlueXP复制和同步、您可以将数据从源同步到目标�
 * Google Cloud 存储
 * IBM 云对象存储
 * NFS 服务器
-* 内部 ONTAP 集群
+* 内部ONTAP集群(NFS或SMB)
 * ONTAP S3 存储
 * SMB 服务器
 * StorageGRID
@@ -90,7 +90,7 @@ summary: 通过BlueXP复制和同步、您可以将数据从源同步到目标�
 * Google Cloud 存储
 * IBM 云对象存储
 * NFS 服务器
-* 内部 ONTAP 集群
+* 内部ONTAP集群(NFS或SMB)
 * SMB 服务器
 * StorageGRID
 
@@ -123,7 +123,7 @@ summary: 通过BlueXP复制和同步、您可以将数据从源同步到目标�
 * Google Cloud 存储
 * IBM 云对象存储
 * NFS 服务器
-* 内部 ONTAP 集群
+* 内部ONTAP集群(NFS或SMB)
 * SMB 服务器
 * StorageGRID
 
@@ -155,7 +155,7 @@ summary: 通过BlueXP复制和同步、您可以将数据从源同步到目标�
 * Google Cloud 存储
 * IBM 云对象存储
 * NFS 服务器
-* 内部 ONTAP 集群
+* 内部ONTAP集群(NFS或SMB)
 * SMB 服务器
 * StorageGRID
 
@@ -173,7 +173,7 @@ summary: 通过BlueXP复制和同步、您可以将数据从源同步到目标�
 * Google Cloud 存储
 * IBM 云对象存储
 * NFS 服务器
-* 内部 ONTAP 集群
+* 内部ONTAP集群(NFS或SMB)
 * SMB 服务器
 * StorageGRID
 
@@ -191,7 +191,7 @@ summary: 通过BlueXP复制和同步、您可以将数据从源同步到目标�
 * Google Cloud 存储
 * IBM 云对象存储
 * NFS 服务器
-* 内部 ONTAP 集群
+* 内部ONTAP集群(NFS或SMB)
 * ONTAP S3 存储
 * SMB 服务器
 * StorageGRID
@@ -219,7 +219,7 @@ summary: 通过BlueXP复制和同步、您可以将数据从源同步到目标�
 * Google Cloud 存储
 * IBM 云对象存储
 * NFS 服务器
-* 内部 ONTAP 集群
+* 内部ONTAP集群(NFS或SMB)
 * SMB 服务器
 * StorageGRID
 
@@ -239,7 +239,7 @@ summary: 通过BlueXP复制和同步、您可以将数据从源同步到目标�
 * Google Drive
 * IBM 云对象存储
 * NFS 服务器
-* 内部 ONTAP 集群
+* 内部ONTAP集群(NFS或SMB)
 * ONTAP S3 存储
 * SMB 服务器
 * StorageGRID
@@ -247,7 +247,7 @@ summary: 通过BlueXP复制和同步、您可以将数据从源同步到目标�
 
 
 
-| 内部 ONTAP 集群  a| 
+| 内部ONTAP集群(NFS或SMB)  a| 
 * Amazon EFS
 * 适用于 ONTAP 的 Amazon FSX
 * Amazon S3
@@ -259,7 +259,7 @@ summary: 通过BlueXP复制和同步、您可以将数据从源同步到目标�
 * Google Cloud 存储
 * IBM 云对象存储
 * NFS 服务器
-* 内部 ONTAP 集群
+* 内部ONTAP集群(NFS或SMB)
 * SMB 服务器
 * StorageGRID
 
@@ -294,7 +294,7 @@ summary: 通过BlueXP复制和同步、您可以将数据从源同步到目标�
 * Google Drive
 * IBM 云对象存储
 * NFS 服务器
-* 内部 ONTAP 集群
+* 内部ONTAP集群(NFS或SMB)
 * ONTAP S3 存储
 * SMB 服务器
 * StorageGRID
@@ -315,7 +315,7 @@ summary: 通过BlueXP复制和同步、您可以将数据从源同步到目标�
 * Google Cloud 存储
 * IBM 云对象存储
 * NFS 服务器
-* 内部 ONTAP 集群
+* 内部ONTAP集群(NFS或SMB)
 * ONTAP S3 存储
 * SMB 服务器
 * StorageGRID
