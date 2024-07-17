@@ -14,7 +14,6 @@
   <block id="efdd49f1066bc795a31111d98cfa5ddf" category="doc">管理数据代理组</block>
   <block id="e1191d25bbec84b8a1ba37471b41611f" category="paragraph">数据代理组将数据从源位置同步到目标位置。对于您创建的每个同步关系，组中至少需要一个数据代理。通过向组中添加新数据代理，查看组信息等来管理数据代理组。</block>
   <block id="31361c8d27e70295df2bfa32fdeeb659" category="inline-link-macro">详细了解如何确定何时需要多个数据代理</block>
-  <block id="0a134fa70f4699a5c8408ed138b7162b" category="paragraph">在许多情况下、单个数据代理可以满足同步关系的性能要求。如果不支持，您可以通过向组添加其他数据代理来提高同步性能。但是，您应该首先检查可能影响同步性能的其他因素。 <block ref="871c8177954bc9fc0961cd3c58102f39" category="inline-link-macro-rx"></block>。</block>
   <block id="0a7fa5ebd880718dbd4c644fda59fb38" category="section-title">组可以管理多个关系</block>
   <block id="5724e69362e6baa1a8fac790e6db1ee9" category="paragraph">数据代理组一次可以管理一个或多个同步关系。</block>
   <block id="84a191eeaa6e9761d09576e3ce8e7757" category="paragraph">例如，假设您有三个关系：</block>
@@ -1699,7 +1698,6 @@
   <block id="59e767a49496d7be5777e4cf48d4105c" category="list-text">通过在创建关系时或创建关系后启用设置、从SMB服务器复制ACL Only、文件only或ACL and files。</block>
   <block id="e0c7c4832f74beb01a9b0b7f4ceb62b9" category="list-text">节点.js兼容性</block>
   <block id="e0536b4ae9bb49a9633b77ce78d68e0a" category="section-title">提高同步性能</block>
-  <block id="baf8ddab0e1f4d03b84d74129178e3e2" category="section-title">更新框架</block>
   <block id="11d4a32f12cfcb43ae53ae70017809c1" category="section-title">设置通知</block>
   <block id="b74bf8e34d66bdbffc7544ea6e132661" category="section-title">更改同步关系的设置</block>
   <block id="76db6b34fbbc30a6bf267e7b8d4ded4b" category="section-title">删除关系</block>
@@ -1922,4 +1920,22 @@
   <block id="6849ea484f5664c887acc6f1ff990dfd" category="section-title">2024年6月2日</block>
   <block id="cfa477f3b89d95c12ff30d6390b89dd9" category="paragraph">BlueXP复制和同步服务已更新、以修复一些错误。数据代理也进行了更新、以应用安全更新。新的数据代理版本为1.0.52。</block>
   <block id="8c5259dd9c9515862d9ef62edaaa899d" category="list-text">内部ONTAP集群(NFS或SMB)</block>
+  <block id="bd847a13f3c228a3e7b266af4584fd3a" category="paragraph">在许多情况下、单个数据代理可以满足同步关系的性能要求。否则，您可以通过向组中添加其他数据代理来提高同步性能。但是，您应该首先检查可能影响同步性能的其他因素。<block ref="871c8177954bc9fc0961cd3c58102f39" category="inline-link-macro-rx"></block>(英文)</block>
+  <block id="cfe8bc2d032af638edef6aa48eddc97d" category="summary">如果您计划将数据从对象存储同步到对象存储(例如、从Amazon S3同步到Azure Blb)、则需要在创建同步关系之前准备数据代理组。</block>
+  <block id="654ac38b7369238d760ed41821bfe8f6" category="doc">准备数据代理以在对象存储之间同步数据</block>
+  <block id="bbe48fb854ea022537208eeeff822f91" category="paragraph-title">关于此任务</block>
+  <block id="8b29cf1534de96e7d8703b38dbc8b848" category="paragraph">要准备数据代理组、您需要修改扫描程序的配置。如果不修改此配置、您可能会发现此同步关系存在性能问题。</block>
+  <block id="f497dbcbf16cefa2ef6d812f89825438" category="paragraph">用于将数据从对象存储同步到对象存储的数据代理组只能管理这些类型的同步关系。如果数据代理组管理不同类型的同步关系(例如、NFS到NFS或对象存储到SMB)、则这些同步关系的性能可能会受到负面影响。</block>
+  <block id="ab1484a815310bbc60b24a9aae62d58f" category="list-text">从BlueXP复制和同步中、选择*管理数据代理*。</block>
+  <block id="4c9240708988b2ebe5983da5eadc4613" category="inline-image-macro">设置图标的屏幕截图</block>
+  <block id="c633ea4565616bf2769598e328f3a188" category="list-text">选择 <block ref="1acf1c98ddec5f9f5f83183a48b45a01" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="afc8ea6a55a9970b854c3ce2b28ba9b5" category="list-text">更新扫描仪配置：</block>
+  <block id="65cb0c9fd06e63d9940a79bb99abc58e" category="list-text">将*Scanner ConcurrENT*更改为*1*。</block>
+  <block id="996c7ea13fea79c025562f291dbdb16b" category="list-text">将*扫描程序进程限制*更改为*1*。</block>
+  <block id="456191f26693536a8d701897a3127c23" category="list-text">选择*Unify Configuration*。</block>
+  <block id="a700bfe82fb8fb28d4bca63bc5ae7922" category="paragraph">BlueXP复制和同步更新数据代理组的配置。</block>
+  <block id="58eaebf972358f1cf03d386a4ade1a0f" category="paragraph-title">下一步是什么？</block>
+  <block id="c28d873efe941bde2e3f61ce0bfc122b" category="paragraph">现在、您可以使用刚刚配置的数据代理组在对象存储之间创建同步关系。</block>
+  <block id="9fc076386261ca80bfc67f7f57c641d3" category="section-title">2024年7月14日</block>
+  <block id="c18c776847f6d7588ddeab0632527364" category="paragraph">我们更新了BlueXP复制和同步服务以及数据代理以修复一些错误。新的数据代理版本为1.0.53。</block>
 </blocks>

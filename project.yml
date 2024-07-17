@@ -46,6 +46,8 @@ sidebar:
     entries:
     - title: 在源和目标之间同步数据
       entries:
+      - title: 准备数据代理以在对象存储之间同步数据
+        url: "/task-prepare-object-storage.html"
       - title: 创建同步关系
         url: "/task-creating-relationships.html"
       - title: 从 SMB 共享复制 ACL

@@ -1,0 +1,41 @@
+---
+sidebar: sidebar 
+permalink: task-prepare-object-storage.html 
+keywords: prepare data broker, data broker, object storage, sync, scanner, configure scanner 
+summary: '如果您计划将数据从对象存储同步到对象存储(例如、从Amazon S3同步到Azure Blb)、则需要在创建同步关系之前准备数据代理组。' 
+---
+= 准备数据代理以在对象存储之间同步数据
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+如果您计划将数据从对象存储同步到对象存储(例如、从Amazon S3同步到Azure Blb)、则需要在创建同步关系之前准备数据代理组。
+
+.关于此任务
+要准备数据代理组、您需要修改扫描程序的配置。如果不修改此配置、您可能会发现此同步关系存在性能问题。
+
+.开始之前
+用于将数据从对象存储同步到对象存储的数据代理组只能管理这些类型的同步关系。如果数据代理组管理不同类型的同步关系(例如、NFS到NFS或对象存储到SMB)、则这些同步关系的性能可能会受到负面影响。
+
+.步骤
+. 从BlueXP复制和同步中、选择*管理数据代理*。
+. 选择 image:icon-settings.png["设置图标的屏幕截图"]
+. 更新扫描仪配置：
++
+.. 将*Scanner ConcurrENT*更改为*1*。
+.. 将*扫描程序进程限制*更改为*1*。
+
+
+. 选择*Unify Configuration*。
+
+
+.结果
+BlueXP复制和同步更新数据代理组的配置。
+
+.下一步是什么？
+现在、您可以使用刚刚配置的数据代理组在对象存储之间创建同步关系。
