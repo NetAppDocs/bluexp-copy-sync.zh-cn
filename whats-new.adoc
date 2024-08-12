@@ -561,7 +561,7 @@ https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#
 
 现在、可以为同步关系使用新的*同步超时*设置。通过此设置、您可以定义在指定的小时数或天数内未完成数据同步时、Cloud Sync 是否应取消数据同步。
 
-https://docs.netapp.com/us-en/bluexp-copy-sync/task-managing-relationships.html#changing-the-settings-for-a-sync-relationship["了解有关更改同步关系设置的更多信息"]。
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-managing-relationships.html#change-the-settings-for-a-sync-relationship["了解有关更改同步关系设置的更多信息"](英文)
 
 
 
@@ -571,7 +571,7 @@ https://docs.netapp.com/us-en/bluexp-copy-sync/task-managing-relationships.html#
 
 image:https://raw.githubusercontent.com/NetAppDocs/bluexp-copy-sync/main/media/screenshot-notification-center.png["显示BlueXP中通知中心的屏幕截图。"]
 
-https://docs.netapp.com/us-en/bluexp-copy-sync/task-managing-relationships.html#changing-the-settings-for-a-sync-relationship["了解有关更改同步关系设置的更多信息"]。
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-managing-relationships.html#change-the-settings-for-a-sync-relationship["了解有关更改同步关系设置的更多信息"](英文)
 
 
 
@@ -736,7 +736,7 @@ link:task-copying-acls.html["了解如何从 SMB 共享复制 ACL"]。
 
 如果您延长了从 NetApp 购买的 Cloud Sync 许可证，则可以重新添加此许可证以刷新到期日期。
 
-link:task-licensing.html#update-a-license["了解如何更新许可证"]。
+link:task-licensing.html["了解如何更新许可证"](英文)
 
 
 
@@ -924,7 +924,7 @@ link:task-managing-reports.html["了解有关创建和查看报告以调整配�
 
 通过此高级设置，您可以选择 Cloud Sync 在确定文件或目录是否已更改并应重新同步时是否应比较某些属性。
 
-link:task-managing-relationships.html#changing-the-settings-for-a-sync-relationship["了解有关更改同步关系设置的更多信息"]。
+link:task-managing-relationships.html#change-the-settings-for-a-sync-relationship["了解有关更改同步关系设置的更多信息"](英文)
 
 
 

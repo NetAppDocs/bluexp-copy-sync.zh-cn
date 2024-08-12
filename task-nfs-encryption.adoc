@@ -4,7 +4,7 @@ permalink: task-nfs-encryption.html
 keywords: encryption, in flight, data in flight, in-flight, data-in-flight, nfs, initiator, listener, port 
 summary: 如果您的企业有严格的安全策略、请使用数据飞行加密在不同网络中的 NFS 服务器之间同步数据。 
 ---
-= 使用传输中数据加密同步 NFS 数据
+= 使用传输中数据加密同步NFS数据
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -38,7 +38,7 @@ image:diagram_nfs_encryption.gif["图中显示了两个 NFS 服务器和两个�
 . 目标数据代理会先对数据进行解密，然后再将其发送到目标。
 . 初始副本完成后、服务将每 24 小时同步所有更改的数据。如果有要同步的数据，则进程将从启动程序打开与其他数据代理的加密连接开始。
 +
-如果您希望更频繁地同步数据， link:task-managing-relationships.html#changing-the-settings-for-a-sync-relationship["您可以在创建关系后更改此计划"]。
+如果您希望更频繁地同步数据，请 link:task-managing-relationships.html#change-the-settings-for-a-sync-relationship["您可以在创建关系后更改此计划"]。
 
 
 
@@ -85,7 +85,7 @@ image:diagram_nfs_encryption.gif["图中显示了两个 NFS 服务器和两个�
 
 
 
-== 使用传输中数据加密同步 NFS 数据
+== 使用传输中数据加密同步NFS数据
 
 在两个 NFS 服务器之间或 Azure NetApp Files 之间创建新的同步关系，启用正在传输的加密选项，然后按照提示进行操作。
 

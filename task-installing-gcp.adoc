@@ -4,7 +4,7 @@ permalink: task-installing-gcp.html
 keywords: data broker, install, gcp, google, networking, permissions, regions, install data broker in gcp, install in gcp, deploy in gcp, deploy data broker in gcp, install data broker in google, install in google, deploy in google, deploy data broker in google, networking requirements, port, ports, 443, port 443, ntp, network time protocol, gcp data broker, service account 
 summary: 创建新数据代理时，请选择 Google Cloud Data Broker 选项，以便在 VPC 中的新虚拟机实例上部署数据代理软件。BlueXP复制和同步可指导您完成安装过程、但此页面会重复执行相关要求和步骤、以帮助您做好安装准备。 
 ---
-= 在 Google Cloud 中创建新的数据代理
+= 在Google Cloud中创建新的数据代理
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -143,7 +143,7 @@ image:screenshot_data_broker_gcp.png["屏幕截图显示了在 Google Cloud 中�
 
 
 
-== 提供在其他 Google Cloud 项目中使用存储分段的权限
+== 提供在其他Google Cloud项目中使用存储分段的权限
 
 在创建同步关系并选择Google Cloud Storage作为源或目标时、BlueXP复制和同步使您可以从数据代理的服务帐户有权使用的分段中进行选择。默认情况下，此值包括与数据代理服务帐户位于 _same 项目中的分段。但是，如果您提供了所需的权限，则可以从 _other_ 项目中选择分段。
 

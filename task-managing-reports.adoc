@@ -4,7 +4,7 @@ permalink: task-managing-reports.html
 keywords: reports, sync reports, BlueXP copy and sync reports, report errors, path reports 
 summary: 创建和查看报告以获取信息，您可以在 NetApp 人员的帮助下使用这些信息来调整数据代理的配置并提高性能。 
 ---
-= 创建和查看报告以调整配置
+= 创建并查看报告以调整配置
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

@@ -87,10 +87,8 @@
   <block id="b4d5fd65d29290d42a4161d3362d1326" category="list-text">在每个 API 调用的 Authorization 标头中添加用户令牌和帐户 ID 。</block>
   <block id="938f1047c15f00fdd0cbfc8e4cfa15e1" category="paragraph">* 示例 *</block>
   <block id="b55b4937f8ff2471222d040f06b7807e" category="paragraph">以下示例显示了在 Microsoft Azure 中创建数据代理的 API 调用。您只需将 &lt;user_token&gt; 和 &lt;AccountID&gt; 替换为您在上述步骤中获得的令牌和 ID 即可。</block>
-  <block id="d6f4f4fada8d5c3952a90492c3138e97" category="sidebar-title">令牌过期时应执行什么操作？</block>
   <block id="5c5cd253b66501facf455779c806ee88" category="paragraph">API 响应包括一个 "expires_in" 字段、该字段指出令牌何时过期。</block>
   <block id="19ec08da81a826d919d64ab860845c04" category="section-title">API 参考</block>
-  <block id="92e2b06a1709caf91e74da4a3fb021fe" category="section-title">使用列表 API</block>
   <block id="89b39aae22e72765b6582ae0db1ba186" category="paragraph">列表 API 是异步 API ，因此不会立即返回结果（例如： `get /data-brokers/ ｛ id ｝ /list-nfs-export-folders` 和 `get /data-brokers/ ｛ id ｝ /list-s3-basses` ）。服务器的唯一响应是 HTTP 状态 202 。要获得实际结果，您必须使用 `GET /messages/client` API 。</block>
   <block id="6d89cb53dacaf941bbf56d09d3dc21de" category="list-text">调用要使用的列表 API 。</block>
   <block id="50879b5593dd20bf23b085383f4beb91" category="list-text">使用 `get /messages/client` API 查看操作结果。</block>
@@ -179,11 +177,9 @@
   <block id="3b2c91269ae0c67c26fe59bbb10eb6a2" category="admonition">将数据同步到 StorageGRID 和 IBM 云对象存储时，也可以使用此功能。对于 Azure 和 Google Cloud Storage ，只有元数据选项可用。</block>
   <block id="600901e70afccc50e18676048766ba78" category="paragraph">* 结果 *</block>
   <block id="f3b62c43bc969f6b5b30d96b8171a06d" category="inline-image-macro">一个屏幕截图，显示直接从 Cloud Data sense 启动新同步后显示的 "Data sense Integration" 页面。</block>
-  <block id="34a36f0a41c390743b7c28311304c570" category="doc">设置数据代理组以使用外部 HashiCorp 存储</block>
   <block id="2428fdd39f5ab3cbda5b5bac12ab8f84" category="paragraph">通过设置 URL 来准备存储以向数据代理组提供凭据。存储中的机密 URL 必须以 _Creds_结尾 。</block>
   <block id="e0e88dfcd253d5d5ea89a9985f2101cf" category="paragraph">通过修改组中每个数据代理的本地配置文件，使数据代理组做好准备，以便从外部存储提取凭据。</block>
   <block id="f3a79eb1d3d4b75537affb3a4efa8775" category="paragraph">设置完所有内容后，您可以发送 API 调用来创建同步关系，以使用存储获取密码。</block>
-  <block id="7fe706ca34bea852c8a7b5a01aac8705" category="section-title">准备存储</block>
   <block id="b97d94a4af6f2da3a68d05d4577e517f" category="paragraph">必须按如下所示设置 URL ：</block>
   <block id="011dd3c441f07d89289a23db496f2046" category="paragraph">` /&lt;path&gt;/&lt;RequestId&gt;/&lt;Endpoint-protocol&gt;Creds`</block>
   <block id="ac70412e939d72a9234cdebb1af5867b" category="list-text">路径</block>
@@ -203,7 +199,6 @@
   <block id="01bcd05b36ee78f5e7558380e1c441c1" category="list-text">目标凭据的完整 URL 和路径示例</block>
   <block id="2af8dca9bc89c0d31fe796e59b5f370e" category="list-text">http://example.vault.com:8200/my-path/all-secrets/n32hcbnejk2/AZURECreds</block>
   <block id="3aefad44bc64b2ff412966cd4518c970" category="paragraph">前缀路径为 //my-path/all-sections/_ ，请求 ID 为 _n32hcbnejk2_ ，目标端点为 Azure 。</block>
-  <block id="6bdc241f7d9a3a1b035cb0ebe9d563d1" category="section-title">正在准备数据代理组</block>
   <block id="e53c4e755ce10f21750aef31f9cb474c" category="list-text">通过 SSH 连接到组中的数据代理。</block>
   <block id="57e9628679cc186593a986def13cfc2b" category="list-text">编辑 /opt/netapp/databroker/config 中的 local.json 文件。</block>
   <block id="d04d9c6e802e9e399fbf311275a4e180" category="list-text">将 enable 设置为 * true * ，并按如下所示在 _external-积分 .hashashicorp_ 下设置配置参数字段：</block>
@@ -233,7 +228,6 @@
   <block id="1151673efbf1139445cf28b9c2a5e870" category="list-text">对组中的任何其他数据代理重复上述步骤。</block>
   <block id="df538d67a969b99ad10c96736d0e3de8" category="section-title">AWS 角色身份验证示例</block>
   <block id="7464ab636ff7b666832693357d2dae63" category="section-title">GCP-iam 身份验证示例</block>
-  <block id="c4e8f9bc954572562912e03c9f2fbe19" category="section-title">使用 GCP-iam 身份验证时设置权限</block>
   <block id="e32a252e42df40beaff7e5a1ce821572" category="paragraph">如果您使用的是 _gcp-iam_ 身份验证方法，则数据代理必须具有以下 GCP 权限：</block>
   <block id="b872e6417139366489f4ec46ed47e57d" category="inline-link-macro">详细了解数据代理的 GCP 权限要求</block>
   <block id="6c6f477f7b70d038eaa27d83b51ba533" category="paragraph"><block ref="e85dc3fc664e427ab39e5c87730a03a3" category="inline-link-macro-rx"></block>。</block>
@@ -265,14 +259,12 @@
   <block id="6b130e03ee8c8d322a6174a591d2b774" category="inline-link-macro">了解许可的工作原理</block>
   <block id="3b1417e2cc8a651004ff0099ad870a73" category="paragraph"><block ref="e8ff8b95d6e71d0badc3862de8130ad6" category="inline-link-macro-rx"></block>。</block>
   <block id="3d4a1e312061c2a0e1171d137dc166dd" category="summary">如果需要，请运行卸载脚本以删除安装数据代理时创建的数据代理以及软件包和目录。</block>
-  <block id="e6f506127d5f6704ecc31da23c753df9" category="doc">卸载数据代理</block>
   <block id="dd8a8a39c3cdcebc155728bf563bc1e1" category="paragraph">如果需要，请运行卸载脚本以删除数据代理以及在安装数据代理时创建的软件包和目录。</block>
   <block id="1216bef3d5a3c80340882e3c0b1b21f1" category="list-text">登录到数据代理主机。</block>
   <block id="c3007d2919ca918bead8275d47f7541a" category="list-text">更改为数据代理目录： ` /opt/netapp/databroker`</block>
   <block id="62e3899fe2adfc651dc44b617edd0895" category="list-text">运行以下命令：</block>
   <block id="3b06e3c95384b14b7af959fa5c562aff" category="paragraph">`chmod +x uninstaller-DataBroker.sh` ` ./uninstaller-DataBroker.sh`</block>
   <block id="7af2a6b72c67250458118d65cec3d103" category="list-text">按 ‘y 确认卸载。</block>
-  <block id="8268a9d045ec667e304233d6a99374e0" category="doc">在 AWS 中创建新的数据代理</block>
   <block id="c43a6988e9fb943699097296d5eabba0" category="paragraph">您还可以选择在云中的现有 Linux 主机或您的企业中安装数据代理。 <block ref="556c1c240ec0090f5d153e6b793bb5bc" category="inline-link-macro-rx"></block>。</block>
   <block id="af7680d24e7ce67fad6006c6fc467b53" category="section-title">支持的 AWS 区域</block>
   <block id="f94a220e5e098d02bd2706d4a8e698bd" category="paragraph">除中国地区外，所有地区均受支持。</block>
@@ -288,7 +280,6 @@
   <block id="ea85396da38480bdcd66e09456ac3fd4" category="inline-link-macro">此 JSON 文件中定义的权限</block>
   <block id="8e4350880011b411db7b27aa380a60d0" category="list-text"><block ref="1a8d8995001884ca8ca83a93f0897f4a" category="inline-link-macro-rx"></block> 必须附加到 IAM 角色，以便数据代理可以正常运行。</block>
   <block id="63430717bb1e3b33a858e3661c1627a0" category="paragraph">在部署数据代理时，请按照以下步骤指定 IAM 角色。</block>
-  <block id="9727c41167b4d3a89168d9e2a6bf1fbe" category="section-title">创建数据代理</block>
   <block id="c371ecc54445590f3e356493638d02db" category="paragraph">可以通过几种方法创建新的数据代理。以下步骤介绍如何在创建同步关系时在 AWS 中安装数据代理。</block>
   <block id="f0fff4676c779987735fc7ee633da03c" category="paragraph">完成这些步骤，直到显示 * 数据代理组 * 页面为止。</block>
   <block id="0fc6ea2f37f8948c8630ffb60d5e0265" category="inline-image-macro">数据代理页面的屏幕截图，可用于在 AWS ， Azure ， Google Cloud 和内部数据代理之间进行选择。</block>
@@ -314,7 +305,6 @@
   <block id="c03f3cc8275a0a87d7784cf12a264c0b" category="list-text">磁盘大小和类型</block>
   <block id="c5a333964ee323aaba5e5b42ff247d6b" category="list-text">10 GB GP2 SSD</block>
   <block id="71904eaffc2ec470e49ce1a710f5e878" category="summary">如果您的企业有严格的安全策略、请使用数据飞行加密在不同网络中的 NFS 服务器之间同步数据。</block>
-  <block id="8df3b832ae4d464c11ed34e0c6f3da2f" category="doc">使用传输中数据加密同步 NFS 数据</block>
   <block id="72bf4a1584bf5735615bab52725bb4a4" category="paragraph">如果您的企业拥有严格的安全策略，则可以使用数据传输加密来同步 NFS 数据。从 NFS 服务器到另一个 NFS 服务器以及从 Azure NetApp Files 到 Azure NetApp Files 均支持此功能。</block>
   <block id="81c917d52736001d7efd43b0f0ddc92c" category="paragraph">例如，您可能希望在位于不同网络的两个 NFS 服务器之间同步数据。或者，您可能需要在子网或区域之间安全地传输 Azure NetApp Files 上的数据。</block>
   <block id="d6dc650d0d220e29e9345f6a653d7ec3" category="section-title">飞行中数据加密的工作原理</block>
@@ -330,7 +320,6 @@
   <block id="9ebc239fb878b360de7460c36e393e15" category="list-text">目标数据代理会先对数据进行解密，然后再将其发送到目标。</block>
   <block id="09cf96cd35454a72d72eda24f5a5324a" category="list-text">初始副本完成后、服务将每 24 小时同步所有更改的数据。如果有要同步的数据，则进程将从启动程序打开与其他数据代理的加密连接开始。</block>
   <block id="aaf881bd7230ab8408f75fc7a5701e2e" category="inline-link-macro">您可以在创建关系后更改此计划</block>
-  <block id="06a32f9c3008d75facbe41d9e59fdb13" category="paragraph">如果您希望更频繁地同步数据， <block ref="8047278fff8ae1b9eca053a56dd7adfd" category="inline-link-macro-rx"></block>。</block>
   <block id="4f6582928260ec95d5382830f415104b" category="section-title">支持的 NFS 版本</block>
   <block id="30fe527571ab3736d66f7bc649438aab" category="list-text">对于 NFS 服务器， NFS 版本 3 ， 4.0 ， 4.1 和 4.2 支持传输中数据加密。</block>
   <block id="e58f770a9e62d5d72c5f922745500d31" category="list-text">对于 Azure NetApp Files ， NFS 版本 3 和 4.1 支持传输中数据加密。</block>
@@ -412,7 +401,6 @@
   <block id="ba898f89df5c39db3aedca30b0dd9585" category="paragraph">现在，您可以更新已扩展的 Cloud Sync 许可证。</block>
   <block id="9c36a4a5f20a34725e3200409f20a65a" category="paragraph">如果您延长了从 NetApp 购买的 Cloud Sync 许可证，则可以重新添加此许可证以刷新到期日期。</block>
   <block id="e8b8928cc2b3188c3209a7c67ffeb87a" category="inline-link-macro">了解如何更新许可证</block>
-  <block id="38e00e64912a31a6e9ba56d502615fce" category="paragraph"><block ref="c554cb9dd2842cfffcc3e3678513553a" category="inline-link-macro-rx"></block>。</block>
   <block id="625212f75a40ffe67e47fee287c2f6b1" category="section-title">更新框凭据</block>
   <block id="9b441f4afbb53f4c8d5b7fc8bc6b9301" category="paragraph">现在，您可以更新现有同步关系的 Box 凭据。</block>
   <block id="b4ef038c5650fac60f2434cad75645e5" category="inline-link-macro">了解如何更新凭据</block>
@@ -489,7 +477,6 @@
   <block id="3f31cdfbb217ec6fa9a858a46cfd3290" category="paragraph">现在，每个同步关系都有一个新的 * 比较依据 * 设置。</block>
   <block id="dabc7e1b7880be887fd2898786c6c925" category="paragraph">通过此高级设置，您可以选择 Cloud Sync 在确定文件或目录是否已更改并应重新同步时是否应比较某些属性。</block>
   <block id="21a5968447686d2d79ece94fc6ab0653" category="inline-link-macro">了解有关更改同步关系设置的更多信息</block>
-  <block id="1df5e86c2f922b55e7a126736aa3fdc8" category="paragraph"><block ref="4d121b48d2c287fff78a725ca3d42ec9" category="inline-link-macro-rx"></block>。</block>
   <block id="13c380d451c296cda1d1289b9dc25114" category="section-title">2021 年 4 月 11 日</block>
   <block id="5e224a35cc2a8810465ced83c84d4a8b" category="section-title">独立 Cloud Sync 服务已停用</block>
   <block id="e192b538b406b93c179453039f37bbe7" category="section-title">Google Cloud 分段用于不同项目</block>
@@ -506,7 +493,6 @@
   <block id="d5544bca7e8644a200250b7adde1bebe" category="paragraph">现在， Cloud Sync 可以确定数据代理何时未运行最新软件版本。此消息有助于确保您获得最新的特性和功能。</block>
   <block id="45829fc5241b4b6d0ef08aa6c9b72758" category="inline-image-macro">在信息板上查看数据代理时显示警告的屏幕截图。</block>
   <block id="8af1e3719b0b0b728508006245dc9abb" category="paragraph"><block ref="8af1e3719b0b0b728508006245dc9abb" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="bc3f4614483a5cee9737e251b527f30b" category="doc">在 Google Cloud 中创建新的数据代理</block>
   <block id="bdbd44585d11046b8db390866b7172bb" category="section-title">支持的 Google Cloud 地区</block>
   <block id="24935d18f8d82ccfcd2bd35b5d5d7a58" category="paragraph">支持所有区域。</block>
   <block id="23c5a36a4e18015e399e97b3a48f2255" category="section-title">在 Google Cloud 中部署数据代理所需的权限</block>
@@ -524,7 +510,6 @@
   <block id="dde6927c09ef26c282cb0cbb7b055953" category="paragraph"><block ref="dde6927c09ef26c282cb0cbb7b055953" category="inline-image-macro-rx" type="image"></block></block>
   <block id="2a38666aae985ff4945ff1199551e9d0" category="paragraph">如果需要代理才能访问 Internet ，则该代理必须位于 Google Cloud 中，并使用与数据代理相同的服务帐户。</block>
   <block id="ed7160396fcfefca3c1997b02ccbe37c" category="paragraph">您已在 Google Cloud 中部署数据代理并创建了新的同步关系。您可以将此数据代理与其他同步关系一起使用。</block>
-  <block id="8743cf4fd5bd75723f626be1d4af6bb5" category="section-title">提供在其他 Google Cloud 项目中使用存储分段的权限</block>
   <block id="6ab8649cc222312c90daa98ef292a592" category="list-text">打开 Google Cloud Platform 控制台并加载云存储服务。</block>
   <block id="75d2935b39ceeb13d10ba4ced792a75b" category="list-text">输入数据代理的服务帐户的名称。</block>
   <block id="bee41d170929fb7fc4e79dde87e71a86" category="inline-xref">与上述权限相同</block>
@@ -552,9 +537,7 @@
   <block id="358b02ae4c5737f45e3823c255aeb87e" category="list-text">如果文件已从源文件中删除，请选择从目标位置删除这些文件。默认情况下，从不从目标位置删除文件。</block>
   <block id="f493e490805f4eb86f124bae3d9da833" category="paragraph">如果不再需要在源和目标之间同步数据，则可以删除同步关系。此操作不会删除数据代理组（或单个数据代理实例），也不会删除目标中的数据。</block>
   <block id="f68b92ee815675ae3018eca060b553b7" category="summary">创建和查看报告以获取信息，您可以在 NetApp 人员的帮助下使用这些信息来调整数据代理的配置并提高性能。</block>
-  <block id="66a57cf55e06ad77b01c27e38766b83a" category="doc">创建和查看报告以调整配置</block>
   <block id="428c9ca45dc8f0b8e1eda231aef5b08f" category="paragraph">创建和查看报告以获取信息，您可以在 NetApp 人员的帮助下使用这些信息来调整数据代理的配置并提高性能。</block>
-  <block id="0389649d1c6e65625a57cd6c84149999" category="section-title">创建报告</block>
   <block id="26126443d44ba2723fb7a7ede8dda75c" category="paragraph">每个同步关系中的路径（源或目标）显示在一个表中。</block>
   <block id="94954fba60bab7206fb4f66c4a7750cb" category="paragraph">下面是文件系统路径的示例报告。</block>
   <block id="3cd71212de067629b841a10ceaf4f32f" category="inline-image-macro">显示同步项目数量，文件大小，最大值，访问时间，更改时间的报告 并修改时间。</block>
@@ -562,16 +545,13 @@
   <block id="92e47f2f14756e088762306ae29dfb31" category="paragraph">下面是对象存储示例报告。</block>
   <block id="321073ad07dd4a09f0eaadfb4561181a" category="inline-image-macro">显示路径项数，对象大小，修改时间和存储类的报告。</block>
   <block id="a9c50da4c27210dd95cbf6916b6c3b34" category="paragraph"><block ref="a9c50da4c27210dd95cbf6916b6c3b34" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="03901baec19e5e2a784f13acaa06127a" category="section-title">下载报告</block>
   <block id="f0d2e62b1c7572c743aab0d7c9b969c5" category="paragraph">您可以下载 PDF 格式的报告，以便脱机查看或共享它。</block>
-  <block id="90e1319509db72baceccb5d8f4c2c472" category="section-title">查看报告错误</block>
   <block id="d86cb2fe66402168c1c894043151d228" category="paragraph">查看错误列表后，您可以解决问题并再次运行报告。</block>
   <block id="57ba4added426d6aea423b1e70f1b94c" category="list-text">在 * 错误 * 列中，确定报告中是否存在任何错误。</block>
   <block id="d029ebc8f7b2e2aa789dc0e27797846f" category="inline-image-macro">路径表的屏幕截图，显示错误数量，并在错误列中显示一个可单击的小箭头。</block>
   <block id="e01f862fe61f1c44179e61c69a18938d" category="paragraph"><block ref="e01f862fe61f1c44179e61c69a18938d" category="inline-image-macro-rx" type="image"></block></block>
   <block id="591d860278697b4e6dbce26639961630" category="list-text">使用错误中的信息更正问题描述。</block>
   <block id="aa8765cc437da97ac36fcf5b9e8bd67c" category="paragraph">解决问题描述后，下次运行报告时不应显示此错误。</block>
-  <block id="1b3463b3026822e4c8d6ad54c16a507a" category="section-title">删除报告</block>
   <block id="37100a26242d4deb28feac7db8d366de" category="paragraph">您可以删除报告中包含您修复的错误，或者如果报告与您删除的同步关系相关。</block>
   <block id="4051a60e091a5882a67c28985f8c22c7" category="list-text">确认要删除一个或多个报告。</block>
   <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">获取帮助</block>
@@ -641,7 +621,6 @@
   <block id="bdc71bda13a615bcc29169c368c82126" category="section-title">文件无法同步时，数据代理组是否会重试？还是超时？</block>
   <block id="486538f3b2cf30dbac185ae48dbcd398" category="paragraph">当单个文件无法传输时，数据代理组不会超时。相反，数据代理组会重试 3 次，然后跳过该文件。重试值可在同步关系的设置中进行配置。</block>
   <block id="16577fe9b5ad3fc74ec2a37327b4f98f" category="inline-link-macro">了解如何更改同步关系的设置。</block>
-  <block id="13b1f6a5b87aad329fe4a0f0b0a24671" category="paragraph"><block ref="4b47cfecc7a5fed36fcab91191b9686f" category="inline-link-macro-rx"></block>。</block>
   <block id="e7fc2a48e6896c10c00e2e0d0f42df0a" category="section-title">如果我有一个非常大的数据集会怎样？</block>
   <block id="1a76a33306f63cd222193be36e2aab28" category="paragraph">如果一个目录包含 60 万个或更多文件，请发送电子邮件至： ng-cloudsync-support@netapp.com ，以便我们帮助您配置数据代理组来处理有效负载。我们可能需要向数据代理组添加更多内存。</block>
   <block id="5272c1335a923889fee61138f9c644e0" category="paragraph">请注意，挂载点中的文件总数没有限制。对于包含 600 ， 000 个或更多文件的大型目录，无论其在层次结构中的级别如何（顶层目录或子目录），都需要额外的内存。</block>
@@ -691,7 +670,6 @@
   <block id="c6bdda7b88c4f51edb4d0ca671f8c528" category="paragraph">多个因素会影响数据传输性能。由于网络带宽、延迟和网络拓扑以及数据代理 VM 规格和存储系统性能的影响、整体同步性能可能会受到影响。例如，一个组中的单个数据代理可以达到 100 MB/ 秒，而目标上的磁盘吞吐量可能仅允许 64 MB/ 秒因此，数据代理组会不断尝试复制数据，但目标无法达到数据代理组的性能。</block>
   <block id="7d222e095bb95fdb1e26be04106ab252" category="paragraph">因此，请务必检查网络的性能以及目标上的磁盘吞吐量。</block>
   <block id="6f22195a8ef8575adc498fb44d8a075c" category="inline-link-macro">了解如何提高同步性能。</block>
-  <block id="0154df452f9453f942ba55a04f2fdbee" category="paragraph">然后，您可以考虑向组添加额外的数据代理来共享该关系的负载，从而加快同步性能。 <block ref="355055ed36bda4d96dcf1f665e0d51c2" category="inline-link-macro-rx"></block>。</block>
   <block id="e5fbd5081321543a8bad7a8d1fea419c" category="section-title">删除内容</block>
   <block id="1d341849ed5b4388c424bd97c39d9c07" category="paragraph">以下问题与从源和目标删除同步关系和数据有关。</block>
   <block id="0ddb89dbe2d4246b5b4b6dca2aa8a808" category="paragraph">删除关系将停止所有将来的数据同步并终止付款。与目标同步的任何数据均保持原样。</block>
@@ -710,10 +688,8 @@
   <block id="56eeabb4a00fbcd2e27e55831df62209" category="list-text">数据代理软件会自动升级到最新版本。</block>
   <block id="da5fad1df140da3fbc300e41e0a200d4" category="list-text">数据代理使用 AWS SQS 作为可靠、安全的通信通道以及进行控制和监控。SQS 还提供持久性层。</block>
   <block id="836d2627946ada039a9486c82ce99884" category="list-text">您可以向组中添加其他数据代理，以提高传输速度并增加高可用性。如果一个数据代理出现故障，则具有服务弹性。</block>
-  <block id="64d7746bed65d4dc86191fc514e7ebbf" category="doc">从 SMB 共享复制 ACL</block>
   <block id="6ef697f11922be2e4de0971f7d70997f" category="list-title">选项</block>
   <block id="3ac19332a9012b7586dca2b8b7c57b58" category="inline-xref">在 SMB 共享之间手动复制 ACL</block>
-  <block id="6690de55a41e5eebc0f748de2f508fb2" category="list-text"><block ref="677048ca203ed360a1f7fefc6961b7a3" category="inline-xref-macro-rx"></block></block>
   <block id="e9e23d944b5ba04f7bd10800f3536393" category="inline-link-macro">任何受支持的操作系统</block>
   <block id="b82aab2ce8ba96a1adcef93a4d0f2e7a" category="paragraph">此功能适用于 _any_ 类型的数据代理： AWS ， Azure ， Google Cloud Platform 或内部数据代理。内部数据代理可以运行 <block ref="21c422ddfc59d696be9e90956009904f" category="inline-link-macro-rx"></block>。</block>
   <block id="38ab7ff3062aba8e3cff5bda4cd76234" category="list-title">新关系的步骤</block>
@@ -764,7 +740,6 @@
   <block id="6a3cdc9a7bccf7b319d4cd575bb3b01f" category="section-title">Web 浏览器端点</block>
   <block id="fd0cb271f0ac093ecb033a2bfea34fbd" category="paragraph">您的 Web 浏览器需要访问以下端点才能下载日志以进行故障排除：</block>
   <block id="c964e3aec545a38db906e6bb0b6a705f" category="paragraph">logs.cloudsync.netapp.com:443</block>
-  <block id="540d36f51d945cde427519036203dde6" category="doc">在 Azure 中创建新的数据代理</block>
   <block id="455aadf3bd22f71973763b3cdc7db550" category="section-title">支持的 Azure 区域</block>
   <block id="df8514e24a07bfd81c667163f17fbec0" category="paragraph">除中国、美国政府和美国国防部地区外，所有地区均受支持。</block>
   <block id="38354aeafcfd5993a9d65d97514a8e3d" category="section-title">身份验证方法</block>
@@ -846,7 +821,6 @@
   <block id="9ecbc2d9f6b6ab0392906cca0b95b920" category="list-text">传输并发性</block>
   <block id="ac0fac9f0c454d2eb07769d1359bbe40" category="list-text">传输程序进程限制</block>
   <block id="ec7e38030033a02298c5a717c0397281" category="inline-link-macro">了解如何为数据代理组定义统一配置</block>
-  <block id="f34ca0a61f713db3f7223ea730746e00" category="paragraph"><block ref="76b1d1355d80ad25cf7c1c2af9610053" category="inline-link-macro-rx"></block>。</block>
   <block id="017c5900c1d43fddb24f60e2fcc3f6fc" category="paragraph">确保 Google Cloud 存储桶满足以下要求。</block>
   <block id="e649787bac6e0b31cc56d488858d8e89" category="section-title">Google Cloud 存储支持的数据代理位置</block>
   <block id="31891805e49d1c8e637b40a3a036d1cd" category="inline-link-macro">了解如何部署 Google Cloud 数据代理</block>
@@ -911,7 +885,6 @@
   <block id="a43f5cf69d6af0c6e17bed7ff726625e" category="list-text">Linux 主机必须与源主机和目标主机建立连接。</block>
   <block id="e7b55bccb60334ca631527b050553022" category="list-text">文件服务器必须允许 Linux 主机访问导出。</block>
   <block id="7bea0411e1c1d113bc62197206637112" category="list-text">必须在 Linux 主机上打开端口 443 ，以便向 AWS 发送出站流量（数据代理会不断与 Amazon SQS 服务进行通信）。</block>
-  <block id="c9e33dfa8b5904f2c5eeefbab35a3d9b" category="section-title">启用对 AWS 的访问</block>
   <block id="21182c7c99920ebad46cc371d317499a" category="paragraph">如果您计划使用包含 S3 存储分段的同步关系中的数据代理，则应准备 Linux 主机以进行 AWS 访问。安装数据代理时，您需要为具有编程访问权限和特定权限的 AWS 用户提供 AWS 密钥。</block>
   <block id="8668bc285e00b6f9e578112045a4865d" category="list-text">使用创建 IAM 策略<block ref="6d7c79584b67fdfc254e7699a61c1e8d" category="inline-link-rx"></block></block>
   <block id="f9b866c4ff602b4a3215745c79cfe7e4" category="inline-link">查看 AWS 说明。</block>
@@ -919,7 +892,6 @@
   <block id="b3c98a582bb953058ccaf9a71307fa93" category="list-text">创建具有编程访问权限的 IAM 用户。</block>
   <block id="dd9d9810864a1e7938f32b3eaa8dd049" category="paragraph"><block ref="dd9d9810864a1e7938f32b3eaa8dd049" category="inline-link-rx"></block></block>
   <block id="564482440eb08d11894ec114af427f21" category="paragraph">请务必复制 AWS 密钥，因为您需要在安装数据代理软件时指定这些密钥。</block>
-  <block id="71921838fce69c9d045aeb2ad30c1eb5" category="section-title">启用对 Google Cloud 的访问</block>
   <block id="9bb2d547aba26d64f54ee705473214d6" category="paragraph">如果您计划将数据代理与包含 Google Cloud 存储分段的同步关系结合使用，则应准备 Linux 主机以进行 Google Cloud 访问。安装数据代理时，您需要为具有特定权限的服务帐户提供一个密钥。</block>
   <block id="3c5f750427f50f4edf7cb574473c42a8" category="list-text">如果您还没有存储管理员权限，请创建一个 Google Cloud 服务帐户。</block>
   <block id="6cb9b02ae49aa68f97de615d923b228a" category="list-text">创建以 JSON 格式保存的服务帐户密钥。</block>
@@ -928,9 +900,7 @@
   <block id="902d86db753e123639feaba47a0e34ff" category="paragraph">此文件应至少包含以下属性： "project_id" ， "private_key" 和 "client_email"</block>
   <block id="a6c2835cfd7f21086d62be199ba39d44" category="admonition">创建密钥时、文件将生成并下载到计算机中。</block>
   <block id="be2c33a07b84816f411d04d45ac1e4a3" category="list-text">将 JSON 文件保存到 Linux 主机。</block>
-  <block id="8269fd6e9d75dd954301e8ba35641805" category="section-title">启用对 Microsoft Azure 的访问</block>
   <block id="7af7eb8440af6bb7f9ffd64569367b5b" category="paragraph">通过在 " 同步关系 " 向导中提供存储帐户和连接字符串，可以按关系定义对 Azure 的访问。</block>
-  <block id="b6e5e048443785c8f424048cf1b9e40e" category="section-title">安装数据代理</block>
   <block id="1944006c73d02c718c69408861e1307c" category="paragraph">您可以在创建同步关系时在 Linux 主机上安装数据代理。</block>
   <block id="df89dda1d1c7ea3cd71a127402ea04d7" category="paragraph"><block ref="df89dda1d1c7ea3cd71a127402ea04d7" category="inline-image-macro-rx" type="image"></block></block>
   <block id="8020038698547625e7abf1eda36c8877" category="admonition">即使此选项标记为 * ； on-Prem_ Data Broker* ，它也会对内部或云中的 Linux 主机进行适用场景。</block>
@@ -958,11 +928,8 @@
   <block id="2d9b81de771115c9968d6eabf73e8b3f" category="paragraph">`sudo -s chmod +x data_broker_installer.sh ./data_broker_installer.sh -a &lt;AWS_access_key&gt; -s &lt;AWS_secret_key&gt; -g &lt;abasal_path_to_the_json_file&gt; -h &lt;proxy_host&gt; -p &lt;proxy_port&gt; -u &lt;proxy_username&gt; -w &lt;proxy_password&gt;`</block>
   <block id="e656cb1ebc2e559e3bcc2002585434ed" category="list-text">AWS 密钥</block>
   <block id="18bbccaaba098ea1a676d4d7e5810ac9" category="inline-xref">请按照以下步骤操作</block>
-  <block id="d60ded7a040145d82fa326559c4753bf" category="list-text">这些是您应准备好的用户密钥 <block ref="a969db4de6d1a440b2352a74869c6d78" category="inline-xref-macro-rx"></block>。AWS 密钥存储在数据代理上，该代理在内部或云网络中运行。NetApp 不会在数据代理之外使用密钥。</block>
   <block id="a6c9e3a7671c1fd9d7328c3be5d107b5" category="list-text">JSON 文件</block>
-  <block id="40a402e2af1a2cefda63b0a1c268470d" category="list-text">此 JSON 文件包含您应已准备好的服务帐户密钥 <block ref="7d6ea8fc5746e04de57c4e2ea5f20d13" category="inline-xref-macro-rx"></block>。</block>
   <block id="febdb5376a041b31f655e631de8dd5d8" category="summary">在 14 天免费试用结束后、有两种方式可以支付同步关系的费用。第一种选择是按需购买。第二种选择是直接从 NetApp 购买许可证。</block>
-  <block id="4ecb33900aad1706afbc34f19bd2f2e9" category="doc">在免费试用结束后为同步关系付费</block>
   <block id="97a214da03586723b3eda5c2057276c9" category="paragraph">您可以从 AWS Marketplace 或 Azure Marketplace 订阅。您不能同时从这两个订阅。</block>
   <block id="55430fccd9c75a6ec1bc44bb1d637619" category="paragraph">您可以选择将 NetApp 的许可证与 Marketplace 订阅结合使用。例如，如果您有 25 个同步关系、则可以使用许可证支付前 20 个同步关系的费用、然后从 AWS 或 Azure 中按原样支付剩余的 5 个同步关系的费用。</block>
   <block id="eee2650e10b32734e3b3f1bc627337f5" category="inline-link-macro">了解有关许可证工作原理的更多信息。</block>
@@ -982,7 +949,6 @@
   <block id="0f5161c9e18f97b653442fef34de1024" category="list-text">请发送邮件至： ng-cloudsync-contact@netapp.com ？ Subject=Cloud%20Sync%20Service%20-%20BYOL%20License%20Purches%20Request[ 联系 NetApp] 购买许可证。</block>
   <block id="a7a65c558a31a52f3a2570581f5170c2" category="list-text">输入序列号。</block>
   <block id="441eaafe617acae90fac942cbac1d2a0" category="list-text">选择与要添加的许可证关联的 NetApp 支持站点帐户：</block>
-  <block id="e0fd71ec05fc637037be9da3ff2103b0" category="section-title">更新许可证</block>
   <block id="83893211fb004302e2b1216eda1eb1f8" category="list-text">选择与要添加的许可证关联的 NetApp 支持站点帐户：</block>
   <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="doc">注册以获得支持</block>
   <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">发行说明</block>
@@ -1266,9 +1232,6 @@
   <block id="aa996e20900197b0ea41485ada083d8c" category="paragraph">工作环境列表属于您在服务顶部横幅中选择的BlueXP帐户、工作空间和Connector的范围。</block>
   <block id="255fe345cf98c4cc1d97da3902877f73" category="list-text">要获取用户令牌和您的BlueXP帐户ID、 <block ref="270dc47ac77b7bdcd0ca5fb87f7199b0" category="inline-link-macro-rx"></block>。</block>
   <block id="8d91fda63040409e75bebd4d14b9a825" category="list-text">如果您的帐户已添加到BlueXP、请从下拉列表中选择它。</block>
-  <block id="b53e2cff9f1417fcc84365e2d567011e" category="list-text">从NetApp BlueXP获取用户令牌。</block>
-  <block id="415019870d0741b8c872f4ef1a528769" category="list-text">获取您的BlueXp帐户ID。</block>
-  <block id="79eae7ffaa22e2815a503a0776cb13d0" category="paragraph">NetApp BlueXp中的用户令牌具有到期日期。要刷新令牌、您需要再次调用步骤 1 中的 API 。</block>
   <block id="f3347c5f92241e385b544f1b53daa14d" category="inline-image-macro">显示BlueXP中通知中心的屏幕截图。</block>
   <block id="beee0e2c828d5d7a17dcb84704a1dd82" category="paragraph">要通过电子邮件接收通知、您需要在同步关系上启用*通知*设置、然后在BlueXP中配置警报和通知设置。</block>
   <block id="75a84cecb34ecabf76f44935f66b67eb" category="paragraph">我们添加了更多直接从BlueXP的Canvas设置同步关系的方法。</block>
@@ -1297,8 +1260,6 @@
   <block id="07c04fea0b1e27f12c0ac9f6c5f76af6" category="section-title">【Google云存储分段要求】Google Cloud Storage bucket requirements.</block>
   <block id="9bbb347fbd183c9b759619011e925584" category="section-title">要求您在AWS数据代理中使用自己的IAM角色</block>
   <block id="d59db7846bd10b6d60d21543df9faa9e" category="paragraph-title">您需要的内容</block>
-  <block id="ed14d70dad7ae627497350bc4e3868e5" category="section-title">【AWS】从AWS订阅</block>
-  <block id="b6a5a78c3221a73b92bf2f602e64a9cc" category="section-title">【订阅】从Azure订阅</block>
   <block id="5912630061434e78e733b8d5e5e3dc88" category="section-title">2022年12月11日</block>
   <block id="9709c6ba9ff4b10cb5ec3f4f956d3226" category="section-title">按名称筛选目录</block>
   <block id="84a8ea117dd9c6b8ddbbe8f47665f923" category="inline-link">了解有关排除目录名称设置的更多信息</block>
@@ -1503,10 +1464,8 @@
   <block id="52c793499d4fd02f2f2330b970f6162b" category="summary">创建新的数据代理时，请选择 On-Prem Data Broker 选项以在内部 Linux 主机或云中的现有 Linux 主机上安装数据代理软件。BlueXP复制和同步可指导您完成安装过程、但此页面会重复执行相关要求和步骤、以帮助您做好安装准备。</block>
   <block id="890130d57677e99876dfa01749264d4d" category="paragraph">创建新的数据代理组时，请选择 On-Prem Data Broker 选项，以便在内部 Linux 主机或云中的现有 Linux 主机上安装数据代理软件。BlueXP复制和同步可指导您完成安装过程、但此页面会重复执行相关要求和步骤、以帮助您做好安装准备。</block>
   <block id="43fa66f5d7cb7b0c6940f346a2840e44" category="inline-xref">按照以下步骤从BlueXP副本获取URI并进行同步</block>
-  <block id="fdf038d5164429a9481528d1a4ae0b9a" category="list-text">BlueXP复制和同步会在说明页面上显示安装文件的URI、当您按照提示部署本地数据代理时、该URI将加载。此 URI 不会在此重复，因为此链接是动态生成的，只能使用一次。 <block ref="0c33a94f9c890b9aae239faccb0a58b1" category="inline-xref-macro-rx"></block>。</block>
   <block id="d4dc0f2ea6e5e1538c8a19c6a4577fd8" category="summary">BlueXP复制和同步可以在SMB共享之间以及SMB共享和对象存储之间(ONTAP S3除外)复制访问控制列表(ACL)。如果需要，您还可以选择使用 Robocopy 在 SMB 共享之间手动保留 ACL 。</block>
   <block id="81a977665d31d193ae870e9766c60880" category="inline-xref">设置BlueXP复制和同步以自动复制ACL</block>
-  <block id="d19dc7040ab8dc466773d35695363957" category="list-text"><block ref="55b2d1445c700d9bab1004cc9ff792c1" category="inline-xref-macro-rx"></block></block>
   <block id="25aad67dfa80ebe55925aa72bc94b583" category="paragraph">同步数据时、BlueXP复制和同步会保留源和目标之间的ACL。</block>
   <block id="40074d699c28eac9b0a231e26a10dbb8" category="list-text">在BlueXP复制和同步中、在源SMB共享和目标SMB共享之间创建新关系、或者同步现有关系。</block>
   <block id="1c21a7ebb7b558a51c4ebb47b152cbeb" category="paragraph">BlueXP复制和同步将启动此关系的数据同步过程。</block>
@@ -1548,7 +1507,6 @@
   <block id="f34b6d76110ab7661039d45200f420f5" category="paragraph">BlueXP复制和同步支持以下存储类型：</block>
   <block id="a9645f9fd5c738babcb0a0b7564fafa8" category="paragraph">与使用BlueXP复制和同步相关的成本有两种：资源费用和服务费用。</block>
   <block id="6169c8d461dd7f9996b17fcf210180a3" category="list-text">从AWS Marketplace订阅、然后重新登录到BlueXP副本和同步服务以完成注册。</block>
-  <block id="b5ee50058b36eec1b9d5e452251d8123" category="section-title">[[licenses]]从NetApp购买许可证并将其添加到BlueXP副本并同步</block>
   <block id="a1c678174ddff43ed8cf229a96c7a003" category="paragraph">要预先支付同步关系的费用、您必须购买一个或多个许可证、并将其添加到BlueXP副本和同步服务中。</block>
   <block id="b69b60c6eae94cb020b628bd40e1db2a" category="paragraph">如果您扩展了从NetApp购买的BlueXP副本和同步许可证、则新的到期日期不会在BlueXP副本和同步中自动更新。要刷新到期日期，您需要重新添加许可证。许可证应通过BlueXP副本和同步或适用的网站进行管理、而*不是*通过电子钱包进行管理。</block>
   <block id="a6aa4333de4bce96807c6d015f47bea5" category="paragraph">BlueXP复制和同步使用新的到期日期更新现有许可证。</block>
@@ -1628,7 +1586,6 @@
   <block id="01523e5fc16052f503921585b0698ab3" category="paragraph"><block ref="ee9222b07587eb2c3ffe563d1a2c6106" category="inline-link-rx"></block>。</block>
   <block id="5272ee17dd9d75e3474f45c3e2ce72c0" category="paragraph"><block ref="5272ee17dd9d75e3474f45c3e2ce72c0" category="inline-image-macro-rx" type="image"></block></block>
   <block id="404965498641a1a56cc0fa3373515d7a" category="paragraph"><block ref="404965498641a1a56cc0fa3373515d7a" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="246b0e9609672cddcf038daaa946671b" category="paragraph"><block ref="bbd18c81f756c2aa65d18a49f39abc0e" category="inline-link-rx"></block>。</block>
   <block id="b4e33a0f7ed5ccdaa3ecce4c47daf31f" category="paragraph"><block ref="b4e33a0f7ed5ccdaa3ecce4c47daf31f" category="inline-image-macro-rx" type="image"></block></block>
   <block id="858b6b26381ac0e28fd0ab2919dbe947" category="paragraph"><block ref="0e57eb14c04befe90ef141b40df96648" category="inline-link-rx"></block>。</block>
   <block id="607c524b181fcf51f1c3bf2bd8544f62" category="paragraph"><block ref="607c524b181fcf51f1c3bf2bd8544f62" category="inline-image-macro-rx" type="image"></block></block>
@@ -1938,4 +1895,47 @@
   <block id="c28d873efe941bde2e3f61ce0bfc122b" category="paragraph">现在、您可以使用刚刚配置的数据代理组在对象存储之间创建同步关系。</block>
   <block id="9fc076386261ca80bfc67f7f57c641d3" category="section-title">2024年7月14日</block>
   <block id="c18c776847f6d7588ddeab0632527364" category="paragraph">我们更新了BlueXP复制和同步服务以及数据代理以修复一些错误。新的数据代理版本为1.0.53。</block>
+  <block id="688afeddfca9191ad2c185d0d60558c9" category="list-text">从BlueXP  获取用户令牌。</block>
+  <block id="8ce9552d4501ab462ee2bb5bc9e6477c" category="list-text">获取您的BlueXP帐户ID。</block>
+  <block id="c9abe9ccf2c537d5ccca15e2909fe38c" category="paragraph">BlueXP  中的用户令牌具有到期日期。要刷新令牌、您需要再次调用步骤 1 中的 API 。</block>
+  <block id="70eae86d00c0e60d5d2336fb08d92f98" category="section-title">使用列表API</block>
+  <block id="0be41d4f1d149c5666f23118d262e4bf" category="paragraph"><block ref="aab50d0c938d39ea193b352a6eaceb1a" category="inline-link-macro-rx"></block>(英文)</block>
+  <block id="b3df85a57daa191df008fcf99148c146" category="paragraph">然后，您可以考虑向组添加额外的数据代理来共享该关系的负载，从而加快同步性能。<block ref="c6533be9d7045c2121f63bb9e696588d" category="inline-link-macro-rx"></block>(英文)</block>
+  <block id="9e98e2282b4f1a041c72ac033de7f22a" category="paragraph"><block ref="abdcd6d0b6bdd2b55e8073eafc2a0a0e" category="inline-link-macro-rx"></block>(英文)</block>
+  <block id="fae10cbd0637c2a3b4fb64d15eceda07" category="doc">从SMB共享复制ACL</block>
+  <block id="9d0b349dc26d3347b52099aea6d0df8a" category="list-text"><block ref="88aa7b5029e91473e8ba3a71d0a852b3" category="inline-xref-macro-rx"></block></block>
+  <block id="980591db29a9690a93f634902684c663" category="list-text"><block ref="4bcbb68a064879ef2119198c0f50e143" category="inline-xref-macro-rx"></block></block>
+  <block id="b3f60c33ab58886b68b322d1b01f37bf" category="doc">设置数据代理组以使用外部HashiCorp存储</block>
+  <block id="1cecbb005f6de325852717fe83c80fd0" category="section-title">准备存储</block>
+  <block id="ec6e3650e66c60637209ea5c501ac6fc" category="section-title">准备数据代理组</block>
+  <block id="10d5963a9f08d8ec5852d2bfb5d2b1b5" category="section-title">使用GCP-iam身份验证时设置权限</block>
+  <block id="484f1332663a70bcce7f8a43073b4e93" category="doc">在AWS中创建新的数据代理</block>
+  <block id="c40f18ad7e0d1fbd9bc3465015dbf13c" category="section-title">创建数据代理</block>
+  <block id="1c87bfdc8a1515b9980559428b3741a1" category="doc">在Azure中创建新的数据代理</block>
+  <block id="a2094db7080bd56823e029ea04ef4e75" category="doc">在Google Cloud中创建新的数据代理</block>
+  <block id="f653c6f4c0e09b6ff0ca76fdc83f8972" category="section-title">提供在其他Google Cloud项目中使用存储分段的权限</block>
+  <block id="00ceb73d9f24801bad28c1c27a9659a3" category="doc">在Linux主机上安装数据代理</block>
+  <block id="78d8524b476ff2ade5b94c9c29b7fb4f" category="section-title">启用对AWS的访问</block>
+  <block id="97cf58702dd7c3aca1a35f9563af69e3" category="section-title">启用对Google Cloud的访问</block>
+  <block id="294480d8cbf4410fbc88cfbb4e3ce0cd" category="section-title">启用对Microsoft Azure的访问</block>
+  <block id="dc06ddbd32d43560edacfaa29183ccbc" category="section-title">安装数据代理</block>
+  <block id="85dd96f2329cfefba214bd7ea96ccfa4" category="list-text">BlueXP复制和同步会在说明页面上显示安装文件的URI、当您按照提示部署本地数据代理时、该URI将加载。此 URI 不会在此重复，因为此链接是动态生成的，只能使用一次。<block ref="0bcf9f6d0f5343297a10b1cf9ff5c95a" category="inline-xref-macro-rx"></block>(英文)</block>
+  <block id="86e1fbfc21141a428e91434596659972" category="list-text">这些是您应准备好的用户密钥 <block ref="402ff04efabc9c4f56b72b684c2e10c6" category="inline-xref-macro-rx"></block>。AWS 密钥存储在数据代理上，该代理在内部或云网络中运行。NetApp 不会在数据代理之外使用密钥。</block>
+  <block id="da71e727ce602ce0df332bf7acd04f2b" category="list-text">此JSON文件包含您应准备的服务帐户密钥 <block ref="8e7eb0db1ee4fd6a97230ce733e6c0b1" category="inline-xref-macro-rx"></block>。</block>
+  <block id="5a0b6969e1a00c9d4229b18d599f709e" category="doc">免费试用结束后支付同步关系费用</block>
+  <block id="e028f7fc834047902996d4b3faec74ef" category="section-title">[[AAWS ]]从AWS订阅</block>
+  <block id="930f43b5351f67a33978fe5e38509494" category="section-title">[[azure]]从Azure订阅</block>
+  <block id="8b677a97b89f60dc6d50f9e94c7d249b" category="section-title">[[licenses]]从NetApp购买许可证、然后将其添加到BlueXP  副本并同步</block>
+  <block id="6c1c5737355a8b30e87ad5d7c6da9553" category="section-title">更新许可证</block>
+  <block id="5a93bfc26914da58fc866410768013aa" category="doc">创建并查看报告以调整配置</block>
+  <block id="ef7a7b1bec08bef324977926c1fc910c" category="section-title">创建报告</block>
+  <block id="df6e3c89245cdc5bf0a7191c642d6997" category="section-title">下载报告</block>
+  <block id="4e81b9817b77a04417209233aa6770e7" category="section-title">查看报告错误</block>
+  <block id="cbb776f3d96dc88fa5b9bf1fc5bdb830" category="section-title">删除报告</block>
+  <block id="3a6eb754876597bc8ab6133e13e9140a" category="doc">使用传输中数据加密同步NFS数据</block>
+  <block id="5143828323383cafd31bc198ee983675" category="paragraph">如果您希望更频繁地同步数据，请 <block ref="ab2166e3b7a3bfd46d319139e30ee953" category="inline-link-macro-rx"></block>。</block>
+  <block id="b82bc2fd6e7ab1667187072565c0de89" category="doc">卸载数据代理</block>
+  <block id="5b34dda5c871fed8b9821e47e0d34ede" category="paragraph"><block ref="9ff383ddf2525d802b02fb0151232700" category="inline-link-rx"></block>(英文)</block>
+  <block id="24410e37408a11f41e4c63fb9cc48dd1" category="paragraph"><block ref="25a5ae570a2c9cafee62695215e5e759" category="inline-link-macro-rx"></block>(英文)</block>
+  <block id="cf2c9be412cc589b7ecf399ad3d2b5c5" category="paragraph"><block ref="ae034bb53c84075bda58d513fc152e63" category="inline-link-macro-rx"></block>(英文)</block>
 </blocks>

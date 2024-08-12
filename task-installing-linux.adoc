@@ -4,7 +4,7 @@ permalink: task-installing-linux.html
 keywords: data broker, install, linux, on-prem data broker, on-prem, on prem, on premises, networking, permissions, os, operating system, rhel, red hat, ram, cpu, disk space, install data broker, installing data broker, install a data broker, data broker installation, linux installation, linux operating system, aws access, aws keys, keys, gcp access, aws permissions, gcp permissions, google permissions 
 summary: 创建新的数据代理时，请选择 On-Prem Data Broker 选项以在内部 Linux 主机或云中的现有 Linux 主机上安装数据代理软件。BlueXP复制和同步可指导您完成安装过程、但此页面会重复执行相关要求和步骤、以帮助您做好安装准备。 
 ---
-= 在 Linux 主机上安装数据代理
+= 在Linux主机上安装数据代理
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -66,7 +66,7 @@ SELinux 会强制实施一种策略，该策略会阻止数据代理软件更新
 
 
 
-== 启用对 AWS 的访问
+== 启用对AWS的访问
 
 如果您计划使用包含 S3 存储分段的同步关系中的数据代理，则应准备 Linux 主机以进行 AWS 访问。安装数据代理时，您需要为具有编程访问权限和特定权限的 AWS 用户提供 AWS 密钥。
 
@@ -86,7 +86,7 @@ https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html["查看 AW
 
 
 
-== 启用对 Google Cloud 的访问
+== 启用对Google Cloud的访问
 
 如果您计划将数据代理与包含 Google Cloud 存储分段的同步关系结合使用，则应准备 Linux 主机以进行 Google Cloud 访问。安装数据代理时，您需要为具有特定权限的服务帐户提供一个密钥。
 
@@ -108,7 +108,7 @@ NOTE: 创建密钥时、文件将生成并下载到计算机中。
 
 
 
-== 启用对 Microsoft Azure 的访问
+== 启用对Microsoft Azure的访问
 
 通过在 " 同步关系 " 向导中提供存储帐户和连接字符串，可以按关系定义对 Azure 的访问。
 
@@ -163,7 +163,7 @@ NOTE: 用户必须是本地用户。不支持域用户。
 `cURL <URI> -o data_broker_installer.sh -x <proxy_username> ： <proxy_password>@ <proxy_host> ： <proxy_port>`
 
 +
-URI:: BlueXP复制和同步会在说明页面上显示安装文件的URI、当您按照提示部署本地数据代理时、该URI将加载。此 URI 不会在此重复，因为此链接是动态生成的，只能使用一次。 <<安装数据代理,按照以下步骤从BlueXP副本获取URI并进行同步>>。
+URI:: BlueXP复制和同步会在说明页面上显示安装文件的URI、当您按照提示部署本地数据代理时、该URI将加载。此 URI 不会在此重复，因为此链接是动态生成的，只能使用一次。<<安装数据代理,按照以下步骤从BlueXP副本获取URI并进行同步>>(英文)
 
 
 
@@ -187,8 +187,8 @@ NOTE: 下面列出的每个命令都包含 AWS 访问和 Google Cloud 访问的�
 `sudo -s chmod +x data_broker_installer.sh ./data_broker_installer.sh -a <AWS_access_key> -s <AWS_secret_key> -g <abasal_path_to_the_json_file> -h <proxy_host> -p <proxy_port> -u <proxy_username> -w <proxy_password>`
 
 +
-AWS 密钥:: 这些是您应准备好的用户密钥 <<启用对 AWS 的访问,请按照以下步骤操作>>。AWS 密钥存储在数据代理上，该代理在内部或云网络中运行。NetApp 不会在数据代理之外使用密钥。
-JSON 文件:: 此 JSON 文件包含您应已准备好的服务帐户密钥 <<启用对 Google Cloud 的访问,请按照以下步骤操作>>。
+AWS 密钥:: 这些是您应准备好的用户密钥 <<启用对AWS的访问,请按照以下步骤操作>>。AWS 密钥存储在数据代理上，该代理在内部或云网络中运行。NetApp 不会在数据代理之外使用密钥。
+JSON 文件:: 此JSON文件包含您应准备的服务帐户密钥 <<启用对Google Cloud的访问,请按照以下步骤操作>>。
 
 
 

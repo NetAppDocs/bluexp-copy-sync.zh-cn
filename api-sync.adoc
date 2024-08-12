@@ -23,7 +23,7 @@ summary: 通过Web UI提供的BlueXP复制和同步功能也可通过REST API提
 要开始使用BlueXP副本和同步API、您需要获取用户令牌和BlueXP帐户ID。在进行 API 调用时，您需要将令牌和帐户 ID 添加到授权标题中。
 
 .步骤
-. 从NetApp BlueXP获取用户令牌。
+. 从BlueXP  获取用户令牌。
 +
 [source, http]
 ----
@@ -39,12 +39,11 @@ Body:
               "password": "<user_password>"
 }
 ----
-
-
++
 
 NOTE: 如果您使用的个人电子邮件帐户没有客户端ID、则可以使用默认客户端ID "QC3AgHk6qdbmC7Yyr82ApBwaaJLwRrNO"。
 
-. 获取您的BlueXp帐户ID。
+. 获取您的BlueXP帐户ID。
 +
 [source, http]
 ----
@@ -83,22 +82,14 @@ Body: { "name": "databroker1", "type": "AZURE" }
 ----
 
 
-.令牌过期时应执行什么操作？
-****
-NetApp BlueXp中的用户令牌具有到期日期。要刷新令牌、您需要再次调用步骤 1 中的 API 。
+.下一步是什么？
+BlueXP  中的用户令牌具有到期日期。要刷新令牌、您需要再次调用步骤 1 中的 API 。
 
 API 响应包括一个 "expires_in" 字段、该字段指出令牌何时过期。
 
-****
 
 
-== API 参考
-
-有关每个BlueXP副本和同步API的文档、请参见 https://api.cloudsync.netapp.com/docs[]。
-
-
-
-== 使用列表 API
+== 使用列表API
 
 列表 API 是异步 API ，因此不会立即返回结果（例如： `get /data-brokers/ ｛ id ｝ /list-nfs-export-folders` 和 `get /data-brokers/ ｛ id ｝ /list-s3-basses` ）。服务器的唯一响应是 HTTP 状态 202 。要获得实际结果，您必须使用 `GET /messages/client` API 。
 
@@ -192,3 +183,8 @@ x-account-id: <accountId>
     }
 ]
 ----
+
+
+== API 参考
+
+有关每个BlueXP副本和同步API的文档、请参见 https://api.cloudsync.netapp.com/docs[]。

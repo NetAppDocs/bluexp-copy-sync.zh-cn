@@ -4,7 +4,7 @@ permalink: task-external-vault.html
 keywords: hashicorp, vault, credentials, secrets, API 
 summary: 在创建需要Amazon S3、Azure或Google Cloud凭据的同步关系时、您需要通过BlueXP副本和同步用户界面或API指定这些凭据。另一种方法是设置数据代理，以便直接从外部 HashiCorp Vault 访问凭据。 
 ---
-= 设置数据代理组以使用外部 HashiCorp 存储
+= 设置数据代理组以使用外部HashiCorp存储
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -68,7 +68,7 @@ summary: 在创建需要Amazon S3、Azure或Google Cloud凭据的同步关系时
 
 
 
-== 正在准备数据代理组
+== 准备数据代理组
 
 通过修改组中每个数据代理的本地配置文件，使数据代理组做好准备，以便从外部存储提取凭据。
 
@@ -202,7 +202,7 @@ Secretid 和 rootid::
 ----
 
 
-=== 使用 GCP-iam 身份验证时设置权限
+=== 使用GCP-iam身份验证时设置权限
 
 如果您使用的是 _gcp-iam_ 身份验证方法，则数据代理必须具有以下 GCP 权限：
 
