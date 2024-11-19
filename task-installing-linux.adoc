@@ -42,7 +42,7 @@ Red Hat Enterprise Linux 系统必须在 Red Hat 订购管理中注册。如果�
 * * RAM * ： 16 GB
 * * CPU * ： 4 个核心
 * * 可用磁盘空间 * ： 10 GB
-* * SELinux* ：建议您禁用 https://selinuxproject.org/["SELinux"^] 在主机上。
+* *SELinux*:建议在主机上禁用SELinux。
 +
 SELinux 会强制实施一种策略，该策略会阻止数据代理软件更新，并阻止数据代理与正常运行所需的端点联系。
 

@@ -879,8 +879,6 @@
   <block id="b4951d06315b1f9ffb6d04ceb4346101" category="list-text">* RAM * ： 16 GB</block>
   <block id="53a3e84f8dd7775216fa9eaac8d2ba6d" category="list-text">* CPU * ： 4 个核心</block>
   <block id="1187c6e89712492c48d5d9a1e68f3b42" category="list-text">* 可用磁盘空间 * ： 10 GB</block>
-  <block id="1a3d8802d280d4ec910f54042cd62998" category="inline-link">SELinux</block>
-  <block id="6388693da9b6d4d4012711303b71d780" category="list-text">* SELinux* ：建议您禁用<block ref="59f91e142e660e7d393df4005d7488a3" category="inline-link-rx"></block> 在主机上。</block>
   <block id="3d64791fb8102a78b642b754f758f4b9" category="paragraph">SELinux 会强制实施一种策略，该策略会阻止数据代理软件更新，并阻止数据代理与正常运行所需的端点联系。</block>
   <block id="a43f5cf69d6af0c6e17bed7ff726625e" category="list-text">Linux 主机必须与源主机和目标主机建立连接。</block>
   <block id="e7b55bccb60334ca631527b050553022" category="list-text">文件服务器必须允许 Linux 主机访问导出。</block>
@@ -1236,7 +1234,6 @@
   <block id="c2c0cee3ff43b2b22931517d0aff1423" category="paragraph">现在、可以为同步关系使用新的*通知*设置。通过此设置、您可以选择是否在BlueXP的通知中心中接收Cloud Sync 通知。您可以为成功的数据同步、失败的数据同步和已取消的数据同步启用通知。</block>
   <block id="e0c9c98f02dabde677a2634ba4ffa251" category="paragraph">独立的 Cloud Sync 服务已停用。现在、您应直接从BlueXP访问Cloud Sync 、在该位置、所有相同的特性和功能均可用。</block>
   <block id="2120ca0a41cdfe67b77a3af2e3123d51" category="paragraph">登录到BlueXP后、您可以切换到顶部的"同步"选项卡并查看您的关系、就像以前一样。</block>
-  <block id="e7972d5601badb4c5fcefad96c59c2fc" category="cell">https://console.bluexp.netapp.com/\https://netapp-cloud-account.auth0.com</block>
   <block id="e3cd99e4aa330ae6bdfb3754d83ae962" category="list-text">如果您拥有合作伙伴或经销商帐户、则可以添加一个或多个NSS帐户、但不能将其与客户级别的帐户同时添加。</block>
   <block id="2974170a8b1b5b4a2ac69aacd4c1c9c3" category="list-text">从支持注册页面找到您的帐户ID序列号。</block>
   <block id="50a1dc01b7312307c34a888071586955" category="list-text">复制上述第2步中的帐户序列号、完成安全检查、然后确认您已阅读NetApp的全球数据隐私政策。</block>
@@ -1943,4 +1940,6 @@
   <block id="c81c8e01f5d906ae1ab0c5c606f06b05" category="paragraph">将NSS凭据与您的BlueXP  组织相关联与与与BlueXP  用户登录相关联的NSS帐户不同。</block>
   <block id="8166996cb4a59c147200d89a061bb49c" category="paragraph">这些NSS凭据与您的特定BlueXP  组织ID相关联。属于BlueXP  组织的用户可以从*Support &gt; NSS Management*访问这些凭据。</block>
   <block id="2a81eb3b4a7f22fb1fdb159561b71f3f" category="doc">错误修复</block>
+  <block id="60b6724cc91011c88aedcdfe5a1554f0" category="cell">\https https://api：NetApp-cloud-account.auth0.com。BlueXP ．NetApp．com</block>
+  <block id="6a16108e082698a01703a8570c1c83ab" category="list-text">*SELinux*:建议在主机上禁用SELinux。</block>
 </blocks>
