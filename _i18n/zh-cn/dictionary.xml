@@ -1942,4 +1942,6 @@
   <block id="2a81eb3b4a7f22fb1fdb159561b71f3f" category="doc">错误修复</block>
   <block id="60b6724cc91011c88aedcdfe5a1554f0" category="cell">\https https://api：NetApp-cloud-account.auth0.com。BlueXP ．NetApp．com</block>
   <block id="6a16108e082698a01703a8570c1c83ab" category="list-text">*SELinux*:建议在主机上禁用SELinux。</block>
+  <block id="43cb17f8c706e2a2a7e4c81a5cb2d17b" category="paragraph">我们更新了BlueXP复制和同步服务以及数据代理以修复一些错误。新的数据代理版本为1.0.56。</block>
+  <block id="b6eaf938209a57174cf0c8478fbb177d" category="section-title">2024年10月27日</block>
 </blocks>
