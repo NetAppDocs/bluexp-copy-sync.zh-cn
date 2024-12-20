@@ -934,7 +934,6 @@
   <block id="f65ca7baf45cc92aec55770c0b36841f" category="paragraph"><block ref="7cfabb5964e9e36c902fe67d3082ea34" category="inline-link-macro-rx"></block>。</block>
   <block id="7f1e5fcf21192da891eea1c1f4f6e6f0" category="paragraph">AWS 使您可以按需付费或每年支付。</block>
   <block id="f06e94914580a228484d54783ffeb2bb" category="list-title">按需购买的步骤</block>
-  <block id="af3298973678fbb2b80974a8030f07ac" category="list-text">选择 * AWS *</block>
   <block id="03909f0465e674709c33e446a2657166" category="paragraph">以下视频显示了该过程：</block>
   <block id="d95d2545b9702aaa44811f90fd798b70" category="list-title">每年支付的步骤</block>
   <block id="b857da0ad28712a25e73c0907a2b3740" category="inline-link">转至 AWS Marketplace 页面。</block>
@@ -1721,14 +1720,12 @@
   <block id="f8149e5272474293b308b5387c6e0eab" category="list-text">如果出现提示，请登录到您的 Microsoft 帐户。如果系统没有提示，请选择*登录到Azure"。</block>
   <block id="62aca030fc0ae0886728293f4df155b2" category="list-text">选择*继续*并保持页面打开状态，直到部署完成。</block>
   <block id="ad16396812bea804a1980d079b968f53" category="list-text">在BlueXP复制和同步中、一旦数据代理可用、请选择*继续*。</block>
-  <block id="b9c67bb0bae9993217d3413e493a9d52" category="list-text">选择*Sync &gt; Licensing*。</block>
   <block id="a5fb6f9fbd972c02e5329e1ff986d9d5" category="list-text">选择*订阅*，然后选择*继续*。</block>
   <block id="9afef6b2e6bfae3c1516f6a5615e147a" category="list-text">选择*继续订阅*。</block>
   <block id="7d5dc2ab8bafad8f8a587f44b30dc6f0" category="list-text">选择您的合同选项，然后选择*创建合同*。</block>
   <block id="8bf624ad0ff2e9fd580f8cf2ccbfb01b" category="list-text">在Azure门户中、选择*创建*、选择您的选项、然后选择*订阅*。</block>
   <block id="50663aa7afb45a9a800941c0bc89dcf1" category="list-text">部署完成后、在通知弹出窗口中选择SaaS资源的名称。</block>
   <block id="610e8ce14d61f13ee15be5f296487890" category="list-text">选择*配置帐户*以返回BlueXP副本并同步。</block>
-  <block id="8a16f41efcb781e6645783df6cb0e97b" category="list-text">在BlueXP中、选择*同步&gt;许可*。</block>
   <block id="0be0367eff89e989e3751d45bd6caf93" category="list-text">选择*添加许可证*并添加所需信息：</block>
   <block id="46d344ee2c7e916b914b2b031a79a880" category="list-text">如果尚未添加您的帐户，请选择*添加NSS凭证*，输入用户名和密码，选择*注册*，然后从下拉列表中选择。</block>
   <block id="6a44822bf57bcae55604cb610b227f67" category="paragraph">选择*过滤源对象*以修改定义源文件和文件夹在目标位置的同步和维护方式的设置。</block>
@@ -1944,4 +1941,11 @@
   <block id="6a16108e082698a01703a8570c1c83ab" category="list-text">*SELinux*:建议在主机上禁用SELinux。</block>
   <block id="43cb17f8c706e2a2a7e4c81a5cb2d17b" category="paragraph">我们更新了BlueXP复制和同步服务以及数据代理以修复一些错误。新的数据代理版本为1.0.56。</block>
   <block id="b6eaf938209a57174cf0c8478fbb177d" category="section-title">2024年10月27日</block>
+  <block id="4fa4cb31b90bbe492aedd2e14cab7850" category="video-title">不包括同步关系的文件扩展名</block>
+  <block id="befcd22ee9f31ea0976355003e77715b" category="list-text">从BlueXP  导航菜单中，选择*移动性&gt;复制并同步*。</block>
+  <block id="f8b6a77f9bfe4363519793574823fcdf" category="video-title">从AWS CloudFormation模板启动数据代理</block>
+  <block id="fdd0629e14af63efd824f165e5349337" category="list-text">选择*许可*。</block>
+  <block id="734a65eeb41483b7a636c9cf13e4aad7" category="list-text">选择*AWS*。</block>
+  <block id="045842584f2fd61a80d6c55f49bd1f4f" category="video-title">从AWS Marketplace订阅BlueXP  副本并进行同步</block>
+  <block id="09cf0bd8febab038e59733b8d4ac6505" category="video-title">订阅BlueXP  副本并从Azure Marketplace同步</block>
 </blocks>

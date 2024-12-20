@@ -71,6 +71,7 @@ IAM 角色必须满足以下要求：
 可以通过几种方法创建新的数据代理。以下步骤介绍如何在创建同步关系时在 AWS 中安装数据代理。
 
 .步骤
+. 从BlueXP  导航菜单中，选择*移动性>复制并同步*。
 . 选择*Create New Sync*。
 . 在“*定义同步关系*”页上，选择源和目标，然后选择*CONTINUOD*。
 +
@@ -92,7 +93,8 @@ image:screenshot-aws.png["数据代理页面的屏幕截图，可用于在 AWS �
 以下视频显示了如何使用 CloudFormation 模板启动数据代理实例：
 
 +
-video::video_cloud_sync.mp4[width=848,height=480]
+.从AWS CloudFormation模板启动数据代理
+video::abaf0898-ea15-4f84-938e-b24c010b21e8[panopto]
 . 如果输入了AWS访问密钥、请选择实例的位置、选择密钥对、选择是否启用公共IP地址并选择现有IAM角色、或者将此字段留空、以便BlueXP复制和同步为您创建角色。您还可以选择使用KMS密钥对数据代理进行加密。
 +
 如果您选择自己的 IAM 角色， <<iam,您需要提供所需的权限>>。

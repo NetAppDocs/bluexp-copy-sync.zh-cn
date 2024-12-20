@@ -33,15 +33,17 @@ link:concept-licensing.html["了解有关许可证工作原理的更多信息。
 AWS 使您可以按需付费或每年支付。
 
 .按需购买的步骤
-. 选择*Sync > Licensing*。
-. 选择 * AWS *
+. 从BlueXP  导航菜单中，选择*移动性>复制并同步*。
+. 选择*许可*。
+. 选择*AWS*。
 . 选择*订阅*，然后选择*继续*。
 . 从AWS Marketplace订阅、然后重新登录到BlueXP副本和同步服务以完成注册。
 +
 以下视频显示了该过程：
 
 +
-video::video_cloud_sync_registering.mp4[width=848,height=480]
+.从AWS Marketplace订阅BlueXP  副本并进行同步
+video::796ffd6d-cade-4750-8504-b24c010b225d[panopto]
 
 
 .每年支付的步骤
@@ -60,7 +62,8 @@ Azure 使您可以按需付费或每年支付。
 在相关订阅中具有“贡献者”或“所有者”权限的 Azure 用户帐户。
 
 .步骤
-. 选择*Sync > Licensing*。
+. 从BlueXP  导航菜单中，选择*移动性>复制并同步*。
+. 选择*许可*。
 . 选择 * Azure * 。
 . 选择*订阅*，然后选择*继续*。
 . 在Azure门户中、选择*创建*、选择您的选项、然后选择*订阅*。
@@ -73,7 +76,8 @@ Azure 使您可以按需付费或每年支付。
 以下视频显示了该过程：
 
 +
-video::video_cloud_sync_registering_azure.mp4[width=848,height=480]
+.订阅BlueXP  副本并从Azure Marketplace同步
+video::a6a39447-b7b1-42f6-9c89-b24c010b21b9[panopto]
 
 
 
@@ -87,7 +91,8 @@ video::video_cloud_sync_registering_azure.mp4[width=848,height=480]
 
 .步骤
 . 请发送邮件至： ng-cloudsync-contact@netapp.com ？ Subject=Cloud%20Sync%20Service%20-%20BYOL%20License%20Purches%20Request[ 联系 NetApp] 购买许可证。
-. 在BlueXP中、选择*同步>许可*。
+. 从BlueXP  导航菜单中，选择*移动性>复制并同步*。
+. 选择*许可*。
 . 选择*添加许可证*并添加所需信息：
 +
 .. 输入序列号。
@@ -109,7 +114,8 @@ video::video_cloud_sync_registering_azure.mp4[width=848,height=480]
 如果您扩展了从NetApp购买的BlueXP副本和同步许可证、则新的到期日期不会在BlueXP副本和同步中自动更新。要刷新到期日期，您需要重新添加许可证。许可证应通过BlueXP副本和同步或适用的网站进行管理、而*不是*通过电子钱包进行管理。
 
 .步骤
-. 在BlueXP中、选择*同步>许可*。
+. 从BlueXP  导航菜单中，选择*移动性>复制并同步*。
+. 选择*许可*。
 . 选择*添加许可证*并添加所需信息：
 +
 .. 输入序列号。
