@@ -18,6 +18,18 @@ summary: 了解BlueXP副本和同步中的新增功能。
 
 
 
+== 2025年2月2日
+
+
+
+=== 为数据代理提供了新的操作系统支持
+
+现在、运行Red Hat Enterprise 9.4、Ubuntu 23.04和Ubuntu 24.04的主机支持数据代理。
+
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-linux.html#linux-host-requirements["查看Linux主机要求"]。
+
+
+
 == 2024年10月27日
 
 

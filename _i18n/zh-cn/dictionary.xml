@@ -873,7 +873,6 @@
   <block id="ace028fe1c5dc8fb39091440d89fd9fd" category="section-title">Linux 主机要求</block>
   <block id="17308c76959fcb971603b7274a57c128" category="list-text">* 操作系统 * ：</block>
   <block id="735736a0904d4dd4641f1c0b6e93ac7a" category="paragraph">不支持 CentOS 流。</block>
-  <block id="083265255bba92c059791cd3a9803274" category="list-text">Ubuntu Server 20.04 LTS</block>
   <block id="473733802c02f67f489689f787461e62" category="list-text">SUSE Linux Enterprise Server 15 SP1</block>
   <block id="35ec85020897e56acfca830003a03e8c" category="paragraph">Red Hat Enterprise Linux 系统必须在 Red Hat 订购管理中注册。如果未注册、系统将无法在安装期间访问存储库以更新所需的第三方软件。</block>
   <block id="b4951d06315b1f9ffb6d04ceb4346101" category="list-text">* RAM * ： 16 GB</block>
@@ -1844,7 +1843,6 @@
   <block id="b2eb229bee01785cca939d890a06b37c" category="paragraph">现在、运行Red Hat Enterprise Linux 8.9的主机支持数据代理。</block>
   <block id="403a870c3777a3434883cf3338197e1e" category="inline-link">查看Linux主机要求</block>
   <block id="33437394afeba112bc78a89e1164345e" category="paragraph"><block ref="bddca2b75222059ea164cace70f493c0" category="inline-link-rx"></block>。</block>
-  <block id="62839d4e5d5a9de91b6f7d896439934b" category="list-text">Red Hat Enterprise Linux 8.5、8.8和8.9</block>
   <block id="0d76b6f5f7ef4feb4ba34ba4dc8a3356" category="section-title">哪些类型的同步关系会保留对象存储元数据？</block>
   <block id="b0f6c5b9e24f06b742cf40691ecda0a1" category="section-title">在以NFS或SMB为源的同步期间会复制哪些类型的元数据？</block>
   <block id="fca3645c4b9c57a087d67f345e46b21a" category="paragraph">默认情况下、会复制用户ID、修改时间、访问时间和GID等元数据。用户可以选择从CIFS复制ACL、方法是在创建同步关系时将其标记为需要。</block>
@@ -1948,4 +1946,9 @@
   <block id="734a65eeb41483b7a636c9cf13e4aad7" category="list-text">选择*AWS*。</block>
   <block id="045842584f2fd61a80d6c55f49bd1f4f" category="video-title">从AWS Marketplace订阅BlueXP  副本并进行同步</block>
   <block id="09cf0bd8febab038e59733b8d4ac6505" category="video-title">订阅BlueXP  副本并从Azure Marketplace同步</block>
+  <block id="83f73c94bb5f748ce272fa98b9d62582" category="doc">为数据代理提供了新的操作系统支持</block>
+  <block id="726c1f4efc6286c68c0e686bb97c19c5" category="paragraph">现在、运行Red Hat Enterprise 9.4、Ubuntu 23.04和Ubuntu 24.04的主机支持数据代理。</block>
+  <block id="87a7ac9f5b2ba3fbc595d73b0c0dc71c" category="list-text">Red Hat Enterprise Linux 8.5、8.8、8.9和9.4</block>
+  <block id="62c1014736e4269f295e55cd59d3a0ec" category="list-text">Ubuntu Server 20.04 LTS、23.04 LTS和24.04 LTS</block>
+  <block id="723559e2f2e86e612c412da00a435eea" category="section-title">2025年2月2日</block>
 </blocks>
