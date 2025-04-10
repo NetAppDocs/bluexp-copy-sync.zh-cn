@@ -28,7 +28,6 @@ summary: 通过BlueXP复制和同步、您可以将数据从源同步到目标�
 * Azure Blob
 * Azure NetApp Files
 * Cloud Volumes ONTAP
-* Cloud Volumes Service
 * Google Cloud 存储
 * IBM 云对象存储
 * NFS 服务器
@@ -47,7 +46,6 @@ summary: 通过BlueXP复制和同步、您可以将数据从源同步到目标�
 * Azure Data Lake存储第2代
 * Azure NetApp Files
 * Cloud Volumes ONTAP
-* Cloud Volumes Service
 * Google Cloud 存储
 * IBM 云对象存储
 * NFS 服务器
@@ -67,7 +65,6 @@ summary: 通过BlueXP复制和同步、您可以将数据从源同步到目标�
 * Azure NetApp Files
 * 盒 ^1^
 * Cloud Volumes ONTAP
-* Cloud Volumes Service
 * Google Cloud 存储
 * IBM 云对象存储
 * NFS 服务器
@@ -86,7 +83,6 @@ summary: 通过BlueXP复制和同步、您可以将数据从源同步到目标�
 * Azure Blob
 * Azure NetApp Files
 * Cloud Volumes ONTAP
-* Cloud Volumes Service
 * Google Cloud 存储
 * IBM 云对象存储
 * NFS 服务器
@@ -119,7 +115,6 @@ summary: 通过BlueXP复制和同步、您可以将数据从源同步到目标�
 * Azure Data Lake存储第2代
 * Azure NetApp Files
 * Cloud Volumes ONTAP
-* Cloud Volumes Service
 * Google Cloud 存储
 * IBM 云对象存储
 * NFS 服务器
@@ -151,25 +146,6 @@ summary: 通过BlueXP复制和同步、您可以将数据从源同步到目标�
 * Azure Data Lake存储第2代
 * Azure NetApp Files
 * Cloud Volumes ONTAP
-* Cloud Volumes Service
-* Google Cloud 存储
-* IBM 云对象存储
-* NFS 服务器
-* 内部ONTAP集群(NFS或SMB)
-* SMB 服务器
-* StorageGRID
-
-
-
-
-| Cloud Volumes Service  a| 
-* Amazon EFS
-* 适用于 ONTAP 的 Amazon FSX
-* Amazon S3
-* Azure Blob
-* Azure NetApp Files
-* Cloud Volumes ONTAP
-* Cloud Volumes Service
 * Google Cloud 存储
 * IBM 云对象存储
 * NFS 服务器
@@ -187,7 +163,6 @@ summary: 通过BlueXP复制和同步、您可以将数据从源同步到目标�
 * Azure Blob
 * Azure NetApp Files
 * Cloud Volumes ONTAP
-* Cloud Volumes Service
 * Google Cloud 存储
 * IBM 云对象存储
 * NFS 服务器
@@ -215,7 +190,6 @@ summary: 通过BlueXP复制和同步、您可以将数据从源同步到目标�
 * Azure NetApp Files
 * 盒 ^1^
 * Cloud Volumes ONTAP
-* Cloud Volumes Service
 * Google Cloud 存储
 * IBM 云对象存储
 * NFS 服务器
@@ -234,7 +208,6 @@ summary: 通过BlueXP复制和同步、您可以将数据从源同步到目标�
 * Azure Data Lake存储第2代
 * Azure NetApp Files
 * Cloud Volumes ONTAP
-* Cloud Volumes Service
 * Google Cloud 存储
 * Google Drive
 * IBM 云对象存储
@@ -255,7 +228,6 @@ summary: 通过BlueXP复制和同步、您可以将数据从源同步到目标�
 * Azure Data Lake存储第2代
 * Azure NetApp Files
 * Cloud Volumes ONTAP
-* Cloud Volumes Service
 * Google Cloud 存储
 * IBM 云对象存储
 * NFS 服务器
@@ -289,7 +261,6 @@ summary: 通过BlueXP复制和同步、您可以将数据从源同步到目标�
 * Azure Data Lake存储第2代
 * Azure NetApp Files
 * Cloud Volumes ONTAP
-* Cloud Volumes Service
 * Google Cloud 存储
 * Google Drive
 * IBM 云对象存储
@@ -311,7 +282,6 @@ summary: 通过BlueXP复制和同步、您可以将数据从源同步到目标�
 * Azure NetApp Files
 * 盒 ^1^
 * Cloud Volumes ONTAP
-* Cloud Volumes Service
 * Google Cloud 存储
 * IBM 云对象存储
 * NFS 服务器

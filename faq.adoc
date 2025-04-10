@@ -58,7 +58,7 @@ BlueXP复制和同步许可证也可通过NetApp代表获得。每个许可证�
 link:concept-licensing.html["了解有关许可证的更多信息。"]。
 
 
-NOTE: BlueXP复制和同步关系可免费用于Cloud Volumes Service 和Azure NetApp Files。
+NOTE: BlueXP  副本和同步关系可免费用于Azure NetApp Files。
 
 * 资源费用 *
 
@@ -341,14 +341,6 @@ BlueXP复制和同步会自动在NFS服务器之间复制NFS权限、如下所�
 将服务级别更改为高级或超高级以提高同步性能。
 
 https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-service-levels#throughput-limits["详细了解 Azure NetApp Files 服务级别和吞吐量"^]。
-
-
-
-=== 为什么我在使用适用于 AWS 的 Cloud Volumes Service 时遇到性能低下的问题？
-
-在将数据同步到云卷或从云卷同步时，如果云卷的性能级别是标准的、则可能会遇到故障和性能问题。
-
-将服务级别更改为“高级”或“至尊”以提高同步性能。
 
 
 
