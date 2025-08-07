@@ -621,7 +621,6 @@
   <block id="486538f3b2cf30dbac185ae48dbcd398" category="paragraph">当单个文件无法传输时，数据代理组不会超时。相反，数据代理组会重试 3 次，然后跳过该文件。重试值可在同步关系的设置中进行配置。</block>
   <block id="16577fe9b5ad3fc74ec2a37327b4f98f" category="inline-link-macro">了解如何更改同步关系的设置。</block>
   <block id="e7fc2a48e6896c10c00e2e0d0f42df0a" category="section-title">如果我有一个非常大的数据集会怎样？</block>
-  <block id="1a76a33306f63cd222193be36e2aab28" category="paragraph">如果一个目录包含 60 万个或更多文件，请发送电子邮件至： ng-cloudsync-support@netapp.com ，以便我们帮助您配置数据代理组来处理有效负载。我们可能需要向数据代理组添加更多内存。</block>
   <block id="5272c1335a923889fee61138f9c644e0" category="paragraph">请注意，挂载点中的文件总数没有限制。对于包含 600 ， 000 个或更多文件的大型目录，无论其在层次结构中的级别如何（顶层目录或子目录），都需要额外的内存。</block>
   <block id="2fae32629d4ef4fc6341f1751b405e45" category="section-title">安全性</block>
   <block id="961ac1bba4fae7c023a039958d1c8be6" category="paragraph">以下与安全相关的问题。</block>
@@ -1215,7 +1214,6 @@
   <block id="7e177185e7eddff33dd8f3aeb7551132" category="paragraph">如果您是拥有NSS帐户的NetApp客户、则只需通过BlueXP注册支持即可。</block>
   <block id="5226d4ec1f4f81b740cbbd27635b441f" category="list-text">请务必复制上面用于序列号字段的BlueXP帐户序列号(960xxxx)。这样可以加快帐户处理速度。</block>
   <block id="c9df4195a305212ffd7b56d24f67129d" category="summary">NetApp通过多种方式为BlueXP提供支持。全天候提供丰富的免费自助支持选项，例如知识库（ KB ）文章和社区论坛。您的支持注册包括通过 Web 服务单提供的远程技术支持。</block>
-  <block id="7c5661ab6b39ee901cea00a6e7020a49" category="paragraph">NetApp通过多种方式为BlueXP及其云服务提供支持。全天候提供丰富的免费自助支持选项，例如知识库（ KB ）文章和社区论坛。您的支持注册包括通过 Web 服务单提供的远程技术支持。</block>
   <block id="9a3db1abe5491d0eb9bb5d125981356c" category="paragraph">搜索BlueXP知识库、查找有助于解决问题的文章。</block>
   <block id="00c5fef3bb9d593ae96bf5d2ee60354a" category="paragraph">加入BlueXP社区、关注正在进行的讨论或创建新的讨论。</block>
   <block id="a4a6c2ea0078252eac2d74ef3e6c917c" category="paragraph">您当前正在查看的BlueXP文档。</block>
@@ -1597,8 +1595,6 @@
   <block id="c7b7a5ae9f37fd7d24e4d641b9186fe9" category="paragraph">此错误可能意味着NSS帐户及其关联的记录公司与BlueXP帐户序列号(即960xxxx)或工作环境序列号。您可以使用以下选项之一寻求帮助：</block>
   <block id="28164bf9e881ddc9e7ff74744bfce180" category="paragraph">注册这两种类型的序列号可实现打开支持服务单和自动生成案例等功能。要完成注册、请按如下所述将NetApp 支持站点(NSS)帐户添加到BlueXP中。</block>
   <block id="0c788a722f31f8f0cf36539ee04615cf" category="list-text">选择*添加NSS凭证*，然后按照NetApp 支持站点(NSS)鉴定提示进行操作。</block>
-  <block id="10c56875db7a47f791d653e5d5bff0e9" category="inline-image-macro">屏幕截图、显示帐户序列号、绿色复选框以及注册支持的文本。</block>
-  <block id="3d183819a15163ef2e2e7d9d764254a9" category="paragraph"><block ref="3d183819a15163ef2e2e7d9d764254a9" category="inline-image-macro-rx" type="image"></block></block>
   <block id="bdd862f49d428a850400bcf2f53cdaf2" category="paragraph">如果您是现有许可证和序列号但拥有_no_ nss帐户的现有NetApp客户、则需要创建一个NSS帐户并将其与BlueXP登录关联。</block>
   <block id="0499bba105f8a891a2c671f1ba99dd34" category="list-text">完成下的步骤、将新的NSS帐户与BlueXP登录关联起来 <block ref="2f3aba04ec49ee5f0573a6c80a1b9df2" category="inline-xref-macro-rx"></block>。</block>
   <block id="5cdee814e2d9ba3490a8f16d00c65759" category="paragraph">拥有NetApp 支持站点 帐户后、通过完成下的步骤将帐户与BlueXP登录关联起来 <block ref="2f3aba04ec49ee5f0573a6c80a1b9df2" category="inline-xref-macro-rx"></block>。</block>
@@ -1947,4 +1943,9 @@
   <block id="3de4ee14f1b1d0abe0ecac5872f26c6c" category="admonition">BlueXP  副本和同步关系可免费用于Azure NetApp Files。</block>
   <block id="1215f8190533dfdf63d2224a6d88266f" category="inline-link-macro">Google Cloud NetApp Volumes</block>
   <block id="cb4bf32603c89d08cad17e7e7dd302f2" category="list-text"><block ref="cb4bf32603c89d08cad17e7e7dd302f2" category="inline-link-macro-rx"></block></block>
+  <block id="94eaf7b43e9ee8089b5da00def9f9915" category="inline-link-macro">联系我们</block>
+  <block id="4ee5c5cf90078d7d2c3d49ab3f1a42ea" category="paragraph">如果单个目录包含 600,000 个或更多文件，<block ref="372d4988d4217beca7099b3e4d06e5e1" category="inline-link-macro-rx"></block>以便我们可以帮助您配置数据代理组来处理有效负载。我们可能需要向数据代理组添加额外的内存。</block>
+  <block id="bbbc9b55f08bfe80f146b5207bdb7728" category="paragraph">NetApp以多种方式为BlueXP及其云服务提供支持。我们提供全天候 (24/7) 的大量免费自助支持选项，例如知识库 (KB) 文章和社区论坛。您的支持注册包含通过网络工单获取的远程技术支持。</block>
+  <block id="759d32287efdf88cd8ac71dccc0ecf8d" category="inline-image-macro">屏幕截图显示了帐户序列号、绿色复选框和文本“已注册支持”。</block>
+  <block id="4c441b388bebcddf8c08fb782095b864" category="paragraph"><block ref="4c441b388bebcddf8c08fb782095b864" category="inline-image-macro-rx" type="image"></block></block>
 </blocks>
